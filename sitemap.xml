@@ -3,15 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.example.com/authors/</loc>
+  </url>
+  
+  <url>
     <loc>http://www.example.com/categories/</loc>
   </url>
   
   <url>
     <loc>http://www.example.com/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.example.com/prasenjit-manna/</loc>
   </url>
   
   <url>
