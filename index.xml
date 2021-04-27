@@ -2,8 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Prasenjit Manna</title>
-    <link>http://www.example.com/</link>
+    <link>https://prmanna.github.io/</link>
     <description>Recent content on Prasenjit Manna</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="http://www.example.com/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 02 Jan 2020 21:19:29 +1300</lastBuildDate><atom:link href="https://prmanna.github.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

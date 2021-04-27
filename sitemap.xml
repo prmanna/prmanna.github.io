@@ -3,23 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.example.com/authors/</loc>
+    <loc>https://prmanna.github.io/about/</loc>
+    <lastmod>2020-01-02T21:19:29+13:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.example.com/categories/</loc>
+    <loc>https://prmanna.github.io/</loc>
+    <lastmod>2020-01-02T21:19:29+13:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.example.com/</loc>
+    <loc>https://prmanna.github.io/authors/</loc>
   </url>
   
   <url>
-    <loc>http://www.example.com/series/</loc>
+    <loc>https://prmanna.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>http://www.example.com/tags/</loc>
+    <loc>https://prmanna.github.io/series/</loc>
+  </url>
+  
+  <url>
+    <loc>https://prmanna.github.io/tags/</loc>
   </url>
   
 </urlset>
