@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>guida on Prasenjit Manna</title>
-    <link>https://prmanna.github.io/categories/guida/</link>
-    <description>Recent content in guida on Prasenjit Manna</description>
+    <title>blogs on Prasenjit Manna</title>
+    <link>https://prmanna.github.io/categories/blogs/</link>
+    <description>Recent content in blogs on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 16 Apr 2021 14:10:53 +1300</lastBuildDate><atom:link href="https://prmanna.github.io/categories/guida/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Apr 2021 14:10:53 +1300</lastBuildDate><atom:link href="https://prmanna.github.io/categories/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Blog</title>
       <link>https://prmanna.github.io/blogs/first-blog/</link>
