@@ -7,21 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 16 Apr 2021 14:10:53 +1300</lastBuildDate><atom:link href="https://prmanna.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Blog</title>
-      <link>https://prmanna.github.io/blogs/first-blog/</link>
-      <pubDate>Fri, 16 Apr 2021 14:10:53 +1300</pubDate>
-      
-      <guid>https://prmanna.github.io/blogs/first-blog/</guid>
-      <description>Hello</description>
-    </item>
-    
-    <item>
       <title>Test Blog</title>
       <link>https://prmanna.github.io/test/test-blog/</link>
       <pubDate>Fri, 16 Apr 2021 14:10:53 +1300</pubDate>
       
       <guid>https://prmanna.github.io/test/test-blog/</guid>
       <description>Hello</description>
+    </item>
+    
+    <item>
+      <title>My First Blog Post</title>
+      <link>https://prmanna.github.io/blogs/2020-01-01-first-post/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://prmanna.github.io/blogs/2020-01-01-first-post/</guid>
+      <description>It&amp;rsquo;s been long time, I was keep thinking to write blog. But, always getting delayed due to fear, whether I am good at writing, or people will like it or not, etc. Finally, I overcome this fear and started writing from new year, 2020.
+Just to give little background about me, myself, Prasenjit Manna, working with networking industry as programmer, developer, architect, influencer since 2000. My area of interest is always routing, switching, manageability, optical, etc.</description>
     </item>
     
   </channel>
