@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blogs on Prasenjit Manna</title>
+    <link>https://prmanna.github.io/categories/blogs/</link>
+    <description>Recent content in blogs on Prasenjit Manna</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 18 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://prmanna.github.io/categories/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Clean and Readable Code</title>
+      <link>https://prmanna.github.io/blogs/2020-11-18-clean-and-readable-code/</link>
+      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://prmanna.github.io/blogs/2020-11-18-clean-and-readable-code/</guid>
+      <description>A good code must satisfy few requirements: it must produce correct results, for which it is written. Also, it should be readable and understandable by other developers. It should also follow few code principles. This is your professional responsibility that the code you write will be re-read by many other developers, who want to either understand or modify the code.
+Why is this important? When the code is not readable, the engineer modifying the code, will spend lot of time to understand the code itself.</description>
+    </item>
+    
+  </channel>
+</rss>
