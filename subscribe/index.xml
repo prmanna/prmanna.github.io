@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Subscribes on Prasenjit Manna</title>
+    <title>Subscribe on Prasenjit Manna</title>
     <link>https://prmanna.github.io/subscribe/</link>
-    <description>Recent content in Subscribes on Prasenjit Manna</description>
+    <description>Recent content in Subscribe on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://prmanna.github.io/subscribe/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Subscribe</title>
-      <link>https://prmanna.github.io/subscribe/</link>
-      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://prmanna.github.io/subscribe/</guid>
-      <description>sidebar: true
-Sign up for my email newsletter or use this RSS feed to get notified of new blog posts.</description>
-    </item>
-    
   </channel>
 </rss>
