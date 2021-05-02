@@ -259,6 +259,43 @@ One min read
 
 
 
+<form style="border:1px solid #ccc;padding:3px;text-align:center;" 
+    action="" 
+    method="post" 
+    target="popupwindow" 
+    onsubmit="window.open('', 
+        'popupwindow', 
+        'scrollbars=yes,width=800,height=600'
+    );return true">
+    <p>
+        <label for="tlemail">
+            <br>
+            Want to be notified of new content?
+            <br>
+            Subscribe to Prasenjit Manna
+        </label>
+    </p>
+    <p>
+        <input 
+        type="text" 
+        style="float:center" 
+        name="email" 
+        id="tlemail"
+        placeholder="Your Email Address"
+        />
+    </p>
+    <input 
+        type="hidden" 
+        value="1" 
+        name="embed"
+    />
+    <input
+        class="button"
+        type="submit" 
+        value="Subscribe"
+    />
+</form>
+
       </main>
 
       <footer id='footer' class='footer'>
