@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reading on Prasenjit Manna</title>
-    <link>http://prmanna.github.io/reading/</link>
+    <link>www.prasenjitmanna.com/reading/</link>
     <description>Recent content in Reading on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 30 Apr 2021 21:19:29 +1300</lastBuildDate><atom:link href="http://prmanna.github.io/reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Apr 2021 21:19:29 +1300</lastBuildDate><atom:link href="www.prasenjitmanna.com/reading/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
