@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Prasenjit Manna</title>
-    <link>http://prasenjitmanna.com/tags/</link>
+    <link>http://prmanna.github.io/tags/</link>
     <description>Recent content in Tags on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 23 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://prasenjitmanna.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://prmanna.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data-Center</title>
-      <link>http://prasenjitmanna.com/tags/data-center/</link>
+      <link>http://prmanna.github.io/tags/data-center/</link>
       <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://prasenjitmanna.com/tags/data-center/</guid>
+      <guid>http://prmanna.github.io/tags/data-center/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Link-State</title>
-      <link>http://prasenjitmanna.com/tags/link-state/</link>
+      <link>http://prmanna.github.io/tags/link-state/</link>
       <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://prasenjitmanna.com/tags/link-state/</guid>
+      <guid>http://prmanna.github.io/tags/link-state/</guid>
       <description></description>
     </item>
     
     <item>
       <title>readable-code</title>
-      <link>http://prasenjitmanna.com/tags/readable-code/</link>
+      <link>http://prmanna.github.io/tags/readable-code/</link>
       <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://prasenjitmanna.com/tags/readable-code/</guid>
+      <guid>http://prmanna.github.io/tags/readable-code/</guid>
       <description></description>
     </item>
     
