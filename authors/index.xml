@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Prasenjit Manna</title>
-    <link>www.prasenjitmanna.com/authors/</link>
+    <link>prasenjitmanna.com/authors/</link>
     <description>Recent content in Authors on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 18 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="www.prasenjitmanna.com/authors/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="prasenjitmanna.com/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>prmanna</title>
-      <link>www.prasenjitmanna.com/authors/prmanna/</link>
+      <link>prasenjitmanna.com/authors/prmanna/</link>
       <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>www.prasenjitmanna.com/authors/prmanna/</guid>
+      <guid>prasenjitmanna.com/authors/prmanna/</guid>
       <description></description>
     </item>
     
