@@ -10,9 +10,9 @@ comments:
       options:
         format: 'timestamp'
   moderation: false
-  name: 'Prasenjit Manna'
+  name: 'prasenjitmanna.com'
   path: 'data/comments/{options.postId}'
-  requiredFields: ['author', 'content', 'email']
+  requiredFields: ['author', 'content']
   reCaptcha:
     enabled: false
     # siteKey: ''
