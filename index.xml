@@ -5,7 +5,20 @@
     <link>prasenjitmanna.com/</link>
     <description>Recent content in Home on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="prasenjitmanna.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="prasenjitmanna.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How productive are you in life?</title>
+      <link>prasenjitmanna.com/blogs/2021-05-15-how_productive_are_you_in_life/</link>
+      <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>prasenjitmanna.com/blogs/2021-05-15-how_productive_are_you_in_life/</guid>
+      <description>###How productive are you in life?
+Productivity concept is always there in my mind, but never thought so deeply. Until recently, my friend Biplab asked me the questions:
+&amp;ldquo;How do you feel at the end of a hard day? Do you feel satisfied, fulfilled, or disappointed? Are you productive?&amp;rdquo;
+&amp;ldquo;may be yes!&amp;quot;&amp;ndash;I said with a deep sigh.
+In general, when I think about productivity, it comes to our mind about industrial productivity, the input vs output.</description>
+    </item>
+    
     <item>
       <title>Link-State Protocols on Data-Center Fabrics - Internet Protocol Journal (PDF)</title>
       <link>prasenjitmanna.com/blogs/2021-01-23-link-state-protocols-on-data-center-fabrics-internet-protocol-journal-pdf/</link>
@@ -23,19 +36,6 @@
       <guid>prasenjitmanna.com/blogs/2020-11-18-clean-and-readable-code/</guid>
       <description>A good code must satisfy few requirements: it must produce correct results, for which it is written. Also, it should be readable and understandable by other developers. It should also follow few code principles. This is your professional responsibility that the code you write will be re-read by many other developers, who want to either understand or modify the code.
 Why is this important? When the code is not readable, the engineer modifying the code, will spend lot of time to understand the code itself.</description>
-    </item>
-    
-    <item>
-      <title>How productive are you in life?</title>
-      <link>prasenjitmanna.com/blogs/2021-05-15-how_productive_are_you_in_life/</link>
-      <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>prasenjitmanna.com/blogs/2021-05-15-how_productive_are_you_in_life/</guid>
-      <description>###How productive are you in life?
-Productivity concept is always there in my mind, but never thought so deeply. Until recently, my friend Biplab asked me the questions:
-&amp;ldquo;How do you feel at the end of a hard day? Do you feel satisfied, fulfilled, or disappointed? Are you productive?&amp;rdquo;
-&amp;ldquo;may be yes!&amp;quot;&amp;ndash;I said with a deep sigh.
-In general, when I think about productivity, it comes to our mind about industrial productivity, the input vs output.</description>
     </item>
     
     <item>
