@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blogs on Prasenjit Manna</title>
-    <link>prasenjitmanna.com/categories/blogs/</link>
+    <link>https://prasenjitmanna.com/categories/blogs/</link>
     <description>Recent content in blogs on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 15 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="prasenjitmanna.com/categories/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/categories/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How productive are you in life?</title>
-      <link>prasenjitmanna.com/blogs/2021-05-15-how_productive_are_you_in_life/</link>
+      <link>https://prasenjitmanna.com/blogs/2021-05-15-how_productive_are_you_in_life/</link>
       <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>prasenjitmanna.com/blogs/2021-05-15-how_productive_are_you_in_life/</guid>
+      <guid>https://prasenjitmanna.com/blogs/2021-05-15-how_productive_are_you_in_life/</guid>
       <description>Productivity concept is always there in my mind, but never thought so deeply. Until recently, my friend Biplab asked me the questions:
 &amp;ldquo;How do you feel at the end of a hard day? Do you feel satisfied, fulfilled, or disappointed? Are you productive?&amp;rdquo;
 &amp;ldquo;may be yes!&amp;quot;&amp;ndash;I said with a deep sigh.
@@ -20,10 +20,10 @@ In general, when I think about productivity, it comes to our mind about industri
     
     <item>
       <title>Clean and Readable Code</title>
-      <link>prasenjitmanna.com/blogs/2020-11-18-clean-and-readable-code/</link>
+      <link>https://prasenjitmanna.com/blogs/2020-11-18-clean-and-readable-code/</link>
       <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>prasenjitmanna.com/blogs/2020-11-18-clean-and-readable-code/</guid>
+      <guid>https://prasenjitmanna.com/blogs/2020-11-18-clean-and-readable-code/</guid>
       <description>A good code must satisfy few requirements: it must produce correct results, for which it is written. Also, it should be readable and understandable by other developers. It should also follow few code principles. This is your professional responsibility that the code you write will be re-read by many other developers, who want to either understand or modify the code.
 Why is this important? When the code is not readable, the engineer modifying the code, will spend lot of time to understand the code itself.</description>
     </item>

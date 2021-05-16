@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Prasenjit Manna</title>
-    <link>prasenjitmanna.com/blogs/</link>
+    <link>https://prasenjitmanna.com/blogs/</link>
     <description>Recent content in Blogs on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 15 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="prasenjitmanna.com/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How productive are you in life?</title>
-      <link>prasenjitmanna.com/blogs/2021-05-15-how_productive_are_you_in_life/</link>
+      <link>https://prasenjitmanna.com/blogs/2021-05-15-how_productive_are_you_in_life/</link>
       <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>prasenjitmanna.com/blogs/2021-05-15-how_productive_are_you_in_life/</guid>
+      <guid>https://prasenjitmanna.com/blogs/2021-05-15-how_productive_are_you_in_life/</guid>
       <description>Productivity concept is always there in my mind, but never thought so deeply. Until recently, my friend Biplab asked me the questions:
 &amp;ldquo;How do you feel at the end of a hard day? Do you feel satisfied, fulfilled, or disappointed? Are you productive?&amp;rdquo;
 &amp;ldquo;may be yes!&amp;quot;&amp;ndash;I said with a deep sigh.
@@ -20,29 +20,29 @@ In general, when I think about productivity, it comes to our mind about industri
     
     <item>
       <title>Link-State Protocols on Data-Center Fabrics - Internet Protocol Journal (PDF)</title>
-      <link>prasenjitmanna.com/blogs/2021-01-23-link-state-protocols-on-data-center-fabrics-internet-protocol-journal-pdf/</link>
+      <link>https://prasenjitmanna.com/blogs/2021-01-23-link-state-protocols-on-data-center-fabrics-internet-protocol-journal-pdf/</link>
       <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>prasenjitmanna.com/blogs/2021-01-23-link-state-protocols-on-data-center-fabrics-internet-protocol-journal-pdf/</guid>
+      <guid>https://prasenjitmanna.com/blogs/2021-01-23-link-state-protocols-on-data-center-fabrics-internet-protocol-journal-pdf/</guid>
       <description>Link-State Protocols on Data-Center Fabrics – Internet Protocol Journal (PDF)</description>
     </item>
     
     <item>
       <title>Clean and Readable Code</title>
-      <link>prasenjitmanna.com/blogs/2020-11-18-clean-and-readable-code/</link>
+      <link>https://prasenjitmanna.com/blogs/2020-11-18-clean-and-readable-code/</link>
       <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>prasenjitmanna.com/blogs/2020-11-18-clean-and-readable-code/</guid>
+      <guid>https://prasenjitmanna.com/blogs/2020-11-18-clean-and-readable-code/</guid>
       <description>A good code must satisfy few requirements: it must produce correct results, for which it is written. Also, it should be readable and understandable by other developers. It should also follow few code principles. This is your professional responsibility that the code you write will be re-read by many other developers, who want to either understand or modify the code.
 Why is this important? When the code is not readable, the engineer modifying the code, will spend lot of time to understand the code itself.</description>
     </item>
     
     <item>
       <title>My First Blog Post</title>
-      <link>prasenjitmanna.com/blogs/2020-01-01-first-post/</link>
+      <link>https://prasenjitmanna.com/blogs/2020-01-01-first-post/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>prasenjitmanna.com/blogs/2020-01-01-first-post/</guid>
+      <guid>https://prasenjitmanna.com/blogs/2020-01-01-first-post/</guid>
       <description>It&amp;rsquo;s been long time, I was keep thinking to write blog. But, always getting delayed due to fear, whether I am good at writing, or people will like it or not, etc. Finally, I overcome this fear and started writing from new year, 2020.
 Just to give little background about me, myself, Prasenjit Manna, working with networking industry as programmer, developer, architect, influencer since 2000. My area of interest is always routing, switching, manageability, optical, etc.</description>
     </item>
