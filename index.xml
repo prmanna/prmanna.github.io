@@ -35,8 +35,7 @@ Join my email list to get direct access to new blog posts.
       <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://prasenjitmanna.com/blogs/2020-11-18-clean-and-readable-code/</guid>
-      <description>Table of contents A good code must satisfy few requirements: it must produce correct results, for which it is written. Also, it should be readable and understandable by other developers. It should also follow few code principles. This is your professional responsibility that the code you write will be re-read by many other developers, who want to either understand or modify the code.
-Why is this important? When the code is not readable, the engineer modifying the code, will spend lot of time to understand the code itself.</description>
+      <description>Table of contents * [Why is this important?](#why-is-this-important) * [What do we achieve?](#what-do-we-achieve) * [Principles](#principles)  A good code must satisfy few requirements: it must produce correct results, for which it is written. Also, it should be readable and understandable by other developers. It should also follow few code principles. This is your professional responsibility that the code you write will be re-read by many other developers, who want to either understand or modify the code.</description>
     </item>
     
     <item>
