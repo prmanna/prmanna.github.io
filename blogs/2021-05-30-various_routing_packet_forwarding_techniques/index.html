@@ -9,7 +9,7 @@
 <meta property='og:description' content='Various Routing &amp; Packet Forwarding Techniques'>
 <meta property='og:url' content='https://prasenjitmanna.com/blogs/2021-05-30-various_routing_packet_forwarding_techniques/'>
 <meta property='og:site_name' content='Prasenjit Manna'>
-<meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/56487ae79faa167645ba0152c31dd044?s=256'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='blogs'><meta property='article:published_time' content='2021-05-30T00:00:00Z'/><meta property='article:modified_time' content='2021-05-30T23:46:09&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:creator' content='@prasenjit_manna'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/56487ae79faa167645ba0152c31dd044?s=256'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='blogs'><meta property='article:published_time' content='2021-05-30T00:00:00Z'/><meta property='article:modified_time' content='2021-05-30T23:55:55&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:creator' content='@prasenjit_manna'>
 
 <meta name="generator" content="Hugo 0.79.0" />
 
@@ -215,7 +215,7 @@
   <polyline points="12 6 12 12 15 15"/>
 
 </svg>
-9 mins read
+8 mins read
 </span>
 
 
@@ -318,9 +318,21 @@ HW for better performance.</p>
 <p>One of the first standards that deals with encapsulation of IPv4 in
 IPv4 is RFC 1853. Similarly IPv4 in IPv6, IPv6 in IPv4.</p>
 </blockquote>
-<p>{&lt; container-image path=&ldquo;images/2021-05-30-Various_Routing_Packet_Forwarding_Techniques/IPv4-in-IPv4.jpeg&rdquo; method=&ldquo;Fit&rdquo; options=&ldquo;213x141 jpg q50 Lanczos Smart&rdquo; alt=&ldquo;IPv4 in IPv4&rdquo; &gt;}}</p>
+
+
+
+
+
+
+
 <h4 id="2-gre">2. GRE</h4>
-<p>{&lt; container-image path=&ldquo;images/2021-05-30-Various_Routing_Packet_Forwarding_Techniques/GRE.jpeg&rdquo; method=&ldquo;Fit&rdquo; options=&ldquo;213x141 jpg q50 Lanczos Smart&rdquo; alt=&ldquo;GRE&rdquo; &gt;}}</p>
+
+
+
+
+
+
+
 <p>The goal was to be able to encapsulate a wide variety of network layer
 protocols inside virtual point-to-point links over an IP network.
 Although nowadays this feature is less relevant because the only
@@ -340,7 +352,13 @@ underlying network to offer more bandwidth.</p>
 showing that it is a concerted effort among router, NIC, and
 virtualization companies, indicating the strategic importance of this
 overlay.</p>
-<p>{&lt; container-image path=&ldquo;images/2021-05-30-Various_Routing_Packet_Forwarding_Techniques/VXLAN-Encap.jpeg&rdquo; method=&ldquo;Fit&rdquo; options=&ldquo;450x124 jpg q50 Lanczos Smart&rdquo; alt=&ldquo;VXLAN ENcap&rdquo; &gt;}}</p>
+
+
+
+
+
+
+
 <p>VXLAN uses UDP encapsulation, and the destination UDP port is set to
 the well-known value of 4789. The source UDP port should be randomly set,
 creating entropy that can be used by routers to load balance the traffic
@@ -358,7 +376,13 @@ Finally, VXLAN encapsulation adds a Virtual Network ID (VNID) to the
 original L2 frame, a concept similar to a VLAN-ID, but with a much
 broader range of values, because the VNID field is 24 bits, compared
 to the VLAN-ID field that is only 12 bits.</p>
-<p>{&lt; container-image path=&ldquo;images/2021-05-30-Various_Routing_Packet_Forwarding_Techniques/VXLAN-Encapsulation-Details.jpeg&rdquo; method=&ldquo;Fit&rdquo; options=&ldquo;600x288 jpg q50 Lanczos Smart&rdquo; alt=&ldquo;VXLAN ENcap&rdquo; &gt;}}</p>
+
+
+
+
+
+
+
 <p>The VXLAN encapsulation adds 50 bytes to the original layer 2 Ethernet
 frame, which needs to be considered in the context of the network
 underlay;</p>
@@ -394,7 +418,13 @@ specifies a stack E/C/A, where A is the top of the stack, the packet
 is forwarded to A that pops its label, resulting in a stack containing
 E/C. Then A sends the packet to C, C will pop its label and forward
 the packet to E, which delivers it to its destination.</p>
-<p>{&lt; container-image path=&ldquo;images/2021-05-30-Various_Routing_Packet_Forwarding_Techniques/segment-routing.jpeg&rdquo; method=&ldquo;Fit&rdquo; options=&ldquo;537x172 jpg q50 Lanczos Smart&rdquo; alt=&ldquo;VXLAN ENcap&rdquo; &gt;}}</p>
+
+
+
+
+
+
+
 <p>Segment routing offers the following benefits:</p>
 <ol>
 <li>Network slicing, a type of virtual networking architecture with the
@@ -439,7 +469,7 @@ Microsoft Azure.</p>
 
 </svg>
 <span class='screen-reader-text'>Last updated: </span>
-      <time class='entry-date' datetime='2021-05-30T23:46:09&#43;05:30'>2021, May 30</time>
+      <time class='entry-date' datetime='2021-05-30T23:55:55&#43;05:30'>2021, May 30</time>
     </div>
   </div>
 </footer>
