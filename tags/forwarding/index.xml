@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Forwarding on Prasenjit Manna</title>
+    <link>https://prasenjitmanna.com/tags/forwarding/</link>
+    <description>Recent content in Forwarding on Prasenjit Manna</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/tags/forwarding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Various Routing &amp; Packet Forwarding Techniques</title>
+      <link>https://prasenjitmanna.com/blogs/2021-05-30-various_routing_packet_forwarding_techniques/</link>
+      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/blogs/2021-05-30-various_routing_packet_forwarding_techniques/</guid>
+      <description>The core routing and packet forwarding haven&amp;rsquo;t changed for decades and it is not going to change for next decade also. But, it is going to evolve due to market needs, specially data centres. At the same time, Silicon capacity, CPU power, NIC bandwidth, all have increased significantly. Applications have evolved from monoliths to multi-tiered applications, using distributed databases with distributed microservices, creating a lot more demand for East-West network capacity and, more importantly, network services.</description>
+    </item>
+    
+  </channel>
+</rss>
