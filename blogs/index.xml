@@ -6,7 +6,16 @@
     <description>Recent content in Blogs on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Various Routing &amp; Packet Forwarding Techniques</title>
+      <link>https://prasenjitmanna.com/blogs/2021-05-30-various_routing_packet_forwarding_techniques/</link>
+      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/blogs/2021-05-30-various_routing_packet_forwarding_techniques/</guid>
+      <description>The core routing and packet forwarding haven&amp;rsquo;t changed for decades and it is not going to change for next decade also. But, it is going to evolve due to market needs, specially data centres. At the same time, Silicon capacity, CPU power, NIC bandwidth, all have increased significantly. Applications have evolved from monoliths to multi-tiered applications, using distributed databases with distributed microservices, creating a lot more demand for East-West network capacity and, more importantly, network services.</description>
+    </item>
+    
     <item>
       <title>How productive are you in life?</title>
       <link>https://prasenjitmanna.com/blogs/2021-05-15-how_productive_are_you_in_life/</link>
@@ -26,16 +35,6 @@
       <description>Link-State Protocols on Data-Center Fabrics – Internet Protocol Journal (PDF)
 Join my email list to get direct access to new blog posts.
  </description>
-    </item>
-    
-    <item>
-      <title>Test Staticman</title>
-      <link>https://prasenjitmanna.com/blogs/test-staticman/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://prasenjitmanna.com/blogs/test-staticman/</guid>
-      <description>It&amp;rsquo;s been long time, I was keep thinking to write blog. But, always getting delayed due to fear, whether I am good at writing, or people will like it or not, etc. Finally, I overcome this fear and started writing from new year, 2020.
-Just to give little background about me, myself, Prasenjit Manna, working with networking industry as programmer, developer, architect, influencer since 2000. My area of interest is always routing, switching, manageability, optical, etc.</description>
     </item>
     
     <item>
