@@ -9,7 +9,7 @@
 <meta property='og:description' content='Various Routing &amp; Packet Forwarding Techniques'>
 <meta property='og:url' content='https://prasenjitmanna.com/blogs/2021-05-30-various_routing_packet_forwarding_techniques/'>
 <meta property='og:site_name' content='Prasenjit Manna'>
-<meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/56487ae79faa167645ba0152c31dd044?s=256'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='blogs'><meta property='article:tag' content='Routing'><meta property='article:tag' content='Forwarding'><meta property='article:published_time' content='2021-05-30T00:00:00Z'/><meta property='article:modified_time' content='2021-05-31T12:29:34&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:creator' content='@prasenjit_manna'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/56487ae79faa167645ba0152c31dd044?s=256'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='blogs'><meta property='article:tag' content='routing'><meta property='article:tag' content='forwarding'><meta property='article:published_time' content='2021-05-30T00:00:00Z'/><meta property='article:modified_time' content='2021-05-31T13:02:00&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:creator' content='@prasenjit_manna'>
 
 <meta name="generator" content="Hugo 0.79.0" />
 
@@ -118,17 +118,17 @@
 
   <div class='container list-container'>
   <ul class='list taxonomy-cloud'><li>
-        <a href='../../tags/data-center/' style='font-size:1em'>Data-Center</a>
+        <a href='../../tags/data-center/' style='font-size:1em'>data-center</a>
       </li><li>
-        <a href='../../tags/forwarding/' style='font-size:1em'>Forwarding</a>
+        <a href='../../tags/forwarding/' style='font-size:1em'>forwarding</a>
       </li><li>
-        <a href='../../tags/link-state/' style='font-size:1em'>Link-State</a>
+        <a href='../../tags/link-state/' style='font-size:1em'>link-state</a>
       </li><li>
-        <a href='../../tags/productivity/' style='font-size:1em'>Productivity</a>
+        <a href='../../tags/productivity/' style='font-size:1em'>productivity</a>
       </li><li>
         <a href='../../tags/readable-code/' style='font-size:1em'>readable-code</a>
       </li><li>
-        <a href='../../tags/routing/' style='font-size:1em'>Routing</a>
+        <a href='../../tags/routing/' style='font-size:1em'>routing</a>
       </li></ul>
 </div>
 
@@ -233,7 +233,23 @@
   
 
   <div class='container entry-content'>
-  <p>The core routing and packet forwarding haven&rsquo;t changed for decades and
+  <h4 id="table-of-contents">Table of contents</h4>
+<ul>
+<li><a href="#bridging-and-routing">Bridging and Routing</a></li>
+<li><a href="#l2-forwarding">L2 Forwarding</a></li>
+<li><a href="#l3-forwarding">L3 Forwarding</a></li>
+<li><a href="#vrf">VRF</a></li>
+<li><a href="#overlays">Overlays</a>
+<ul>
+<li><a href="#1-ip-in-ip">1. IP in IP</a></li>
+<li><a href="#2-gre">2. GRE</a></li>
+<li><a href="#3-vxlan">3. VXLAN</a></li>
+</ul>
+</li>
+<li><a href="#segment-routing">Segment Routing</a></li>
+<li><a href="#forwarding-in-nic">Forwarding in NIC</a></li>
+</ul>
+<p>The core routing and packet forwarding haven&rsquo;t changed for decades and
 it is not going to change for next decade also. But, it is going to
 evolve due to market needs, specially data centres. At the same time,
 Silicon capacity, CPU power, NIC bandwidth, all have increased
@@ -266,9 +282,11 @@ its final destination. To avoid loops, spanning tree protocol is used.</p>
 <p>Layer 3 forwarding is different from L2 forwarding: if a packet needs to
 be sent across subnets, the destination IP address is searched in an IP
 routing table using a longest prefix match (LPM) technique.</p>
-<p>100.1.0.0/16 &ndash; port 1<!-- raw HTML omitted -->
-100.2.0.0/16 &ndash; port 2<!-- raw HTML omitted -->
-100.1.1.0/24 &ndash; port 3<!-- raw HTML omitted --></p>
+<blockquote>
+<p>100.1.0.0/16 &ndash; port 1
+100.2.0.0/16 &ndash; port 2
+100.1.1.0/24 &ndash; port 3</p>
+</blockquote>
 <p>The /n indicates that only the first n bits from the left are
 significant in any matching.</p>
 <p>If the LPM does not find a match in the forwarding table for the IP
@@ -418,7 +436,7 @@ to the VLAN-ID field that is only 12 bits.</p>
 <p>The VXLAN encapsulation adds 50 bytes to the original layer 2 Ethernet
 frame, which needs to be considered in the context of the network
 underlay;</p>
-<h4 id="segment-routing">SEGMENT ROUTING</h4>
+<h4 id="segment-routing">Segment Routing</h4>
 <p>Source routing is a technology known for decades in which the sender
 of the packet decides the path the packet should take to its
 destination. Segment routing (SR) is a form of source routing where
@@ -507,7 +525,7 @@ Microsoft Azure.</p>
 
 </svg>
 <span class='screen-reader-text'>Last updated: </span>
-      <time class='entry-date' datetime='2021-05-31T12:29:34&#43;05:30'>2021, May 31</time>
+      <time class='entry-date' datetime='2021-05-31T13:02:00&#43;05:30'>2021, May 31</time>
     </div><div class='categories'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
     
     
@@ -522,7 +540,7 @@ Microsoft Azure.</p>
   <line x1="7" y1="7" x2="7" y2="7"/>
 
 </svg>
-<span class='screen-reader-text'>Tags: </span><a class='tag' href='../../tags/routing/'>Routing</a>, <a class='tag' href='../../tags/forwarding/'>Forwarding</a></div>
+<span class='screen-reader-text'>Tags: </span><a class='tag' href='../../tags/routing/'>routing</a>, <a class='tag' href='../../tags/forwarding/'>forwarding</a></div>
 
   </div>
 </footer>
