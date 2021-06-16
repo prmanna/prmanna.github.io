@@ -9,7 +9,7 @@
 <meta property='og:description' content='Clean and Readable Code'>
 <meta property='og:url' content='https://prasenjitmanna.com/blogs/2020-11-18-clean-and-readable-code/'>
 <meta property='og:site_name' content='Prasenjit Manna'>
-<meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/56487ae79faa167645ba0152c31dd044?s=256'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='blogs'><meta property='article:tag' content='readable-code'><meta property='article:published_time' content='2020-11-18T00:00:00Z'/><meta property='article:modified_time' content='2021-06-06T12:15:48&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:creator' content='@prasenjit_manna'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/56487ae79faa167645ba0152c31dd044?s=256'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='blogs'><meta property='article:tag' content='readable-code'><meta property='article:published_time' content='2020-11-18T00:00:00Z'/><meta property='article:modified_time' content='2021-06-16T20:11:41&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:creator' content='@prasenjit_manna'>
 
 <meta name="generator" content="Hugo 0.79.0" />
 
@@ -244,24 +244,24 @@
 <p>When the code is not readable, the engineer modifying the code, will spend lot of time to understand the code itself. If it is misunderstood, then they will spend multiple iteration to fix his newly written code. Sometime, it can lead to breaking functionality in somewhere else unintentionally.</p>
 <p>In another scenario, engineer failing to understand the code, will rewrite the code again, deleting the old code. It has a impact on the overall schedule, customer delivery, most importantly if any corner cases missed, this will lead to more effort. Code should be written to minimize the time it would take for someone else to understand it</p>
 <p>Another important aspect, incorrect code and unreadable code. The incorrect code will not be able to hide for long time. Unit-test and automation will be able to detect this very quickly unless these are dead code, while unreadable code can exist in system for long time till the time a new engineer modify this code due to bug fix or new enhancement.</p>
-<p>A good codebase - is the foundation of compary&rsquo;s growth. a good codebase consists of well tested and readable code. It helps to increase the confidance to engineer. They wll be happy to enhance and extend existing codebase to add more features. It helps compary to grow more business.</p>
+<p>A good codebase - is the foundation of company&rsquo;s growth. a good codebase consists of well tested and readable code. It helps to increase the confidence to engineer. They will be happy to enhance and extend existing codebase to add more features. It helps company to grow more business.</p>
 <h3 id="what-do-we-achieve">What do we achieve?</h3>
 <p>On the surface, readability may seem subjective. Something which may vary between languages, codebases, and teams. But when you look underneath, there are core elements within all code which make it readable.</p>
-<p>Can you follow and understand (not read) your code? Does your variable&rsquo;s, function&rsquo;s naming convention and functional building blocks follow proper sequence? Are your comments adiquate enough for future readers? Are the code style are consistent?</p>
+<p>Can you follow and understand (not read) your code? Does your variable&rsquo;s, function&rsquo;s naming convention and functional building blocks follow proper sequence? Are your comments adequate enough for future readers? Are the code style consistent?</p>
 <p>Many programmers are too close to the computer. If the code runs, nothing else matters. Although a common defense it removes all of the human elements from what we do.</p>
-<p>The readable code starts with you. After you finish your codeing, take a break and re-read the code again with a open mind. If you find any shortcomings in your code to make it more descriptive, please add. This will help future readers. In fact, this is a general rule in code review guldelines that another engineer, who is not expert to the codebase, should review the code also. He will look into the code from a fresh perspective. If you and the other developers/reviewers (including the non-expert engineer) are happy with the code and its structures with no open quesions, then that is the readable code.</p>
-<p>We are in the world of agile, faster customer engagement. Non-readable code — It will indirectly impact project schedule and customer delivery. This is one of the contributer of techinical debt. Especially in agile methodology, not necessarily, the same enigneer will work on the same module for future work, a different engineer should be able to enhance the code without any additional complexity.</p>
+<p>The readable code starts with you. After you finish your coding, take a break and re-read the code again with a open mind. If you find any shortcomings in your code to make it more descriptive, please add. This will help future readers. In fact, this is a general rule in code review guidelines that another engineer, who is not expert to the codebase, should review the code also. He will look into the code from a fresh perspective. If you and the other developers/reviewers (including the non-expert engineer) are happy with the code and its structures with no open questions, then that is the readable code.</p>
+<p>We are in the world of agile, faster customer engagement. Non-readable code — It will indirectly impact project schedule and customer delivery. This is one of the contributor of technical debt. Especially in agile methodology, not necessarily, the same engineer will work on the same module for future work, a different engineer should be able to enhance the code without any additional complexity.</p>
 <h3 id="principles">Principles</h3>
-<p>Few principles of readable codes:</p>
+<p>Few principles of readable code:</p>
 <ul>
 <li>Well-Tested In my opinion, this is very important. well-tested code can be modified without the fear of breaking any functionality. Without tests, risk will come in future work estimation.</li>
-<li>Optimization vs Readability Always write code that is simple to read and which will be understandable for developers. Because time and resources that will be spent on hard readable code will be much higher than what you get from optimization. Still there are use-cases where optimizston are required, then try to make it like independent module with 100% test coverage.</li>
-<li>Architecture First Writing code without thinking of its architecture is a bad practice.</li>
-<li>Well Structured In any codebase (big or small), well structure code is very easy to understand and browse.</li>
-<li>Keep It Simple Don’t write complex code. Make it simpler than more bugs it may have and less time needed to debug them.</li>
-<li>Thoughtful Naming Variables, functions, class names will help to understand the code better. This needs little cautious effort from developers to make it happen. You have to make it a practice.</li>
-<li>Comments Again, this itself explains the need of it. A &lsquo;why&rsquo; comment is good enough. Make sure it is precise and compact.</li>
-<li>Automation First and foremost is manual tests. The Automation is needed to make the reduction of effort in long term. If you have the automation ready for your existing code, the effort required to test your existing feature will be very small, only additional testing required for your new functionality.</li>
+<li>Optimization vs Readability, Always write code that is simple to read and which will be understandable for developers. Because time and resources that will be spent on hard readable code will be much higher than what you get from optimization. Still there are use-cases where optimizston are required, then try to make it like independent module with 100% test coverage.</li>
+<li>Architecture First Writing code, without thinking of its architecture is a bad practice.</li>
+<li>Well Structured, In any codebase (big or small), well structure code is very easy to understand and browse.</li>
+<li>Keep It Simple, Don’t write complex code. Make it simpler than more bugs it may have and less time needed to debug them.</li>
+<li>Thoughtful Naming, Variables, functions, class names will help to understand the code better. This needs little cautious effort from developers to make it happen. You have to make it a practice.</li>
+<li>Comments, Again this itself explains the need of it. A &lsquo;why&rsquo; comment is good enough. Make sure it is precise and compact.</li>
+<li>Automation, First and foremost is manual tests. The Automation is needed to make the reduction of effort in long term. If you have the automation ready for your existing code, the effort required to test your existing feature will be very small, only additional testing required for your new functionality.</li>
 </ul>
 <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/prmanna" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/prmanna', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Join my email list to get direct access to new blog posts.</label></p><p><input type="text" style="width:200px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /></p></form>
 
@@ -279,7 +279,7 @@
 
 </svg>
 <span class='screen-reader-text'>Last updated: </span>
-      <time class='entry-date' datetime='2021-06-06T12:15:48&#43;05:30'>2021, Jun 06</time>
+      <time class='entry-date' datetime='2021-06-16T20:11:41&#43;05:30'>2021, Jun 16</time>
     </div><div class='categories'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
     
     
