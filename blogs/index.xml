@@ -60,25 +60,6 @@ Managing brain resources in an age of complexity.
     </item>
     
     <item>
-      <title>Various Routing &amp; Packet Forwarding Techniques</title>
-      <link>https://prasenjitmanna.com/blogs/2021-05-30-various_routing_packet_forwarding_techniques/</link>
-      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://prasenjitmanna.com/blogs/2021-05-30-various_routing_packet_forwarding_techniques/</guid>
-      <description>Table of contents  Bridging and Routing L2 Forwarding L3 Forwarding VRF Overlays  1. IP in IP 2. GRE 3. VXLAN   Segment Routing Forwarding in NIC  The core routing and packet forwarding haven&amp;rsquo;t changed for decades and it is not going to change for next decade also. But, it is going to evolve due to market needs, specially data centres. At the same time, Silicon capacity, CPU power, NIC bandwidth, all have increased significantly.</description>
-    </item>
-    
-    <item>
-      <title>How productive are you in life?</title>
-      <link>https://prasenjitmanna.com/blogs/2021-05-15-how_productive_are_you_in_life/</link>
-      <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://prasenjitmanna.com/blogs/2021-05-15-how_productive_are_you_in_life/</guid>
-      <description>Table of contents  Do the right thing Do the right way Prioritize Organize Routine Goal Love what you do Recreation Positive thinking &amp;amp; attitude Right Values  Productivity concept is always there in my mind, but never thought so deeply. Until recently, my friend Biplab asked me the questions:
-&amp;ldquo;How do you feel at the end of a hard day? Do you feel satisfied, fulfilled, or disappointed? Are you productive?</description>
-    </item>
-    
-    <item>
       <title>Link-State Protocols on Data-Center Fabrics - Internet Protocol Journal (PDF)</title>
       <link>https://prasenjitmanna.com/blogs/2021-01-23-link-state-protocols-on-data-center-fabrics-internet-protocol-journal-pdf/</link>
       <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
