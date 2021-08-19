@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang='en' dir='auto'><head>
+  <meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name='description' content='Clos Networks'>
+<meta name='theme-color' content='#ffcd00'>
+
+<meta property='og:title' content='Clos Networks • Prasenjit Manna'>
+<meta property='og:description' content='Clos Networks'>
+<meta property='og:url' content='https://prasenjitmanna.com/writing/2021-08-18-clos_networks/'>
+<meta property='og:site_name' content='Prasenjit Manna'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/56487ae79faa167645ba0152c31dd044?s=256'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:tag' content='data center'><meta property='article:tag' content='clos'><meta property='article:published_time' content='2021-08-18T00:00:00Z'/><meta property='article:modified_time' content='2021-08-19T12:25:16&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:creator' content='@prasenjit_manna'>
+
+<meta name="generator" content="Hugo 0.79.0" />
+
+  <title>Clos Networks • Prasenjit Manna</title>
+  <link rel='canonical' href='https://prasenjitmanna.com/writing/2021-08-18-clos_networks/'>
+  
+  
+  <link rel='icon' href='../../favicon.ico'>
+<link rel='stylesheet' href='../../assets/css/main.ab98e12b.css'><style>
+:root{--color-accent:#ffcd00;}
+</style>
+
+  
+
+</head>
+<body class='page type-writing has-sidebar'>
+
+  <div class='site'><div id='sidebar' class='sidebar'>
+  <a class='screen-reader-text' href='#main-menu'>Skip to Main Menu</a>
+
+  <div class='container'><section class='widget widget-about sep-after'>
+  <header>
+    
+    <div class='logo'>
+      <a href='../../'>
+        <img src='../../images/logo.png'>
+      </a>
+    </div>
+    
+    <h2 class='title site-title '>
+      <a href='../../'>
+      Prasenjit Manna
+      </a>
+    </h2>
+    <div class='desc'>
+    Networking Software Specialist
+    </div>
+  </header>
+
+</section>
+<section class='widget widget-sidebar_menu sep-after'><nav id='sidebar-menu' class='menu sidebar-menu' aria-label='Sidebar Menu'>
+    <div class='container'>
+      <ul><li class='item'>
+  <a href='../../about'>About</a></li><li class='item'>
+  <a href='../../writing'>writing</a></li><li class='item'>
+  <a href='../../blogs'>blogs</a></li><li class='item'>
+  <a href='../../reading'>Reading</a></li><li class='item'>
+  <a href='../../quotes'>Quotes</a></li><li class='item'>
+  <a href='../../subscribe'>Subscribe</a></li></ul>
+    </div>
+  </nav>
+
+</section><section class='widget widget-social_menu sep-after'><header>
+    <h4 class='title widget-title'>Contact</h4>
+  </header><nav aria-label='Social Menu'>
+    <ul><li>
+        <a href='mailto:prasenjit.manna@gmail.com' target='_blank' rel='noopener me'>
+          <span class='screen-reader-text'>Contact via Email</span><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline>
+</svg>
+</a>
+      </li><li>
+        <a href='https://github.com/prmanna' target='_blank' rel='noopener me'>
+          <span class='screen-reader-text'>Open Github account in new tab</span><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+
+</svg>
+</a>
+      </li><li>
+        <a href='https://twitter.com/prasenjit_manna' target='_blank' rel='noopener me'>
+          <span class='screen-reader-text'>Open Twitter account in new tab</span><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <title>Twitter icon</title>
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+
+</svg>
+</a>
+      </li><li>
+        <a href='https://linkedin.com/in/prasenjitmanna' target='_blank' rel='noopener me'>
+          <span class='screen-reader-text'>Open Linkedin account in new tab</span><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle>
+</svg>
+</a>
+      </li></ul>
+  </nav>
+</section><section class='widget widget-search sep-after'>
+  <header>
+    <h4 class='title widget-title'>Search</h4>
+  </header>
+
+  <form action='../../search' id='search-form' class='search-form'>
+    <label>
+      <span class='screen-reader-text'>Search</span>
+      <input id='search-term' class='search-term' type='search' name='q' placeholder='Search&hellip;'>
+    </label></form>
+
+</section>
+<section class='widget widget-taxonomy_cloud sep-after'>
+  <header>
+    <h4 class='title widget-title'>Tags</h4>
+  </header>
+
+  <div class='container list-container'>
+  <ul class='list taxonomy-cloud'><li>
+        <a href='../../tags/clos/' style='font-size:1em'>clos</a>
+      </li><li>
+        <a href='../../tags/data-center/' style='font-size:1.3333333333333333em'>data-center</a>
+      </li><li>
+        <a href='../../tags/forwarding/' style='font-size:1em'>forwarding</a>
+      </li><li>
+        <a href='../../tags/link-state/' style='font-size:1em'>link-state</a>
+      </li><li>
+        <a href='../../tags/productivity/' style='font-size:1em'>productivity</a>
+      </li><li>
+        <a href='../../tags/readable-code/' style='font-size:1em'>readable-code</a>
+      </li><li>
+        <a href='../../tags/routing/' style='font-size:1em'>routing</a>
+      </li><li>
+        <a href='../../tags/skills/' style='font-size:1em'>skills</a>
+      </li><li>
+        <a href='../../tags/wisdom/' style='font-size:2em'>wisdom</a>
+      </li></ul>
+</div>
+
+
+</section>
+</div>
+
+  <div class='sidebar-overlay'></div>
+</div><div class='main'><a class='screen-reader-text' href='#content'>Skip to Content</a>
+
+<button id='sidebar-toggler' class='sidebar-toggler' aria-controls='sidebar'>
+  <span class='screen-reader-text'>Toggle Sidebar</span>
+  <span class='open'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <line x1="3" y1="12" x2="21" y2="12" />
+  <line x1="3" y1="6" x2="21" y2="6" />
+  <line x1="3" y1="18" x2="21" y2="18" />
+
+</svg>
+</span>
+  <span class='close'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <line x1="18" y1="6" x2="6" y2="18" />
+  <line x1="6" y1="6" x2="18" y2="18" />
+
+</svg>
+</span>
+</button><div class='header-widgets'>
+        <div class='container'>
+    
+    <style>.widget-breadcrumbs li:after{content:'\2f '}</style>
+  <section class='widget widget-breadcrumbs sep-after'>
+    <nav id='breadcrumbs'>
+      <ol><li><a href='../../'>Home</a></li><li><a href='../../writing/'>Writings</a></li><li><span>Clos Networks</span></li></ol>
+    </nav>
+  </section></div>
+      </div>
+
+      <header id='header' class='header site-header'>
+        <div class='container sep-after'>
+          <div class='header-info'><p class='site-title title'>Prasenjit Manna</p><p class='desc site-desc'></p>
+          </div>
+        </div>
+      </header>
+
+      <main id='content'>
+
+
+<article lang='en' class='entry'>
+  <header class='header entry-header'>
+  <div class='container sep-after'>
+    <div class='header-info'>
+      <h1 class='title'>Clos Networks</h1>
+      
+<p class='desc'>Clos Networks</p>
+
+
+    </div>
+    <div class='entry-meta'>
+  <span class='posted-on'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+  <line x1="16" y1="2" x2="16" y2="6"/>
+  <line x1="8" y1="2" x2="8" y2="6"/>
+  <line x1="3" y1="10" x2="21" y2="10"/>
+
+</svg>
+<span class='screen-reader-text'>Posted on </span>
+  <time class='entry-date' datetime='2021-08-18T00:00:00Z'>2021, Aug 18</time>
+</span>
+
+  <span class='byline'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <path d="M21,21V20c0-2.76-4-5-9-5s-9,2.24-9,5v1"/>
+  <path d="M16,6.37A4,4,0,1,1,12.63,3,4,4,0,0,1,16,6.37Z"/>
+
+</svg>
+<span class='screen-reader-text'> by </span><a href='../../authors/prmanna'>Prasenjit Manna</a></span>
+  
+<span class='reading-time'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <circle cx="12" cy="12" r="10"/>
+  <polyline points="12 6 12 12 15 15"/>
+
+</svg>
+4 mins read
+</span>
+
+
+</div>
+
+
+  </div>
+</header>
+
+  
+  
+
+  <div class='container entry-content'>
+  <p>In new era of internet, more applications are moving to cloud. Even for
+the standalone application, the central processing is done in cloud.
+Most of the cloud companies developed NextGen datacentre with CLOS
+architecture. This article is to demystify the Clos architecture.</p>
+<p>The Clos grows in a very consistent way, thanks to having what&rsquo;s called
+a scale-out architecture. You increase the amount of work supported by
+the network by adding more leaves and servers. In contrast, the
+traditional access-agg-core architecture, the scaling of the services
+are provided by beefing up the aggregation of box&rsquo;s CPUs.</p>
+<p>The clos network looks like this.</p>
+<p>
+
+
+
+
+
+
+    
+
+
+<img src='../../images/clos-network/three-stage_clos_network_hud61d4f8de87bb9a0d4e9b577dee53dc4_7024_422x220_fit_q50_bgffffff_lanczos_2.jpg' alt='Prioritize'/>
+
+
+<a href="https://en.wikipedia.org/wiki/Multistage_interconnection_networks#Clos_network">https://en.wikipedia.org/wiki/Multistage_interconnection_networks#Clos_network</a></p>
+<p>Before going deep into this, we need to understand few terminologies on
+connections.</p>
+<h4 id="blocking-network">Blocking Network</h4>
+<p>Let&rsquo;s say we have A and B as source connected via a single path to
+destinations C and D. If A is already using the path to talk to C and at
+the same time if B wants to talk to D, it cannot because there is no
+free path available from B to D. This is an example of Blocking Network.</p>
+
+
+
+
+
+
+
+    
+
+
+<img src='../../images/clos-network/block-network_huc7a35123e01f461ebe2938d6aedadf17_12713_595x42_fit_q50_bgffffff_lanczos_2.jpg' alt='Blocking Network'/>
+
+
+<h4 id="non-blocking-network">Non-Blocking Network</h4>
+<p>Now if we add another path between Input and Output switches, then B can
+talk to D at the same time as there is another Path available to route
+it&rsquo;s request. This is an example of a Non-Blocking Network.</p>
+<p>
+
+
+
+
+
+
+    
+
+
+<img src='../../images/clos-network/non-block-network_huee173c5fc9bce0115f2165b5ff6af2ab_13538_600x42_fit_q50_bgffffff_lanczos_2.jpg' alt='Non-Blocking Network'/>
+
+
+<a href="https://en.wikipedia.org/wiki/Multistage_interconnection_networks#Multistage_Interconnect_Network">https://en.wikipedia.org/wiki/Multistage_interconnection_networks#Multistage_Interconnect_Network</a></p>
+<h4 id="two-stage-non-blocking-network">Two Stage Non-Blocking Network</h4>
+<p>In this two stage 2x2 switch connection, if A is already connected to E,
+then B is blocked to reach F.</p>
+<p>
+
+
+
+
+
+
+    
+
+
+<img src='../../images/clos-network/2stage-2x2-nb-network-part1_hu37c401faba821b7cf3dc13d255a79902_19848_555x100_fit_q50_bgffffff_lanczos_2.jpg' alt='Two Stage Non-Blocking Network'/>
+
+
+Fig-1</p>
+<p>If we add more paths like below, we&rsquo;ll get non-blocking network. But,
+the Crosspoint complexity will be worser than <a href="https://en.wikipedia.org/wiki/Multistage_interconnection_networks#Crossbar_Switch_Connections">crossbar
+crosspoint</a>
+complexity.</p>
+<p>Note: crossbar Crosspoint complexity is n^2, where for two stage
+non-blocking network Crosspoint complexity is is (r x n x m) (n is the
+number of inputs, m is the number of outputs and r is the number of
+input switches).</p>
+<p>
+
+
+
+
+
+
+    
+
+
+<img src='../../images/clos-network/2stage-2x2-nb-network-part2_huf15baeb18f33dbf4d6e06f389c6b523d_14071_291x100_fit_q50_bgffffff_lanczos_2.jpg' alt='Two Stage Non-Blocking Network'/>
+
+
+Fig-2</p>
+<h4 id="three-stage-non-blocking-network">Three Stage Non-Blocking Network</h4>
+<p>Now, with the introduction of middle staging of two 2x2 switches in
+Fig-1, B will be able to connect to F.</p>
+<p>
+
+
+
+
+
+
+    
+
+
+<img src='../../images/clos-network/3stage-2x2-nb-network_hua4447779d346f7b3f599a558860c4383_18527_386x102_fit_q50_bgffffff_lanczos_2.jpg' alt='Two Stage Non-Blocking Network'/>
+
+
+Fig-3</p>
+<p><strong>This is the idea of Charles Clos.</strong></p>
+<p>What Clos showed that with a 3 stage network, one can build a strictly
+Non-Blocking network with Crosspoint complexity
+of 
+
+
+
+
+
+
+    
+
+
+<img src='../../images/clos-network/clos-corsspoint-complexity_hu11ca00ae8c605a574c348e9abf6bd0f3_6248_105x36_fit_q50_bgffffff_lanczos_2.jpg' alt='Network'/>
+
+ which is better than O(N^2). </p>
+<h3 id="clos-network">Clos Network</h3>
+<p>A Clos network uses 3 stages to switch from N inputs to N outputs. In
+the first stage, there are r= N/n crossbar switches and each switch is
+of size n*m. In the second stage there are m switches of size r*r and
+finally the last stage is mirror of first stage with r switches of size
+m*n.</p>
+<p>
+
+
+
+
+
+
+    
+
+
+<img src='../../images/clos-network/three-stage_clos_network-details_hu7e66e1bd9c9424fcca6b92db392e783d_26074_359x170_fit_q50_bgffffff_lanczos_2.jpg' alt='Clos Network'/>
+
+
+Fig-4</p>
+<p>With the above structure in mind, Clos showed that one can build a
+strictly Non-Blocking network if we satisfy the inequality</p>
+<p>m &gt;= 2n-1.</p>
+<p>The number of connections is much less than that of a crossbar network.</p>
+<h4 id="5-stage-clos-network">5 Stage Clos Network</h4>
+<p>Let&rsquo;s construct a 5 stage clos network. The fig-3, which is 3 stage clos
+network, is enhanced by adding new 2 switches each for stage 1 and stage
+3 layers. The network will be like below(Fig-5).</p>
+<p>
+
+
+
+
+
+
+    
+
+
+<img src='../../images/clos-network/5stage-2x2-nb-network-part1_hua29024f558fc898f827a16087c2bf492_36006_412x166_fit_q50_bgffffff_lanczos_2.jpg' alt='5 Stage Clos Network'/>
+
+
+Fig-5</p>
+<p>The middle switch in Fig-5 can be decomposed like Fig-6 with 3 stage
+clos with 2x2 switches.</p>
+<p>
+
+
+
+
+
+
+    
+
+
+<img src='../../images/clos-network/5stage-2x2-nb-network-part2_hu4e18f3a98c9264de6bd941360c3eaa13_26396_411x199_fit_q50_bgffffff_lanczos_2.jpg' alt='5 Stage Clos Network'/>
+
+
+Fig-6</p>
+<p>So, after replacing two middle switches in Fig-5 with Fig-6 network, it
+will be a 5 stage clos network with 2x2 switch like below (Fig-7).</p>
+<p>
+
+
+
+
+
+
+    
+
+
+<img src='../../images/clos-network/5stage-2x2-nb-network-part3_hu746b586af3d5d9728ce1e97e481a17a1_47618_460x166_fit_q50_bgffffff_lanczos_2.jpg' alt='5 Stage Clos Network'/>
+
+
+Fig-7</p>
+<h4 id="fat-tree">FAT-Tree</h4>
+<p>Fat-Trees were originally introduced by Charles Leiserson in 1985. The
+basic idea is to keep larger bandwidth (with additional links) towards
+the root. A Fat-Tree is generally represented by FT(k,n) where k is the
+radix of the switch and &ldquo;n&rdquo; is the levels of the Fat-Tree.</p>
+
+
+
+
+
+
+
+    
+
+
+<img src='../../images/clos-network/fat-tree-basic_hu70dd796cf9ab5f46710bfa0d7184ec03_120992_432x133_fit_q50_bgffffff_lanczos_2.jpg' alt='FAT Tree'/>
+
+
+<p>[Ref: <a href="https://en.wikipedia.org/wiki/Fat_tree">https://en.wikipedia.org/wiki/Fat_tree</a>]</p>
+<p>Now, lets construct the fat-tree from clos network (fig-5). This
+topology is known by various terms like <strong>Folded Clos</strong>, <strong>Spine and
+Leaf</strong> or 3 stage clos network.</p>
+
+
+
+
+
+
+
+    
+
+
+<img src='../../images/clos-network/fat-tree-from-clos_hu8bb60eb645b4b2200d8052bf7eeae0ad_65083_485x307_fit_q50_bgffffff_lanczos_2.jpg' alt='FAT Tree'/>
+
+
+<p>Now lets make the 5 stage clos network like Fat-tree from Fig-7.</p>
+
+
+
+
+
+
+
+    
+
+
+<img src='../../images/clos-network/fat-tree-level5-from-clos_hu81d0e5536afa5b99ac228950c43b3c8d_159840_481x559_fit_q50_bgffffff_lanczos_2.jpg' alt='FAT Tree'/>
+
+
+<p>Formally, we can say it&rsquo;s FT(4,3) as the radix of the switches are 4 and
+it has 3 levels.</p>
+<p><strong>Calculation</strong>:</p>
+<p>Assuming a switch has <strong>&ldquo;k&rdquo;</strong> ports and the number of Levels is <strong>&ldquo;L&rdquo;</strong>,
+then the first column in the below table gives you the generalize way to
+calculate various parameters. Next three columns, shows various numbers
+for 2,3 and 4 levels.</p>
+
+
+
+
+
+
+
+    
+
+
+<img src='../../images/clos-network/fattreeproperties_huc960f3651d0ac01821a683494136d864_112567_494x209_fit_q50_bgffffff_lanczos_2.jpg' alt='FAT Tree'/>
+
+
+<p>In the next articles, will try to deconstruct the linkedin and facebook
+datacenter architecture.</p>
+<p><strong>Reference:</strong></p>
+<ul>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Multistage_interconnection_networks">https://en.wikipedia.org/wiki/Multistage_interconnection_networks</a></p>
+</li>
+<li>
+<p><a href="http://ccr.sigcomm.org/online/files/p63-alfares.pdf">A Scalable, Commodity Data Center Network
+Architecture</a></p>
+</li>
+<li>
+<p><a href="https://engineering.linkedin.com/blog/2016/03/the-linkedin-data-center-100g-transformation">https://engineering.linkedin.com/blog/2016/03/the-linkedin-data-center-100g-transformation</a></p>
+</li>
+<li>
+<p><a href="https://engineering.fb.com/2014/11/14/production-engineering/introducing-data-center-fabric-the-next-generation-facebook-data-center-network/">Facebook DataCenter
+Architecture</a></p>
+</li>
+</ul>
+<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/prmanna" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/prmanna', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Join my email list to get direct access to new blog posts.</label></p><p><input type="text" style="width:200px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /></p></form>
+
+
+
+</div>
+
+  
+<footer class='entry-footer'>
+  <div class='container sep-before'><div class='last-updated'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+      <path d="M20 14.66V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5.34" />
+  <polygon points="18 2 22 6 12 16 8 16 8 12 18 2" />
+
+</svg>
+<span class='screen-reader-text'>Last updated: </span>
+      <time class='entry-date' datetime='2021-08-19T12:25:16&#43;05:30'>2021, Aug 19</time>
+    </div><div class='categories'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+    <path d="M22,19a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V5A2,2,0,0,1,4,3H9l2,3h9a2,2,0,0,1,2,2Z"/>
+
+</svg>
+<span class='screen-reader-text'>Categories: </span><a class='category' href='../../categories/blogs/'>blogs</a></div>
+<div class='tags'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <path d="M20.59,13.41l-7.17,7.17a2,2,0,0,1-2.83,0L2,12V2H12l8.59,8.59A2,2,0,0,1,20.59,13.41Z"/>
+  <line x1="7" y1="7" x2="7" y2="7"/>
+
+</svg>
+<span class='screen-reader-text'>Tags: </span><a class='tag' href='../../tags/data-center/'>data-center</a>, <a class='tag' href='../../tags/clos/'>clos</a></div>
+
+  </div>
+</footer>
+
+
+</article>
+
+<nav class='entry-nav'>
+  <div class='container'><div class='prev-entry sep-before'>
+      <a href='../../writing/2021-05-30-various_routing_packet_forwarding_techniques/'>
+        <span aria-hidden='true'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <line x1="20" y1="12" x2="4" y2="12"/>
+  <polyline points="10 18 4 12 10 6"/>
+
+</svg>
+ Previous</span>
+        <span class='screen-reader-text'>Previous post: </span>Various Routing &amp; Packet Forwarding Techniques</a>
+    </div></div>
+</nav>
+
+
+<section id='comments' class='comments'>
+  <div class='container sep-before'>
+    <div class='comments-area'>
+
+<h4 style="margin-top: 50px;">LEAVE A REPLY</h4>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScHjgg_yNjOm9uXTdjC8HPhMj1eAgELMVWyaY0xSOiVCd1flA/viewform?embedded=true" width="700" height="720" frameborder="0" marginheight="0" marginwidth="0">Please</iframe>
+
+
+</div>
+  </div>
+</section>
+
+      </main>
+
+      <footer id='footer' class='footer'>
+        <div class='container sep-before'><div class='copyright'>
+  <p> &copy; 2020-2021 Prasenjit Manna. Powered by Hugo &amp; Minimo Theme</p>
+</div>
+
+        </div>
+      </footer>
+
+    </div>
+  </div><script>window.__assets_js_src="../../assets/js/"</script>
+
+<script src='../../assets/js/main.c3bcf2df.js'></script>
+
+</body>
+
+</html>
+

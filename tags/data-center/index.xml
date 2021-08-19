@@ -6,7 +6,17 @@
     <description>Recent content in data-center on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/tags/data-center/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/tags/data-center/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Clos Networks</title>
+      <link>https://prasenjitmanna.com/writing/2021-08-18-clos_networks/</link>
+      <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/writing/2021-08-18-clos_networks/</guid>
+      <description>In new era of internet, more applications are moving to cloud. Even for the standalone application, the central processing is done in cloud. Most of the cloud companies developed NextGen datacentre with CLOS architecture. This article is to demystify the Clos architecture.
+The Clos grows in a very consistent way, thanks to having what&amp;rsquo;s called a scale-out architecture. You increase the amount of work supported by the network by adding more leaves and servers.</description>
+    </item>
+    
     <item>
       <title>Link-State Protocols on Data-Center Fabrics - Internet Protocol Journal (PDF)</title>
       <link>https://prasenjitmanna.com/blogs/2021-01-23-link-state-protocols-on-data-center-fabrics-internet-protocol-journal-pdf/</link>
