@@ -9,7 +9,7 @@
 <meta property='og:description' content='Clos Networks'>
 <meta property='og:url' content='https://prasenjitmanna.com/writing/2021-08-18-clos_networks/'>
 <meta property='og:site_name' content='Prasenjit Manna'>
-<meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/56487ae79faa167645ba0152c31dd044?s=256'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:tag' content='data center'><meta property='article:tag' content='clos'><meta property='article:published_time' content='2021-08-18T00:00:00Z'/><meta property='article:modified_time' content='2021-08-19T12:44:19&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:creator' content='@prasenjit_manna'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/56487ae79faa167645ba0152c31dd044?s=256'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:tag' content='data center'><meta property='article:tag' content='clos'><meta property='article:published_time' content='2021-08-18T00:00:00Z'/><meta property='article:modified_time' content='2021-08-19T12:49:03&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:creator' content='@prasenjit_manna'>
 
 <meta name="generator" content="Hugo 0.79.0" />
 
@@ -337,7 +337,7 @@ complexity.</p>
 non-blocking network Crosspoint complexity is is (r x n x m) (n is the
 number of inputs, m is the number of outputs and r is the number of
 input switches).</p>
-<p>
+
 
 
 
@@ -350,11 +350,11 @@ input switches).</p>
 <img src='../../images/clos-network/2stage-2x2-nb-network-part2_huf15baeb18f33dbf4d6e06f389c6b523d_14071_291x100_fit_q50_bgffffff_lanczos_2.jpg' alt='Two Stage Non-Blocking Network'/>
 
 
-Fig-2</p>
+<p>Fig-2</p>
 <h4 id="three-stage-non-blocking-network">Three Stage Non-Blocking Network</h4>
 <p>Now, with the introduction of middle staging of two 2x2 switches in
 Fig-1, B will be able to connect to F.</p>
-<p>
+
 
 
 
@@ -367,7 +367,7 @@ Fig-1, B will be able to connect to F.</p>
 <img src='../../images/clos-network/3stage-2x2-nb-network_hua4447779d346f7b3f599a558860c4383_18527_386x102_fit_q50_bgffffff_lanczos_2.jpg' alt='Two Stage Non-Blocking Network'/>
 
 
-Fig-3</p>
+<p>Fig-3</p>
 <p><strong>This is the idea of Charles Clos.</strong></p>
 <p>What Clos showed that with a 3 stage network, one can build a strictly
 Non-Blocking network with Crosspoint complexity
@@ -390,7 +390,7 @@ the first stage, there are r= N/n crossbar switches and each switch is
 of size n*m. In the second stage there are m switches of size r*r and
 finally the last stage is mirror of first stage with r switches of size
 m*n.</p>
-<p>
+
 
 
 
@@ -403,7 +403,7 @@ m*n.</p>
 <img src='../../images/clos-network/three-stage_clos_network-details_hu7e66e1bd9c9424fcca6b92db392e783d_26074_359x170_fit_q50_bgffffff_lanczos_2.jpg' alt='Clos Network'/>
 
 
-Fig-4</p>
+<p>Fig-4</p>
 <p>With the above structure in mind, Clos showed that one can build a
 strictly Non-Blocking network if we satisfy the inequality</p>
 <p>m &gt;= 2n-1.</p>
@@ -412,7 +412,7 @@ strictly Non-Blocking network if we satisfy the inequality</p>
 <p>Let&rsquo;s construct a 5 stage clos network. The fig-3, which is 3 stage clos
 network, is enhanced by adding new 2 switches each for stage 1 and stage
 3 layers. The network will be like below(Fig-5).</p>
-<p>
+
 
 
 
@@ -425,10 +425,10 @@ network, is enhanced by adding new 2 switches each for stage 1 and stage
 <img src='../../images/clos-network/5stage-2x2-nb-network-part1_hua29024f558fc898f827a16087c2bf492_36006_412x166_fit_q50_bgffffff_lanczos_2.jpg' alt='5 Stage Clos Network'/>
 
 
-Fig-5</p>
+<p>Fig-5</p>
 <p>The middle switch in Fig-5 can be decomposed like Fig-6 with 3 stage
 clos with 2x2 switches.</p>
-<p>
+
 
 
 
@@ -441,10 +441,10 @@ clos with 2x2 switches.</p>
 <img src='../../images/clos-network/5stage-2x2-nb-network-part2_hu4e18f3a98c9264de6bd941360c3eaa13_26396_411x199_fit_q50_bgffffff_lanczos_2.jpg' alt='5 Stage Clos Network'/>
 
 
-Fig-6</p>
+<p>Fig-6</p>
 <p>So, after replacing two middle switches in Fig-5 with Fig-6 network, it
 will be a 5 stage clos network with 2x2 switch like below (Fig-7).</p>
-<p>
+
 
 
 
@@ -457,7 +457,7 @@ will be a 5 stage clos network with 2x2 switch like below (Fig-7).</p>
 <img src='../../images/clos-network/5stage-2x2-nb-network-part3_hu746b586af3d5d9728ce1e97e481a17a1_47618_460x166_fit_q50_bgffffff_lanczos_2.jpg' alt='5 Stage Clos Network'/>
 
 
-Fig-7</p>
+<p>Fig-7</p>
 <h4 id="fat-tree">FAT-Tree</h4>
 <p>Fat-Trees were originally introduced by Charles Leiserson in 1985. The
 basic idea is to keep larger bandwidth (with additional links) towards
@@ -524,7 +524,7 @@ for 2,3 and 4 levels.</p>
     
 
 
-<img src='../../images/clos-network/fattreeproperties_huc960f3651d0ac01821a683494136d864_112567_530x250_fit_q50_bgffffff_lanczos_2.jpg' alt='FAT Tree'/>
+<img src='../../images/clos-network/fattreeproperties_huc960f3651d0ac01821a683494136d864_112567_630x250_fit_q50_bgffffff_lanczos_2.jpg' alt='FAT Tree'/>
 
 
 <p>In the next articles, will try to deconstruct the linkedin and facebook
@@ -562,7 +562,7 @@ Architecture</a></p>
 
 </svg>
 <span class='screen-reader-text'>Last updated: </span>
-      <time class='entry-date' datetime='2021-08-19T12:44:19&#43;05:30'>2021, Aug 19</time>
+      <time class='entry-date' datetime='2021-08-19T12:49:03&#43;05:30'>2021, Aug 19</time>
     </div><div class='categories'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
     
     
