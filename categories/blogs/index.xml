@@ -13,8 +13,8 @@
       <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://prasenjitmanna.com/writing/2021-08-18-clos_networks/</guid>
-      <description>In new era of internet, more applications are moving to cloud. Even for the standalone application, the central processing is done in cloud. Most of the cloud companies developed NextGen datacentre with CLOS architecture. This article is to demystify the Clos architecture.
-The Clos grows in a very consistent way, thanks to having what&amp;rsquo;s called a scale-out architecture. You increase the amount of work supported by the network by adding more leaves and servers.</description>
+      <description>Table of contents  Blocking Network Non-Blocking Network Two Stage Non-Blocking Network Three Stage Non-Blocking Network Clos Network 5 Stage Clos Network FAT-Tree  In new era of internet, more applications are moving to cloud. Even for the standalone application, the central processing is done in cloud. Most of the cloud companies developed NextGen datacentre with CLOS architecture. This article is to demystify the Clos architecture.
+The Clos grows in a very consistent way, thanks to having what&amp;rsquo;s called a scale-out architecture.</description>
     </item>
     
     <item>

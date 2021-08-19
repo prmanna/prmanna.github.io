@@ -9,7 +9,7 @@
 <meta property='og:description' content='Clos Networks'>
 <meta property='og:url' content='https://prasenjitmanna.com/writing/2021-08-18-clos_networks/'>
 <meta property='og:site_name' content='Prasenjit Manna'>
-<meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/56487ae79faa167645ba0152c31dd044?s=256'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:tag' content='data center'><meta property='article:tag' content='clos'><meta property='article:published_time' content='2021-08-18T00:00:00Z'/><meta property='article:modified_time' content='2021-08-19T12:25:16&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:creator' content='@prasenjit_manna'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/56487ae79faa167645ba0152c31dd044?s=256'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:tag' content='data center'><meta property='article:tag' content='clos'><meta property='article:published_time' content='2021-08-18T00:00:00Z'/><meta property='article:modified_time' content='2021-08-19T12:39:19&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:creator' content='@prasenjit_manna'>
 
 <meta name="generator" content="Hugo 0.79.0" />
 
@@ -240,7 +240,17 @@
   
 
   <div class='container entry-content'>
-  <p>In new era of internet, more applications are moving to cloud. Even for
+  <h4 id="table-of-contents">Table of contents</h4>
+<ul>
+<li><a href="#blocking-network">Blocking Network</a></li>
+<li><a href="#non-blocking-network">Non-Blocking Network</a></li>
+<li><a href="#two-stage-non-blocking-network">Two Stage Non-Blocking Network</a></li>
+<li><a href="#three-stage-non-blocking-network">Three Stage Non-Blocking Network</a></li>
+<li><a href="#clos-network">Clos Network</a></li>
+<li><a href="#5-stage-clos-network">5 Stage Clos Network</a></li>
+<li><a href="#fat-tree">FAT-Tree</a></li>
+</ul>
+<p>In new era of internet, more applications are moving to cloud. Even for
 the standalone application, the central processing is done in cloud.
 Most of the cloud companies developed NextGen datacentre with CLOS
 architecture. This article is to demystify the Clos architecture.</p>
@@ -374,7 +384,7 @@ of 
 <img src='../../images/clos-network/clos-corsspoint-complexity_hu11ca00ae8c605a574c348e9abf6bd0f3_6248_105x36_fit_q50_bgffffff_lanczos_2.jpg' alt='Network'/>
 
  which is better than O(N^2). </p>
-<h3 id="clos-network">Clos Network</h3>
+<h4 id="clos-network">Clos Network</h4>
 <p>A Clos network uses 3 stages to switch from N inputs to N outputs. In
 the first stage, there are r= N/n crossbar switches and each switch is
 of size n*m. In the second stage there are m switches of size r*r and
@@ -552,7 +562,7 @@ Architecture</a></p>
 
 </svg>
 <span class='screen-reader-text'>Last updated: </span>
-      <time class='entry-date' datetime='2021-08-19T12:25:16&#43;05:30'>2021, Aug 19</time>
+      <time class='entry-date' datetime='2021-08-19T12:39:19&#43;05:30'>2021, Aug 19</time>
     </div><div class='categories'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
     
     
