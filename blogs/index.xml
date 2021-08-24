@@ -6,7 +6,28 @@
     <description>Recent content in Blogs on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Regret Minimization Framework</title>
+      <link>https://prasenjitmanna.com/blogs/2021-08-24-regret-minimization-framework/</link>
+      <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/blogs/2021-08-24-regret-minimization-framework/</guid>
+      <description>Regret Minimization Framework by Jeff Bezos, CEO of Amazon
+When you are facing a big potential change in life, such as switching jobs, starting a café, or moving to another place, don’t just look at all the small details. These details can come later. Instead, start by asking yourself: On my deathbed, will I regret not taking this chance?
+To some, this might sound a bit morbid, but for me, it works.</description>
+    </item>
+    
+    <item>
+      <title>Wisdom by Charlie Munger</title>
+      <link>https://prasenjitmanna.com/blogs/2021-08-21-quotes-charlie-munger-almanack/</link>
+      <pubDate>Sat, 21 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/blogs/2021-08-21-quotes-charlie-munger-almanack/</guid>
+      <description>Wisdom from Poor Charlie’s Almanack by Charlie Munger.
+ “Mimicking the herd invited regression to the mean.” If you do the same things as all the others, you cannot expect different results. Common plagues privately and professionally are status anxiety, social proof tendency, and the keeping-up-with-the-Joneses syndrome – doing what we can to be like the rest. It is not until you stop doing this, and instead find a unique way for yourself, that you will see other results.</description>
+    </item>
+    
     <item>
       <title>An incomplete list of skills senior engineers need, beyond coding</title>
       <link>https://prasenjitmanna.com/blogs/2021-08-03-incomplete-list-skills-for-senior-engineers/</link>
