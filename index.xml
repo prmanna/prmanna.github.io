@@ -13,7 +13,7 @@
       
       <guid>https://prasenjitmanna.com/writing/2021-09-25-how-to-think-part-2/</guid>
       <description>Table of contents  The Farnam Street - How to Think: The Skill You&amp;rsquo;ve Never Been Taught Zat Rana - Marcus Aurelius: Thinking Clearly Mayo Oshin - Elon Musks&#39; &amp;ldquo;3-Step&amp;rdquo; First Principles Thinking&amp;quot; Ed Boyden - Rules for How to Think   &amp;ldquo;If I had an hour to solve a problem, I&amp;rsquo;d spend 55 minutes thinking about the problem and 5 minutes thinking about solutions.&amp;rdquo; &amp;mdash; Albert Einstein
- We are very good in solving problems.</description>
+ We are very good at solving problems.</description>
     </item>
     
     <item>
@@ -163,23 +163,23 @@ Managing brain resources in an age of complexity.
     </item>
     
     <item>
-      <title>Link-State Protocols on Data-Center Fabrics - Internet Protocol Journal (PDF)</title>
-      <link>https://prasenjitmanna.com/blogs/2021-01-23-link-state-protocols-on-data-center-fabrics-internet-protocol-journal-pdf/</link>
-      <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://prasenjitmanna.com/blogs/2021-01-23-link-state-protocols-on-data-center-fabrics-internet-protocol-journal-pdf/</guid>
-      <description>Link-State Protocols on Data-Center Fabrics – Internet Protocol Journal (PDF)
-Join my email list to get direct access to new blog posts.
- </description>
-    </item>
-    
-    <item>
       <title>Clean and Readable Code</title>
       <link>https://prasenjitmanna.com/writing/2020-11-18-clean-and-readable-code/</link>
       <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://prasenjitmanna.com/writing/2020-11-18-clean-and-readable-code/</guid>
       <description>Table of contents  Why is this important? What do we achieve? Principles  A good code must satisfy few requirements: it must produce correct results, for which it is written. Also, it should be readable and understandable by other developers. It should also follow few code principles. This is your professional responsibility that the code you write will be re-read by many other developers, who want to either understand or modify the code.</description>
+    </item>
+    
+    <item>
+      <title>Link-State Protocols on Data-Center Fabrics - Internet Protocol Journal (PDF)</title>
+      <link>https://prasenjitmanna.com/blogs/2020-10-01-link-state-protocols-on-data-center-fabrics-internet-protocol-journal-pdf/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/blogs/2020-10-01-link-state-protocols-on-data-center-fabrics-internet-protocol-journal-pdf/</guid>
+      <description>Link-State Protocols on Data-Center Fabrics – Internet Protocol Journal (PDF)
+Join my email list to get direct access to new blog posts.
+ </description>
     </item>
     
     <item>
