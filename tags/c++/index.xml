@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>c&#43;&#43; on Prasenjit Manna</title>
+    <link>https://prasenjitmanna.com/tags/c&#43;&#43;/</link>
+    <description>Recent content in c&#43;&#43; on Prasenjit Manna</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learn C&#43;&#43; Programming in 1hr &#43; Code</title>
+      <link>https://prasenjitmanna.com/writing/2021-10-03-minimal-cpp-prog-manual/</link>
+      <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/writing/2021-10-03-minimal-cpp-prog-manual/</guid>
+      <description>Best Ever C++ Tutoriali for C Programmer
+  Data Types *Arithmetic If Statement Switch Statement Ternary Operator Arrays For Loop While Loop Do While Loop User Input Convert String Strings Vectors Functions Recursive Function File I/O Exception Handling Pointers Reference Operator Classes / Objects Private Static Variables Public / Encapsulation Constructors Static Functions this Inheritance Call Superclass Constructor Execute Static Method Virtual Methods Polymorphism Abstract Data Type
+Join my email list to get direct access to new blog posts.</description>
+    </item>
+    
+  </channel>
+</rss>
