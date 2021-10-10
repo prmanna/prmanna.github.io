@@ -6,7 +6,18 @@
     <description>Recent content in blogs on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/categories/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/categories/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web Scaler - Diagram</title>
+      <link>https://prasenjitmanna.com/writing/2021-10-10-web-scaler/</link>
+      <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/writing/2021-10-10-web-scaler/</guid>
+      <description>This diagram is sufficient to depict requirment.
+Join my email list to get direct access to new blog posts.
+ </description>
+    </item>
+    
     <item>
       <title>Learn C&#43;&#43; Programming in 1hr &#43; Code</title>
       <link>https://prasenjitmanna.com/writing/2021-10-03-minimal-cpp-prog-manual/</link>
