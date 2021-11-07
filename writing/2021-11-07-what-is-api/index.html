@@ -9,7 +9,7 @@
 <meta property='og:description' content='What is APIs?'>
 <meta property='og:url' content='https://prasenjitmanna.com/writing/2021-11-07-what-is-api/'>
 <meta property='og:site_name' content='Prasenjit Manna'>
-<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:tag' content='restconf'><meta property='article:published_time' content='2021-11-07T00:00:00Z'/><meta property='article:modified_time' content='2021-11-07T16:47:26&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:tag' content='restconf'><meta property='article:published_time' content='2021-11-07T00:00:00Z'/><meta property='article:modified_time' content='2021-11-07T16:54:01&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
 
 <meta name="generator" content="Hugo 0.79.0" />
 
@@ -273,14 +273,13 @@ and give you predictable outputs. </p>
 <p>There are three major protocols/technologies that developers use to build APIs: SOAP, REST and GRPC.</p>
 <p><strong>1. SOAP:</strong></p>
 <p>SOAP (Simple Object Access Protocol) is the oldest of the API protocols: it was <a href="https://en.wikipedia.org/wiki/SOAP">originally released in 1998</a> by a few Microsoft engineers. It&rsquo;s based on XML. Here&rsquo;s an example of what kind of code you&rsquo;d need to write to work with it:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#960050;background-color:#1e0010">&lt;</span>?xml version=\&#34;1.0\&#34;?\&gt;
-<span style="color:#f92672">&lt;soap:Envelope</span> <span style="color:#a6e22e">xmlns:soap=</span><span style="color:#e6db74">\&#34;http://www.w3.org/2003/05/soap-envelope\&#34;</span>
-<span style="color:#a6e22e">xmlns:m=</span><span style="color:#e6db74">\&#34;http://www.example.org\&#34;\</span><span style="color:#f92672">&gt;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#75715e">&lt;?xml version=&#34;1.0&#34;?&gt;</span>
+<span style="color:#f92672">&lt;soap:Envelope</span> <span style="color:#a6e22e">xmlns:soap=</span><span style="color:#e6db74">&#34;http://www.w3.org/2003/05/soap-envelope&#34;</span> <span style="color:#a6e22e">xmlns:m=</span><span style="color:#e6db74">&#34;http://www.example.org&#34;</span><span style="color:#960050;background-color:#1e0010">\</span><span style="color:#f92672">&gt;</span>
   <span style="color:#f92672">&lt;soap:Header</span><span style="color:#960050;background-color:#1e0010">\</span><span style="color:#f92672">&gt;</span>
   <span style="color:#960050;background-color:#1e0010">&lt;</span>/soap:Header\&gt;
   <span style="color:#f92672">&lt;soap:Body</span><span style="color:#960050;background-color:#1e0010">\</span><span style="color:#f92672">&gt;</span>
     <span style="color:#f92672">&lt;m:GetStockPrice</span><span style="color:#960050;background-color:#1e0010">\</span><span style="color:#f92672">&gt;</span>
-      <span style="color:#f92672">&lt;m:StockName</span><span style="color:#960050;background-color:#1e0010">\</span><span style="color:#f92672">&gt;</span>T\<span style="color:#960050;background-color:#1e0010">&lt;</span>/m:StockName\&gt;
+      <span style="color:#f92672">&lt;m:StockName</span><span style="color:#960050;background-color:#1e0010">\</span><span style="color:#f92672">&gt;</span>T<span style="color:#960050;background-color:#1e0010">&lt;</span>/m:StockName\&gt;
     <span style="color:#960050;background-color:#1e0010">&lt;</span>/m:GetStockPrice\&gt;
   <span style="color:#960050;background-color:#1e0010">&lt;</span>/soap:Body\&gt;
 <span style="color:#960050;background-color:#1e0010">&lt;</span>/soap:Envelope\&gt;
@@ -324,24 +323,24 @@ and give you predictable outputs. </p>
 <table>
 <thead>
 <tr>
-<th style="text-align:left"><strong>GET</strong> This request is used to get a resource from a server.</th>
+<th><strong>GET</strong> This request is used to get a resource from a server.</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left"><strong>POST</strong> This request is used to create a new resource on a server. If you perform a `POST` request, the server creates a new entry in the database and tells you whether the creation is successful. In other words, a `POST` request performs an `CREATE` operation.</td>
+<td><strong>POST</strong> This request is used to create a new resource on a server. If you perform a `POST` request, the server creates a new entry in the database and tells you whether the creation is successful. In other words, a `POST` request performs an `CREATE` operation.</td>
 </tr>
 <tr>
-<td style="text-align:left">:&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;</td>
+<td>&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>PUT</strong> &amp; <strong>PATCH</strong> These two requests are used to update a resource on a server. If you perform a `PUT` or `PATCH` request, the server updates an entry in the database and tells you whether the update is successful. In other words, a `PUT` or `PATCH` request performs an `UPDATE` operation</td>
+<td><strong>PUT</strong> &amp; <strong>PATCH</strong> These two requests are used to update a resource on a server. If you perform a `PUT` or `PATCH` request, the server updates an entry in the database and tells you whether the update is successful. In other words, a `PUT` or `PATCH` request performs an `UPDATE` operation</td>
 </tr>
 <tr>
-<td style="text-align:left">:&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;</td>
+<td>&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>DELETE</strong> This request is used to delete a resource from a server.</td>
+<td><strong>DELETE</strong> This request is used to delete a resource from a server.</td>
 </tr>
 </tbody>
 </table>
@@ -386,7 +385,7 @@ and give you predictable outputs. </p>
 
 </svg>
 <span class='screen-reader-text'>Last updated: </span>
-      <time class='entry-date' datetime='2021-11-07T16:47:26&#43;05:30'>2021, Nov 07</time>
+      <time class='entry-date' datetime='2021-11-07T16:54:01&#43;05:30'>2021, Nov 07</time>
     </div><div class='categories'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
     
     
