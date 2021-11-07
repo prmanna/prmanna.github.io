@@ -17,7 +17,7 @@
 NETCONF is a protocol that was developed to provide a standardized interface to Network Element(NE)/Device to retrieve and manipulate configuration data.
 Till now, CLI is the standard interface to interact with NE. but this is mainly for human. On the other hand, the NETCONF is mainly used for network automation.
 CLI normally defined for human in user friendly way.
-| Content | Config, Oper Data | |&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-+&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;+ | Operations | , , , , , , , | | Messages | , , | | Secure Transport | SSH, TLS |</description>
+   Content Config, Oper Data     Operations &amp;lt;get-config&amp;gt;, &amp;lt;edit-config&amp;gt;, &amp;lt;copy-config&amp;gt;, &amp;lt;delete-config&amp;gt;, &amp;lt;lock&amp;gt;, &amp;lt;unlock&amp;gt;, &amp;lt;close-session&amp;gt;, &amp;lt;kill-session&amp;gt;   Messages &amp;lt;rpc&amp;gt;, &amp;lt;rpc-reply&amp;gt;, &amp;lt;notification&amp;gt;   Secure Transport SSH, TLS    RESTCONF is an HTTP-based protocol that provides a programmatic interface for accessing data defined in YANG, using the datastore concepts defined in NETCONF.</description>
     </item>
     
   </channel>
