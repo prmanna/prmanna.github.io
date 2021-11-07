@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>restconf on Prasenjit Manna</title>
+    <link>https://prasenjitmanna.com/tags/restconf/</link>
+    <description>Recent content in restconf on Prasenjit Manna</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/tags/restconf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is APIs?</title>
+      <link>https://prasenjitmanna.com/writing/2021-11-07-what-is-api/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/writing/2021-11-07-what-is-api/</guid>
+      <description>What is APIs?
+Application Programming Interfaces (APIs) are module: they take inputs and give you predictable outputs.   At its core, an API is a bunch of code that takes an input and gives you an output
+  Sometimes, companies will make parts of their APIs publicly available, like github, Twitter or Google Maps
+  In modern era, your favourite applications are collection of APIs.
+  In WWW, the programmatic service is provided by the APIs.</description>
+    </item>
+    
+  </channel>
+</rss>

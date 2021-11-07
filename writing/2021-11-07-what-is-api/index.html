@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang='en' dir='auto'><head>
+  <meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name='description' content='What is APIs?'>
+<meta name='theme-color' content='#ffcd00'>
+
+<meta property='og:title' content='What is APIs? • Prasenjit Manna'>
+<meta property='og:description' content='What is APIs?'>
+<meta property='og:url' content='https://prasenjitmanna.com/writing/2021-11-07-what-is-api/'>
+<meta property='og:site_name' content='Prasenjit Manna'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:tag' content='restconf'><meta property='article:published_time' content='2021-11-07T00:00:00Z'/><meta property='article:modified_time' content='2021-11-07T16:47:26&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
+
+<meta name="generator" content="Hugo 0.79.0" />
+
+  <title>What is APIs? • Prasenjit Manna</title>
+  <link rel='canonical' href='https://prasenjitmanna.com/writing/2021-11-07-what-is-api/'>
+  
+  
+  <link rel='icon' href='../../favicon.ico'>
+<link rel='stylesheet' href='../../assets/css/main.ab98e12b.css'><style>
+:root{--color-accent:#ffcd00;}
+</style>
+<script data-goatcounter="https://prasenjit.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+  
+
+</head>
+<body class='page type-writing has-sidebar'>
+
+  <div class='site'><div id='sidebar' class='sidebar'>
+  <a class='screen-reader-text' href='#main-menu'>Skip to Main Menu</a>
+
+  <div class='container'><section class='widget widget-about sep-after'>
+  <header>
+    
+    <div class='logo'>
+      <a href='../../'>
+        <img src='../../images/logo.png'>
+      </a>
+    </div>
+    
+    <h2 class='title site-title '>
+      <a href='../../'>
+      Prasenjit Manna
+      </a>
+    </h2>
+    <div class='desc'>
+    Networking Software Specialist
+    </div>
+  </header>
+
+</section>
+<section class='widget widget-sidebar_menu sep-after'><nav id='sidebar-menu' class='menu sidebar-menu' aria-label='Sidebar Menu'>
+    <div class='container'>
+      <ul><li class='item'>
+  <a href='../../about'>About</a></li><li class='item'>
+  <a href='../../writing'>writing</a></li><li class='item'>
+  <a href='../../blogs'>blogs</a></li><li class='item'>
+  <a href='../../reading'>Reading</a></li><li class='item'>
+  <a href='../../quotes'>Quotes</a></li><li class='item'>
+  <a href='../../subscribe'>Subscribe</a></li><li class='item'>
+  <a href='../../archive'>Archive</a></li></ul>
+    </div>
+  </nav>
+
+</section><section class='widget widget-social_menu sep-after'><header>
+    <h4 class='title widget-title'>Contact</h4>
+  </header><nav aria-label='Social Menu'>
+    <ul><li>
+        <a href='mailto:prasenjit.manna@gmail.com' target='_blank' rel='noopener me'>
+          <span class='screen-reader-text'>Contact via Email</span><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline>
+</svg>
+</a>
+      </li><li>
+        <a href='https://github.com/prmanna' target='_blank' rel='noopener me'>
+          <span class='screen-reader-text'>Open Github account in new tab</span><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+
+</svg>
+</a>
+      </li><li>
+        <a href='https://twitter.com/prasenjit_manna' target='_blank' rel='noopener me'>
+          <span class='screen-reader-text'>Open Twitter account in new tab</span><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <title>Twitter icon</title>
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+
+</svg>
+</a>
+      </li><li>
+        <a href='https://linkedin.com/in/prasenjitmanna' target='_blank' rel='noopener me'>
+          <span class='screen-reader-text'>Open Linkedin account in new tab</span><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle>
+</svg>
+</a>
+      </li></ul>
+  </nav>
+</section><section class='widget widget-search sep-after'>
+  <header>
+    <h4 class='title widget-title'>Search</h4>
+  </header>
+
+  <form action='../../search' id='search-form' class='search-form'>
+    <label>
+      <span class='screen-reader-text'>Search</span>
+      <input id='search-term' class='search-term' type='search' name='q' placeholder='Search&hellip;'>
+    </label></form>
+
+</section>
+<section class='widget widget-taxonomy_cloud sep-after'>
+  <header>
+    <h4 class='title widget-title'>Tags</h4>
+  </header>
+
+  <div class='container list-container'>
+  <ul class='list taxonomy-cloud'><li>
+        <a href='../../tags/c&#43;&#43;/' style='font-size:1em'>c&#43;&#43;</a>
+      </li><li>
+        <a href='../../tags/clos/' style='font-size:1em'>clos</a>
+      </li><li>
+        <a href='../../tags/data-center/' style='font-size:1.1666666666666667em'>data-center</a>
+      </li><li>
+        <a href='../../tags/forwarding/' style='font-size:1em'>forwarding</a>
+      </li><li>
+        <a href='../../tags/link-state/' style='font-size:1em'>link-state</a>
+      </li><li>
+        <a href='../../tags/mental-model/' style='font-size:1.1666666666666667em'>mental model</a>
+      </li><li>
+        <a href='../../tags/productivity/' style='font-size:1em'>productivity</a>
+      </li><li>
+        <a href='../../tags/programmability/' style='font-size:1em'>Programmability</a>
+      </li><li>
+        <a href='../../tags/readable-code/' style='font-size:1em'>readable-code</a>
+      </li><li>
+        <a href='../../tags/restconf/' style='font-size:1em'>restconf</a>
+      </li><li>
+        <a href='../../tags/routing/' style='font-size:1em'>routing</a>
+      </li><li>
+        <a href='../../tags/skills/' style='font-size:1em'>skills</a>
+      </li><li>
+        <a href='../../tags/web-scaler/' style='font-size:1em'>web-scaler</a>
+      </li><li>
+        <a href='../../tags/wisdom/' style='font-size:2em'>wisdom</a>
+      </li></ul>
+</div>
+
+
+</section>
+</div>
+
+  <div class='sidebar-overlay'></div>
+</div><div class='main'><a class='screen-reader-text' href='#content'>Skip to Content</a>
+
+<button id='sidebar-toggler' class='sidebar-toggler' aria-controls='sidebar'>
+  <span class='screen-reader-text'>Toggle Sidebar</span>
+  <span class='open'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <line x1="3" y1="12" x2="21" y2="12" />
+  <line x1="3" y1="6" x2="21" y2="6" />
+  <line x1="3" y1="18" x2="21" y2="18" />
+
+</svg>
+</span>
+  <span class='close'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <line x1="18" y1="6" x2="6" y2="18" />
+  <line x1="6" y1="6" x2="18" y2="18" />
+
+</svg>
+</span>
+</button><div class='header-widgets'>
+        <div class='container'>
+    
+    <style>.widget-breadcrumbs li:after{content:'\2f '}</style>
+  <section class='widget widget-breadcrumbs sep-after'>
+    <nav id='breadcrumbs'>
+      <ol><li><a href='../../'>Home</a></li><li><a href='../../writing/'>Writings</a></li><li><span>What is APIs?</span></li></ol>
+    </nav>
+  </section></div>
+      </div>
+
+      <header id='header' class='header site-header'>
+        <div class='container sep-after'>
+          <div class='header-info'><p class='site-title title'>Prasenjit Manna</p><p class='desc site-desc'></p>
+          </div>
+        </div>
+      </header>
+
+      <main id='content'>
+
+
+<article lang='en' class='entry'>
+  <header class='header entry-header'>
+  <div class='container sep-after'>
+    <div class='header-info'>
+      <h1 class='title'>What is APIs?</h1>
+      
+<p class='desc'>What is APIs?</p>
+
+
+    </div>
+    <div class='entry-meta'>
+  <span class='posted-on'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+  <line x1="16" y1="2" x2="16" y2="6"/>
+  <line x1="8" y1="2" x2="8" y2="6"/>
+  <line x1="3" y1="10" x2="21" y2="10"/>
+
+</svg>
+<span class='screen-reader-text'>Posted on </span>
+  <time class='entry-date' datetime='2021-11-07T00:00:00Z'>2021, Nov 07</time>
+</span>
+
+  <span class='byline'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <path d="M21,21V20c0-2.76-4-5-9-5s-9,2.24-9,5v1"/>
+  <path d="M16,6.37A4,4,0,1,1,12.63,3,4,4,0,0,1,16,6.37Z"/>
+
+</svg>
+<span class='screen-reader-text'> by </span><a href='../../authors/prmanna'>Prasenjit Manna</a></span>
+  
+<span class='reading-time'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <circle cx="12" cy="12" r="10"/>
+  <polyline points="12 6 12 12 15 15"/>
+
+</svg>
+6 mins read
+</span>
+
+
+</div>
+
+
+  </div>
+</header>
+
+  
+  
+
+  <div class='container entry-content'>
+  <p><strong>What is APIs?</strong></p>
+<p>Application Programming Interfaces (APIs) are module: they take inputs
+and give you predictable outputs. </p>
+<ul>
+<li>
+<p>At its core, an API is a <strong>bunch of code</strong> that takes an <strong>input</strong> and gives you an <strong>output</strong></p>
+</li>
+<li>
+<p>Sometimes, companies will make parts of their APIs <strong>publicly available</strong>, like github, <a href="https://developer.twitter.com/en/docs">Twitter</a> or <a href="https://developers.google.com/maps/documentation">Google Maps</a></p>
+</li>
+<li>
+<p>In modern era, your favourite applications are collection of APIs.</p>
+</li>
+</ul>
+<p>In WWW, the programmatic service is provided by the APIs. User/Automation access this service using the API. Whatever the way the service is implemented, it is abstracted from user. So, automation can use this API for their broader usage.</p>
+<p>Generally, there are two types of APIs. Internal and Public. Internal APIs are used by companies for communicating with their internal applications. They are not open to public. Whereas, companies open ups their dataset with APIs. Interested users can do interesting things with it. A good example is <a href="https://developer.twitter.com/en/docs">twitter API</a>, which lets people like you interact with tweet data programmatically.</p>
+<p><strong>API implementations: SOAP, REST, GRPC</strong></p>
+<p>There are three major protocols/technologies that developers use to build APIs: SOAP, REST and GRPC.</p>
+<p><strong>1. SOAP:</strong></p>
+<p>SOAP (Simple Object Access Protocol) is the oldest of the API protocols: it was <a href="https://en.wikipedia.org/wiki/SOAP">originally released in 1998</a> by a few Microsoft engineers. It&rsquo;s based on XML. Here&rsquo;s an example of what kind of code you&rsquo;d need to write to work with it:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#960050;background-color:#1e0010">&lt;</span>?xml version=\&#34;1.0\&#34;?\&gt;
+<span style="color:#f92672">&lt;soap:Envelope</span> <span style="color:#a6e22e">xmlns:soap=</span><span style="color:#e6db74">\&#34;http://www.w3.org/2003/05/soap-envelope\&#34;</span>
+<span style="color:#a6e22e">xmlns:m=</span><span style="color:#e6db74">\&#34;http://www.example.org\&#34;\</span><span style="color:#f92672">&gt;</span>
+  <span style="color:#f92672">&lt;soap:Header</span><span style="color:#960050;background-color:#1e0010">\</span><span style="color:#f92672">&gt;</span>
+  <span style="color:#960050;background-color:#1e0010">&lt;</span>/soap:Header\&gt;
+  <span style="color:#f92672">&lt;soap:Body</span><span style="color:#960050;background-color:#1e0010">\</span><span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">&lt;m:GetStockPrice</span><span style="color:#960050;background-color:#1e0010">\</span><span style="color:#f92672">&gt;</span>
+      <span style="color:#f92672">&lt;m:StockName</span><span style="color:#960050;background-color:#1e0010">\</span><span style="color:#f92672">&gt;</span>T\<span style="color:#960050;background-color:#1e0010">&lt;</span>/m:StockName\&gt;
+    <span style="color:#960050;background-color:#1e0010">&lt;</span>/m:GetStockPrice\&gt;
+  <span style="color:#960050;background-color:#1e0010">&lt;</span>/soap:Body\&gt;
+<span style="color:#960050;background-color:#1e0010">&lt;</span>/soap:Envelope\&gt;
+</code></pre></div><p>This is legacy technology now. Companies are moving to new technology now.</p>
+<p><strong>2. REST</strong></p>
+<p>REST API stands for Representational State Transfer and is an architectural pattern for creating web services. It was developed by Roy Fielding in 2000 and has led to a growing collection of RESTful web services that follow the REST principles.</p>
+<p>REST is a ruleset that defines best practices for sharing data between clients and the server. It&rsquo;s essentially a design style used when creating HTTP or other APIs that asks you to use CRUD(create/read/update/delete) functions only, regardless of the complexity.</p>
+<p>REST applications use HTTP methods like GET, POST, DELETE, and PUT. REST emphasizes the scalability of components and the simplicity of interfaces. Not all HTTP APIs are REST APIs. The API needs to meet the following architectural requirements to be considered a REST API:</p>
+<ol>
+<li>
+<p>A uniform interface: An API must expose specific application resources to API consumers.</p>
+</li>
+<li>
+<p>Client-server independence: The client and the server function independently. The client will only know the URIs that point to the application&rsquo;s resources. These are usually published in the API documentation.</p>
+</li>
+<li>
+<p>Stateless: The server doesn&rsquo;t save any data pertaining to the client request. The client saves this &ldquo;state data&rdquo; on its end (via a cache). Learn more about stateful vs. stateless systems here.</p>
+</li>
+<li>
+<p>Cacheable: Application resources exposed by the API need to be cacheable.</p>
+</li>
+<li>
+<p>Layered: The architecture is layered, which allows different components to be maintained on different servers.</p>
+</li>
+<li>
+<p>Code-on-Demand (COD): This is the only optional REST constraint.  This allows the client to receive executable code as a response from the server. In other words, it&rsquo;s the server that determines how specific things get done.</p>
+</li>
+</ol>
+<p><strong>3. gRPC</strong></p>
+<p>gRPC (Remote Procedure Call) is made mostly for distributed systems that optimize for scale and low latency. gRPC is an open-source RPC architecture designed by Google to achieve high-speed communication between microservices. gRPC allows developers to integrate services programmed in different languages. gRPC uses the Protobuf (protocol buffers) messaging format, which is a highly-packed, highly-efficient messaging format for serializing structured data. For a specific set of use-cases, a gRPC API can serve as a more efficient alternative to a REST API.</p>
+<h4 id="heading"></h4>
+<h4 id="basics-of-an-rest-api-request">BASICS OF AN REST API REQUEST:</h4>
+<p><strong>A. The endpoint</strong></p>
+<p><strong>The endpoint</strong> (or route) is the url you request for. It follows this structure:</p>
+<blockquote>
+<p>root-endpoint/?</p>
+</blockquote>
+<p>The <strong>root-endpoint</strong> is the starting point of the API you&rsquo;re requesting from. The root-endpoint of <a href="https://developer.github.com/v3/">Github&rsquo;s API</a> is https://api.github.com while the root-endpoint <a href="https://dev.twitter.com/rest/reference">Twitter&rsquo;s API</a> is https://api.twitter.com.</p>
+<p><strong>B. The method</strong></p>
+<p>The method is the type of request you send to the server. You can choose from these five types below:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>GET</strong> This request is used to get a resource from a server.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>POST</strong> This request is used to create a new resource on a server. If you perform a `POST` request, the server creates a new entry in the database and tells you whether the creation is successful. In other words, a `POST` request performs an `CREATE` operation.</td>
+</tr>
+<tr>
+<td style="text-align:left">:&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>PUT</strong> &amp; <strong>PATCH</strong> These two requests are used to update a resource on a server. If you perform a `PUT` or `PATCH` request, the server updates an entry in the database and tells you whether the update is successful. In other words, a `PUT` or `PATCH` request performs an `UPDATE` operation</td>
+</tr>
+<tr>
+<td style="text-align:left">:&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>DELETE</strong> This request is used to delete a resource from a server.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>C. The Headers</strong></p>
+<p>Headers are used to provide information to both the client and server. It can be used for many purposes, such as authentication and providing information about the body content. <strong>HTTP Headers are property-value pairs</strong> that are separated by a colon. The example below shows a header that tells the server to expect JSON content.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-txt" data-lang="txt">{
+    Content-Type: text/html; charset=UTF-8,
+    Authorization: Basic YWxhZGRpbjpvcGVuc2VzYW1l
+}
+</code></pre></div><p><strong>D. The Body</strong></p>
+<p>The data (sometimes called &ldquo;body&rdquo; or &ldquo;message&rdquo;) contains information you want to be sent to the server. This option is only used with POST, PUT, PATCH or DELETE requests.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-txt" data-lang="txt">{
+    user_id: 34,
+    order_date: &#34;2020-01-01&#34;,
+    order_value: &#34;99.99&#34;
+}
+</code></pre></div><p>Request bodies are generally formatted as JSON (this format of name:value).</p>
+<p><strong>Where and how to call APIs</strong></p>
+<p><strong>a. Browsers</strong></p>
+<p>The endpoint to get a list of my repos on Github is this:
+<a href="https://api.github.com/users/prmanna/repos">https://api.github.com/users/prmanna/repos</a></p>
+<p>If you&rsquo;d like to get a list the repositories that I pushed to recently, you can set sort to push.
+<a href="https://api.github.com/users/prmanna/repos?sort=pushed">https://api.github.com/users/prmanna/repos?sort=pushed</a></p>
+<p><strong>b. Command Line</strong></p>
+<p><a href="https://curl.haxx.se/">cURL</a> is a popular command line tool for making API requests: you just choose your method and endpoint, and then attach any extra data like headers or a request body.</p>
+<p><strong>c. Client Libraries</strong></p>
+<p>Internal and vendor APIs often ship with built in functions for specific programming languages. If your company uses mostly Python for the backend, they might create a library to interact with their APIs and build functions like listOrders() that you can use directly.</p>
+<p><strong>d. IDEs</strong></p>
+<p>Like with the rest of the programming ecosystem, there are specialized tools for querying REST endpoints. The most popular one out there is <a href="https://www.postman.com/">Postman</a>. it organizes your request into simple form fields, helps autocomplete your headers and body, and lets you store credentials and settings.</p>
+<p>There are few more alternative for API implementations, like, GraphQL, Thrift, via queuing like RabbitMQ,</p>
+<p>In the next article, I&rsquo;ll cover the device management/automation using Netconf, restconf.</p>
+
+</div>
+
+  
+<footer class='entry-footer'>
+  <div class='container sep-before'><div class='last-updated'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+      <path d="M20 14.66V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5.34" />
+  <polygon points="18 2 22 6 12 16 8 16 8 12 18 2" />
+
+</svg>
+<span class='screen-reader-text'>Last updated: </span>
+      <time class='entry-date' datetime='2021-11-07T16:47:26&#43;05:30'>2021, Nov 07</time>
+    </div><div class='categories'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+    <path d="M22,19a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V5A2,2,0,0,1,4,3H9l2,3h9a2,2,0,0,1,2,2Z"/>
+
+</svg>
+<span class='screen-reader-text'>Categories: </span><a class='category' href='../../categories/blogs/'>blogs</a></div>
+<div class='tags'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <path d="M20.59,13.41l-7.17,7.17a2,2,0,0,1-2.83,0L2,12V2H12l8.59,8.59A2,2,0,0,1,20.59,13.41Z"/>
+  <line x1="7" y1="7" x2="7" y2="7"/>
+
+</svg>
+<span class='screen-reader-text'>Tags: </span><a class='tag' href='../../tags/restconf/'>restconf</a></div>
+
+  </div>
+</footer>
+
+
+</article>
+
+<nav class='entry-nav'>
+  <div class='container'><div class='prev-entry sep-before'>
+      <a href='../../writing/2021-10-10-web-scaler/'>
+        <span aria-hidden='true'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <line x1="20" y1="12" x2="4" y2="12"/>
+  <polyline points="10 18 4 12 10 6"/>
+
+</svg>
+ Previous</span>
+        <span class='screen-reader-text'>Previous post: </span>Web Scaler - Diagram</a>
+    </div></div>
+</nav>
+
+
+<section id='comments' class='comments'>
+  <div class='container sep-before'>
+    <div class='comments-area'>
+
+<h4 style="margin-top: 50px;">LEAVE A REPLY</h4>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScHjgg_yNjOm9uXTdjC8HPhMj1eAgELMVWyaY0xSOiVCd1flA/viewform?embedded=true" width="700" height="720" frameborder="0" marginheight="0" marginwidth="0">Please</iframe>
+
+
+</div>
+  </div>
+</section>
+
+      </main>
+
+      <footer id='footer' class='footer'>
+        <div class='container sep-before'><div class='copyright'>
+  <p> &copy; 2020-2021 Prasenjit Manna. Powered by Hugo &amp; Minimo Theme</p>
+</div>
+
+        </div>
+      </footer>
+
+    </div>
+  </div><script>window.__assets_js_src="../../assets/js/"</script>
+
+<script src='../../assets/js/main.c3bcf2df.js'></script>
+
+</body>
+
+</html>
+
