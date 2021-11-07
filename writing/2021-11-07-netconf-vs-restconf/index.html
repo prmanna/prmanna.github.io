@@ -9,7 +9,7 @@
 <meta property='og:description' content='NETCONF vs RESTCONF'>
 <meta property='og:url' content='https://prasenjitmanna.com/writing/2021-11-07-netconf-vs-restconf/'>
 <meta property='og:site_name' content='Prasenjit Manna'>
-<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:tag' content='netconf'><meta property='article:tag' content='restconf'><meta property='article:published_time' content='2021-11-07T00:00:00Z'/><meta property='article:modified_time' content='2021-11-07T22:11:49&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:tag' content='netconf'><meta property='article:tag' content='restconf'><meta property='article:published_time' content='2021-11-07T00:00:00Z'/><meta property='article:modified_time' content='2021-11-07T22:46:57&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
 
 <meta name="generator" content="Hugo 0.79.0" />
 
@@ -259,27 +259,17 @@
 <p><strong>NETCONF</strong> is a protocol that was developed to provide a standardized interface to Network Element(NE)/Device to retrieve and manipulate configuration data.</p>
 <p>Till now, CLI is the standard interface to interact with NE. but this is mainly for human. On the other hand, the NETCONF is mainly used for network automation.</p>
 <p>CLI normally defined for human in user friendly way.</p>
-<p>+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;+
-|  Content          | Config, Oper Data                  |
-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;+
-|  Operations       |  &lt;get-config&gt;, &lt;edit-config&gt;, &lt;copy-config&gt;, &lt;delete-config&gt;, &lt;lock&gt;, &lt;unlock&gt;, &lt;close-session&gt;, &lt;kill-session&gt; |
-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;+
-|  Messages         |  &lt;rpc&gt;, &lt;rpc-reply&gt;, &lt;notification&gt; |
-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;+
-|  Secure Transport |  SSH, TLS                          |
-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;+</p>
+<p>|  Content          | Config, Oper Data                  |
+|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;+
+|  Operations       |  <!-- raw HTML omitted -->, <!-- raw HTML omitted -->, <!-- raw HTML omitted -->, <!-- raw HTML omitted -->, <!-- raw HTML omitted -->, <!-- raw HTML omitted -->, <!-- raw HTML omitted -->, <!-- raw HTML omitted --> |
+|  Messages         |  <!-- raw HTML omitted -->, <!-- raw HTML omitted -->, <!-- raw HTML omitted --> |
+|  Secure Transport |  SSH, TLS  |</p>
 <p><strong>RESTCONF</strong> is an HTTP-based protocol that provides a programmatic interface for accessing data defined in YANG, using the datastore concepts defined in NETCONF.</p>
-<p>+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;+
-| Content                | Config, Oper Data                          |
-| {+restconf}/data       | data-combined configuration and state data |
-|                        | resources                                  |
-+========================+============================================+
-| Operations             | operations-containerthat provides access   |
-|                        | to the data-model- specific RPC operations |
-| {+restconf}/operations | supported by the server                    |
-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;+
-| Secure Transport       | HTTPS                                      |
-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;+</p>
+<p>| Content                | Config, Oper Data |
+| {+restconf}/data       | data-combined configuration and state data resources |
+| Operations             | operations-containerthat provides access to the data-model- specific RPC operations |
+| {+restconf}/operations | supported by the server |
+| Secure Transport       | HTTPS |</p>
 <h4 id="heading"></h4>
 <p><strong>Why do we need RESTCONF when we already have NETCONF?</strong></p>
 <p>First of all, we need to think about the trends of the tech industry. It&rsquo;s no secret that businesses all around the world are digitizing themselves through automation. And what is the most popular protocol
@@ -339,7 +329,7 @@ used in the modern era for automation?</p>
 
 </svg>
 <span class='screen-reader-text'>Last updated: </span>
-      <time class='entry-date' datetime='2021-11-07T22:11:49&#43;05:30'>2021, Nov 07</time>
+      <time class='entry-date' datetime='2021-11-07T22:46:57&#43;05:30'>2021, Nov 07</time>
     </div><div class='categories'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
     
     
