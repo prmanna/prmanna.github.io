@@ -2,19 +2,19 @@
 <html lang='en' dir='auto'><head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content='How to Think? Part-II'>
+<meta name='description' content='NETCONF vs RESTCONF'>
 <meta name='theme-color' content='#ffcd00'>
 
-<meta property='og:title' content='How to Think? Part-II • Prasenjit Manna'>
-<meta property='og:description' content='How to Think? Part-II'>
-<meta property='og:url' content='https://prasenjitmanna.com/writing/2021-09-25-how-to-think-part-2/'>
+<meta property='og:title' content='NETCONF vs RESTCONF • Prasenjit Manna'>
+<meta property='og:description' content='NETCONF vs RESTCONF'>
+<meta property='og:url' content='https://prasenjitmanna.com/writing/2021-11-07-netconf-vs-restconf/'>
 <meta property='og:site_name' content='Prasenjit Manna'>
-<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:tag' content='wisdom'><meta property='article:published_time' content='2021-09-25T00:00:00Z'/><meta property='article:modified_time' content='2021-11-07T22:11:49&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:tag' content='netconf'><meta property='article:tag' content='restconf'><meta property='article:published_time' content='2021-11-07T00:00:00Z'/><meta property='article:modified_time' content='2021-11-07T22:11:49&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
 
 <meta name="generator" content="Hugo 0.79.0" />
 
-  <title>How to Think? Part-II • Prasenjit Manna</title>
-  <link rel='canonical' href='https://prasenjitmanna.com/writing/2021-09-25-how-to-think-part-2/'>
+  <title>NETCONF vs RESTCONF • Prasenjit Manna</title>
+  <link rel='canonical' href='https://prasenjitmanna.com/writing/2021-11-07-netconf-vs-restconf/'>
   
   
   <link rel='icon' href='../../favicon.ico'>
@@ -186,7 +186,7 @@
     <style>.widget-breadcrumbs li:after{content:'\2f '}</style>
   <section class='widget widget-breadcrumbs sep-after'>
     <nav id='breadcrumbs'>
-      <ol><li><a href='../../'>Home</a></li><li><a href='../../writing/'>Writings</a></li><li><span>How to Think? Part-II</span></li></ol>
+      <ol><li><a href='../../'>Home</a></li><li><a href='../../writing/'>Writings</a></li><li><span>NETCONF vs RESTCONF</span></li></ol>
     </nav>
   </section></div>
       </div>
@@ -205,9 +205,9 @@
   <header class='header entry-header'>
   <div class='container sep-after'>
     <div class='header-info'>
-      <h1 class='title'>How to Think? Part-II</h1>
+      <h1 class='title'>NETCONF vs RESTCONF</h1>
       
-<p class='desc'>How to Think? Part-II</p>
+<p class='desc'>NETCONF vs RESTCONF</p>
 
 
     </div>
@@ -222,7 +222,7 @@
 
 </svg>
 <span class='screen-reader-text'>Posted on </span>
-  <time class='entry-date' datetime='2021-09-25T00:00:00Z'>2021, Sep 25</time>
+  <time class='entry-date' datetime='2021-11-07T00:00:00Z'>2021, Nov 07</time>
 </span>
 
   <span class='byline'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
@@ -255,99 +255,77 @@
   
 
   <div class='container entry-content'>
-  <h4 id="table-of-contents">Table of contents</h4>
+  <p><strong>NETCONF vs RESTCONF</strong></p>
+<p><strong>NETCONF</strong> is a protocol that was developed to provide a standardized interface to Network Element(NE)/Device to retrieve and manipulate configuration data.</p>
+<p>Till now, CLI is the standard interface to interact with NE. but this is mainly for human. On the other hand, the NETCONF is mainly used for network automation.</p>
+<p>CLI normally defined for human in user friendly way.</p>
+<p>+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;+
+|  Content          | Config, Oper Data                  |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;+
+|  Operations       |  &lt;get-config&gt;, &lt;edit-config&gt;, &lt;copy-config&gt;, &lt;delete-config&gt;, &lt;lock&gt;, &lt;unlock&gt;, &lt;close-session&gt;, &lt;kill-session&gt; |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;+
+|  Messages         |  &lt;rpc&gt;, &lt;rpc-reply&gt;, &lt;notification&gt; |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;+
+|  Secure Transport |  SSH, TLS                          |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;+</p>
+<p><strong>RESTCONF</strong> is an HTTP-based protocol that provides a programmatic interface for accessing data defined in YANG, using the datastore concepts defined in NETCONF.</p>
+<p>+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;+
+| Content                | Config, Oper Data                          |
+| {+restconf}/data       | data-combined configuration and state data |
+|                        | resources                                  |
++========================+============================================+
+| Operations             | operations-containerthat provides access   |
+|                        | to the data-model- specific RPC operations |
+| {+restconf}/operations | supported by the server                    |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;+
+| Secure Transport       | HTTPS                                      |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;+</p>
+<h4 id="heading"></h4>
+<p><strong>Why do we need RESTCONF when we already have NETCONF?</strong></p>
+<p>First of all, we need to think about the trends of the tech industry. It&rsquo;s no secret that businesses all around the world are digitizing themselves through automation. And what is the most popular protocol
+used in the modern era for automation?</p>
+<p>The answer to that is HTTP-based REST APIs.</p>
+<p>Imagine a company invested a huge sum of money on automating it&rsquo;s business processes through REST APIs. And once that work was complete, they decided to automate their network configuration management. They could easily hit a roadblock at this point. The software they use for automation would need to support the NETCONF protocol. Also, their software developers would need to be skilled up to learn this protocol.</p>
+<p>You can see the dilemma here. Businesses want to keep their solutions as simple as possible. Ideally, they would use common applications and protocols across their organization.</p>
+<p>This is where RESTCONF comes to the rescue. It allows users to automate their network infrastructure using familiar RESTful API patterns.</p>
+<p><strong>Operations Similarities:</strong></p>
+<p>Now that we understand the need for RESTCONF, let&rsquo;s do a side-by-side comparison of some of the key lower-level differences between the protocols.</p>
+<p><strong>HOW ARE CRUD (CREATE, READ, UPDATE, DELETE) OPERATIONS DIFFERENTIATED IN A REQUEST?</strong></p>
+<p>+&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;|
+|<strong>RESTCONF</strong> |  <strong>NETCONF</strong> |
++&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;|
+|OPTIONS      | None |
+|HEAD         | &lt;get-config&gt;, &lt;get&gt; |
+|GET          | &lt;get-config&gt;, &lt;get&gt; |
+|POST         | &lt;edit-config&gt; (nc:operation=&ldquo;create&rdquo;) |
+|POST         | Invoke an RPC operation |
+|PUT          | &lt;copy-config&gt; (PUT on datastore) |
+|PUT          | &lt;edit-config&gt; (nc:operation=&ldquo;create/replace&rdquo;) |
+|PATCH        | &lt;edit-config&gt; (nc:operation depends on patch content) |
+|DELETE       | &lt;edit-config&gt; (nc:operation=&ldquo;delete&rdquo;) |
++&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;|</p>
+<p><strong>WHAT FORMAT DOES DATA ENCODING USE?</strong></p>
+<p>The NETCONF protocol requires RPC messages to always be encoded with XML.</p>
+<p>The RESTCONF protocol allows data to be encoded with either XML or JSON.</p>
+<p><strong>HOW IS CONFIGURATION DATA AND STATE DATA EXPOSED TO CLIENTS?</strong></p>
+<p>A NETCONF client will use multiple levels of depth in an XML message to specify the location of data.</p>
+<p>A RESTCONF client with use the resource path in the URL of the request to specify the location of data.</p>
+<p><strong>RESTCONF</strong> is Less</p>
 <ul>
-<li><strong>The Farnam Street - How to Think: The Skill You&rsquo;ve Never Been Taught</strong></li>
-<li><strong>Zat Rana - Marcus Aurelius: Thinking Clearly</strong></li>
-<li><strong>Mayo Oshin - Elon Musks' &ldquo;3-Step&rdquo; First Principles Thinking&quot;</strong></li>
-<li><strong>Ed Boyden - Rules for How to Think</strong></li>
+<li>No locking</li>
+<li>No notion of transaction</li>
+<li>No candidate config</li>
+<li>No two-phase commit</li>
+<li>No Copy-config</li>
 </ul>
-<blockquote>
-<p><em>&ldquo;If I had an hour to solve a problem, I&rsquo;d spend 55 minutes thinking
-about the problem and 5 minutes thinking about solutions.&rdquo; &mdash; Albert Einstein</em></p>
-</blockquote>
-<p>We are very good at solving problems. This is been taught in school.
-This is also important to know &ndash; how to think. This will help to
-find a better solution to a given problem. Sometimes a badly thought
-decision can cost you. So, good to have a better model in place. Last
-few weeks, I was trying to find the better method &ndash; how to think. Here
-are few of references, which might be helpful.</p>
-<h5 id="the-farnam-street---how-to-think-the-skill-youve-never-been-taughthttpsfsblog201508how-to-think">The Farnam Street - <a href="https://fs.blog/2015/08/how-to-think/">How to Think: The Skill You&rsquo;ve Never Been Taught</a></h5>
-<ol>
-<li>Thinking means concentrating on one thing long enough to develop an
-idea about it.</li>
-<li>Good thinkers understand a simple truth: you can&rsquo;t make good
-decisions without good thinking and good thinking requires time. If
-you want to think better, schedule time to think and hone your
-understanding of the problem.</li>
-</ol>
-<h5 id="zat-rana---marcus-aurelius-thinking-clearlyhttpswwwzatranacommarcus-aurelius-awareness">Zat Rana - <a href="https://www.zatrana.com/marcus-aurelius-awareness/">Marcus Aurelius: Thinking Clearly</a></h5>
-<ol>
-<li>
-<p>Actively training ourselves to fight the autonomous loop
-The human brain is immensely efficient, and it&rsquo;s very good at filtering
-out noise we don&rsquo;t need in our lives. Sometimes, it&rsquo;s too good, and it
-diverts our attention away from important information, too. It&rsquo;s on you
-to fight autonomy and look for those details. Set a few times in your
-day to really look and to listen. Be deliberate in seeking to bypass the
-compromise made by the autonomous brain.</p>
-</li>
-<li>
-<p>Harnessing objectivity through a different host of eyes
-We mostly live our lives like we&rsquo;re at the center of reality. It
-influences how we see, feel, and act. It shifts our perception of the
-world away from what it truly is. It&rsquo;s important to use tactics that
-help us see through the clouds.</p>
-</li>
-<li>
-<p>Build a habit of routinely decluttering your mind.
-The human mind is extremely noisy, but by creating a routine that allows
-us to clear it up, we can make it less so. By building a habit that
-focuses on ordering our thoughts, we can declutter the complexity that
-comes with living in an increasingly busy and crowded world. For
-example, journaling has been shown to improve health across many
-different areas of life.</p>
-</li>
-</ol>
-<h5 id="mayo-oshin---elon-musks-3-step-first-principles-thinkinghttpsmediumcomthe-missionelon-musks-3-step-first-principles-thinking-how-to-think-and-solve-difficult-problems-like-a-ba1e73a9f6c0">Mayo Oshin - <a href="https://medium.com/the-mission/elon-musks-3-step-first-principles-thinking-how-to-think-and-solve-difficult-problems-like-a-ba1e73a9f6c0">Elon Musks' &ldquo;3-Step&rdquo; First Principles Thinking</a></h5>
-<p>How to Think and Solve Difficult Problems Like a Genius</p>
-<ol>
-<li>
-<p>Identify and define your current assumptions</p>
-</li>
-<li>
-<p>Breakdown the problem into its fundamental principles.
-These fundamental principles are basically the most basic truths or
-elements of anything. The best way to uncover these truths is to ask
-powerful questions that uncover these ingenious gems.</p>
-</li>
-<li>
-<p>Create new solutions from scratch
-Once you&rsquo;ve identified and broken down your problems or assumptions into
-their most basic truths, you can begin to create new insightful
-solutions from scratch.</p>
-</li>
-</ol>
-<h5 id="ed-boyden---rules-for-how-to-thinkhttpsprasenjitmannacomblogs2020-07-22-how-to-think">Ed Boyden - Rules for <a href="https://prasenjitmanna.com/blogs/2020-07-22-how-to-think/">How to Think</a></h5>
-<p>Managing brain resources in an age of complexity.</p>
-<ol>
-<li>Synthesize new ideas constantly.</li>
-<li>Learn how to learn (rapidly).</li>
-<li>Work backward from your goal.</li>
-<li>Always have a long-term plan.</li>
-<li>Make contingency maps.</li>
-<li>Collaborate.</li>
-<li>Make your mistakes quickly.</li>
-<li>Write up best-practices protocols.</li>
-<li>Document everything obsessively.</li>
-<li>Keep it simple.</li>
-</ol>
-<p>There are few mental models, which also help to think systematically
-especially decision making, problem solving etc. In the next article,
-I&rsquo;ll write a brief on this.</p>
-<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/prmanna" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/prmanna', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Join my email list to get direct access to new blog posts.</label></p><p><input type="text" style="width:200px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /></p></form>
-
-
+<p>References</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=Vr4kB1_6fLQ">NETCONF and YANG Tutorial part 1a: NETCONF and YANG Overview</a></li>
+<li>NETCONF - <a href="https://datatracker.ietf.org/doc/html/rfc6241">rfc6241</a></li>
+<li>RESTCONF &ndash; <a href="https://datatracker.ietf.org/doc/html/rfc8040">rfc8040</a></li>
+<li>Link to IETF 94 Recording: <a href="https://www.youtube.com/watch?v=N7fb11dLztA">NETCONF</a>, <a href="https://www.youtube.com/watch?v=AhYZhbANiwE">YANG</a>, <a href="https://www.youtube.com/watch?v=aPFTzgdYDw0">pyang</a></li>
+<li>Link to slides at IETF 94: <a href="http://datatracker.ietf.org/doc/slides-edu-network-configuration-with-netconf/">NETCONF Slides</a>, <a href="http://datatracker.ietf.org/doc/slides-edu-network-configuration-with-yang/">YANG Slides</a></li>
+</ul>
 
 </div>
 
@@ -376,7 +354,7 @@ I&rsquo;ll write a brief on this.</p>
   <line x1="7" y1="7" x2="7" y2="7"/>
 
 </svg>
-<span class='screen-reader-text'>Tags: </span><a class='tag' href='../../tags/wisdom/'>wisdom</a></div>
+<span class='screen-reader-text'>Tags: </span><a class='tag' href='../../tags/netconf/'>netconf</a>, <a class='tag' href='../../tags/restconf/'>restconf</a></div>
 
   </div>
 </footer>
@@ -386,7 +364,7 @@ I&rsquo;ll write a brief on this.</p>
 
 <nav class='entry-nav'>
   <div class='container'><div class='prev-entry sep-before'>
-      <a href='../../writing/2021-08-22-network_programmability_snmp_or_cli_or_yang/'>
+      <a href='../../writing/2021-11-06-what-is-api/'>
         <span aria-hidden='true'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
     
     
@@ -395,18 +373,7 @@ I&rsquo;ll write a brief on this.</p>
 
 </svg>
  Previous</span>
-        <span class='screen-reader-text'>Previous post: </span>Network Programmability, which is preferred? SNMP or CLI or Yang</a>
-    </div><div class='next-entry sep-before'>
-      <a href='../../writing/2021-10-03-minimal-cpp-prog-manual/'>
-        <span class='screen-reader-text'>Next post: </span>Learn C&#43;&#43; Programming in 1hr &#43; Code<span aria-hidden='true'>Next <svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-    
-    
-  <line x1="4" y1="12" x2="20" y2="12"/>
-  <polyline points="14 6 20 12 14 18"/>
-
-</svg>
-</span>
-      </a>
+        <span class='screen-reader-text'>Previous post: </span>What is APIs?</a>
     </div></div>
 </nav>
 
