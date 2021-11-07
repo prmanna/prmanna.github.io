@@ -9,7 +9,7 @@
 <meta property='og:description' content='What is APIs?'>
 <meta property='og:url' content='https://prasenjitmanna.com/writing/2021-11-07-what-is-api/'>
 <meta property='og:site_name' content='Prasenjit Manna'>
-<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:tag' content='restconf'><meta property='article:published_time' content='2021-11-07T00:00:00Z'/><meta property='article:modified_time' content='2021-11-07T16:54:01&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:tag' content='restconf'><meta property='article:published_time' content='2021-11-07T00:00:00Z'/><meta property='article:modified_time' content='2021-11-07T16:56:16&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
 
 <meta name="generator" content="Hugo 0.79.0" />
 
@@ -272,41 +272,29 @@ and give you predictable outputs. </p>
 <p><strong>API implementations: SOAP, REST, GRPC</strong></p>
 <p>There are three major protocols/technologies that developers use to build APIs: SOAP, REST and GRPC.</p>
 <p><strong>1. SOAP:</strong></p>
-<p>SOAP (Simple Object Access Protocol) is the oldest of the API protocols: it was <a href="https://en.wikipedia.org/wiki/SOAP">originally released in 1998</a> by a few Microsoft engineers. It&rsquo;s based on XML. Here&rsquo;s an example of what kind of code you&rsquo;d need to write to work with it:</p>
+<p>SOAP (Simple Object Access Protocol) is the oldest of the API protocols. It was <a href="https://en.wikipedia.org/wiki/SOAP">originally released in 1998</a> by a few Microsoft engineers. It&rsquo;s based on XML. Here&rsquo;s an example of what kind of code you&rsquo;d need to write to work with it:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#75715e">&lt;?xml version=&#34;1.0&#34;?&gt;</span>
-<span style="color:#f92672">&lt;soap:Envelope</span> <span style="color:#a6e22e">xmlns:soap=</span><span style="color:#e6db74">&#34;http://www.w3.org/2003/05/soap-envelope&#34;</span> <span style="color:#a6e22e">xmlns:m=</span><span style="color:#e6db74">&#34;http://www.example.org&#34;</span><span style="color:#960050;background-color:#1e0010">\</span><span style="color:#f92672">&gt;</span>
-  <span style="color:#f92672">&lt;soap:Header</span><span style="color:#960050;background-color:#1e0010">\</span><span style="color:#f92672">&gt;</span>
-  <span style="color:#960050;background-color:#1e0010">&lt;</span>/soap:Header\&gt;
-  <span style="color:#f92672">&lt;soap:Body</span><span style="color:#960050;background-color:#1e0010">\</span><span style="color:#f92672">&gt;</span>
-    <span style="color:#f92672">&lt;m:GetStockPrice</span><span style="color:#960050;background-color:#1e0010">\</span><span style="color:#f92672">&gt;</span>
-      <span style="color:#f92672">&lt;m:StockName</span><span style="color:#960050;background-color:#1e0010">\</span><span style="color:#f92672">&gt;</span>T<span style="color:#960050;background-color:#1e0010">&lt;</span>/m:StockName\&gt;
-    <span style="color:#960050;background-color:#1e0010">&lt;</span>/m:GetStockPrice\&gt;
-  <span style="color:#960050;background-color:#1e0010">&lt;</span>/soap:Body\&gt;
-<span style="color:#960050;background-color:#1e0010">&lt;</span>/soap:Envelope\&gt;
+<span style="color:#f92672">&lt;soap:Envelope</span> <span style="color:#a6e22e">xmlns:soap=</span><span style="color:#e6db74">&#34;http://www.w3.org/2003/05/soap-envelope&#34;</span> <span style="color:#a6e22e">xmlns:m=</span><span style="color:#e6db74">&#34;http://www.example.org&#34;</span><span style="color:#f92672">&gt;</span>
+  <span style="color:#f92672">&lt;soap:Header&gt;</span>
+  <span style="color:#f92672">&lt;/soap:Header&gt;</span>
+  <span style="color:#f92672">&lt;soap:Body&gt;</span>
+    <span style="color:#f92672">&lt;m:GetStockPrice&gt;</span>
+      <span style="color:#f92672">&lt;m:StockName&gt;</span>T<span style="color:#f92672">&lt;/m:StockName&gt;</span>
+    <span style="color:#f92672">&lt;/m:GetStockPrice&gt;</span>
+  <span style="color:#f92672">&lt;/soap:Body&gt;</span>
+<span style="color:#f92672">&lt;/soap:Envelope&gt;</span>
 </code></pre></div><p>This is legacy technology now. Companies are moving to new technology now.</p>
 <p><strong>2. REST</strong></p>
 <p>REST API stands for Representational State Transfer and is an architectural pattern for creating web services. It was developed by Roy Fielding in 2000 and has led to a growing collection of RESTful web services that follow the REST principles.</p>
 <p>REST is a ruleset that defines best practices for sharing data between clients and the server. It&rsquo;s essentially a design style used when creating HTTP or other APIs that asks you to use CRUD(create/read/update/delete) functions only, regardless of the complexity.</p>
 <p>REST applications use HTTP methods like GET, POST, DELETE, and PUT. REST emphasizes the scalability of components and the simplicity of interfaces. Not all HTTP APIs are REST APIs. The API needs to meet the following architectural requirements to be considered a REST API:</p>
 <ol>
-<li>
-<p>A uniform interface: An API must expose specific application resources to API consumers.</p>
-</li>
-<li>
-<p>Client-server independence: The client and the server function independently. The client will only know the URIs that point to the application&rsquo;s resources. These are usually published in the API documentation.</p>
-</li>
-<li>
-<p>Stateless: The server doesn&rsquo;t save any data pertaining to the client request. The client saves this &ldquo;state data&rdquo; on its end (via a cache). Learn more about stateful vs. stateless systems here.</p>
-</li>
-<li>
-<p>Cacheable: Application resources exposed by the API need to be cacheable.</p>
-</li>
-<li>
-<p>Layered: The architecture is layered, which allows different components to be maintained on different servers.</p>
-</li>
-<li>
-<p>Code-on-Demand (COD): This is the only optional REST constraint.  This allows the client to receive executable code as a response from the server. In other words, it&rsquo;s the server that determines how specific things get done.</p>
-</li>
+<li>A uniform interface: An API must expose specific application resources to API consumers.</li>
+<li>Client-server independence: The client and the server function independently. The client will only know the URIs that point to the application&rsquo;s resources. These are usually published in the API documentation.</li>
+<li>Stateless: The server doesn&rsquo;t save any data pertaining to the client request. The client saves this &ldquo;state data&rdquo; on its end (via a cache). Learn more about stateful vs. stateless systems here.</li>
+<li>Cacheable: Application resources exposed by the API need to be cacheable.</li>
+<li>Layered: The architecture is layered, which allows different components to be maintained on different servers.</li>
+<li>Code-on-Demand (COD): This is the only optional REST constraint.  This allows the client to receive executable code as a response from the server. In other words, it&rsquo;s the server that determines how specific things get done.</li>
 </ol>
 <p><strong>3. gRPC</strong></p>
 <p>gRPC (Remote Procedure Call) is made mostly for distributed systems that optimize for scale and low latency. gRPC is an open-source RPC architecture designed by Google to achieve high-speed communication between microservices. gRPC allows developers to integrate services programmed in different languages. gRPC uses the Protobuf (protocol buffers) messaging format, which is a highly-packed, highly-efficient messaging format for serializing structured data. For a specific set of use-cases, a gRPC API can serve as a more efficient alternative to a REST API.</p>
@@ -385,7 +373,7 @@ and give you predictable outputs. </p>
 
 </svg>
 <span class='screen-reader-text'>Last updated: </span>
-      <time class='entry-date' datetime='2021-11-07T16:54:01&#43;05:30'>2021, Nov 07</time>
+      <time class='entry-date' datetime='2021-11-07T16:56:16&#43;05:30'>2021, Nov 07</time>
     </div><div class='categories'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
     
     
