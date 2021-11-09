@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>web-scaler on Prasenjit Manna</title>
-    <link>https://prasenjitmanna.com/tags/web-scaler/</link>
-    <description>Recent content in web-scaler on Prasenjit Manna</description>
+    <title>hashing on Prasenjit Manna</title>
+    <link>https://prasenjitmanna.com/tags/hashing/</link>
+    <description>Recent content in hashing on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/tags/web-scaler/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/tags/hashing/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Web Scaler - Diagram</title>
+      <title>Web Scaler - Diagrams</title>
       <link>https://prasenjitmanna.com/writing/2021-10-10-web-scaler/</link>
       <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://prasenjitmanna.com/writing/2021-10-10-web-scaler/</guid>
       <description>These diagrams are self sufficient to explain.
-Web Scaler Consistent Hashing Join my email list to get direct access to new blog posts.
+1. Web Scaler 2. Consistent Hashing Join my email list to get direct access to new blog posts.
  </description>
     </item>
     
