@@ -51,8 +51,7 @@ Application Programming Interfaces (APIs) are module: they take inputs and give
       
       <guid>https://prasenjitmanna.com/writing/2021-10-10-web-scaler/</guid>
       <description>These diagrams are self sufficient to explain.
-Table of contents 1. Web Scaler 2. Consistent Hashing 3. Web Crawler 4. Unique ID Generator for Distributed Systems 5. Key Value Store 6. Rate Limiter 7. Youtube 8. Chat System 9. News Feed System 10. Google Drive
-1. Web Scaler 2. Consistent Hashing 3. Web Crawler 4. Unique ID Generator for Distributed Systems 5. Key Value Store Ref: SSTable
+Table of contents  1. Web Scaler 2. Consistent Hashing 3. Web Crawler 4. Unique ID Generator for Distributed Systems 5. Key Value Store 6. Rate Limiter 7. Youtube 8. Chat System 9. News Feed System 10. Google Drive  1. Web Scaler 2. Consistent Hashing 3. Web Crawler 4. Unique ID Generator for Distributed Systems 5. Key Value Store Ref: SSTable
 6. Rate Limiter 7.</description>
     </item>
     
