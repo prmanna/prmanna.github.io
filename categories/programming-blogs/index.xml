@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming-blogs on Prasenjit Manna</title>
+    <link>https://prasenjitmanna.com/categories/programming-blogs/</link>
+    <description>Recent content in programming-blogs on Prasenjit Manna</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/categories/programming-blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Programming Blogs</title>
+      <link>https://prasenjitmanna.com/writing/2021-12-21-programming-blogs/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/writing/2021-12-21-programming-blogs/</guid>
+      <description>Eli Bendersky This guy is allrounder, this is a collection of various topic. “the C++ blog” - very good.
+Appendix: related posts https://danluu.com/programming-blogs/</description>
+    </item>
+    
+  </channel>
+</rss>
