@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>books on Prasenjit Manna</title>
+    <link>https://prasenjitmanna.com/tags/books/</link>
+    <description>Recent content in books on Prasenjit Manna</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Book Recommendations by smart folks</title>
+      <link>https://prasenjitmanna.com/writing/2022-01-08-books-reco-by-people/</link>
+      <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/writing/2022-01-08-books-reco-by-people/</guid>
+      <description>Here are few book recommendations by smart people.
+  Book Recommendations by Gergely Orosz
+  Book Recommendations by Will Larson
+  Leadership Library by Philip Paetz
+  </description>
+    </item>
+    
+  </channel>
+</rss>
