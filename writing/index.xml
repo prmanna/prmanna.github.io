@@ -9,10 +9,10 @@
     <lastBuildDate>Sat, 08 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/writing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Book Recommendations by smart folks</title>
-      <link>https://prasenjitmanna.com/writing/ever-green-books-reco-by-smart-folks/</link>
+      <link>https://prasenjitmanna.com/writing/evergreen-books-reco-by-smart-folks/</link>
       <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://prasenjitmanna.com/writing/ever-green-books-reco-by-smart-folks/</guid>
+      <guid>https://prasenjitmanna.com/writing/evergreen-books-reco-by-smart-folks/</guid>
       <description>Here are few book recommendations by smart people.
   Book Recommendations by Gergely Orosz
   Book Recommendations by Will Larson
@@ -22,20 +22,20 @@
     
     <item>
       <title>Programming Blogs</title>
-      <link>https://prasenjitmanna.com/writing/2021-12-21-programming-blogs/</link>
+      <link>https://prasenjitmanna.com/writing/evergreen-programming-blogs/</link>
       <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://prasenjitmanna.com/writing/2021-12-21-programming-blogs/</guid>
+      <guid>https://prasenjitmanna.com/writing/evergreen-programming-blogs/</guid>
       <description>Eli Bendersky This guy is allrounder, this is a collection of various topic. “the C++ blog” - very good.
 Appendix: related posts  Programming Blog by Dan Luu  </description>
     </item>
     
     <item>
       <title>Programming Books</title>
-      <link>https://prasenjitmanna.com/writing/2021-12-20-programming-books/</link>
+      <link>https://prasenjitmanna.com/writing/evergreen-programming-books/</link>
       <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://prasenjitmanna.com/writing/2021-12-20-programming-books/</guid>
+      <guid>https://prasenjitmanna.com/writing/evergreen-programming-books/</guid>
       <description>Programming Books Skiena; The Algorithm Design Manual The longer, more comprehensive, more practical. It&amp;rsquo;s similar in that it attempts to teach you how to identify problems, use the correct algorithm, and give a clear explanation of the algorithm. This also describess the real world programming.
 McDowell; Cracking the Coding Interview Some problems and solutions, with explanations, matching the level of questions you see in entry-level interviews at Google, Facebook, Microsoft, etc.</description>
     </item>
