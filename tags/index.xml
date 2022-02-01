@@ -6,7 +6,34 @@
     <description>Recent content in Tags on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GNMI</title>
+      <link>https://prasenjitmanna.com/tags/gnmi/</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/tags/gnmi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>netconf</title>
+      <link>https://prasenjitmanna.com/tags/netconf/</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/tags/netconf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programmability</title>
+      <link>https://prasenjitmanna.com/tags/programmability/</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/tags/programmability/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>books</title>
       <link>https://prasenjitmanna.com/tags/books/</link>
@@ -31,24 +58,6 @@
       <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://prasenjitmanna.com/tags/programming-books/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>netconf</title>
-      <link>https://prasenjitmanna.com/tags/netconf/</link>
-      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://prasenjitmanna.com/tags/netconf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Programmability</title>
-      <link>https://prasenjitmanna.com/tags/programmability/</link>
-      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://prasenjitmanna.com/tags/programmability/</guid>
       <description></description>
     </item>
     
@@ -175,15 +184,6 @@
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://prasenjitmanna.com/tags/link-state/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GNMI</title>
-      <link>https://prasenjitmanna.com/tags/gnmi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://prasenjitmanna.com/tags/gnmi/</guid>
       <description></description>
     </item>
     

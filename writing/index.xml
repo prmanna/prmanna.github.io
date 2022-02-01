@@ -6,7 +6,17 @@
     <description>Recent content in Writings on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/writing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NETCONF vs GNMI</title>
+      <link>https://prasenjitmanna.com/writing/2022-01-31-netconf-vs-gnmi/</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/writing/2022-01-31-netconf-vs-gnmi/</guid>
+      <description>In the last article, NETCONF vs RESTCONF I have explained the difference between netconf and restconf and their use-cases. Netconf has very rich functionality, whereas restconf has matching functionality. Restconf has opened the door for the framework with REST-based system and infrastructure.
+The gNMI (gRPC Network Management Interface) protocol comes from the openconfig consortium, a group of network operators led by Google, with the following mission - &amp;ldquo;OpenConfig is an informal working group of network operators sharing the goal of moving our networks toward a more dynamic, programmable infrastructure by adopting software-defined networking principles such as declarative configuration and model-driven management and operations&amp;rdquo;.</description>
+    </item>
+    
     <item>
       <title>Book Recommendations by smart folks</title>
       <link>https://prasenjitmanna.com/writing/evergreen-books-reco-by-smart-folks/</link>
@@ -144,16 +154,6 @@ The Clos grows in a very consistent way, thanks to having what&amp;rsquo;s calle
       
       <guid>https://prasenjitmanna.com/writing/2020-11-18-clean-and-readable-code/</guid>
       <description>Table of contents  Why is this important? What do we achieve? Principles  A good code must satisfy few requirements: it must produce correct results, for which it is written. Also, it should be readable and understandable by other developers. It should also follow few code principles. This is your professional responsibility that the code you write will be re-read by many other developers, who want to either understand or modify the code.</description>
-    </item>
-    
-    <item>
-      <title>NETCONF vs GNMI</title>
-      <link>https://prasenjitmanna.com/writing/2022-31-01-netconf-vs-gnmi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://prasenjitmanna.com/writing/2022-31-01-netconf-vs-gnmi/</guid>
-      <description>In the last article, NETCONF vs RESTCONF I have explained the difference between netconf and restconf and their use-cases. Netconf has very rich functionality, whereas restconf has matching functionality. Restconf has opened the door for the framework with REST-based system and infrastructure.
-The gNMI (gRPC Network Management Interface) protocol comes from the openconfig consortium, a group of network operators led by Google, with the following mission - &amp;ldquo;OpenConfig is an informal working group of network operators sharing the goal of moving our networks toward a more dynamic, programmable infrastructure by adopting software-defined networking principles such as declarative configuration and model-driven management and operations&amp;rdquo;.</description>
     </item>
     
   </channel>

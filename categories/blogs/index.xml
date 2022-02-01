@@ -6,7 +6,17 @@
     <description>Recent content in blogs on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/categories/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/categories/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NETCONF vs GNMI</title>
+      <link>https://prasenjitmanna.com/writing/2022-01-31-netconf-vs-gnmi/</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/writing/2022-01-31-netconf-vs-gnmi/</guid>
+      <description>In the last article, NETCONF vs RESTCONF I have explained the difference between netconf and restconf and their use-cases. Netconf has very rich functionality, whereas restconf has matching functionality. Restconf has opened the door for the framework with REST-based system and infrastructure.
+The gNMI (gRPC Network Management Interface) protocol comes from the openconfig consortium, a group of network operators led by Google, with the following mission - &amp;ldquo;OpenConfig is an informal working group of network operators sharing the goal of moving our networks toward a more dynamic, programmable infrastructure by adopting software-defined networking principles such as declarative configuration and model-driven management and operations&amp;rdquo;.</description>
+    </item>
+    
     <item>
       <title>Exercise - Daily Desk Stretches</title>
       <link>https://prasenjitmanna.com/blogs/2021-12-15-excercise-desk-stretches/</link>
@@ -260,16 +270,6 @@ Managing brain resources in an age of complexity.
       <guid>https://prasenjitmanna.com/blogs/2020-01-01-first-post/</guid>
       <description>It&amp;rsquo;s been long time, I was keep thinking to write blog. But, always getting delayed due to fear, whether I am good at writing, or people will like it or not, etc. Finally, I overcome this fear and started writing from new year, 2020.
 Just to give little background about me, myself, Prasenjit Manna, working with networking industry as programmer, developer, architect, influencer since 2000. My area of interest is always routing, switching, manageability, optical, etc.</description>
-    </item>
-    
-    <item>
-      <title>NETCONF vs GNMI</title>
-      <link>https://prasenjitmanna.com/writing/2022-31-01-netconf-vs-gnmi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://prasenjitmanna.com/writing/2022-31-01-netconf-vs-gnmi/</guid>
-      <description>In the last article, NETCONF vs RESTCONF I have explained the difference between netconf and restconf and their use-cases. Netconf has very rich functionality, whereas restconf has matching functionality. Restconf has opened the door for the framework with REST-based system and infrastructure.
-The gNMI (gRPC Network Management Interface) protocol comes from the openconfig consortium, a group of network operators led by Google, with the following mission - &amp;ldquo;OpenConfig is an informal working group of network operators sharing the goal of moving our networks toward a more dynamic, programmable infrastructure by adopting software-defined networking principles such as declarative configuration and model-driven management and operations&amp;rdquo;.</description>
     </item>
     
   </channel>
