@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GNMI on Prasenjit Manna</title>
+    <link>https://prasenjitmanna.com/tags/gnmi/</link>
+    <description>Recent content in GNMI on Prasenjit Manna</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://prasenjitmanna.com/tags/gnmi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NETCONF vs GNMI</title>
+      <link>https://prasenjitmanna.com/writing/2022-31-01-netconf-vs-gnmi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/writing/2022-31-01-netconf-vs-gnmi/</guid>
+      <description>In the last article, NETCONF vs RESTCONF I have explained the difference between netconf and restconf and their use-cases. Netconf has very rich functionality, whereas restconf has matching functionality. Restconf has opened the door for the framework with REST-based system and infrastructure.
+The gNMI (gRPC Network Management Interface) protocol comes from the openconfig consortium, a group of network operators led by Google, with the following mission - &amp;ldquo;OpenConfig is an informal working group of network operators sharing the goal of moving our networks toward a more dynamic, programmable infrastructure by adopting software-defined networking principles such as declarative configuration and model-driven management and operations&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

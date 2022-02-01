@@ -2,19 +2,19 @@
 <html lang='en' dir='auto'><head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content='Exercise - Daily Desk Stretches'>
+<meta name='description' content='NETCONF vs GNMI'>
 <meta name='theme-color' content='#ffcd00'>
 
-<meta property='og:title' content='Exercise - Daily Desk Stretches • Prasenjit Manna'>
-<meta property='og:description' content='Exercise - Daily Desk Stretches'>
-<meta property='og:url' content='https://prasenjitmanna.com/blogs/2021-12-15-excercise-desk-stretches/'>
+<meta property='og:title' content='NETCONF vs GNMI • Prasenjit Manna'>
+<meta property='og:description' content='NETCONF vs GNMI'>
+<meta property='og:url' content='https://prasenjitmanna.com/writing/2022-31-01-netconf-vs-gnmi/'>
 <meta property='og:site_name' content='Prasenjit Manna'>
-<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='blogs'><meta property='article:published_time' content='2021-12-15T00:00:00Z'/><meta property='article:modified_time' content='2022-02-01T10:25:54&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:tag' content='netconf'><meta property='article:tag' content='Programmability'><meta property='article:tag' content='GNMI'><meta property='article:modified_time' content='2022-02-01T10:25:54&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
 
 <meta name="generator" content="Hugo 0.79.0" />
 
-  <title>Exercise - Daily Desk Stretches • Prasenjit Manna</title>
-  <link rel='canonical' href='https://prasenjitmanna.com/blogs/2021-12-15-excercise-desk-stretches/'>
+  <title>NETCONF vs GNMI • Prasenjit Manna</title>
+  <link rel='canonical' href='https://prasenjitmanna.com/writing/2022-31-01-netconf-vs-gnmi/'>
   
   
   <link rel='icon' href='../../favicon.ico'>
@@ -27,7 +27,7 @@
   
 
 </head>
-<body class='page type-blogs has-sidebar'>
+<body class='page type-writing has-sidebar'>
 
   <div class='site'><div id='sidebar' class='sidebar'>
   <a class='screen-reader-text' href='#main-menu'>Skip to Main Menu</a>
@@ -196,7 +196,7 @@
     <style>.widget-breadcrumbs li:after{content:'\2f '}</style>
   <section class='widget widget-breadcrumbs sep-after'>
     <nav id='breadcrumbs'>
-      <ol><li><a href='../../'>Home</a></li><li><a href='../../blogs/'>Blogs</a></li><li><span>Exercise - Daily Desk Stretches</span></li></ol>
+      <ol><li><a href='../../'>Home</a></li><li><a href='../../writing/'>Writings</a></li><li><span>NETCONF vs GNMI</span></li></ol>
     </nav>
   </section></div>
       </div>
@@ -215,9 +215,9 @@
   <header class='header entry-header'>
   <div class='container sep-after'>
     <div class='header-info'>
-      <h1 class='title'>Exercise - Daily Desk Stretches</h1>
+      <h1 class='title'>NETCONF vs GNMI</h1>
       
-<p class='desc'>Exercise - Daily Desk Stretches</p>
+<p class='desc'>NETCONF vs GNMI</p>
 
 
     </div>
@@ -232,7 +232,7 @@
 
 </svg>
 <span class='screen-reader-text'>Posted on </span>
-  <time class='entry-date' datetime='2021-12-15T00:00:00Z'>2021, Dec 15</time>
+  <time class='entry-date' datetime='0001-01-01T00:00:00Z'>0001, Jan 01</time>
 </span>
 
   <span class='byline'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
@@ -251,7 +251,7 @@
   <polyline points="12 6 12 12 15 15"/>
 
 </svg>
-One min read
+2 mins read
 </span>
 
 
@@ -265,10 +265,58 @@ One min read
   
 
   <div class='container entry-content'>
-  <p><img src="https://prasenjitmanna.com/images/desk-stretches.jpeg" alt="img|320x271"></p>
-<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/prmanna" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/prmanna', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Join my email list to get direct access to new blog posts.</label></p><p><input type="text" style="width:200px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /></p></form>
-
-
+  <p>In the last article, <a href="https://prasenjitmanna.com/writing/2021-11-07-netconf-vs-restconf/">NETCONF vs RESTCONF</a> I have explained the difference between netconf and restconf and their use-cases. Netconf has very rich functionality, whereas restconf has matching functionality. Restconf has opened the door for the framework with REST-based system and infrastructure.</p>
+<p>The gNMI (gRPC Network Management Interface) protocol comes from the openconfig consortium, a group of network operators led by Google, with the following mission - &ldquo;OpenConfig is an informal working group of network operators sharing the goal of moving our networks toward a more dynamic, programmable infrastructure by adopting software-defined networking principles such as declarative configuration and model-driven management and operations&rdquo;.</p>
+<p>The initial focus for openconfig was to develop vendor-neutral yang models for operator needs. It started with Google&rsquo;s requirements, later all the operators joined hands. Right now, this is the most active group to add new data models.  The group also developed gNMI as a management protocol for configuration and streaming telemetry management. Note that gNMI is based on gRPC as a transport protocol.  The gNMI supports more encoding, not just protobuf [more details below]. The protobuf is more compact on the wire, so performance-wise more advantageous. But, operationally it is more complex. Also the distribution of proto files is more challenging, especially upgrade scenarios. It adds more complexities.</p>
+<h4 id="gnmi-interface">GNMI Interface:</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#960050;background-color:#1e0010">service</span> <span style="color:#960050;background-color:#1e0010">gNMI</span> {
+ <span style="color:#960050;background-color:#1e0010">rpc</span> <span style="color:#960050;background-color:#1e0010">Capabilities(CapabilityRequest)</span> <span style="color:#960050;background-color:#1e0010">returns</span> <span style="color:#960050;background-color:#1e0010">(CapabilityResponse);</span>
+ <span style="color:#960050;background-color:#1e0010">rpc</span> <span style="color:#960050;background-color:#1e0010">Get(GetRequest)</span> <span style="color:#960050;background-color:#1e0010">returns</span> <span style="color:#960050;background-color:#1e0010">(GetResponse);</span>
+ <span style="color:#960050;background-color:#1e0010">rpc</span> <span style="color:#960050;background-color:#1e0010">Set(SetRequest)</span> <span style="color:#960050;background-color:#1e0010">returns</span> <span style="color:#960050;background-color:#1e0010">(SetResponse);</span>
+ <span style="color:#960050;background-color:#1e0010">rpc</span> <span style="color:#960050;background-color:#1e0010">Subscribe(stream</span> <span style="color:#960050;background-color:#1e0010">SubscribeRequest)</span> <span style="color:#960050;background-color:#1e0010">returns</span> <span style="color:#960050;background-color:#1e0010">(stream</span> <span style="color:#960050;background-color:#1e0010">SubscribeResponse);</span>
+}
+</code></pre></div><table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:left">gNMI</th>
+<th>NETCONF</th>
+<th>RESTCONF</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Serialization</td>
+<td style="text-align:left">Protobuf or JSON</td>
+<td>XML</td>
+<td>XML or JSON</td>
+</tr>
+<tr>
+<td style="text-align:left">Transport</td>
+<td style="text-align:left">gRPC (HTTP/2.0)</td>
+<td>SSH</td>
+<td>HTTP/TLS/TCP/IP</td>
+</tr>
+<tr>
+<td style="text-align:left">Diff oriented</td>
+<td style="text-align:left">Yes Returns only elements of the tree that have changed from last read</td>
+<td>No Always returns entire sub-tree snapshot</td>
+<td>No</td>
+</tr>
+<tr>
+<td style="text-align:left">streaming telemetry</td>
+<td style="text-align:left">Yes</td>
+<td>NetConf notification</td>
+<td>No</td>
+</tr>
+<tr>
+<td style="text-align:left">Operation semantics</td>
+<td style="text-align:left">gNMI specific. Single-target, single-shot, sequenced transactions.</td>
+<td>NETCONF specific; networkwide transactions.</td>
+<td>RESTCONF specific, based on HTTP verbs. Single-target, single-shot transactions.</td>
+</tr>
+</tbody>
+</table>
 
 </div>
 
@@ -290,6 +338,14 @@ One min read
 
 </svg>
 <span class='screen-reader-text'>Categories: </span><a class='category' href='../../categories/blogs/'>blogs</a></div>
+<div class='tags'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <path d="M20.59,13.41l-7.17,7.17a2,2,0,0,1-2.83,0L2,12V2H12l8.59,8.59A2,2,0,0,1,20.59,13.41Z"/>
+  <line x1="7" y1="7" x2="7" y2="7"/>
+
+</svg>
+<span class='screen-reader-text'>Tags: </span><a class='tag' href='../../tags/netconf/'>netconf</a>, <a class='tag' href='../../tags/programmability/'>Programmability</a>, <a class='tag' href='../../tags/gnmi/'>GNMI</a></div>
 
   </div>
 </footer>
@@ -298,17 +354,17 @@ One min read
 </article>
 
 <nav class='entry-nav'>
-  <div class='container'><div class='prev-entry sep-before'>
-      <a href='../../blogs/2021-11-24-isp-design-guide/'>
-        <span aria-hidden='true'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  <div class='container'><div class='next-entry sep-before'>
+      <a href='../../writing/2020-11-18-clean-and-readable-code/'>
+        <span class='screen-reader-text'>Next post: </span>Clean and Readable Code<span aria-hidden='true'>Next <svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
     
     
-  <line x1="20" y1="12" x2="4" y2="12"/>
-  <polyline points="10 18 4 12 10 6"/>
+  <line x1="4" y1="12" x2="20" y2="12"/>
+  <polyline points="14 6 20 12 14 18"/>
 
 </svg>
- Previous</span>
-        <span class='screen-reader-text'>Previous post: </span>ISP Design Guide</a>
+</span>
+      </a>
     </div></div>
 </nav>
 
