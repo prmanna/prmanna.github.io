@@ -9,7 +9,7 @@
 <meta property='og:description' content='NETCONF vs GNMI'>
 <meta property='og:url' content='https://prasenjitmanna.com/writing/2022-01-31-netconf-vs-gnmi/'>
 <meta property='og:site_name' content='Prasenjit Manna'>
-<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:tag' content='netconf'><meta property='article:tag' content='Programmability'><meta property='article:tag' content='GNMI'><meta property='article:published_time' content='2022-01-31T00:00:00Z'/><meta property='article:modified_time' content='2022-02-01T10:35:34&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:tag' content='netconf'><meta property='article:tag' content='Programmability'><meta property='article:tag' content='GNMI'><meta property='article:published_time' content='2022-01-31T00:00:00Z'/><meta property='article:modified_time' content='2022-02-01T10:41:53&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
 
 <meta name="generator" content="Hugo 0.79.0" />
 
@@ -269,13 +269,13 @@
 <p>The gNMI (gRPC Network Management Interface) protocol comes from the openconfig consortium, a group of network operators led by Google, with the following mission - &ldquo;OpenConfig is an informal working group of network operators sharing the goal of moving our networks toward a more dynamic, programmable infrastructure by adopting software-defined networking principles such as declarative configuration and model-driven management and operations&rdquo;.</p>
 <p>The initial focus for openconfig was to develop vendor-neutral yang models for operator needs. It started with Google&rsquo;s requirements, later all the operators joined hands. Right now, this is the most active group to add new data models.  The group also developed gNMI as a management protocol for configuration and streaming telemetry management. Note that gNMI is based on gRPC as a transport protocol.  The gNMI supports more encoding, not just protobuf [more details below]. The protobuf is more compact on the wire, so performance-wise more advantageous. But, operationally it is more complex. Also the distribution of proto files is more challenging, especially upgrade scenarios. It adds more complexities.</p>
 <h4 id="gnmi-interface">GNMI Interface:</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#960050;background-color:#1e0010">service</span> <span style="color:#960050;background-color:#1e0010">gNMI</span> {
- <span style="color:#960050;background-color:#1e0010">rpc</span> <span style="color:#960050;background-color:#1e0010">Capabilities(CapabilityRequest)</span> <span style="color:#960050;background-color:#1e0010">returns</span> <span style="color:#960050;background-color:#1e0010">(CapabilityResponse);</span>
- <span style="color:#960050;background-color:#1e0010">rpc</span> <span style="color:#960050;background-color:#1e0010">Get(GetRequest)</span> <span style="color:#960050;background-color:#1e0010">returns</span> <span style="color:#960050;background-color:#1e0010">(GetResponse);</span>
- <span style="color:#960050;background-color:#1e0010">rpc</span> <span style="color:#960050;background-color:#1e0010">Set(SetRequest)</span> <span style="color:#960050;background-color:#1e0010">returns</span> <span style="color:#960050;background-color:#1e0010">(SetResponse);</span>
- <span style="color:#960050;background-color:#1e0010">rpc</span> <span style="color:#960050;background-color:#1e0010">Subscribe(stream</span> <span style="color:#960050;background-color:#1e0010">SubscribeRequest)</span> <span style="color:#960050;background-color:#1e0010">returns</span> <span style="color:#960050;background-color:#1e0010">(stream</span> <span style="color:#960050;background-color:#1e0010">SubscribeResponse);</span>
+<pre><code>service gNMI {
+ rpc Capabilities(CapabilityRequest) returns (CapabilityResponse);
+ rpc Get(GetRequest) returns (GetResponse);
+ rpc Set(SetRequest) returns (SetResponse);
+ rpc Subscribe(stream SubscribeRequest) returns (stream SubscribeResponse);
 }
-</code></pre></div><table>
+</code></pre><table>
 <thead>
 <tr>
 <th style="text-align:left"></th>
@@ -330,7 +330,7 @@
 
 </svg>
 <span class='screen-reader-text'>Last updated: </span>
-      <time class='entry-date' datetime='2022-02-01T10:35:34&#43;05:30'>2022, Feb 01</time>
+      <time class='entry-date' datetime='2022-02-01T10:41:53&#43;05:30'>2022, Feb 01</time>
     </div><div class='categories'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
     
     
