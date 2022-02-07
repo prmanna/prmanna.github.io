@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>engg-paper on Prasenjit Manna</title>
+    <link>https://prasenjitmanna.com/tags/engg-paper/</link>
+    <description>Recent content in engg-paper on Prasenjit Manna</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 06 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/tags/engg-paper/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Engg Papers</title>
+      <link>https://prasenjitmanna.com/reading/papers/</link>
+      <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/reading/papers/</guid>
+      <description>Programming Books Skiena; The Algorithm Design Manual The longer, more comprehensive, more practical. It&amp;rsquo;s similar in that it attempts to teach you how to identify problems, use the correct algorithm, and give a clear explanation of the algorithm. This also describess the real world programming.</description>
+    </item>
+    
+  </channel>
+</rss>
