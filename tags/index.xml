@@ -6,7 +6,16 @@
     <description>Recent content in Tags on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>data-center</title>
+      <link>https://prasenjitmanna.com/tags/data-center/</link>
+      <pubDate>Sat, 26 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/tags/data-center/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>engg-paper</title>
       <link>https://prasenjitmanna.com/tags/engg-paper/</link>
@@ -130,15 +139,6 @@
       <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://prasenjitmanna.com/tags/clos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>data-center</title>
-      <link>https://prasenjitmanna.com/tags/data-center/</link>
-      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://prasenjitmanna.com/tags/data-center/</guid>
       <description></description>
     </item>
     
