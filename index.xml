@@ -12,7 +12,7 @@
       <pubDate>Sat, 26 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://prasenjitmanna.com/writing/2022-02-26-dc-topologies/</guid>
-      <description>Table of contents * [**Indirect Topologies**](#indirect-topologies) - [Tree](#tree) - [Fat Tree](#fat-tree) * [**Direct Topologies**](#direct-topologies) - [All-to-All](#all-to-all) - [HyperX](#hyperx) - [Flattened Butterfly Topology](#flattened-butterfly-topology) - [Torus](#torus) - [DCell &amp;amp; DCube](#dcell--dcube)  The network topologies can be classified into tree and non-tree based topologies. This is very common observation in topology. There is another way to connect nodes are direct and indirect.
+      <description>Table of contents  Indirect Topologies  Tree Fat Tree   Direct Topologies  All-to-All HyperX Flattened Butterfly Topology Torus DCell &amp;amp; DCube    The network topologies can be classified into tree and non-tree based topologies. This is very common observation in topology. There is another way to connect nodes are direct and indirect.
 Indirect Topologies Tree The tree topologies are simple and broadly used in data center networks.</description>
     </item>
     
