@@ -9,7 +9,7 @@
 <meta property='og:description' content='Data Center Topologies'>
 <meta property='og:url' content='https://prasenjitmanna.com/writing/2022-02-26-dc-topologies/'>
 <meta property='og:site_name' content='Prasenjit Manna'>
-<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:tag' content='data center'><meta property='article:published_time' content='2022-02-26T00:00:00Z'/><meta property='article:modified_time' content='2022-02-27T14:21:21&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:tag' content='data center'><meta property='article:published_time' content='2022-02-26T00:00:00Z'/><meta property='article:modified_time' content='2022-02-27T14:23:06&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
 
 <meta name="generator" content="Hugo 0.79.0" />
 
@@ -275,13 +275,13 @@
   <div class='container entry-content'>
   <h4 id="table-of-contents">Table of contents</h4>
 <ul>
-<li><a href="#indirect-topologies"><strong>Indirect Topologies</strong></a>
+<li><a href="#indirect-topologies">Indirect Topologies</a>
 <ul>
 <li><a href="#tree">Tree</a></li>
 <li><a href="#fat-tree">Fat Tree</a></li>
 </ul>
 </li>
-<li><a href="#direct-topologies"><strong>Direct Topologies</strong></a>
+<li><a href="#direct-topologies">Direct Topologies</a>
 <ul>
 <li><a href="#all-to-all">All-to-All</a></li>
 <li><a href="#hyperx">HyperX</a></li>
@@ -292,7 +292,7 @@
 </li>
 </ul>
 <p>The network topologies can be classified into tree and non-tree based topologies. This is very common observation in topology. There is another way to connect nodes are direct and indirect.</p>
-<h3 id="indirect-topologies"><strong>Indirect Topologies</strong></h3>
+<h3 id="indirect-topologies">Indirect Topologies</h3>
 <h4 id="tree">Tree</h4>
 <p>The tree topologies are simple and broadly used in data center networks. Tree topologies may have either two or three levels. In a two-level tree, switches at the core level connect the switches at the lower level, which are referred to as edges. Servers are located at the leaves and are connected to the switches at the edge level. In a three-level tree, an intermediate level called aggregation is added between the core and edge levels.</p>
 <p><img src="https://prasenjitmanna.com/images/dc-topology/4-ary-tree.png" alt="img|320x271"></p>
@@ -309,7 +309,7 @@
 <p><img src="https://prasenjitmanna.com/images/dc-topology/4-ary-fat-tree.png" alt="img|320x271"></p>
 <p>Similar to three-level tree topologies, fat trees also consist of three levels: core, aggregation, and edges. *Al-*<em>Fares</em> et al. adds the POD to the terminology, which consists of aggregation switches, edge switches, and servers. A <em>k</em>-ary fat tree contains (k/2)^2 k-port core switches and <em>k</em> PODs. Each core switch is connected to the aggregation layer of each POD through one port (the <em>i</em>-th port of any core switch is connected to POD <em>i</em>). Each POD has two layers of <em>k</em>=2 <em>k</em>-port switches. Switches in the upper layer (i.e., aggregation layer) are connected to core switches using <em>k</em>=2 of their ports. The remaining <em>k</em>=2 ports are used to connect to <em>k</em>=2 switches at the lower layer (i.e., edge layer). Each <em>k</em>-port switch at the edge layer uses <em>k</em>=2 of its ports to connect to the aggregation layer and the remaining ports to directly connect to <em>k</em>=2 hosts. Therefore, a <em>k</em>-ary fat-tree provides support for a total of k^3/4 hosts using <em>k</em> port switches.</p>
 <p>Unlike tree topologies, fat trees can use commodity off-the-shelf switches at all levels. Thus, fat trees offer more flexibility and can be more cost effective compared to tree topologies.</p>
-<h3 id="direct-topologies"><strong>Direct Topologies</strong></h3>
+<h3 id="direct-topologies">Direct Topologies</h3>
 <h4 id="all-to-all">All-to-All</h4>
 <p>The all-to-all topology is a fully mesh topology where all the TOR connected to each other. This is a simple topology, but has few limitations, like scalability of  TOR switch ports. The network growth will be limited by number of ports on the TOR switch. Another limitation is cabling, high number of cabling required.</p>
 <p><img src="https://prasenjitmanna.com/images/dc-topology/all-to-all.png" alt="img|320x271"></p>
@@ -349,7 +349,7 @@
 
 </svg>
 <span class='screen-reader-text'>Last updated: </span>
-      <time class='entry-date' datetime='2022-02-27T14:21:21&#43;05:30'>2022, Feb 27</time>
+      <time class='entry-date' datetime='2022-02-27T14:23:06&#43;05:30'>2022, Feb 27</time>
     </div><div class='categories'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
     
     
