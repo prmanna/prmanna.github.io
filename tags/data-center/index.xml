@@ -13,9 +13,8 @@
       <pubDate>Sat, 26 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://prasenjitmanna.com/writing/2022-02-26-dc-topologies/</guid>
-      <description>[TOC]
-The network topologies can be classified into tree and non-tree based topologies. This is very common observation in topology. There is another way to connect nodes are direct and indirect.
-Indirect Topologies Tree The tree topologies are simple and broadly used in data center networks. Tree topologies may have either two or three levels. In a two-level tree, switches at the core level connect the switches at the lower level, which are referred to as edges.</description>
+      <description>Table of contents * [**Indirect Topologies**](#indirect-topologies) - [Tree](#tree) - [Fat Tree](#fat-tree) * [**Direct Topologies**](#direct-topologies) - [All-to-All](#all-to-all) - [HyperX](#hyperx) - [Flattened Butterfly Topology](#flattened-butterfly-topology) - [Torus](#torus) - [DCell &amp;amp; DCube](#dcell--dcube)  The network topologies can be classified into tree and non-tree based topologies. This is very common observation in topology. There is another way to connect nodes are direct and indirect.
+Indirect Topologies Tree The tree topologies are simple and broadly used in data center networks.</description>
     </item>
     
     <item>
