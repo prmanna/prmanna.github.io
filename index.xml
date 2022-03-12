@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://prasenjitmanna.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ethernet Optical Standards</title>
+      <link>https://prasenjitmanna.com/writing/2022-03-12-ethernet-optical-standards/</link>
+      <pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/writing/2022-03-12-ethernet-optical-standards/</guid>
+      <description>Year Ethernet Speed Designation Optical Data Rate Wavelength Fiber Count MMF(km) SMF (km)     1987 10 MbE FOIRL 12.5 M 850 2 1 -   1993 10 MbE 10BASE-FB 12.5 M 850 2 2 -   1993 10 MbE 10BASE-FL 12.5 M 850 2 2 -   1995 100 MbE 100BASE-FX 125 M 1310 2 2 -   1998 1 GbE 1000BASE-SX 1.</description>
+    </item>
+    
+    <item>
       <title>Data Center Topologies</title>
       <link>https://prasenjitmanna.com/writing/2022-02-26-dc-topologies/</link>
       <pubDate>Sat, 26 Feb 2022 00:00:00 +0000</pubDate>
