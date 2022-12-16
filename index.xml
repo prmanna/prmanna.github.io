@@ -276,7 +276,7 @@ Join my email list to get direct access to new blog posts.
       <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://prasenjitmanna.com/reading/books-blogs/</guid>
-      <description>Books/Blogs  My Reading List Programming Books Programming Blogs Mental Models Book Recommendation by smart folks  </description>
+      <description>Books/Blogs  My Reading List Programming Books Programming Blogs Mental Models Books &amp;amp; Paper Recommendation by smart folks  </description>
     </item>
     
     <item>
@@ -310,7 +310,7 @@ The gNMI (gRPC Network Management Interface) protocol comes from the openconfig 
     </item>
     
     <item>
-      <title>Book Recommendations by smart folks</title>
+      <title>Book &amp; Paper Recommendations by smart folks</title>
       <link>https://prasenjitmanna.com/writing/evergreen-books-reco-by-smart-folks/</link>
       <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
       
@@ -319,7 +319,8 @@ The gNMI (gRPC Network Management Interface) protocol comes from the openconfig 
   Book Recommendations, Holiday Book Recommendations by Gergely Orosz
   Book Recommendations by Will Larson
   Leadership Library by Philip Paetz
-  </description>
+  Paper recommendations by smart people.
+ Technical Papers by Will Larson  </description>
     </item>
     
     <item>
