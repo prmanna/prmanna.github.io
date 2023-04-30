@@ -13,7 +13,7 @@
       <pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://prasenjitmanna.com/blogs/2023-04-30-ipv6-address-planning/</guid>
-      <description>RIPE [Create an Addressing Plan] document contains recommendations for service providers requesting IPv6 address allocation plus links to several other documents. SURFnet Preparing an IPv6 Addressing Plan Manual covers most things one needs to know, including the use /64 everywhere recommendation. ISOC IPv6 Address Planning: Guidelines and Resources document goes even deeper. Definitely worth reading. ETSI IPv6 Best Practices, Benefits, Transition Challenges and the Way Forward APNIC IPv6 Best Current Practices covers IPv6 Addressing, transition technologies, guidelines for content, data centre, hosting, cloud service, and application service providers, enterprises.</description>
+      <description>RIPE [Create an Addressing Plan] document contains recommendations for service providers requesting IPv6 address allocation plus links to several other documents. SURFnet [Preparing an IPv6 Addressing Plan Manual] covers most things one needs to know, including the use /64 everywhere recommendation. ISOC [IPv6 Address Planning: Guidelines and Resources] document goes even deeper. Definitely worth reading. ETSI [IPv6 Best Practices, Benefits, Transition Challenges and the Way Forward] APNIC [IPv6 Best Current Practices] covers IPv6 Addressing, transition technologies, guidelines for content, data centre, hosting, cloud service, and application service providers, enterprises.</description>
     </item>
     
     <item>
