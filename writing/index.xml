@@ -6,7 +6,16 @@
     <description>Recent content in Writings on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/writing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Technical Leadership Resources</title>
+      <link>https://prasenjitmanna.com/writing/evergreen-technical-leadership/</link>
+      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/writing/evergreen-technical-leadership/</guid>
+      <description>General Resources  StaffEng Tutorials - Guides for reaching and succeeding at Staff-plus roles The Definition of a Tech Lead - Titles like Architect, Tech Lead, Team Lead and Engineering Manager provide endless confusion. This article explores the definition of the Tech Lead role The Well Rounded Architect - Acting as a Leader, Being a developer, Having a systems focus, Thinking like an entrepreneur, Balancing strategic with tactical thinking, Communicating well Thriving on the Technical Leadership Path - So what does the more strategic work of a very senior engineer look like?</description>
+    </item>
+    
     <item>
       <title>Mental Models</title>
       <link>https://prasenjitmanna.com/writing/evergreen-mental-models/</link>
