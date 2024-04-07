@@ -9,7 +9,7 @@
 <meta property='og:description' content='Clos IP Traffic between Leaf and Spine &amp; Tromboning'>
 <meta property='og:url' content='https://prasenjitmanna.com/writing/2024-04-07-clos-ip-traffic-between-leaf-and-spine/'>
 <meta property='og:site_name' content='Prasenjit Manna'>
-<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:tag' content='switching'><meta property='article:tag' content='forwarding'><meta property='article:published_time' content='2024-04-07T00:00:00Z'/><meta property='article:modified_time' content='2024-04-07T19:53:48&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:tag' content='switching'><meta property='article:tag' content='forwarding'><meta property='article:published_time' content='2024-04-07T00:00:00Z'/><meta property='article:modified_time' content='2024-04-07T19:57:02&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
 
 <meta name="generator" content="Hugo 0.79.0" />
 
@@ -327,7 +327,7 @@
 Why, What, Where, How, and How Not</a></p>
 <h1 id="why-do-we-have-traffic-tromboning">Why do we have traffic tromboning?</h1>
 <p>Network and security services have traditionally been deployed in front of a group of end hosts that share some common function and are topologically close: e.g., private corporate clients, public corporate servers, the servers of a specific department, the hosts of a corporate branch. The following figure shows a most common deployment model for services such as NAT, load balancers and firewalls.</p>
-<p><img src="../../assets/images/service-appliance.png" alt=""></p>
+<p><img src="https://prasenjitmanna.com/images/traffic-leaf-spine/service-appliance.png" alt="img|320x271"></p>
 <p>With virtualization, while the same logical model still applies, the physical placement of the hosts, their physical proximity, and the natural point to deploy the service application (on the shortest path of traffic to and from the served hosts) have disappeared. Of course! It is in the very nature of virtualization (as well as its value and goal) to make all functional components (resources, topology, location) independent of the physical ones. Hosts communicating with each other can be anywhere in a data center and consequently the network design must:</p>
 <ul>
 <li>Provide equal and abundant bandwidth between any pair of hosts.</li>
@@ -344,11 +344,11 @@ Why, What, Where, How, and How Not</a></p>
 <p>We will subsequently discuss more details and the implications of these two techniques when used in conjunction with Clos networks in data centers.</p>
 <h1 id="what-is-traffic-tromboning">What is traffic tromboning?</h1>
 <p>Whichever of the above techniques is deployed, traffic between topologically close hosts might take a long detour and get back, as shown in the figure below.</p>
-<p><img src="../../assets/images/trombone2.png" alt=""></p>
+<p><img src="https://prasenjitmanna.com/images/traffic-leaf-spine/trombone2.png" alt="img|320x271"></p>
 <p>This phenomenon is commonly known as traffic trombone or traffic tromboning, as the shape of the path taken by the traffic in the network resembles the shape of the brass musical instrument that dates back to the 15th century and whose name, trombone, derives from “tromba,” the Italian word for trumpet: a large trumpet.</p>
 <p>In a data center fabric based on a Clos topology, traffic tromboning results into traffic traversing the leaf-spine fabric twice, which leads to duplication of both network load and the latency experienced by the two hosts.</p>
 <p>Moreover, when services are applied to traffic between most pairs of hosts, the appliance becomes a funneling point - also recalling the shape of a trombone - that must be traversed by traffic from a disparate set of source-destination pairs (see the following figure for a graphic representation). We will therefore subsequently refer to service appliances such as firewalls, IDSs (Intrusion Detection Systems), NAT (Network Address Translation), load balancers, as trombones.</p>
-<p><img src="../../assets/images/trombone.jpg" alt=""></p>
+<p><img src="https://prasenjitmanna.com/images/traffic-leaf-spine/trombone.jpg" alt="img|320x271"></p>
 <p>Trombones, by their very nature, create a network traffic scalability problem. Addressing this through load balancing among multiple trombones is challenging since their services are often stateful.</p>
 <p>Let’s consider a ubiquitous combination of a firewall and a NAT that we all have in the router that connects our house to the Internet. When a family member browses the Internet, a TCP session is created. The router needs to create a NAT rule for the outgoing traffic, but also a second one for the return traffic. These two rules need to be kept for the duration of the TCP session.</p>
 <p>If, for example, in a corporate network context, two or more NAT appliances are required for scale or fault tolerance, one of the following should apply:</p>
@@ -362,7 +362,7 @@ Why, What, Where, How, and How Not</a></p>
 <h1 id="north-south-vs-east-west-traffic">North-South vs East-West Traffic</h1>
 <p>Not every trombone is a bottleneck. Historically tromboning was happening towards the wide area network, a typical example being the firewall connecting a corporate network to the Internet. However, usually in that scenario the capacity of the link to the service provider is the bottleneck.</p>
 <p>Today some high end firewalls, albeit costly, are capable of supporting up to 100 Gbps. Firewalls operating at 1 Gbps are very common and cheap, with 10 Gbps ones being considered the reasonably priced midrange. Therefore firewalls are typically not choke-points when used to connect to the Internet, a type of traffic that is also called North-South in a data center.</p>
-<p><img src="../../assets/images/compass.png" alt=""></p>
+<p><img src="https://prasenjitmanna.com/images/traffic-leaf-spine/compass.png" alt="img|320x271"></p>
 <p>Different considerations apply to East-West traffic, i.e., the traffic inside the data center.</p>
 <p>We have seen in a <a href="https://blog.baldi.info/service-edge">previous post</a> that the amount of East-West traffic is at least ten times larger than the North-South one.</p>
 <p>When applied to East-West traffic, the firewall trombone may become a bottleneck. In the <a href="https://blog.baldi.info/service-edge">same post</a>, we have also discussed how placing the trombone on a Clos network disrupts optimal routing increasing latency and causing a large percentage of the network bandwidth to go wasted.</p>
@@ -371,7 +371,7 @@ Why, What, Where, How, and How Not</a></p>
 <p>Let’s now consider the configuration complexity of traffic tromboning for East-West traffic in conjunction with Clos networks for the two approaches previously mentioned.</p>
 <h2 id="layer-two-traffic-tromboning">Layer two traffic tromboning</h2>
 <p>To explain this first configuration we will reuse a figure from the <a href="https://blog.baldi.info/service-edge">previously mentioned post</a>.</p>
-<p><img src="../../assets/images/network.jpg" alt="Network Diagram"></p>
+<p><img src="https://prasenjitmanna.com/images/traffic-leaf-spine/network.jpg" alt="img|320x271"></p>
 <p>In this example, the E-W Firewall is deployed in transparent mode, acting as the default gateway for the server C subnet. As previously explained, IP rules require that a host and its default gateway be in the same subnet, i.e., be able to exchange layer two frames.</p>
 <p>This requires some type of encapsulation, because in typical Clos data center networks each leaf implements a layer two domain (with its own IP subnet) and uses layer three forwarding towards the spines leveraging ECMP (equal cost multi-path) routing to spread the traffic across multiple paths. Therefore the network administrator needs to deploy an encapsulation technique, like VXLAN, to create a virtual layer two domain including server C (at leaf L2) and the E-W Firewall (that is physically connected to leaf L1).</p>
 <p>Since the firewall needs to serve as a default gateway for servers connected to multiple leaves (namely, multiple IP subnets), VLAN trunking is typically enabled between leaf L1 and the E-W Firewall. Each VLAN contains the IP subnet of a leaf and is mapped to a VNID (Virtual Network IDentifier) of the VXLAN protocol. For example, the leaf L2 may encapsulate the native VLAN toward server C in a VXLAN tunnel with VNID = 88 and leaf L1 may remove the VXLAN encapsulation and map VNID = 88 to VLAN = 8 toward the E-W Firewall. Leaf L4 may use VNID = 44 and leaf L1 may map it to VLAN = 4. The same applies to the reverse direction.</p>
@@ -412,7 +412,7 @@ Why, What, Where, How, and How Not</a></p>
 
 </svg>
 <span class='screen-reader-text'>Last updated: </span>
-      <time class='entry-date' datetime='2024-04-07T19:53:48&#43;05:30'>2024, Apr 07</time>
+      <time class='entry-date' datetime='2024-04-07T19:57:02&#43;05:30'>2024, Apr 07</time>
     </div><div class='categories'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
     
     
