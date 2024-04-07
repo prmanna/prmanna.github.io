@@ -14,7 +14,7 @@
       
       <guid>https://prasenjitmanna.com/writing/2024-04-07-clos-ip-traffic-between-leaf-and-spine/</guid>
       <description>Traffic tromboning is a phenomena in data center traffic configuration or service chaining, while some service is bottleneck for rest of the flows. The service chaining can be created between leaves and spines using VXLAN and VRF way.
-This is the article written by Mario Baldi and Silvano Gai posted Traffic Tromboning Why, What, Where, How, and How Not
+This is the article written by Mario Baldi and Silvano Gai originally posted in Traffic Tromboning Why, What, Where, How, and How Not
 Why do we have traffic tromboning? Network and security services have traditionally been deployed in front of a group of end hosts that share some common function and are topologically close: e.</description>
     </item>
     
