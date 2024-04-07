@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang='en' dir='auto'><head>
+  <meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name='description' content='Clos IP Traffic between Leaf and Spine &amp; Tromboning'>
+<meta name='theme-color' content='#ffcd00'>
+
+<meta property='og:title' content='Clos IP Traffic between Leaf and Spine &amp; Tromboning • Prasenjit Manna'>
+<meta property='og:description' content='Clos IP Traffic between Leaf and Spine &amp; Tromboning'>
+<meta property='og:url' content='https://prasenjitmanna.com/writing/2024-04-07-clos-ip-traffic-between-leaf-and-spine/'>
+<meta property='og:site_name' content='Prasenjit Manna'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:tag' content='switching'><meta property='article:tag' content='forwarding'><meta property='article:published_time' content='2024-04-07T00:00:00Z'/><meta property='article:modified_time' content='2024-04-07T19:53:48&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
+
+<meta name="generator" content="Hugo 0.79.0" />
+
+  <title>Clos IP Traffic between Leaf and Spine &amp; Tromboning • Prasenjit Manna</title>
+  <link rel='canonical' href='https://prasenjitmanna.com/writing/2024-04-07-clos-ip-traffic-between-leaf-and-spine/'>
+  
+  
+  <link rel='icon' href='../../favicon.ico'>
+<link rel='stylesheet' href='../../assets/css/main.ab98e12b.css'><style>
+:root{--color-accent:#ffcd00;}
+</style>
+<script data-goatcounter="https://prasenjit.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+  
+
+</head>
+<body class='page type-writing has-sidebar'>
+
+  <div class='site'><div id='sidebar' class='sidebar'>
+  <a class='screen-reader-text' href='#main-menu'>Skip to Main Menu</a>
+
+  <div class='container'><section class='widget widget-about sep-after'>
+  <header>
+    
+    <div class='logo'>
+      <a href='../../'>
+        <img src='../../images/logo.png'>
+      </a>
+    </div>
+    
+    <h2 class='title site-title '>
+      <a href='../../'>
+      Prasenjit Manna
+      </a>
+    </h2>
+    <div class='desc'>
+    Networking Software Specialist
+    </div>
+  </header>
+
+</section>
+<section class='widget widget-sidebar_menu sep-after'><nav id='sidebar-menu' class='menu sidebar-menu' aria-label='Sidebar Menu'>
+    <div class='container'>
+      <ul><li class='item'>
+  <a href='../../about'>About</a></li><li class='item has-children'>
+  <a href='../../writing'>writing</a><button class='sub-menu-toggler'>
+    <span class='screen-reader-text'>expand sub menu</span>
+    <span class='sign'></span>
+  </button>
+
+  <ul class='sub-menu'><li class='item'>
+  <a href='../../writing/writing-backlog/'>backlog</a></li></ul></li><li class='item'>
+  <a href='../../blogs'>blogs</a></li><li class='item has-children'>
+  <a href='../../reading'>Reading</a><button class='sub-menu-toggler'>
+    <span class='screen-reader-text'>expand sub menu</span>
+    <span class='sign'></span>
+  </button>
+
+  <ul class='sub-menu'><li class='item'>
+  <a href='../../reading/blogroll/'>Blogroll</a></li><li class='item'>
+  <a href='../../reading/books-blogs/'>Books/Blogs</a></li><li class='item'>
+  <a href='../../reading/ietf/'>ietf</a></li><li class='item'>
+  <a href='../../reading/engg-papers/'>Papers</a></li><li class='item'>
+  <a href='../../reading/podcasts/'>Podcast</a></li></ul></li><li class='item has-children'>
+  <a href='../../quotes'>Quotes</a><button class='sub-menu-toggler'>
+    <span class='screen-reader-text'>expand sub menu</span>
+    <span class='sign'></span>
+  </button>
+
+  <ul class='sub-menu'><li class='item'>
+  <a href='../../quotes/notes-to-self/'>notes-to-self</a></li></ul></li><li class='item'>
+  <a href='../../subscribe'>Subscribe</a></li><li class='item'>
+  <a href='../../archive'>Archive</a></li><li class='item'>
+  <a href='https://prasenjitmanna.com/positivemusic.app/'>PositiveMusic</a></li></ul>
+    </div>
+  </nav>
+
+</section><section class='widget widget-social_menu sep-after'><header>
+    <h4 class='title widget-title'>Contact</h4>
+  </header><nav aria-label='Social Menu'>
+    <ul><li>
+        <a href='mailto:prasenjit.manna@gmail.com' target='_blank' rel='noopener me'>
+          <span class='screen-reader-text'>Contact via Email</span><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline>
+</svg>
+</a>
+      </li><li>
+        <a href='https://github.com/prmanna' target='_blank' rel='noopener me'>
+          <span class='screen-reader-text'>Open Github account in new tab</span><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+
+</svg>
+</a>
+      </li><li>
+        <a href='https://twitter.com/prasenjit_manna' target='_blank' rel='noopener me'>
+          <span class='screen-reader-text'>Open Twitter account in new tab</span><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <title>Twitter icon</title>
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+
+</svg>
+</a>
+      </li><li>
+        <a href='https://linkedin.com/in/prasenjitmanna' target='_blank' rel='noopener me'>
+          <span class='screen-reader-text'>Open Linkedin account in new tab</span><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle>
+</svg>
+</a>
+      </li></ul>
+  </nav>
+</section><section class='widget widget-search sep-after'>
+  <header>
+    <h4 class='title widget-title'>Search</h4>
+  </header>
+
+  <form action='../../search' id='search-form' class='search-form'>
+    <label>
+      <span class='screen-reader-text'>Search</span>
+      <input id='search-term' class='search-term' type='search' name='q' placeholder='Search&hellip;'>
+    </label></form>
+
+</section>
+<section class='widget widget-taxonomy_cloud sep-after'>
+  <header>
+    <h4 class='title widget-title'>Tags</h4>
+  </header>
+
+  <div class='container list-container'>
+  <ul class='list taxonomy-cloud'><li>
+        <a href='../../tags/blogroll/' style='font-size:1em'>blogroll</a>
+      </li><li>
+        <a href='../../tags/books/' style='font-size:1.3333333333333333em'>books</a>
+      </li><li>
+        <a href='../../tags/c&#43;&#43;/' style='font-size:1em'>c&#43;&#43;</a>
+      </li><li>
+        <a href='../../tags/career/' style='font-size:1.3333333333333333em'>career</a>
+      </li><li>
+        <a href='../../tags/career-progression/' style='font-size:1em'>Career Progression</a>
+      </li><li>
+        <a href='../../tags/clos/' style='font-size:1em'>clos</a>
+      </li><li>
+        <a href='../../tags/data-center/' style='font-size:1.5em'>data-center</a>
+      </li><li>
+        <a href='../../tags/engg-paper/' style='font-size:1em'>engg-paper</a>
+      </li><li>
+        <a href='../../tags/forwarding/' style='font-size:1.3333333333333333em'>forwarding</a>
+      </li><li>
+        <a href='../../tags/gnmi/' style='font-size:1em'>GNMI</a>
+      </li><li>
+        <a href='../../tags/hashing/' style='font-size:1em'>hashing</a>
+      </li><li>
+        <a href='../../tags/ietf/' style='font-size:1.1666666666666667em'>ietf</a>
+      </li><li>
+        <a href='../../tags/link-state/' style='font-size:1em'>link-state</a>
+      </li><li>
+        <a href='../../tags/linux-tool/' style='font-size:1em'>linux tool</a>
+      </li><li>
+        <a href='../../tags/mental-model/' style='font-size:1.3333333333333333em'>mental model</a>
+      </li><li>
+        <a href='../../tags/netconf/' style='font-size:1.1666666666666667em'>netconf</a>
+      </li><li>
+        <a href='../../tags/newsletter/' style='font-size:1em'>newsletter</a>
+      </li><li>
+        <a href='../../tags/podcast/' style='font-size:1em'>podcast</a>
+      </li><li>
+        <a href='../../tags/productivity/' style='font-size:1em'>productivity</a>
+      </li><li>
+        <a href='../../tags/programmability/' style='font-size:1.5em'>Programmability</a>
+      </li><li>
+        <a href='../../tags/programming-blogs/' style='font-size:1em'>programming-blogs</a>
+      </li><li>
+        <a href='../../tags/programming-books/' style='font-size:1em'>programming-books</a>
+      </li><li>
+        <a href='../../tags/quotes/' style='font-size:1em'>quotes</a>
+      </li><li>
+        <a href='../../tags/readable-code/' style='font-size:1em'>readable-code</a>
+      </li><li>
+        <a href='../../tags/restconf/' style='font-size:1.1666666666666667em'>restconf</a>
+      </li><li>
+        <a href='../../tags/routing/' style='font-size:1em'>routing</a>
+      </li><li>
+        <a href='../../tags/skills/' style='font-size:1em'>skills</a>
+      </li><li>
+        <a href='../../tags/switching/' style='font-size:1.1666666666666667em'>switching</a>
+      </li><li>
+        <a href='../../tags/technical-leadership/' style='font-size:1em'>Technical Leadership</a>
+      </li><li>
+        <a href='../../tags/webscaler/' style='font-size:1em'>webscaler</a>
+      </li><li>
+        <a href='../../tags/wisdom/' style='font-size:2em'>wisdom</a>
+      </li></ul>
+</div>
+
+
+</section>
+</div>
+
+  <div class='sidebar-overlay'></div>
+</div><div class='main'><a class='screen-reader-text' href='#content'>Skip to Content</a>
+
+<button id='sidebar-toggler' class='sidebar-toggler' aria-controls='sidebar'>
+  <span class='screen-reader-text'>Toggle Sidebar</span>
+  <span class='open'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <line x1="3" y1="12" x2="21" y2="12" />
+  <line x1="3" y1="6" x2="21" y2="6" />
+  <line x1="3" y1="18" x2="21" y2="18" />
+
+</svg>
+</span>
+  <span class='close'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <line x1="18" y1="6" x2="6" y2="18" />
+  <line x1="6" y1="6" x2="18" y2="18" />
+
+</svg>
+</span>
+</button><div class='header-widgets'>
+        <div class='container'>
+    
+    <style>.widget-breadcrumbs li:after{content:'\2f '}</style>
+  <section class='widget widget-breadcrumbs sep-after'>
+    <nav id='breadcrumbs'>
+      <ol><li><a href='../../'>Home</a></li><li><a href='../../writing/'>Writings</a></li><li><span>Clos IP Traffic between Leaf and Spine &amp; Tromboning</span></li></ol>
+    </nav>
+  </section></div>
+      </div>
+
+      <header id='header' class='header site-header'>
+        <div class='container sep-after'>
+          <div class='header-info'><p class='site-title title'>Prasenjit Manna</p><p class='desc site-desc'></p>
+          </div>
+        </div>
+      </header>
+
+      <main id='content'>
+
+
+<article lang='en' class='entry'>
+  <header class='header entry-header'>
+  <div class='container sep-after'>
+    <div class='header-info'>
+      <h1 class='title'>Clos IP Traffic between Leaf and Spine &amp; Tromboning</h1>
+      
+<p class='desc'>Clos IP Traffic between Leaf and Spine &amp; Tromboning</p>
+
+
+    </div>
+    <div class='entry-meta'>
+  <span class='posted-on'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+  <line x1="16" y1="2" x2="16" y2="6"/>
+  <line x1="8" y1="2" x2="8" y2="6"/>
+  <line x1="3" y1="10" x2="21" y2="10"/>
+
+</svg>
+<span class='screen-reader-text'>Posted on </span>
+  <time class='entry-date' datetime='2024-04-07T00:00:00Z'>2024, Apr 07</time>
+</span>
+
+  <span class='byline'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <path d="M21,21V20c0-2.76-4-5-9-5s-9,2.24-9,5v1"/>
+  <path d="M16,6.37A4,4,0,1,1,12.63,3,4,4,0,0,1,16,6.37Z"/>
+
+</svg>
+<span class='screen-reader-text'> by </span><a href='../../authors/prmanna'>Prasenjit Manna</a></span>
+  
+<span class='reading-time'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <circle cx="12" cy="12" r="10"/>
+  <polyline points="12 6 12 12 15 15"/>
+
+</svg>
+12 mins read
+</span>
+
+
+</div>
+
+
+  </div>
+</header>
+
+  
+  
+<details class='container entry-toc'>
+  <summary class='title'>
+    <span>Table of Contents</span>
+  </summary>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#layer-two-traffic-tromboning">Layer two traffic tromboning</a></li>
+    <li><a href="#layer-three-traffic-tromboning">Layer three traffic tromboning</a></li>
+  </ul>
+</nav>
+</details>
+
+
+  <div class='container entry-content'>
+  <p>Traffic tromboning is a phenomena in data center traffic configuration or service chaining, while some service is bottleneck for rest of the flows. The service chaining can be created between leaves and spines using VXLAN and VRF way.</p>
+<p>This is the article written by <a href="https://blog.baldi.info/about">Mario Baldi</a> and <a href="https://silvanogai.github.io/pages/about/index.html">Silvano Gai</a> posted <a href="https://blog.baldi.info/trombone">Traffic Tromboning
+Why, What, Where, How, and How Not</a></p>
+<h1 id="why-do-we-have-traffic-tromboning">Why do we have traffic tromboning?</h1>
+<p>Network and security services have traditionally been deployed in front of a group of end hosts that share some common function and are topologically close: e.g., private corporate clients, public corporate servers, the servers of a specific department, the hosts of a corporate branch. The following figure shows a most common deployment model for services such as NAT, load balancers and firewalls.</p>
+<p><img src="../../assets/images/service-appliance.png" alt=""></p>
+<p>With virtualization, while the same logical model still applies, the physical placement of the hosts, their physical proximity, and the natural point to deploy the service application (on the shortest path of traffic to and from the served hosts) have disappeared. Of course! It is in the very nature of virtualization (as well as its value and goal) to make all functional components (resources, topology, location) independent of the physical ones. Hosts communicating with each other can be anywhere in a data center and consequently the network design must:</p>
+<ul>
+<li>Provide equal and abundant bandwidth between any pair of hosts.</li>
+<li>Separate “physical” adjacency (in the IP terminology sense, namely layer two connectivity) from the actual physical topology.</li>
+</ul>
+<p>The <a href="https://silvanogai.github.io/posts/clos-part1/">Clos network topology</a> with its fractal capability of scaling (possibly incrementally) by adding identical components (leaf and spine switches) interconnected according to the same pattern, effectively solves the first requirement.</p>
+<p>Network virtualization techniques, such as SDN (Software Defined Networking) and VXLAN (Virtual Extensible LAN), address the second requirement.</p>
+<p>In this context, the remaining challenge is how to deploy the networking and security services (whether discrete/physical appliances or virtual network functions running on the same type of physical hosts as the workloads), in front of the (virtual) hosts they serve. The solution relies on the same technologies and infrastructure that make logical proximity independent of physical (topological) proximity: network virtualization.</p>
+<p>Specifically, there are two main mechanisms that can be used for this purpose:</p>
+<ul>
+<li>Configure the service (virtual) appliance as the default gateway for a particular IP subnet. This requires layer two connectivity between the source of the traffic and the appliance. All packets that need to go outside the IP subnet need to cross the appliance/default gateway by definition.</li>
+<li>The appliance injects a default route using a routing protocol like BGP or OSPF. All traffic that does not have a more specific route to the destination will follow the default route and therefore traverse the appliance.</li>
+</ul>
+<p>We will subsequently discuss more details and the implications of these two techniques when used in conjunction with Clos networks in data centers.</p>
+<h1 id="what-is-traffic-tromboning">What is traffic tromboning?</h1>
+<p>Whichever of the above techniques is deployed, traffic between topologically close hosts might take a long detour and get back, as shown in the figure below.</p>
+<p><img src="../../assets/images/trombone2.png" alt=""></p>
+<p>This phenomenon is commonly known as traffic trombone or traffic tromboning, as the shape of the path taken by the traffic in the network resembles the shape of the brass musical instrument that dates back to the 15th century and whose name, trombone, derives from “tromba,” the Italian word for trumpet: a large trumpet.</p>
+<p>In a data center fabric based on a Clos topology, traffic tromboning results into traffic traversing the leaf-spine fabric twice, which leads to duplication of both network load and the latency experienced by the two hosts.</p>
+<p>Moreover, when services are applied to traffic between most pairs of hosts, the appliance becomes a funneling point - also recalling the shape of a trombone - that must be traversed by traffic from a disparate set of source-destination pairs (see the following figure for a graphic representation). We will therefore subsequently refer to service appliances such as firewalls, IDSs (Intrusion Detection Systems), NAT (Network Address Translation), load balancers, as trombones.</p>
+<p><img src="../../assets/images/trombone.jpg" alt=""></p>
+<p>Trombones, by their very nature, create a network traffic scalability problem. Addressing this through load balancing among multiple trombones is challenging since their services are often stateful.</p>
+<p>Let’s consider a ubiquitous combination of a firewall and a NAT that we all have in the router that connects our house to the Internet. When a family member browses the Internet, a TCP session is created. The router needs to create a NAT rule for the outgoing traffic, but also a second one for the return traffic. These two rules need to be kept for the duration of the TCP session.</p>
+<p>If, for example, in a corporate network context, two or more NAT appliances are required for scale or fault tolerance, one of the following should apply:</p>
+<ul>
+<li>Direct and reverse directions of a flow should go through the same appliance.</li>
+<li>State should be synchronized across the various appliances.</li>
+</ul>
+<p><strong>Synchronizing state across appliances is at best impractical and at worst impossible.</strong></p>
+<p>For example, if a NAT function is present, the packet on the Internet will have the NAT source IP address. If multiple appliances are deployed in parallel, the reverse traffic will be explicitly addressed and routed to the NAT instance with the IP address used for the translation. Hence, when a flow is assigned to a traffic trombone, it uses that particular trombone for all its duration or until the trombone fails.</p>
+<p>Mechanisms exist for high availability across multiple trombones in case of catastrophic failures.</p>
+<h1 id="north-south-vs-east-west-traffic">North-South vs East-West Traffic</h1>
+<p>Not every trombone is a bottleneck. Historically tromboning was happening towards the wide area network, a typical example being the firewall connecting a corporate network to the Internet. However, usually in that scenario the capacity of the link to the service provider is the bottleneck.</p>
+<p>Today some high end firewalls, albeit costly, are capable of supporting up to 100 Gbps. Firewalls operating at 1 Gbps are very common and cheap, with 10 Gbps ones being considered the reasonably priced midrange. Therefore firewalls are typically not choke-points when used to connect to the Internet, a type of traffic that is also called North-South in a data center.</p>
+<p><img src="../../assets/images/compass.png" alt=""></p>
+<p>Different considerations apply to East-West traffic, i.e., the traffic inside the data center.</p>
+<p>We have seen in a <a href="https://blog.baldi.info/service-edge">previous post</a> that the amount of East-West traffic is at least ten times larger than the North-South one.</p>
+<p>When applied to East-West traffic, the firewall trombone may become a bottleneck. In the <a href="https://blog.baldi.info/service-edge">same post</a>, we have also discussed how placing the trombone on a Clos network disrupts optimal routing increasing latency and causing a large percentage of the network bandwidth to go wasted.</p>
+<p>There are indeed enterprise deployments where this might not be a problem because the traffic is limited compared to the large capacity of the data center fabric and the specific applications utilized can tolerate latency. But, there are a significant number of cases where traffic tromboning drawbacks are critical, with obvious examples being cloud provider data centers (where the fabric bandwidth is shared by the various tenants) and market segments that deploy time sensitive applications, such as financial trading.</p>
+<h1 id="how-is-traffic-tromboning-realized">How is traffic tromboning realized?</h1>
+<p>Let’s now consider the configuration complexity of traffic tromboning for East-West traffic in conjunction with Clos networks for the two approaches previously mentioned.</p>
+<h2 id="layer-two-traffic-tromboning">Layer two traffic tromboning</h2>
+<p>To explain this first configuration we will reuse a figure from the <a href="https://blog.baldi.info/service-edge">previously mentioned post</a>.</p>
+<p><img src="../../assets/images/network.jpg" alt="Network Diagram"></p>
+<p>In this example, the E-W Firewall is deployed in transparent mode, acting as the default gateway for the server C subnet. As previously explained, IP rules require that a host and its default gateway be in the same subnet, i.e., be able to exchange layer two frames.</p>
+<p>This requires some type of encapsulation, because in typical Clos data center networks each leaf implements a layer two domain (with its own IP subnet) and uses layer three forwarding towards the spines leveraging ECMP (equal cost multi-path) routing to spread the traffic across multiple paths. Therefore the network administrator needs to deploy an encapsulation technique, like VXLAN, to create a virtual layer two domain including server C (at leaf L2) and the E-W Firewall (that is physically connected to leaf L1).</p>
+<p>Since the firewall needs to serve as a default gateway for servers connected to multiple leaves (namely, multiple IP subnets), VLAN trunking is typically enabled between leaf L1 and the E-W Firewall. Each VLAN contains the IP subnet of a leaf and is mapped to a VNID (Virtual Network IDentifier) of the VXLAN protocol. For example, the leaf L2 may encapsulate the native VLAN toward server C in a VXLAN tunnel with VNID = 88 and leaf L1 may remove the VXLAN encapsulation and map VNID = 88 to VLAN = 8 toward the E-W Firewall. Leaf L4 may use VNID = 44 and leaf L1 may map it to VLAN = 4. The same applies to the reverse direction.</p>
+<p>This approach therefore uses a layer two network virtualization technique.</p>
+<h2 id="layer-three-traffic-tromboning">Layer three traffic tromboning</h2>
+<p>In order to use layer 3 routing to force traffic through a trombone, that trombone must inject a default route that is propagated through the network and used for all traffic that does not have a more specific route. With reference to the previous figure, a default route injected in the fabric by the E-W Firewall can be used to steer the traffic from Server C to Server Z through the firewall only if leaf L2 and the other leaf and spine switches involved do not have a more specific route to Server Z. How can this be possible, while enabling Server Z to be reached by packets once they have been processed by the firewall?</p>
+<p>The solution is offered by layer three network virtualization. Virtual Routing and Forwarding (VRF) is a popular technique allowing multiple instances of a routing table to exist in a router and work simultaneously. Each physical interface (i.e., a port) or logical interface (i.e., a VLAN) is associated with one VRF instance. The BGP routing protocol is deployed to advertise routes specifying the VRF instance they belong to.</p>
+<p>In the specific case of the above figure, the East-West traffic requires three VRFs: red, green, and blue. The E-W Firewall is the only point of contact in the red VRF between Server C and the rest of the network, and thus all the traffic must transit through the firewall. To achieve this the E-W Firewall injects a default route into the red VRF that is propagated through the network and used for traffic on the red VRF. The routing tables of the red VRF contain more specific routes only to destinations connected to leaf L2, including Server C; consequently, when switches route a packet addressed to Server Z, they send it towards the firewall as indicated by the default route.</p>
+<p>The E-W Firewall is deployed in routed mode and participates in two VRFs: the red VRF associated with the IP subnet of Server C and the green VRF associated with the load balancer (i.e., Server Z). The firewall’s routing table includes a route to Server Z through the physical or logical interface that belongs to the green VRF; hence, the packet is forwarded back into the fabric through such interface. Leaf and spine switches apply the green VRF whose tables contain a specific route for Server Z.</p>
+<p>The load balancer executes its function and determines that the packet should be delivered to physical Server E. The load balancer’s routing table has a route to the IP subnet of leaf L3 through the interface associated with the blue VRF. Hence, once the load balancer forwards the packet into the fabric, switches use the blue VRF tables that contain a route to the subnet of Server E.</p>
+<p>The trombones can be connected to multiple VRFs either using multiple physical ports or multiple logical interfaces (e.g., VLANs) on the same physical port, and do not need to be VRF-aware. They just need a single routing table with routes through the proper physical or logical interfaces. In our use case, the E-W Firewall learns such routes by maintaining two routing sessions (e.g., using BGP): one on the red port (physical or logical) and the other one on the green port.</p>
+<p>All the spine switches in our network participate in the three VRFs. Leaf L1 is part of the red and green VRFs, leaf L4 green and blue, leaf L2 red, and leaf L3 blue. More VRFs can be deployed on leaves to serve the remaining hosts.</p>
+<p>In this case the use of VXLAN is not needed and is replaced by VRF. More complicated schemes that combine VXLAN and VRF are also possible.</p>
+<h1 id="how-to-avoid-traffic-tromboning">How to avoid traffic tromboning</h1>
+<p>This analysis of traffic tromboning leads to very similar conclusions to the ones of <a href="https://blog.baldi.info/service-edge">our previous post.</a> <strong>Whenever possible, centralized appliances should be avoided for East-West traffic since they are bottlenecks, disrupt optimal routing, and introduce significant latency and jitter.</strong> Instead, the same scale out model utilized for the compute should be leveraged by naturally placing services in a distributed fashion at the edge.</p>
+<p>In virtualized and containerized environments, this can be achieved by executing services in a Virtual Machine (VM) or container running on the very host where workloads receiving the services are executed. This approach still results in a small tromboning effect within hosts (as traffic flows between workloads and service VM) or between neighboring hosts if service VMs are not placed in every single host.</p>
+<p>Such local tromboning can be avoided by including services in the hypervisor software stack, for example within the virtual switch.</p>
+<p>Both above solutions cannot be applied to bare metal (not virtualized and containerized) environments and share the major drawback of taking CPU and memory resources away from paying workloads to implement services.</p>
+<p>Hence, the best solution is having specialized hardware on the hosts to implement and run services. The ideal point to place such hardware is at the network attachment that is naturally on the traffic path.</p>
+<p>Adopting domain-specific hardware for services at the edge and installing it in conjunction with servers allows services to:</p>
+<ul>
+<li>run at wire speed without taking away any resources from the workloads executing on the hosts</li>
+<li>scale at the same rate as compute.</li>
+</ul>
+<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/prmanna" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/prmanna', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Join my email list to get direct access to new blog posts.</label></p><p><input type="text" style="width:200px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /></p></form>
+
+
+
+</div>
+
+  
+<footer class='entry-footer'>
+  <div class='container sep-before'><div class='last-updated'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+      <path d="M20 14.66V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5.34" />
+  <polygon points="18 2 22 6 12 16 8 16 8 12 18 2" />
+
+</svg>
+<span class='screen-reader-text'>Last updated: </span>
+      <time class='entry-date' datetime='2024-04-07T19:53:48&#43;05:30'>2024, Apr 07</time>
+    </div><div class='categories'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+    <path d="M22,19a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V5A2,2,0,0,1,4,3H9l2,3h9a2,2,0,0,1,2,2Z"/>
+
+</svg>
+<span class='screen-reader-text'>Categories: </span><a class='category' href='../../categories/blogs/'>blogs</a></div>
+<div class='tags'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <path d="M20.59,13.41l-7.17,7.17a2,2,0,0,1-2.83,0L2,12V2H12l8.59,8.59A2,2,0,0,1,20.59,13.41Z"/>
+  <line x1="7" y1="7" x2="7" y2="7"/>
+
+</svg>
+<span class='screen-reader-text'>Tags: </span><a class='tag' href='../../tags/switching/'>switching</a>, <a class='tag' href='../../tags/forwarding/'>forwarding</a></div>
+
+  </div>
+</footer>
+
+
+</article>
+
+<nav class='entry-nav'>
+  <div class='container'><div class='prev-entry sep-before'>
+      <a href='../../writing/2024-04-06-various_switching_techniques/'>
+        <span aria-hidden='true'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <line x1="20" y1="12" x2="4" y2="12"/>
+  <polyline points="10 18 4 12 10 6"/>
+
+</svg>
+ Previous</span>
+        <span class='screen-reader-text'>Previous post: </span>Various Packet Switching Techniques</a>
+    </div></div>
+</nav>
+
+
+<section id='comments' class='comments'>
+  <div class='container sep-before'>
+    <div class='comments-area'>
+
+<h4 style="margin-top: 50px;">LEAVE A REPLY</h4>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScHjgg_yNjOm9uXTdjC8HPhMj1eAgELMVWyaY0xSOiVCd1flA/viewform?embedded=true" width="700" height="720" frameborder="0" marginheight="0" marginwidth="0">Please</iframe>
+
+
+</div>
+  </div>
+</section>
+
+      </main>
+
+      <footer id='footer' class='footer'>
+        <div class='container sep-before'><div class='copyright'>
+  <p> &copy; 2020-2024 Prasenjit Manna. Powered by Hugo &amp; Minimo Theme</p>
+</div>
+
+        </div>
+      </footer>
+
+    </div>
+  </div><script>window.__assets_js_src="../../assets/js/"</script>
+
+<script src='../../assets/js/main.c3bcf2df.js'></script>
+
+</body>
+
+</html>
+

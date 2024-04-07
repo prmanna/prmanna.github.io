@@ -6,7 +6,18 @@
     <description>Recent content in switching on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/tags/switching/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/tags/switching/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Clos IP Traffic between Leaf and Spine &amp; Tromboning</title>
+      <link>https://prasenjitmanna.com/writing/2024-04-07-clos-ip-traffic-between-leaf-and-spine/</link>
+      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/writing/2024-04-07-clos-ip-traffic-between-leaf-and-spine/</guid>
+      <description>Traffic tromboning is a phenomena in data center traffic configuration or service chaining, while some service is bottleneck for rest of the flows. The service chaining can be created between leaves and spines using VXLAN and VRF way.
+This is the article written by Mario Baldi and Silvano Gai posted Traffic Tromboning Why, What, Where, How, and How Not
+Why do we have traffic tromboning? Network and security services have traditionally been deployed in front of a group of end hosts that share some common function and are topologically close: e.</description>
+    </item>
+    
     <item>
       <title>Various Packet Switching Techniques</title>
       <link>https://prasenjitmanna.com/writing/2024-04-06-various_switching_techniques/</link>
