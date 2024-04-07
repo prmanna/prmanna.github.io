@@ -13,8 +13,8 @@
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://prasenjitmanna.com/writing/2024-04-06-various_switching_techniques/</guid>
-      <description>1990s: Layer 2 Switches 2000s: The Introduction of Layer 3 Switches 2010: Modern L3 Switches Clos Network and ECMP Support Network Virtualization Support SDN Support Scalability Considerations 2020: SmartSwitches (Distributed Service Switches) Join my email list to get direct access to new blog posts.
- </description>
+      <description>A History of Network Switches 1990s: Layer 2 Switches Network switches (switches for short) are the evolution of network bridges whose behavior was defined by the Institute of Electrical and Electronics Engineers (IEEE) in the standard IEEE 802.1 to connect two or more Ethernet segments. Switch and switching are terms that do not exist in standards; they were introduced to indicate a multiport bridge.
+Initially, switches were pure layer 2 devices that forwarded Ethernet frames without knowing their content and without modifying the frames, thus providing connectivity for the many layer 3 protocols deployed in those days.</description>
     </item>
     
     <item>
