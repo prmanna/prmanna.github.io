@@ -6,7 +6,17 @@
     <description>Recent content in blogs on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/categories/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/categories/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Data Center Networks</title>
+      <link>https://prasenjitmanna.com/writing/2024-07-16-ai-data-center-networking/</link>
+      <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/writing/2024-07-16-ai-data-center-networking/</guid>
+      <description>Join my email list to get direct access to new blog posts.
+ </description>
+    </item>
+    
     <item>
       <title>Clos IP Traffic between Leaf and Spine &amp; Tromboning</title>
       <link>https://prasenjitmanna.com/writing/2024-04-07-clos-ip-traffic-between-leaf-and-spine/</link>

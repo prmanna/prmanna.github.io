@@ -6,11 +6,20 @@
     <description>Recent content in Categories on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ietf</title>
+      <link>https://prasenjitmanna.com/categories/ietf/</link>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/categories/ietf/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>blogs</title>
       <link>https://prasenjitmanna.com/categories/blogs/</link>
-      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>https://prasenjitmanna.com/categories/blogs/</guid>
       <description></description>
@@ -22,15 +31,6 @@
       <pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://prasenjitmanna.com/categories/ipv6/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ietf</title>
-      <link>https://prasenjitmanna.com/categories/ietf/</link>
-      <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://prasenjitmanna.com/categories/ietf/</guid>
       <description></description>
     </item>
     
