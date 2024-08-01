@@ -6,7 +6,17 @@
     <description>Recent content in blogs on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/categories/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/categories/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Evolution of Data Center Networking for AI Clusters</title>
+      <link>https://prasenjitmanna.com/writing/2024-08-01-evolution-data-center-networking-for-ai-clusters/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/writing/2024-08-01-evolution-data-center-networking-for-ai-clusters/</guid>
+      <description>IETF - Data Center Networking for AI Clusters  The Evolution of Data Center Networking for AI Workloads by Kentik  Join my email list to get direct access to new blog posts.
+ </description>
+    </item>
+    
     <item>
       <title>IETF - Data Center Networking for AI Clusters</title>
       <link>https://prasenjitmanna.com/writing/2024-07-16-data-center-networking-for-ai-clusters/</link>
