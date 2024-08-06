@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>network observability on Prasenjit Manna</title>
+    <link>https://prasenjitmanna.com/tags/network-observability/</link>
+    <description>Recent content in network observability on Prasenjit Manna</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/tags/network-observability/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Network Observability</title>
+      <link>https://prasenjitmanna.com/writing/2024-08-06-network-observability/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/writing/2024-08-06-network-observability/</guid>
+      <description>Network Observability TBD
+Join my email list to get direct access to new blog posts.
+ </description>
+    </item>
+    
+  </channel>
+</rss>
