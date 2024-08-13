@@ -13,8 +13,7 @@
       <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
       
       <guid>https://prasenjitmanna.com/writing/2024-08-12-ietf-yang-models/</guid>
-      <description>IETF - Yang Models IP Basic YANG Models (Southbound) Inventory Interface IP ARP VRRP Time NAT Security AAA Northbound YANG Models Framework Services Topology IVY (Network Inventory YANG)  https://datatracker.ietf.org/doc/draft-ietf-ivy-network-inventory-yang/ https://datatracker.ietf.org/doc/draft-ietf-ivy-network-inventory-topology/  Rerefences
- https://www.ipv6plus.net/IPv6Plus/YANG-Models/  </description>
+      <description>IETF - Yang Models Routing Service YANG Models (Southbound) Routing  RFC/Draft Name	Title	Status	Publication URL	Progress RFC8294	Common YANG Data Types for the Routing Area	RFC	https://datatracker.ietf.org/doc/html/rfc8294 RFC8022	A YANG Data Model for Routing Management	RFC	https://datatracker.ietf.org/doc/html/rfc8022 RFC8349	A YANG Data Model for Routing Management (NMDA Version)	RFC	https://datatracker.ietf.org/doc/html/rfc8349 RFC8529	YANG Data Model for Network Instances	RFC	https://datatracker.ietf.org/doc/html/rfc8529  IP Basic YANG Models (Southbound) Inventory Interface IP ARP VRRP Time NAT Security AAA Northbound YANG Models Framework Services Topology IVY (Network Inventory YANG)  https://datatracker.</description>
     </item>
     
   </channel>
