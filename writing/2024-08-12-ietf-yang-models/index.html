@@ -9,7 +9,7 @@
 <meta property='og:description' content='IETF - Yang Models'>
 <meta property='og:url' content='https://prasenjitmanna.com/writing/2024-08-12-ietf-yang-models/'>
 <meta property='og:site_name' content='Prasenjit Manna'>
-<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:tag' content='ietf'><meta property='article:tag' content='netconf'><meta property='article:tag' content='programmability'><meta property='article:tag' content='yang'><meta property='article:published_time' content='2024-08-12T00:00:00Z'/><meta property='article:modified_time' content='2024-08-13T10:46:21&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:tag' content='ietf'><meta property='article:tag' content='netconf'><meta property='article:tag' content='programmability'><meta property='article:tag' content='yang'><meta property='article:published_time' content='2024-08-12T00:00:00Z'/><meta property='article:modified_time' content='2024-08-13T10:53:35&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
 
 <meta name="generator" content="Hugo 0.79.0" />
 
@@ -302,7 +302,7 @@
   <polyline points="12 6 12 12 15 15"/>
 
 </svg>
-One min read
+3 mins read
 </span>
 
 
@@ -326,6 +326,17 @@ One min read
         <li><a href="#routing">Routing</a></li>
         <li><a href="#routing-policy">Routing Policy</a></li>
         <li><a href="#rib">RIB</a></li>
+        <li><a href="#acl">ACL</a></li>
+        <li><a href="#qos">QoS</a></li>
+        <li><a href="#bgp">BGP</a></li>
+        <li><a href="#pcep">PCEP</a></li>
+        <li><a href="#mpls">MPLS</a></li>
+        <li><a href="#sr">SR</a></li>
+        <li><a href="#srv6">SRv6</a></li>
+        <li><a href="#vpn">VPN</a></li>
+        <li><a href="#vxlan">VXLAN</a></li>
+        <li><a href="#multicast">Multicast</a></li>
+        <li><a href="#bfd">BFD</a></li>
       </ul>
     </li>
     <li><a href="#ip-basic-yang-models-southbound">IP Basic YANG Models (Southbound)</a>
@@ -359,17 +370,68 @@ One min read
 <p>IETF Yang Models.</p>
 <h2 id="routing-service-yang-models-southbound">Routing Service YANG Models (Southbound)</h2>
 <h3 id="routing">Routing</h3>
-<ul>
-<li><a href="https://datatracker.ietf.org/doc/html/rfc8294">RFC8294	Common YANG Data Types for the Routing Area</a></li>
-<li><a href="https://datatracker.ietf.org/doc/html/rfc8022">RFC8022	A YANG Data Model for Routing Management</a></li>
-<li><a href="https://datatracker.ietf.org/doc/html/rfc8349">RFC8349	A YANG Data Model for Routing Management (NMDA Version)</a></li>
-<li><a href="https://datatracker.ietf.org/doc/html/rfc8529">RFC8529	YANG Data Model for Network Instances</a></li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>RFC/Draft Name</th>
+<th>Title</th>
+<th>Status</th>
+<th>Publication URL</th>
+<th>Progress</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RFC8294</td>
+<td>Common YANG Data Types for the Routing Area</td>
+<td>RFC</td>
+<td><a href="https://datatracker.ietf.org/doc/html/rfc8294">https://datatracker.ietf.org/doc/html/rfc8294</a></td>
+<td> </td>
+</tr>
+<tr>
+<td>RFC8022</td>
+<td>A YANG Data Model for Routing Management</td>
+<td>RFC</td>
+<td><a href="https://datatracker.ietf.org/doc/html/rfc8022">https://datatracker.ietf.org/doc/html/rfc8022</a></td>
+<td> </td>
+</tr>
+<tr>
+<td>RFC8349</td>
+<td>A YANG Data Model for Routing Management (NMDA Version)</td>
+<td>RFC</td>
+<td><a href="https://datatracker.ietf.org/doc/html/rfc8349">https://datatracker.ietf.org/doc/html/rfc8349</a></td>
+<td> </td>
+</tr>
+<tr>
+<td>RFC8529</td>
+<td>YANG Data Model for Network Instances</td>
+<td>RFC</td>
+<td><a href="https://datatracker.ietf.org/doc/html/rfc8529">https://datatracker.ietf.org/doc/html/rfc8529</a></td>
+<td> </td>
+</tr>
+</tbody>
+</table>
 <h3 id="routing-policy">Routing Policy</h3>
-<p>RFC/Draft Name	Title	Status	Publication URL	Progress</p>
-<ul>
-<li><a href="https://datatracker.ietf.org/doc/html/rfc9067">RFC9067	A YANG Data Model for Routing Policy</a></li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>RFC/Draft Name</th>
+<th>Title</th>
+<th>Status</th>
+<th>Publication URL</th>
+<th>Progress</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RFC9067</td>
+<td>A YANG Data Model for Routing Policy</td>
+<td>RFC</td>
+<td><a href="https://datatracker.ietf.org/doc/html/rfc9067">https://datatracker.ietf.org/doc/html/rfc9067</a></td>
+<td> </td>
+</tr>
+</tbody>
+</table>
 <h3 id="rib">RIB</h3>
 <table>
 <thead>
@@ -394,6 +456,341 @@ One min read
 <td>A YANG Data Model for RIB Extensions</td>
 <td>RFC</td>
 <td><a href="https://datatracker.ietf.org/doc/html/rfc9403">https://datatracker.ietf.org/doc/html/rfc9403</a></td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<h3 id="acl">ACL</h3>
+<table>
+<thead>
+<tr>
+<th>RFC/Draft Name</th>
+<th>Title</th>
+<th>Status</th>
+<th>Publication URL</th>
+<th>Progress</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RFC8519</td>
+<td>YANG Data Model for Network Access Control Lists (ACLs)</td>
+<td>RFC</td>
+<td><a href="https://datatracker.ietf.org/doc/html/rfc8519">https://datatracker.ietf.org/doc/html/rfc8519</a></td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<h3 id="qos">QoS</h3>
+<table>
+<thead>
+<tr>
+<th>RFC/Draft Name</th>
+<th>Title</th>
+<th>Status</th>
+<th>Publication URL</th>
+<th>Progress</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>draft-ietf-rtgwg-qos-model</td>
+<td>YANG Models for Quality of Service (QoS)</td>
+<td>WG Draft</td>
+<td><a href="https://datatracker.ietf.org/doc/html/draft-ietf-rtgwg-qos-model-11">https://datatracker.ietf.org/doc/html/draft-ietf-rtgwg-qos-model-11</a></td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<h3 id="bgp">BGP</h3>
+<table>
+<thead>
+<tr>
+<th>RFC/Draft Name</th>
+<th>Title</th>
+<th>Status</th>
+<th>Publication URL</th>
+<th>Progress</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>draft-ietf-idr-bgp-model</td>
+<td>BGP YANG Model for Service Provider Networks</td>
+<td>WG Draft</td>
+<td><a href="https://datatracker.ietf.org/doc/html/draft-ietf-idr-bgp-model-17">https://datatracker.ietf.org/doc/html/draft-ietf-idr-bgp-model-17</a></td>
+<td>WG Last Call Finished</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pcep">PCEP</h3>
+<p>| &mdash; | &mdash; | &mdash; | &mdash; | &mdash; |
+| draft-ietf-pce-pcep-yang | A YANG Data Model for Path Computation Element Communications Protocol (PCEP) | WG Draft | <a href="https://datatracker.ietf.org/doc/html/draft-ietf-pce-pcep-yang-22">https://datatracker.ietf.org/doc/html/draft-ietf-pce-pcep-yang-22</a> | WG Last Call Finished |</p>
+<h3 id="mpls">MPLS</h3>
+<table>
+<thead>
+<tr>
+<th>RFC/Draft Name</th>
+<th>Title</th>
+<th>Status</th>
+<th>Publication URL</th>
+<th>Progress</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RFC8960</td>
+<td>A YANG Data Model for MPLS Base</td>
+<td>RFC</td>
+<td><a href="https://datatracker.ietf.org/doc/html/rfc8960">https://datatracker.ietf.org/doc/html/rfc8960</a></td>
+<td> </td>
+</tr>
+<tr>
+<td>RFC9070</td>
+<td>YANG Data Model for MPLS LDP</td>
+<td>RFC</td>
+<td><a href="https://datatracker.ietf.org/doc/html/rfc9070">https://datatracker.ietf.org/doc/html/rfc9070</a></td>
+<td> </td>
+</tr>
+<tr>
+<td>draft-ietf-mpls-mldp-yang</td>
+<td>YANG Data Model for MPLS mLDP</td>
+<td>WG Draft</td>
+<td><a href="https://datatracker.ietf.org/doc/html/draft-ietf-mpls-mldp-yang-10">https://datatracker.ietf.org/doc/html/draft-ietf-mpls-mldp-yang-10</a></td>
+<td>Expired</td>
+</tr>
+<tr>
+<td>draft-ietf-teas-yang-rsvp</td>
+<td>A YANG Data Model for Resource Reservation Protocol (RSVP)</td>
+<td>WG Draft</td>
+<td><a href="https://datatracker.ietf.org/doc/html/draft-ietf-teas-yang-rsvp-18">https://datatracker.ietf.org/doc/html/draft-ietf-teas-yang-rsvp-18</a></td>
+<td>Expired</td>
+</tr>
+<tr>
+<td>draft-ietf-teas-yang-rsvp-te</td>
+<td>A YANG Data Model for RSVP-TE Protocol</td>
+<td>WG Draft</td>
+<td><a href="https://datatracker.ietf.org/doc/html/draft-ietf-teas-yang-rsvp-te-09">https://datatracker.ietf.org/doc/html/draft-ietf-teas-yang-rsvp-te-09</a></td>
+<td>Expired</td>
+</tr>
+<tr>
+<td>draft-ietf-mpls-static-yang</td>
+<td>A YANG Data Model for MPLS Static LSPs</td>
+<td>WG Draft</td>
+<td><a href="https://datatracker.ietf.org/doc/html/draft-ietf-mpls-static-yang-13">https://datatracker.ietf.org/doc/html/draft-ietf-mpls-static-yang-13</a></td>
+<td>Expired</td>
+</tr>
+<tr>
+<td>draft-nainar-mpls-lsp-ping-yang</td>
+<td>YANG Data Model for MPLS LSP Ping</td>
+<td>Individual Draft</td>
+<td><a href="https://datatracker.ietf.org/doc/html/draft-nainar-mpls-lsp-ping-yang-05">https://datatracker.ietf.org/doc/html/draft-nainar-mpls-lsp-ping-yang-05</a></td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<h3 id="sr">SR</h3>
+<table>
+<thead>
+<tr>
+<th>RFC/Draft Name</th>
+<th>Title</th>
+<th>Status</th>
+<th>Publication URL</th>
+<th>Progress</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RFC9020</td>
+<td>YANG Data Model for Segment Routing</td>
+<td>RFC</td>
+<td><a href="https://datatracker.ietf.org/doc/html/rfc9020">https://datatracker.ietf.org/doc/html/rfc9020</a></td>
+<td> </td>
+</tr>
+<tr>
+<td>draft-ietf-isis-sr-yang</td>
+<td>YANG Data Model for IS-IS Segment Routing</td>
+<td>WG Draft</td>
+<td><a href="https://datatracker.ietf.org/doc/html/draft-ietf-isis-sr-yang-17">https://datatracker.ietf.org/doc/html/draft-ietf-isis-sr-yang-17</a></td>
+<td> </td>
+</tr>
+<tr>
+<td>draft-ietf-ospf-sr-yang</td>
+<td>Yang Data Model for OSPF SR (Segment Routing) Protocol</td>
+<td>WG Draft</td>
+<td><a href="https://datatracker.ietf.org/doc/html/draft-ietf-ospf-sr-yang-23">https://datatracker.ietf.org/doc/html/draft-ietf-ospf-sr-yang-23</a></td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<h3 id="srv6">SRv6</h3>
+<table>
+<thead>
+<tr>
+<th>RFC/Draft Name</th>
+<th>Title</th>
+<th>Status</th>
+<th>Publication URL</th>
+<th>Progress</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>draft-ietf-spring-srv6-yang</td>
+<td>YANG Data Model for SRv6 Base and Static</td>
+<td>WG Draft</td>
+<td><a href="https://datatracker.ietf.org/doc/html/draft-ietf-spring-srv6-yang-02">https://datatracker.ietf.org/doc/html/draft-ietf-spring-srv6-yang-02</a></td>
+<td>Expired</td>
+</tr>
+<tr>
+<td>draft-ietf-spring-sr-policy-yang</td>
+<td>YANG Data Model for Segment Routing Policy</td>
+<td>WG Draft</td>
+<td><a href="https://datatracker.ietf.org/doc/html/draft-ietf-spring-sr-policy-yang-02">https://datatracker.ietf.org/doc/html/draft-ietf-spring-sr-policy-yang-02</a></td>
+<td>Expired</td>
+</tr>
+<tr>
+<td>draft-ietf-lsr-ospf-srv6-yang</td>
+<td>YANG Data Model for OSPF SRv6</td>
+<td>WG Draft</td>
+<td><a href="https://datatracker.ietf.org/doc/html/draft-ietf-lsr-ospf-srv6-yang-04">https://datatracker.ietf.org/doc/html/draft-ietf-lsr-ospf-srv6-yang-04</a></td>
+<td> </td>
+</tr>
+<tr>
+<td>draft-ietf-lsr-isis-srv6-yang</td>
+<td>YANG Data Model for IS-IS SRv6</td>
+<td>WG Draft</td>
+<td><a href="https://datatracker.ietf.org/doc/html/draft-ietf-lsr-isis-srv6-yang-04">https://datatracker.ietf.org/doc/html/draft-ietf-lsr-isis-srv6-yang-04</a></td>
+<td> </td>
+</tr>
+<tr>
+<td>draft-ietf-pce-pcep-srv6-yang</td>
+<td>A YANG Data Model for Segment Routing (SR) Policy and SR in IPv6 (SRv6) support in Path Computation Element Communications Protocol (PCEP)</td>
+<td>WG Draft</td>
+<td><a href="https://datatracker.ietf.org/doc/html/draft-ietf-pce-pcep-srv6-yang-04">https://datatracker.ietf.org/doc/html/draft-ietf-pce-pcep-srv6-yang-04</a></td>
+<td> </td>
+</tr>
+<tr>
+<td>draft-raza-bess-srv6-services-yang</td>
+<td>Yang Data Model for SRv6 based Services</td>
+<td>Individual Draft</td>
+<td><a href="https://datatracker.ietf.org/doc/html/draft-raza-bess-srv6-services-yang-01">https://datatracker.ietf.org/doc/html/draft-raza-bess-srv6-services-yang-01</a></td>
+<td>Expired</td>
+</tr>
+</tbody>
+</table>
+<h3 id="vpn">VPN</h3>
+<table>
+<thead>
+<tr>
+<th>RFC/Draft Name</th>
+<th>Title</th>
+<th>Status</th>
+<th>Publication URL</th>
+<th>Progress</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>draft-ietf-bess-l3vpn-yang</td>
+<td>Yang Data Model for BGP/MPLS L3 VPNs</td>
+<td>WG Draft</td>
+<td><a href="https://datatracker.ietf.org/doc/html/draft-ietf-bess-l3vpn-yang-05">https://datatracker.ietf.org/doc/html/draft-ietf-bess-l3vpn-yang-05</a></td>
+<td>Expired</td>
+</tr>
+<tr>
+<td>draft-ietf-bess-l2vpn-yang</td>
+<td>YANG Data Model for MPLS-based L2VPN</td>
+<td>WG Draft</td>
+<td><a href="https://datatracker.ietf.org/doc/html/draft-ietf-bess-l2vpn-yang-10">https://datatracker.ietf.org/doc/html/draft-ietf-bess-l2vpn-yang-10</a></td>
+<td>Expired</td>
+</tr>
+<tr>
+<td>draft-ietf-bess-evpn-yang</td>
+<td>Yang Data Model for EVPN</td>
+<td>WG Draft</td>
+<td><a href="https://datatracker.ietf.org/doc/html/draft-ietf-bess-evpn-yang-07">https://datatracker.ietf.org/doc/html/draft-ietf-bess-evpn-yang-07</a></td>
+<td>Expired</td>
+</tr>
+<tr>
+<td>draft-ietf-bess-mvpn-yang</td>
+<td>Yang Data Model for Multicast in MPLS/BGP IP VPNs</td>
+<td>WG Draft</td>
+<td><a href="https://datatracker.ietf.org/doc/html/draft-ietf-bess-mvpn-yang-05">https://datatracker.ietf.org/doc/html/draft-ietf-bess-mvpn-yang-05</a></td>
+<td>Expired</td>
+</tr>
+</tbody>
+</table>
+<h3 id="vxlan">VXLAN</h3>
+<p>| &mdash; | &mdash; | &mdash; | &mdash; | &mdash; |
+| draft-ietf-nvo3-yang-cfg | Base YANG Data Model for NVO3 Protocols | WG Draft | <a href="https://datatracker.ietf.org/doc/html/draft-ietf-nvo3-yang-cfg-05">https://datatracker.ietf.org/doc/html/draft-ietf-nvo3-yang-cfg-05</a> | Expired |</p>
+<h3 id="multicast">Multicast</h3>
+<table>
+<thead>
+<tr>
+<th>RFC/Draft Name</th>
+<th>Title</th>
+<th>Status</th>
+<th>Publication URL</th>
+<th>Progress</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RFC8652</td>
+<td>A YANG Data Model for the Internet Group Management Protocol (IGMP)</td>
+<td>RFC</td>
+<td><a href="https://datatracker.ietf.org/doc/html/rfc8652">https://datatracker.ietf.org/doc/html/rfc8652</a></td>
+<td> </td>
+</tr>
+<tr>
+<td>RFC8916</td>
+<td>A YANG Data Model for the Multicast Source Discovery Protocol (MSDP)</td>
+<td>RFC</td>
+<td><a href="https://datatracker.ietf.org/doc/html/rfc8916">https://datatracker.ietf.org/doc/html/rfc8916</a></td>
+<td> </td>
+</tr>
+<tr>
+<td>RFC9166</td>
+<td>A Yang Data Model for IGMP and MLD Snooping</td>
+<td>RFC</td>
+<td><a href="https://datatracker.ietf.org/doc/html/rfc9166">https://datatracker.ietf.org/doc/html/rfc9166</a></td>
+<td> </td>
+</tr>
+<tr>
+<td>draft-ietf-mboned-multicast-yang-model</td>
+<td>Multicast YANG Data Model</td>
+<td>WG Draft</td>
+<td><a href="https://datatracker.ietf.org/doc/html/draft-ietf-mboned-multicast-yang-model-07">https://datatracker.ietf.org/doc/html/draft-ietf-mboned-multicast-yang-model-07</a></td>
+<td> </td>
+</tr>
+<tr>
+<td>RFC9128</td>
+<td>A YANG Data Model for Protocol Independent Multicast (PIM)</td>
+<td>RFC</td>
+<td><a href="https://datatracker.ietf.org/doc/html/rfc9128">https://datatracker.ietf.org/doc/html/rfc9128</a></td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<h3 id="bfd">BFD</h3>
+<table>
+<thead>
+<tr>
+<th>RFC/Draft Name</th>
+<th>Title</th>
+<th>Status</th>
+<th>Publication URL</th>
+<th>Progress</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RFC9127</td>
+<td>YANG Data Model for Bidirectional Forwarding Detection (BFD)</td>
+<td>RFC</td>
+<td><a href="https://datatracker.ietf.org/doc/html/rfc9127">https://datatracker.ietf.org/doc/html/rfc9127</a></td>
 <td> </td>
 </tr>
 </tbody>
@@ -434,7 +831,7 @@ One min read
 
 </svg>
 <span class='screen-reader-text'>Last updated: </span>
-      <time class='entry-date' datetime='2024-08-13T10:46:21&#43;05:30'>2024, Aug 13</time>
+      <time class='entry-date' datetime='2024-08-13T10:53:35&#43;05:30'>2024, Aug 13</time>
     </div><div class='categories'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
     
     
