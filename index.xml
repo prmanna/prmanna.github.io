@@ -13,7 +13,8 @@
       
       <guid>https://prasenjitmanna.com/writing/2024-08-12-ietf-yang-models/</guid>
       <description>IETF - Yang Models IETF Yang Models.
-Routing Service YANG Models (Southbound) Routing  RFC/Draft Name	Title	Status	Publication URL	Progress RFC8294	Common YANG Data Types for the Routing Area RFC8022	A YANG Data Model for Routing Management RFC8349	A YANG Data Model for Routing Management (NMDA Version) RFC8529	YANG Data Model for Network Instances  IP Basic YANG Models (Southbound) Inventory Interface IP ARP VRRP Time NAT Security AAA Northbound YANG Models Framework Services Topology IVY (Network Inventory YANG)  https://datatracker.</description>
+Routing Service YANG Models (Southbound) Routing  RFC8294	Common YANG Data Types for the Routing Area RFC8022	A YANG Data Model for Routing Management RFC8349	A YANG Data Model for Routing Management (NMDA Version) RFC8529	YANG Data Model for Network Instances  Routing Policy RFC/Draft Name	Title	Status	Publication URL	Progress
+ RFC9067	A YANG Data Model for Routing Policy  RIB    RFC/Draft Name Title Status Publication URL Progress     RFC8341 A YANG Data Model for the Routing Information Base (RIB) RFC https://datatracker.</description>
     </item>
     
     <item>
