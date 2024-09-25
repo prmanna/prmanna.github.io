@@ -9,7 +9,7 @@
 <meta property='og:description' content='How HPC &amp; AI Are Changing DC Networks - Podcast Detail Summary'>
 <meta property='og:url' content='https://prasenjitmanna.com/blogs/2024-09-25-summary-how-hpc-and-ai-are-changing-dc-networks/'>
 <meta property='og:site_name' content='Prasenjit Manna'>
-<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='blogs'><meta property='article:published_time' content='2024-09-25T00:00:00Z'/><meta property='article:modified_time' content='2024-09-25T10:56:58&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='blogs'><meta property='article:published_time' content='2024-09-25T00:00:00Z'/><meta property='article:modified_time' content='2024-09-25T11:02:30&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
 
 <meta name="generator" content="Hugo 0.79.0" />
 
@@ -327,24 +327,26 @@
 <li>📊 Bandwidth &amp; Cooling Solutions: Insights into how optical and coherent networks help reduce power consumption as AI systems push towards 400Gb and 800Gb NICs, discussing the bottlenecks and inefficiencies faced by modern AI workloads.</li>
 </ul>
 <h4 id="insights-based-on-numbers">Insights Based on Numbers:</h4>
-<p><strong>Bandwidth requirements:</strong>
-:AI systems demand up to 6.8Tbps per server, necessitating new network designs and infrastructure.
-<strong>Power consumption:</strong>
-:AI workloads on modern networks can account for up to 50% of the total power used in a data center.</p>
+<ul>
+<li><strong>Bandwidth requirements:</strong>
+AI systems demand up to 6.8Tbps per server, necessitating new network designs and infrastructure.</li>
+<li><strong>Power consumption:</strong>
+AI workloads on modern networks can account for up to 50% of the total power used in a data center.</li>
+</ul>
 <h4 id="example-exploratory-questions">Example Exploratory Questions:</h4>
+<ul>
+<li>
 <p><strong>How does Collective Communication differ from traditional unicast or multicast in AI networking?</strong>
 What the video says about Collective Communication in AI networks is that it fundamentally differs from traditional unicast and multicast models. Here&rsquo;s how:</p>
-<pre><code>Unicast: In traditional networking, unicast refers to communication between one source and one destination. This method is efficient for most web traffic, where data flows from a server to a client or between two nodes.
-
-Multicast: In scenarios where a single source needs to send data to multiple destinations, multicast is used. The traffic is replicated to each destination, and this helps reduce bandwidth usage when broadcasting to multiple recipients.
-
-However, AI model training introduces a unique networking challenge called Collective Communication:
-
-Collective Communication: Unlike unicast or multicast, where data flows from one source to multiple or single destinations, collective communication requires all nodes in the network to communicate and synchronize simultaneously. This often happens in AI model training during operations like all-reduce, where each node must send data to every other node in the network. This level of synchronized communication puts a massive load on the network, creating bursty traffic where large amounts of data are transmitted all at once.
-This collective mode is critical for the training phase in AI models, especially when distributed across thousands of GPUs, as it allows for parallel processing and model updates across nodes. However, this comes at the cost of high network demand, necessitating specialized architecture for efficient performance.
-
-In AI networking, collective communication becomes highly disruptive for typical networks due to the lockstep nature and the large volume of data exchanged across many nodes, as opposed to unicast's or multicast's more manageable traffic patterns.
-</code></pre>
+<p>Unicast: In traditional networking, unicast refers to communication between one source and one destination. This method is efficient for most web traffic, where data flows from a server to a client or between two nodes.</p>
+<p>Multicast: In scenarios where a single source needs to send data to multiple destinations, multicast is used. The traffic is replicated to each destination, and this helps reduce bandwidth usage when broadcasting to multiple recipients.</p>
+<p>However, AI model training introduces a unique networking challenge called Collective Communication:</p>
+<p>Collective Communication: Unlike unicast or multicast, where data flows from one source to multiple or single destinations, collective communication requires all nodes in the network to communicate and synchronize simultaneously. This often happens in AI model training during operations like all-reduce, where each node must send data to every other node in the network. This level of synchronized communication puts a massive load on the network, creating bursty traffic where large amounts of data are transmitted all at once.
+This collective mode is critical for the training phase in AI models, especially when distributed across thousands of GPUs, as it allows for parallel processing and model updates across nodes. However, this comes at the cost of high network demand, necessitating specialized architecture for efficient performance.</p>
+<p>In AI networking, collective communication becomes highly disruptive for typical networks due to the lockstep nature and the large volume of data exchanged across many nodes, as opposed to unicast&rsquo;s or multicast&rsquo;s more manageable traffic patterns.</p>
+</li>
+</ul>
+<hr>
 <ul>
 <li>
 <p><strong>What are the main challenges in adapting existing data centers for AI training workloads?</strong></p>
@@ -404,7 +406,7 @@ HPC and AI are reshaping the way data centers are designed and operated. The tra
 
 </svg>
 <span class='screen-reader-text'>Last updated: </span>
-      <time class='entry-date' datetime='2024-09-25T10:56:58&#43;05:30'>2024, Sep 25</time>
+      <time class='entry-date' datetime='2024-09-25T11:02:30&#43;05:30'>2024, Sep 25</time>
     </div><div class='categories'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
     
     
