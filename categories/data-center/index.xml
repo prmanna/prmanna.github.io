@@ -6,7 +6,17 @@
     <description>Recent content in data-center on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/categories/data-center/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/categories/data-center/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How HPC &amp; AI Are Changing DC Networks - Podcast Detail Summary</title>
+      <link>https://prasenjitmanna.com/blogs/2024-09-25-summary-how-hpc-and-ai-are-changing-dc-networks/</link>
+      <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/blogs/2024-09-25-summary-how-hpc-and-ai-are-changing-dc-networks/</guid>
+      <description>Podcast Packet Pushers How HPC &amp;amp; AI Are Changing DC Networks Summary:
+ 🔌 Introduction to AI &amp;amp; HPC Impact on Networks: Overview of how High-Performance Computing (HPC) and Artificial Intelligence (AI) are transforming data center network design, addressing issues like cooling, power, and bandwidth. ⚡ Challenges in AI Networking: Explains the concept of Collective Communications, a core network design problem in AI training workloads, where multiple nodes must communicate simultaneously.</description>
+    </item>
+    
     <item>
       <title>A Primer on the Cloud &amp; Data Centers</title>
       <link>https://prasenjitmanna.com/blogs/2024-09-18-primers-on-technology/</link>
