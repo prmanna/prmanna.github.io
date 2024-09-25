@@ -9,7 +9,7 @@
 <meta property='og:description' content='How HPC &amp; AI Are Changing DC Networks - Podcast Detail Summary'>
 <meta property='og:url' content='https://prasenjitmanna.com/blogs/2024-09-25-summary-how-hpc-and-ai-are-changing-dc-networks/'>
 <meta property='og:site_name' content='Prasenjit Manna'>
-<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='blogs'><meta property='article:published_time' content='2024-09-25T00:00:00Z'/><meta property='article:modified_time' content='2024-09-25T11:02:30&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='blogs'><meta property='article:published_time' content='2024-09-25T00:00:00Z'/><meta property='article:modified_time' content='2024-09-25T11:04:24&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
 
 <meta name="generator" content="Hugo 0.79.0" />
 
@@ -336,8 +336,8 @@ AI workloads on modern networks can account for up to 50% of the total power use
 <h4 id="example-exploratory-questions">Example Exploratory Questions:</h4>
 <ul>
 <li>
-<p><strong>How does Collective Communication differ from traditional unicast or multicast in AI networking?</strong>
-What the video says about Collective Communication in AI networks is that it fundamentally differs from traditional unicast and multicast models. Here&rsquo;s how:</p>
+<p><strong>How does Collective Communication differ from traditional unicast or multicast in AI networking?</strong></p>
+<p>What the video says about Collective Communication in AI networks is that it fundamentally differs from traditional unicast and multicast models. Here&rsquo;s how:</p>
 <p>Unicast: In traditional networking, unicast refers to communication between one source and one destination. This method is efficient for most web traffic, where data flows from a server to a client or between two nodes.</p>
 <p>Multicast: In scenarios where a single source needs to send data to multiple destinations, multicast is used. The traffic is replicated to each destination, and this helps reduce bandwidth usage when broadcasting to multiple recipients.</p>
 <p>However, AI model training introduces a unique networking challenge called Collective Communication:</p>
@@ -356,16 +356,19 @@ This collective mode is critical for the training phase in AI models, especially
 <p>Separation of Networks: Due to the intense network strain from AI workloads, the video emphasizes that it is best practice to build physically separate networks for AI training. This ensures that traditional network tasks are not disrupted by the heavy demands of AI model training. This involves installing dedicated network infrastructure, such as additional NICs (Network Interface Cards), to handle the massive data loads required for AI operations.</p>
 <p>In short, data centers need to be re-engineered to support the unique demands of AI training, focusing on network capacity, energy consumption, and infrastructure isolation.</p>
 </li>
+</ul>
+<hr>
+<ul>
 <li>
 <p><strong>How does the use of RDMA in AI networks reduce computational bottlenecks?</strong></p>
-</li>
-</ul>
 <p>What the video says about RDMA (Remote Direct Memory Access) in AI networks is that it plays a critical role in reducing computational bottlenecks during AI model training, primarily by bypassing the CPU for data transfers between nodes.</p>
 <p>In traditional networks, when data is transferred, it often passes through the CPU, which can cause significant delays and add overhead. RDMA allows data to move directly between the memory of two systems without involving the CPU. Here&rsquo;s how it mitigates bottlenecks in AI networks:</p>
 <p>CPU Bypass: With RDMA, the CPU is not involved in data transfer, allowing it to focus on other tasks. This eliminates the bottleneck of the CPU becoming overwhelmed with processing and data-handling responsibilities.</p>
 <p>Direct Memory Access: RDMA transfers data directly between the memory of two machines. In AI workloads, where massive amounts of data need to be shuffled between GPUs and servers during training, RDMA speeds up the process by reducing latency in data transmission.</p>
 <p>Optimized Network Bandwidth: AI model training involves collective communication, where thousands of GPUs communicate simultaneously. RDMA optimizes network bandwidth by ensuring data moves quickly between nodes, reducing delays that would otherwise occur from CPU-based processing.</p>
 <p>This technology is especially valuable in AI systems where high-throughput and low-latency data transmission are critical for performance, allowing for faster and more efficient model training.</p>
+</li>
+</ul>
 <hr>
 <p>You said:
 A
@@ -406,7 +409,7 @@ HPC and AI are reshaping the way data centers are designed and operated. The tra
 
 </svg>
 <span class='screen-reader-text'>Last updated: </span>
-      <time class='entry-date' datetime='2024-09-25T11:02:30&#43;05:30'>2024, Sep 25</time>
+      <time class='entry-date' datetime='2024-09-25T11:04:24&#43;05:30'>2024, Sep 25</time>
     </div><div class='categories'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
     
     
