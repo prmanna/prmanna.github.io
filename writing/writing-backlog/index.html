@@ -9,7 +9,7 @@
 <meta property='og:description' content='Writing backlog'>
 <meta property='og:url' content='https://prasenjitmanna.com/writing/writing-backlog/'>
 <meta property='og:site_name' content='Prasenjit Manna'>
-<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:published_time' content='2022-02-06T00:00:00Z'/><meta property='article:modified_time' content='2024-10-23T19:09:42&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:published_time' content='2022-02-06T00:00:00Z'/><meta property='article:modified_time' content='2024-10-23T19:11:24&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
 
 <meta name="generator" content="Hugo 0.79.0" />
 
@@ -333,26 +333,24 @@
 <li>Distributed systems in networking box</li>
 <li>Why C language is still exists and its competitor</li>
 <li>How do you measure your impact on the industry?</li>
-<li>Google&rsquo;s Network Overview - Data Center(Jupiter), Backbone(B4), Control Plane(Orion), SDN controller for Google’s peering edge network(Espresso), Load Balancer(Maglev)</li>
-</ul>
+<li>Google&rsquo;s Network Overview - Data Center(Jupiter), Backbone(B4), Control Plane(Orion), SDN controller for Google’s peering edge network(Espresso), Load Balancer(Maglev)
 <h2 id="googles-data-center-network-infrastructure"><strong>Google’s data center network infrastructure:</strong></h2>
-<pre><code>- **Jupiter Fabric:** This is the internal network within Google’s data centers, operating at speeds of 40 Gbps per link and capable of handling a total bandwidth of 1 Petabit per second (Pbps). It leverages **Software-Defined Networking (SDN)** for centralized control and management.
-- **WAN B4:** This is Google’s wide-area network (WAN) that connects its data centers globally. It also utilizes SDN for efficient traffic routing and boasts high throughput in the terabit range (Tbps).
-- **B2:** This network segment connects Google’s data centers to the global internet backbone with very high Service Level Agreements (SLAs) for guaranteed performance and reliability for user-facing traffic entering the Google network
-- **Espresso:** This is the SDN controller for Google’s peering edge network. It dynamically selects the most efficient routes to deliver customer traffic based on real-time measurements of availability and latency.
-- **Orion:** This is the **SDN platform** deployed across both Jupiter fabrics and the WAN B4 network for Google’s entire network, not just GCP. It acts as the central control point for provisioning, configuring, and managing network resources.it acts as the control plane, telling the network equipment (switches, routers) how to route traffic and manage overall network behavior. Think of Orion as the central traffic control system, directing data flow across the entire Google network.
-- **Andromeda:** This is the **SDN platform f**ocuses on **network virtualization**. It’s an internal system within Google Cloud Platform (GCP) that creates and manages virtual networks on top of the physical network infrastructure. Imagine it as carving out dedicated virtual highways within a massive physical road network for GCP users.
-- Year 2015 [Jupiter A look inside Google’s Data Center Networks by Amit Vahdat](https://cloud.google.com/blog/products/gcp/a-look-inside-googles-data-center-networks)
-- Year 2022 [Jupiter evolving: Reflecting on Google’s data center network transformation](https://cloud.google.com/blog/topics/systems/the-evolution-of-googles-jupiter-data-center-network)
-- Year 2014 [Andromeda: Google Cloud Platform's latest networking stack](https://cloud.google.com/blog/products/gcp/enter-andromeda-zone-google-cloud-platforms-latest-networking-stack)
-- Year 2021 [Orion: Google's Software-Defined Networking Control Plane](https://www.usenix.org/conference/nsdi21/presentation/ferguson)
-- Year 2017 [Espresso makes Google cloud faster](https://cloud.google.com/blog/topics/inside-google-cloud/making-google-cloud-faster-more-available-and-cost-effective-extending-sdn-public-internet-espresso)
-- Year 2016 [Maglev: Google shares software network load balancer design powering GCP networking](https://cloud.google.com/blog/products/gcp/google-shares-software-network-load-balancer-design-powering-gcp-networking)
-</code></pre>
 <ul>
+<li><strong>Jupiter Fabric:</strong> This is the internal network within Google’s data centers, operating at speeds of 40 Gbps per link and capable of handling a total bandwidth of 1 Petabit per second (Pbps). It leverages <strong>Software-Defined Networking (SDN)</strong> for centralized control and management.</li>
+<li><strong>WAN B4:</strong> This is Google’s wide-area network (WAN) that connects its data centers globally. It also utilizes SDN for efficient traffic routing and boasts high throughput in the terabit range (Tbps).</li>
+<li><strong>B2:</strong> This network segment connects Google’s data centers to the global internet backbone with very high Service Level Agreements (SLAs) for guaranteed performance and reliability for user-facing traffic entering the Google network</li>
+<li><strong>Espresso:</strong> This is the SDN controller for Google’s peering edge network. It dynamically selects the most efficient routes to deliver customer traffic based on real-time measurements of availability and latency.</li>
+<li><strong>Orion:</strong> This is the <strong>SDN platform</strong> deployed across both Jupiter fabrics and the WAN B4 network for Google’s entire network, not just GCP. It acts as the central control point for provisioning, configuring, and managing network resources.it acts as the control plane, telling the network equipment (switches, routers) how to route traffic and manage overall network behavior. Think of Orion as the central traffic control system, directing data flow across the entire Google network.</li>
+<li><strong>Andromeda:</strong> This is the <strong>SDN platform f</strong>ocuses on <strong>network virtualization</strong>. It’s an internal system within Google Cloud Platform (GCP) that creates and manages virtual networks on top of the physical network infrastructure. Imagine it as carving out dedicated virtual highways within a massive physical road network for GCP users.</li>
+<li>Year 2015 <a href="https://cloud.google.com/blog/products/gcp/a-look-inside-googles-data-center-networks">Jupiter A look inside Google’s Data Center Networks by Amit Vahdat</a></li>
+<li>Year 2022 <a href="https://cloud.google.com/blog/topics/systems/the-evolution-of-googles-jupiter-data-center-network">Jupiter evolving: Reflecting on Google’s data center network transformation</a></li>
+<li>Year 2014 <a href="https://cloud.google.com/blog/products/gcp/enter-andromeda-zone-google-cloud-platforms-latest-networking-stack">Andromeda: Google Cloud Platform&rsquo;s latest networking stack</a></li>
+<li>Year 2021 <a href="https://www.usenix.org/conference/nsdi21/presentation/ferguson">Orion: Google&rsquo;s Software-Defined Networking Control Plane</a></li>
+<li>Year 2017 <a href="https://cloud.google.com/blog/topics/inside-google-cloud/making-google-cloud-faster-more-available-and-cost-effective-extending-sdn-public-internet-espresso">Espresso makes Google cloud faster</a></li>
+<li>Year 2016 <a href="https://cloud.google.com/blog/products/gcp/google-shares-software-network-load-balancer-design-powering-gcp-networking">Maglev: Google shares software network load balancer design powering GCP networking</a></li>
 <li>Year 2022 <a href="https://cloud.google.com/blog/topics/developers-practitioners/googles-subsea-fiber-optics-explained">Extra: Google&rsquo;s subsea fiber optics, explained</a></li>
 </ul>
-<ul>
+</li>
 <li>Networking Slicing and IETF Initatives
 <ul>
 <li><a href="https://ngmn.org/wp-content/uploads/160113_NGMN_Network_Slicing_v1_0.pdf">Description of Network Slicing Concept</a>,</li>
@@ -373,7 +371,7 @@
 
 </svg>
 <span class='screen-reader-text'>Last updated: </span>
-      <time class='entry-date' datetime='2024-10-23T19:09:42&#43;05:30'>2024, Oct 23</time>
+      <time class='entry-date' datetime='2024-10-23T19:11:24&#43;05:30'>2024, Oct 23</time>
     </div>
   </div>
 </footer>
