@@ -539,7 +539,7 @@ Join my email list to get direct access to new blog posts.
       
       <guid>https://prasenjitmanna.com/writing/writing-backlog/</guid>
       <description>Topics in my writing backlog:
- How internet really works? Distributed systems in networking box Why C language is still exists and its competitor How do you measure your impact on the industry? Google&amp;rsquo;s Network Overview - Data Center(Jupiter), Backbone(B4), Control Plane(Orion), SDN controller for Google’s peering edge network(Espresso), Load Balancer(Maglev) Google’s data center network infrastructure:  Jupiter Fabric: This is the internal network within Google’s data centers, operating at speeds of 40 Gbps per link and capable of handling a total bandwidth of 1 Petabit per second (Pbps).</description>
+ How internet really works? Distributed systems in networking box Why C language is still exists and its competitor How do you measure your impact on the industry? Google&amp;rsquo;s Network Overview - Data Center(Jupiter), Backbone(B4), Control Plane(Orion), SDN controller for Google’s peering edge network(Espresso), Load Balancer(Maglev)  Google’s data center network infrastructure: Jupiter Fabric: This is the internal network within Google’s data centers, operating at speeds of 40 Gbps per link and capable of handling a total bandwidth of 1 Petabit per second (Pbps).</description>
     </item>
     
     <item>
