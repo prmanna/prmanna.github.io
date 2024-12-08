@@ -6,7 +6,19 @@
     <description>Recent content in blogs on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/categories/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/categories/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux Audit Daemon Guide</title>
+      <link>https://prasenjitmanna.com/blogs/2024-12-08-linux-auditd-usecase/</link>
+      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/blogs/2024-12-08-linux-auditd-usecase/</guid>
+      <description>Excellent Article for Linux auditd for Threat Detection by Izy
+Part 1: Linux auditd for Threat Detection [Part 1] Part 2: Linux auditd for Threat Detection [Part 2] Part 3: Linux auditd for Threat Detection [Final]
+Join my email list to get direct access to new blog posts.
+ </description>
+    </item>
+    
     <item>
       <title>IETF - Adaptive/Perceptive Routing</title>
       <link>https://prasenjitmanna.com/writing/2024-11-11-ietf-adaptive-perceptive-routing/</link>

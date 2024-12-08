@@ -6,13 +6,31 @@
     <description>Recent content in Categories on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>audit</title>
+      <link>https://prasenjitmanna.com/categories/audit/</link>
+      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/categories/audit/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>blogs</title>
       <link>https://prasenjitmanna.com/categories/blogs/</link>
-      <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       
       <guid>https://prasenjitmanna.com/categories/blogs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://prasenjitmanna.com/categories/linux/</link>
+      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://prasenjitmanna.com/categories/linux/</guid>
       <description></description>
     </item>
     
