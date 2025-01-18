@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>clos on Prasenjit Manna</title>
+    <title>Clos on Prasenjit Manna</title>
     <link>https://prasenjitmanna.com/tags/clos/</link>
-    <description>Recent content in clos on Prasenjit Manna</description>
+    <description>Recent content in Clos on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 15 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/tags/clos/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 18 Jan 2025 17:53:58 +0530</lastBuildDate>
+    <atom:link href="https://prasenjitmanna.com/tags/clos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Clos Networks</title>
       <link>https://prasenjitmanna.com/writing/2021-08-15-clos_networks/</link>
       <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2021-08-15-clos_networks/</guid>
-      <description>Table of contents  Blocking Network Non-Blocking Network Two Stage Non-Blocking Network Three Stage Non-Blocking Network Clos Network 5 Stage Clos Network FAT-Tree  In new era of internet, more applications are moving to cloud. Even for the standalone application, the central processing is done in cloud. Most of the cloud companies developed NextGen datacentre with CLOS architecture. This article is to demystify the Clos architecture.
-The Clos grows in a very consistent way, thanks to having what&amp;rsquo;s called a scale-out architecture.</description>
+      <description>Table of contents Blocking Network Non-Blocking Network Two Stage Non-Blocking Network Three Stage Non-Blocking Network Clos Network 5 Stage Clos Network FAT-Tree In new era of internet, more applications are moving to cloud. Even for the standalone application, the central processing is done in cloud. Most of the cloud companies developed NextGen datacentre with CLOS architecture. This article is to demystify the Clos architecture.&#xA;The Clos grows in a very consistent way, thanks to having what&amp;rsquo;s called a scale-out architecture.</description>
     </item>
-    
   </channel>
 </rss>

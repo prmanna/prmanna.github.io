@@ -9,16 +9,16 @@
 <meta property='og:description' content='Various Packet Switcing Techniques'>
 <meta property='og:url' content='https://prasenjitmanna.com/writing/2024-04-06-various_switching_techniques/'>
 <meta property='og:site_name' content='Prasenjit Manna'>
-<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:tag' content='switching'><meta property='article:tag' content='forwarding'><meta property='article:published_time' content='2024-04-06T00:00:00Z'/><meta property='article:modified_time' content='2024-12-08T20:44:44&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:tag' content='switching'><meta property='article:tag' content='forwarding'><meta property='article:published_time' content='2024-04-06T00:00:00Z'/><meta property='article:modified_time' content='2025-01-18T17:53:58&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
 
-<meta name="generator" content="Hugo 0.79.0" />
+<meta name="generator" content="Hugo 0.123.0">
 
   <title>Various Packet Switching Techniques • Prasenjit Manna</title>
   <link rel='canonical' href='https://prasenjitmanna.com/writing/2024-04-06-various_switching_techniques/'>
   
   
   <link rel='icon' href='../../favicon.ico'>
-<link rel='stylesheet' href='../../assets/css/main.ab98e12b.css'><style>
+<link rel='stylesheet' href='../../assets/css/main.e45c9137.css'><style>
 :root{--color-accent:#ffcd00;}
 </style>
 <script data-goatcounter="https://prasenjit.goatcounter.com/count"
@@ -93,35 +93,57 @@
   </header><nav aria-label='Social Menu'>
     <ul><li>
         <a href='mailto:prasenjit.manna@gmail.com' target='_blank' rel='noopener me'>
-          <span class='screen-reader-text'>Contact via Email</span><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-    
-    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline>
+          <span class='screen-reader-text'>Contact via Email</span><svg
+  class="icon"
+  xmlns="http://www.w3.org/2000/svg"
+  viewbox="0 0 24 24"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  aria-hidden="true"
+><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+<polyline points="22,6 12,13 2,6" />
 </svg>
 </a>
       </li><li>
         <a href='https://github.com/prmanna' target='_blank' rel='noopener me'>
-          <span class='screen-reader-text'>Open Github account in new tab</span><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-    
-    
-      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
-
+          <span class='screen-reader-text'>Open Github account in new tab</span><svg
+  class="icon"
+  xmlns="http://www.w3.org/2000/svg"
+  viewbox="0 0 24 24"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  aria-hidden="true"
+><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
 </svg>
 </a>
       </li><li>
         <a href='https://twitter.com/prasenjit_manna' target='_blank' rel='noopener me'>
-          <span class='screen-reader-text'>Open Twitter account in new tab</span><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-    
-    
-  <title>Twitter icon</title>
-  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
-
+          <span class='screen-reader-text'>Open Twitter account in new tab</span><svg
+  class="icon"
+  xmlns="http://www.w3.org/2000/svg"
+  viewbox="0 0 24 24"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  aria-hidden="true"
+><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
 </svg>
 </a>
       </li><li>
         <a href='https://linkedin.com/in/prasenjitmanna' target='_blank' rel='noopener me'>
-          <span class='screen-reader-text'>Open Linkedin account in new tab</span><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-    
-    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle>
+          <span class='screen-reader-text'>Open Linkedin account in new tab</span><svg
+  class="icon"
+  xmlns="http://www.w3.org/2000/svg"
+  viewbox="0 0 24 24"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  aria-hidden="true"
+><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+<rect x="2" y="9" width="4" height="12" />
+<circle cx="4" cy="4" r="2" />
 </svg>
 </a>
       </li></ul>
@@ -147,71 +169,71 @@
   <ul class='list taxonomy-cloud'><li>
         <a href='../../tags/ai/' style='font-size:1.3333333333333333em'>AI</a>
       </li><li>
-        <a href='../../tags/blogroll/' style='font-size:1em'>blogroll</a>
+        <a href='../../tags/blogroll/' style='font-size:1em'>Blogroll</a>
       </li><li>
-        <a href='../../tags/books/' style='font-size:1.3333333333333333em'>books</a>
+        <a href='../../tags/books/' style='font-size:1.3333333333333333em'>Books</a>
       </li><li>
-        <a href='../../tags/c&#43;&#43;/' style='font-size:1em'>c&#43;&#43;</a>
+        <a href='../../tags/c&#43;&#43;/' style='font-size:1em'>C&#43;&#43;</a>
       </li><li>
-        <a href='../../tags/career/' style='font-size:1.3333333333333333em'>career</a>
+        <a href='../../tags/career/' style='font-size:1.3333333333333333em'>Career</a>
       </li><li>
         <a href='../../tags/career-progression/' style='font-size:1em'>Career Progression</a>
       </li><li>
-        <a href='../../tags/clos/' style='font-size:1em'>clos</a>
+        <a href='../../tags/clos/' style='font-size:1em'>Clos</a>
       </li><li>
-        <a href='../../tags/data-center/' style='font-size:2em'>data-center</a>
+        <a href='../../tags/data-center/' style='font-size:2em'>Data Center</a>
       </li><li>
-        <a href='../../tags/engg-paper/' style='font-size:1em'>engg-paper</a>
+        <a href='../../tags/engg-paper/' style='font-size:1em'>Engg-Paper</a>
       </li><li>
-        <a href='../../tags/forwarding/' style='font-size:1.3333333333333333em'>forwarding</a>
+        <a href='../../tags/forwarding/' style='font-size:1.3333333333333333em'>Forwarding</a>
       </li><li>
         <a href='../../tags/gnmi/' style='font-size:1em'>GNMI</a>
       </li><li>
-        <a href='../../tags/hashing/' style='font-size:1em'>hashing</a>
+        <a href='../../tags/hashing/' style='font-size:1em'>Hashing</a>
       </li><li>
-        <a href='../../tags/ietf/' style='font-size:1.8333333333333333em'>ietf</a>
+        <a href='../../tags/ietf/' style='font-size:1.8333333333333333em'>Ietf</a>
       </li><li>
-        <a href='../../tags/link-state/' style='font-size:1em'>link-state</a>
+        <a href='../../tags/link-state/' style='font-size:1em'>Link-State</a>
       </li><li>
-        <a href='../../tags/linux-tool/' style='font-size:1em'>linux tool</a>
+        <a href='../../tags/linux-tool/' style='font-size:1em'>Linux Tool</a>
       </li><li>
-        <a href='../../tags/mental-model/' style='font-size:1.3333333333333333em'>mental model</a>
+        <a href='../../tags/mental-model/' style='font-size:1.3333333333333333em'>Mental Model</a>
       </li><li>
-        <a href='../../tags/netconf/' style='font-size:1.3333333333333333em'>netconf</a>
+        <a href='../../tags/netconf/' style='font-size:1.3333333333333333em'>Netconf</a>
       </li><li>
-        <a href='../../tags/network-observability/' style='font-size:1em'>network observability</a>
+        <a href='../../tags/network-observability/' style='font-size:1em'>Network Observability</a>
       </li><li>
-        <a href='../../tags/newsletter/' style='font-size:1em'>newsletter</a>
+        <a href='../../tags/newsletter/' style='font-size:1em'>Newsletter</a>
       </li><li>
-        <a href='../../tags/podcast/' style='font-size:1em'>podcast</a>
+        <a href='../../tags/podcast/' style='font-size:1em'>Podcast</a>
       </li><li>
-        <a href='../../tags/productivity/' style='font-size:1em'>productivity</a>
+        <a href='../../tags/productivity/' style='font-size:1em'>Productivity</a>
       </li><li>
         <a href='../../tags/programmability/' style='font-size:1.6666666666666665em'>Programmability</a>
       </li><li>
-        <a href='../../tags/programming-blogs/' style='font-size:1em'>programming-blogs</a>
+        <a href='../../tags/programming-blogs/' style='font-size:1em'>Programming-Blogs</a>
       </li><li>
-        <a href='../../tags/programming-books/' style='font-size:1em'>programming-books</a>
+        <a href='../../tags/programming-books/' style='font-size:1em'>Programming-Books</a>
       </li><li>
-        <a href='../../tags/quotes/' style='font-size:1em'>quotes</a>
+        <a href='../../tags/quotes/' style='font-size:1em'>Quotes</a>
       </li><li>
-        <a href='../../tags/readable-code/' style='font-size:1em'>readable-code</a>
+        <a href='../../tags/readable-code/' style='font-size:1em'>Readable-Code</a>
       </li><li>
-        <a href='../../tags/restconf/' style='font-size:1.1666666666666667em'>restconf</a>
+        <a href='../../tags/restconf/' style='font-size:1.1666666666666667em'>Restconf</a>
       </li><li>
-        <a href='../../tags/routing/' style='font-size:1em'>routing</a>
+        <a href='../../tags/routing/' style='font-size:1em'>Routing</a>
       </li><li>
-        <a href='../../tags/skills/' style='font-size:1em'>skills</a>
+        <a href='../../tags/skills/' style='font-size:1em'>Skills</a>
       </li><li>
-        <a href='../../tags/switching/' style='font-size:1.1666666666666667em'>switching</a>
+        <a href='../../tags/switching/' style='font-size:1.1666666666666667em'>Switching</a>
       </li><li>
         <a href='../../tags/technical-leadership/' style='font-size:1em'>Technical Leadership</a>
       </li><li>
-        <a href='../../tags/webscaler/' style='font-size:1em'>webscaler</a>
+        <a href='../../tags/webscaler/' style='font-size:1em'>Webscaler</a>
       </li><li>
-        <a href='../../tags/wisdom/' style='font-size:2em'>wisdom</a>
+        <a href='../../tags/wisdom/' style='font-size:2em'>Wisdom</a>
       </li><li>
-        <a href='../../tags/yang/' style='font-size:1em'>yang</a>
+        <a href='../../tags/yang/' style='font-size:1em'>Yang</a>
       </li></ul>
 </div>
 
@@ -224,21 +246,29 @@
 
 <button id='sidebar-toggler' class='sidebar-toggler' aria-controls='sidebar'>
   <span class='screen-reader-text'>Toggle Sidebar</span>
-  <span class='open'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-    
-    
-  <line x1="3" y1="12" x2="21" y2="12" />
-  <line x1="3" y1="6" x2="21" y2="6" />
-  <line x1="3" y1="18" x2="21" y2="18" />
-
+  <span class='open'><svg
+  class="icon"
+  xmlns="http://www.w3.org/2000/svg"
+  viewbox="0 0 24 24"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  aria-hidden="true"
+><line x1="3" y1="12" x2="21" y2="12" />
+<line x1="3" y1="6" x2="21" y2="6" />
+<line x1="3" y1="18" x2="21" y2="18" />
 </svg>
 </span>
-  <span class='close'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-    
-    
-  <line x1="18" y1="6" x2="6" y2="18" />
-  <line x1="6" y1="6" x2="18" y2="18" />
-
+  <span class='close'><svg
+  class="icon"
+  xmlns="http://www.w3.org/2000/svg"
+  viewbox="0 0 24 24"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  aria-hidden="true"
+><line x1="18" y1="6" x2="6" y2="18" />
+<line x1="6" y1="6" x2="18" y2="18" />
 </svg>
 </span>
 </button><div class='header-widgets'>
@@ -273,34 +303,46 @@
 
     </div>
     <div class='entry-meta'>
-  <span class='posted-on'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-    
-    
-  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
-  <line x1="16" y1="2" x2="16" y2="6"/>
-  <line x1="8" y1="2" x2="8" y2="6"/>
-  <line x1="3" y1="10" x2="21" y2="10"/>
-
+  <span class='posted-on'><svg
+  class="icon"
+  xmlns="http://www.w3.org/2000/svg"
+  viewbox="0 0 24 24"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  aria-hidden="true"
+><rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+<line x1="16" y1="2" x2="16" y2="6" />
+<line x1="8" y1="2" x2="8" y2="6" />
+<line x1="3" y1="10" x2="21" y2="10" />
 </svg>
 <span class='screen-reader-text'>Posted on </span>
   <time class='entry-date' datetime='2024-04-06T00:00:00Z'>2024, Apr 06</time>
 </span>
 
-  <span class='byline'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-    
-    
-  <path d="M21,21V20c0-2.76-4-5-9-5s-9,2.24-9,5v1"/>
-  <path d="M16,6.37A4,4,0,1,1,12.63,3,4,4,0,0,1,16,6.37Z"/>
-
+  <span class='byline'><svg
+  class="icon"
+  xmlns="http://www.w3.org/2000/svg"
+  viewbox="0 0 24 24"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  aria-hidden="true"
+><path d="M21,21V20c0-2.76-4-5-9-5s-9,2.24-9,5v1" />
+<path d="M16,6.37A4,4,0,1,1,12.63,3,4,4,0,0,1,16,6.37Z" />
 </svg>
 <span class='screen-reader-text'> by </span><a href='../../authors/prmanna'>Prasenjit Manna</a></span>
   
-<span class='reading-time'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-    
-    
-  <circle cx="12" cy="12" r="10"/>
-  <polyline points="12 6 12 12 15 15"/>
-
+<span class='reading-time'><svg
+  class="icon"
+  xmlns="http://www.w3.org/2000/svg"
+  viewbox="0 0 24 24"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  aria-hidden="true"
+><circle cx="12" cy="12" r="10" />
+<polyline points="12 6 12 12 15 15" />
 </svg>
 14 mins read
 </span>
@@ -351,14 +393,14 @@
 <p>Appreciating the difference between layer 2 (L2) forwarding and layer 3 (L3) forwarding is essential to understanding why Layer 3 switches are substantially more complex than Layer 2 switches. At the IP level, forwarding is done packet-by-packet by looking up the destination IP address into a forwarding table with a technique called LPM (Longest Prefix Match), which is much more complex to implement in hardware than the exact, possibly hash-based, matching required in L2 switching. Deploying LPM enables the routing table not to include all the possible IP addresses, but just prefixes, thus allowing for larger networks without proportionally larger forwarding tables. A prefix is expressed as a combination of an IP address and a netmask to identify which bits in the address represent the prefix. Being 32 bit long, a netmask is cumbersome to write and not intuitive to understand; hence often the length of the prefix - or number of most significant bits in the address that represent the prefix - is explicitly indicated (e.g., /16, /24).</p>
 <p>An entry of the forwarding table can be used to determine the forwarding information (e.g., the next hop and/or output interface) for any packet with a destination address that has that prefix in its most significant bits. If multiple entries match, the switch selects the one with the longest prefix: since it refers to a smaller set of addresses, it is somewhat more specific to the destination at hand.</p>
 <p>This kind of forwarding is stateless since each packet is forwarded independently of previous packets. With the growing size of ICs (Integrated Circuits), more features were added to layer 3 switches, such as ACLs (Access Control Lists) to classify and filter packets, still in a stateless fashion, with limited scalability.
-<img src="https://prasenjitmanna.com/images/switch-history/access-aggregation-core.png" alt="img|320x271">
+<img alt="img|320x271" src="https://prasenjitmanna.com/images/switch-history/access-aggregation-core.png">
 Access-Aggregation-Core
 In terms of network design, the preferred topology was a Core-Aggregation-Access Design (picture courtesy of Dinesh Dutt): a mixture of layer 2 at the periphery and layer 3 in the network’s core, to allow layer 3 subnets to span across multiple edge switches. This allows, for example, Virtual Machine mobility among the servers connected to the same access switches. This design provided more aggregate bandwidth than a pure layer 2 approach, but still had a bottleneck in the two core and aggregation switches: traffic to all destinations not attached to the same pair of access switches must travel through the access switch identified as the root of the spanning tree.</p>
 <h2 id="2010-modern-l3-switches">2010: Modern L3 Switches</h2>
 <p>In the next decade, with the advent of even denser integrated circuits, layer 3 switches gained other functionality that can be grouped in three categories.</p>
 <h3 id="clos-network-and-ecmp-support">Clos Network and ECMP Support</h3>
 <p>Clos networks remove the bottleneck present in the core of the Core-Aggregation-Access Design. A Clos network is a multistage network that Charles Clos first formalized in 1952. It is a two-stage network in its simplest embodiment, like the one shown in the figure, but it can scale to an arbitrary number of stages.</p>
-<p><img src="https://prasenjitmanna.com/images/switch-history/Clos.png" alt="img|320x271">
+<p><img alt="img|320x271" src="https://prasenjitmanna.com/images/switch-history/Clos.png">
 Clos Network</p>
 <p>In their current usage and terminology, two-stage Clos networks have leaves (equivalent to access switches) and spines (equivalent to aggregation switches). The spines interconnect the leaves, and the leaves connect the network users. The network users are mostly, but not only the servers and can include network appliances, wide-area routers, gateways, and so on. No network users are attached to the spines.</p>
 <p>The Clos topology is widely accepted in data center and cloud networks because it scales horizontally: adding more leaves allows to connect as many network users as needed, while adding more spines enables supporting larger amounts of East-West traffic. In fact, traffic to destinations not attached to the same leaf can transit through any of the spines (and corresponding link connecting the selected spine to the source and destination leaf). In order to enable this, both leaves and spines must be layer 3 switches (as layer 2 switches would block all leaf-spine links but one) and ensure that all spines are being used when forwarding packets. This is achieved through a technique called equal-cost multipath (ECMP) that stores multiple next hops (e.g., spines) for the same destination and load-balances forwarded packets to all of them.</p>
@@ -369,7 +411,7 @@ Clos Network</p>
 <p>In overlays, it is possible to decouple the IP addresses used by the applications (overlay) from the IP addresses used by the infrastructure (underlay). The VMs that run a user application may use a few addresses from a customer IP subnet (overlay), whereas the servers that host the VMs use IP addresses that belong to the cloud provider infrastructure (underlay). VXLAN is probably the best-known encapsulation protocol for overlay networks.The points where packets are encapsulated/decapsulated are called VTEPs (VXLAN tunnel endpoints).</p>
 <p>As we mentioned in the introduction, Core-Aggregation-Edge networks allowed layer 2 domains (that is, layer 2 broadcast domains) to span multiple switches. The VID (VLAN identifier) was the standard way to segregate the traffic from different users and applications. Each VLAN carried one or more IP subnets that were spanning multiple switches.</p>
 <p>Clos network changed this by mandating routing between the leaves and the spines and limiting the layer 2 domains to the southern part of the leaves toward the hosts. The same is true for the IP subnets where the hosts are connected. VXLAN solves the problem of using Clos networks while at the same time propagating a layer 2 domain over them. In a nutshell, VXLAN carries a VLAN across a routed network. In essence, VXLAN enables seamless connectivity of servers by allowing them to continue to share the same layer 2 broadcast domain.</p>
-<p><img src="https://prasenjitmanna.com/images/switch-history/vtep.png" alt="img|320x271">
+<p><img alt="img|320x271" src="https://prasenjitmanna.com/images/switch-history/vtep.png">
 VXLAN Tunnel Termination</p>
 <h3 id="sdn-support">SDN Support</h3>
 <p>At the end of the previous century, all the crucial problems in networking were solved. On my bookshelf, I still have a copy of Interconnections: Bridges and Routers by Radia Perlman dated 1993. In her book, Perlman presents the spanning tree protocol for bridged networks, distance vector routing, and link-state routing: all the essential tools that we use today to build a network. During the following two decades, there have been improvements, but they were minor, incremental. The most significant change has been the dramatic increase in link speed.</p>
@@ -391,7 +433,7 @@ VXLAN Tunnel Termination</p>
 <p>The stateful forwarding mechanism is also called cache-based forwarding. It relies on a flow cache, a binary data structure capable of “exact” matching packets belonging to a particular flow. The word “exact” implies a binary match easier to implement both in hardware or software, unlike a ternary match, such as LPM. The flow cache contains an entry for each flow, i.e., two entries per session. The flow can be defined with an arbitrary number of fields, thus supporting IPv4 and IPv6 addresses, different encapsulations, policy routing, and firewalling.</p>
 <p>Cache entry contains information needed to forward the packet (e.g., layer 2 and/or layer 3 address of the next hop, type of encapsulation, etc.).</p>
 <p>The separate initial processing that leads to the forwarding decision may create new cache entries. When a packet is received by the switch, if it does not match any entry in the flow cache (a “miss”) it is processed according to the initial processing. Otherwise (“hit”), it is forwarded according to the information in the matching flow cache entry.
-<img src="https://prasenjitmanna.com/images/switch-history/cache.png" alt="img|320x271"></p>
+<img alt="img|320x271" src="https://prasenjitmanna.com/images/switch-history/cache.png"></p>
 <p>The above figure shows the organization of this solution. Any packet that causes a miss in the flow cache is redirected to a software process that applies a complete decision process and forwards or drops the packet accordingly. This software process also adds two entries in the flow cache (dashed line) for the session, so that subsequent packets can be forwarded or dropped as the previous packets of the same flow.</p>
 <p>Because the processing of initial packets (misses) is so clearly separated from the processing of the following packets (hits), it can be implemented independently and possibly on a separated execution engine. For example, hits could be processed by a specialized integrated circuit or an application specific processor (hardware data path), while misses could be processed by software running on a general purpose CPU (software data path).</p>
 <p>Let’s suppose that an average flow is composed of 500 packets: one will hit the software process, and the remaining 499 will be processed directly in hardware with a speed-up factor of 500 compared to a pure software solution. In other words, cache-based forwarding allows one to take advantage of the flexibility of software with the performance of hardware. Of course, this solution should guarantee that packets processed in software and hardware do not get reordered.</p>
@@ -412,30 +454,42 @@ VXLAN Tunnel Termination</p>
 
   
 <footer class='entry-footer'>
-  <div class='container sep-before'><div class='last-updated'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-    
-    
-      <path d="M20 14.66V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5.34" />
-  <polygon points="18 2 22 6 12 16 8 16 8 12 18 2" />
-
+  <div class='container sep-before'><div class='last-updated'><svg
+  class="icon"
+  xmlns="http://www.w3.org/2000/svg"
+  viewbox="0 0 24 24"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  aria-hidden="true"
+><path d="M20 14.66V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5.34" />
+<polygon points="18 2 22 6 12 16 8 16 8 12 18 2" />
 </svg>
 <span class='screen-reader-text'>Last updated: </span>
-      <time class='entry-date' datetime='2024-12-08T20:44:44&#43;05:30'>2024, Dec 08</time>
-    </div><div class='categories'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-    
-    
-    <path d="M22,19a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V5A2,2,0,0,1,4,3H9l2,3h9a2,2,0,0,1,2,2Z"/>
-
+      <time class='entry-date' datetime='2025-01-18T17:53:58&#43;05:30'>2025, Jan 18</time>
+    </div><div class='categories'><svg
+  class="icon"
+  xmlns="http://www.w3.org/2000/svg"
+  viewbox="0 0 24 24"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  aria-hidden="true"
+><path d="M22,19a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V5A2,2,0,0,1,4,3H9l2,3h9a2,2,0,0,1,2,2Z" />
 </svg>
-<span class='screen-reader-text'>Categories: </span><a class='category' href='../../categories/blogs/'>blogs</a></div>
-<div class='tags'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-    
-    
-  <path d="M20.59,13.41l-7.17,7.17a2,2,0,0,1-2.83,0L2,12V2H12l8.59,8.59A2,2,0,0,1,20.59,13.41Z"/>
-  <line x1="7" y1="7" x2="7" y2="7"/>
-
+<span class='screen-reader-text'>Categories: </span><a class='category' href='../../categories/blogs/'>Blogs</a></div>
+<div class='tags'><svg
+  class="icon"
+  xmlns="http://www.w3.org/2000/svg"
+  viewbox="0 0 24 24"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  aria-hidden="true"
+><path d="M20.59,13.41l-7.17,7.17a2,2,0,0,1-2.83,0L2,12V2H12l8.59,8.59A2,2,0,0,1,20.59,13.41Z" />
+<line x1="7" y1="7" x2="7" y2="7" />
 </svg>
-<span class='screen-reader-text'>Tags: </span><a class='tag' href='../../tags/switching/'>switching</a>, <a class='tag' href='../../tags/forwarding/'>forwarding</a></div>
+<span class='screen-reader-text'>Tags: </span><a class='tag' href='../../tags/switching/'>Switching</a>, <a class='tag' href='../../tags/forwarding/'>Forwarding</a></div>
 
   </div>
 </footer>
@@ -446,23 +500,31 @@ VXLAN Tunnel Termination</p>
 <nav class='entry-nav'>
   <div class='container'><div class='prev-entry sep-before'>
       <a href='../../writing/evergreen-career-progression/'>
-        <span aria-hidden='true'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-    
-    
-  <line x1="20" y1="12" x2="4" y2="12"/>
-  <polyline points="10 18 4 12 10 6"/>
-
+        <span aria-hidden='true'><svg
+  class="icon"
+  xmlns="http://www.w3.org/2000/svg"
+  viewbox="0 0 24 24"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  aria-hidden="true"
+><line x1="20" y1="12" x2="4" y2="12" />
+<polyline points="10 18 4 12 10 6" />
 </svg>
  Previous</span>
         <span class='screen-reader-text'>Previous post: </span>Career Progression</a>
     </div><div class='next-entry sep-before'>
       <a href='../../writing/2024-04-07-clos-ip-traffic-between-leaf-and-spine/'>
-        <span class='screen-reader-text'>Next post: </span>Clos IP Traffic between Leaf and Spine &amp; Tromboning<span aria-hidden='true'>Next <svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-    
-    
-  <line x1="4" y1="12" x2="20" y2="12"/>
-  <polyline points="14 6 20 12 14 18"/>
-
+        <span class='screen-reader-text'>Next post: </span>Clos IP Traffic between Leaf and Spine &amp; Tromboning<span aria-hidden='true'>Next <svg
+  class="icon"
+  xmlns="http://www.w3.org/2000/svg"
+  viewbox="0 0 24 24"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  aria-hidden="true"
+><line x1="4" y1="12" x2="20" y2="12" />
+<polyline points="14 6 20 12 14 18" />
 </svg>
 </span>
       </a>
@@ -486,7 +548,7 @@ VXLAN Tunnel Termination</p>
 
       <footer id='footer' class='footer'>
         <div class='container sep-before'><div class='copyright'>
-  <p> &copy; 2020-2024 Prasenjit Manna. Powered by Hugo &amp; Minimo Theme</p>
+  <p> &copy; 2020-2025 Prasenjit Manna. Powered by Hugo &amp; Minimo Theme</p>
 </div>
 
         </div>
@@ -495,7 +557,7 @@ VXLAN Tunnel Termination</p>
     </div>
   </div><script>window.__assets_js_src="../../assets/js/"</script>
 
-<script src='../../assets/js/main.c3bcf2df.js'></script>
+<script src='../../assets/js/main.56dcff95.js'></script>
 
 </body>
 

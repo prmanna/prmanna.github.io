@@ -1,708 +1,467 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>blogs on Prasenjit Manna</title>
+    <title>Blogs on Prasenjit Manna</title>
     <link>https://prasenjitmanna.com/categories/blogs/</link>
-    <description>Recent content in blogs on Prasenjit Manna</description>
+    <description>Recent content in Blogs on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 08 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/categories/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 18 Jan 2025 17:53:58 +0530</lastBuildDate>
+    <atom:link href="https://prasenjitmanna.com/categories/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux Audit Daemon Guide</title>
       <link>https://prasenjitmanna.com/blogs/2024-12-08-linux-auditd-usecase/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2024-12-08-linux-auditd-usecase/</guid>
-      <description>Excellent Article for Linux auditd for Threat Detection by Izy
- Linux auditd for Threat Detection [Part 1] Linux auditd for Threat Detection [Part 2] Linux auditd for Threat Detection [Final]  Join my email list to get direct access to new blog posts.
- </description>
+      <description>Excellent Article for Linux auditd for Threat Detection by Izy&#xA;Linux auditd for Threat Detection [Part 1] Linux auditd for Threat Detection [Part 2] Linux auditd for Threat Detection [Final] Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>IETF - Adaptive/Perceptive Routing</title>
       <link>https://prasenjitmanna.com/writing/2024-11-11-ietf-adaptive-perceptive-routing/</link>
       <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2024-11-11-ietf-adaptive-perceptive-routing/</guid>
-      <description>IETF - Adaptive/Perceptive Routing  IETF 121 Side Meeting  Join my email list to get direct access to new blog posts.
- </description>
+      <description>IETF - Adaptive/Perceptive Routing IETF 121 Side Meeting Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>Podcast Summary - Scaling Data Center Networks | Between 0x2 Nerds</title>
       <link>https://prasenjitmanna.com/blogs/2024-09-26-podcast-summary-scaling-data-center-networks/</link>
       <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2024-09-26-podcast-summary-scaling-data-center-networks/</guid>
-      <description>Podcast - Scaling Data Center Networks - Dmitry Afanasiev Summary:  🎙️ Introduction to Scaling in Data Centers: Hosts introduce the topic of scaling challenges in data centers, emphasizing this as a series of topics to be discussed over multiple episodes. 💻 Guest Speaker - Dmitry Afanasiev: Dmitry, a network architect from Yandex, explains the challenges Yandex faces in scaling their networks, which are similar to hyperscalers like Google or Amazon.</description>
+      <description>Podcast - Scaling Data Center Networks - Dmitry Afanasiev Summary: 🎙️ Introduction to Scaling in Data Centers: Hosts introduce the topic of scaling challenges in data centers, emphasizing this as a series of topics to be discussed over multiple episodes. 💻 Guest Speaker - Dmitry Afanasiev: Dmitry, a network architect from Yandex, explains the challenges Yandex faces in scaling their networks, which are similar to hyperscalers like Google or Amazon. 🏗️ Challenges in Scaling: The discussion covers issues such as failure domain limitation, MPLS in data centers, and managing large data center networks with advanced technologies like RIFT.</description>
     </item>
-    
     <item>
       <title>Podcast Summary - AI/ML Data Center Design | Between 0x2 Nerds</title>
       <link>https://prasenjitmanna.com/blogs/2024-09-25-podcast-summary-ai-ml-data-center-design/</link>
       <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2024-09-25-podcast-summary-ai-ml-data-center-design/</guid>
-      <description>Podcast - AI/ML Data Center Design - Part 1 Summary:  🎯 AI Data Centers Fundamentals: Focused on AI data center design and the critical role of NVIDIA and GPUs. Discusses how the evolution of AI and ML workflows demands specialized infrastructure. 🚀 Growth in GPU-Based Networks: The shift from CPU to GPU for AI/ML tasks due to their high parallel computing capacity. Increasing use of NVIDIA GPUs across data centers.</description>
+      <description>Podcast - AI/ML Data Center Design - Part 1 Summary: 🎯 AI Data Centers Fundamentals: Focused on AI data center design and the critical role of NVIDIA and GPUs. Discusses how the evolution of AI and ML workflows demands specialized infrastructure. 🚀 Growth in GPU-Based Networks: The shift from CPU to GPU for AI/ML tasks due to their high parallel computing capacity. Increasing use of NVIDIA GPUs across data centers. 📊 Massive Scaling Requirements: AI clusters are rapidly scaling up.</description>
     </item>
-    
     <item>
       <title>Podcast Summary - How HPC &amp; AI Are Changing DC Networks | Packet Pushers</title>
       <link>https://prasenjitmanna.com/blogs/2024-09-25-podcast-summary-how-hpc-and-ai-are-changing-dc-networks/</link>
       <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2024-09-25-podcast-summary-how-hpc-and-ai-are-changing-dc-networks/</guid>
-      <description>Podcast Packet Pushers How HPC &amp;amp; AI Are Changing DC Networks Summary:
- 🔌 Introduction to AI &amp;amp; HPC Impact on Networks: Overview of how High-Performance Computing (HPC) and Artificial Intelligence (AI) are transforming data center network design, addressing issues like cooling, power, and bandwidth. ⚡ Challenges in AI Networking: Explains the concept of Collective Communications, a core network design problem in AI training workloads, where multiple nodes must communicate simultaneously.</description>
+      <description>Podcast Packet Pushers How HPC &amp;amp; AI Are Changing DC Networks Summary:&#xA;🔌 Introduction to AI &amp;amp; HPC Impact on Networks: Overview of how High-Performance Computing (HPC) and Artificial Intelligence (AI) are transforming data center network design, addressing issues like cooling, power, and bandwidth. ⚡ Challenges in AI Networking: Explains the concept of Collective Communications, a core network design problem in AI training workloads, where multiple nodes must communicate simultaneously. 🖧 AI Model Training Issues: The complexity of training AI models, particularly in the context of data center infrastructure, where the network architecture faces significant challenges such as handling massive amounts of data and intensive computing tasks.</description>
     </item>
-    
     <item>
       <title>A Primer on the Cloud &amp; Data Centers</title>
       <link>https://prasenjitmanna.com/blogs/2024-09-18-primers-on-technology/</link>
       <pubDate>Wed, 18 Sep 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2024-09-18-primers-on-technology/</guid>
-      <description>Link -&amp;gt; A Primer on the Cloud  Link - &amp;gt; A Primer on Data Centers Join my email list to get direct access to new blog posts.
- </description>
+      <description>Link -&amp;gt; A Primer on the Cloud Link - &amp;gt; A Primer on Data Centers Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>Network Observability</title>
       <link>https://prasenjitmanna.com/writing/2024-08-06-network-observability/</link>
       <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2024-08-06-network-observability/</guid>
-      <description>Network Observability  The Many Uses of Network Observability Connections 2024: Network Observability  Slides: Slides Recording: Recording    Join my email list to get direct access to new blog posts.
- </description>
+      <description>Network Observability The Many Uses of Network Observability Connections 2024: Network Observability Slides: Slides Recording: Recording Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>The Evolution of Data Center Networking for AI Clusters</title>
       <link>https://prasenjitmanna.com/writing/2024-08-01-evolution-data-center-networking-for-ai-clusters/</link>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2024-08-01-evolution-data-center-networking-for-ai-clusters/</guid>
-      <description>Data Center Networking for AI Clusters  The Evolution of Data Center Networking for AI Workloads by Kentik  Evolution of Data Center Networking Designs and Systems for AI Infrastructure by Sujal Das  Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 1 Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 2 Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 3 Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 4 (Final) RoCE: from humble beginnings to being a star in the world of AI networking today   Excellent Articles by Sharada Yeluri  Large Language Models - The Hardware Connection GPU Fabrics for GenAI Workloads LLM Inference - HW/SW Optimizations In Network Acceleration for AI/ML Workloads   NETWORKING THE AI DATA CENTER by Juniper Networking for the Era of AI: The Network Defines the Data Center by Nvidia, mirror RoCE networks for distributed AI training at scale by Meta Development Prospects for AI Data Center Network Architecture and Connectivity Technology by Rosenberger Demystifying AI Networking Protocols by Randy Zhang RoCE networks for distributed AI training at scale in Meta  Join my email list to get direct access to new blog posts.</description>
+      <description>Data Center Networking for AI Clusters The Evolution of Data Center Networking for AI Workloads by Kentik Evolution of Data Center Networking Designs and Systems for AI Infrastructure by Sujal Das Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 1 Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 2 Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 3 Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 4 (Final) RoCE: from humble beginnings to being a star in the world of AI networking today Excellent Articles by Sharada Yeluri Large Language Models - The Hardware Connection GPU Fabrics for GenAI Workloads LLM Inference - HW/SW Optimizations In Network Acceleration for AI/ML Workloads NETWORKING THE AI DATA CENTER by Juniper Networking for the Era of AI: The Network Defines the Data Center by Nvidia, mirror RoCE networks for distributed AI training at scale by Meta Development Prospects for AI Data Center Network Architecture and Connectivity Technology by Rosenberger Demystifying AI Networking Protocols by Randy Zhang RoCE networks for distributed AI training at scale in Meta Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>IETF - Data Center Networking for AI Clusters</title>
       <link>https://prasenjitmanna.com/writing/2024-07-16-ietf-data-center-networking-for-ai-clusters/</link>
       <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2024-07-16-ietf-data-center-networking-for-ai-clusters/</guid>
-      <description>IETF - Data Center Networking for AI Clusters There has been a significant rise in the popularity of Artificial Intelligence and Machine Learning, leading to the design of data centers specifically tailored for large-scale AI model training. These advanced networks impose unique requirements for network topologies and interconnecting technologies.
- IETF 117 AIDC Side Meeting IETF 118 AIDC Side Meeting IETF 119 AIDC Side Meeting IETF 120 AIDC Side Meeting IETF 121 AIDC Side Meeting  Join my email list to get direct access to new blog posts.</description>
+      <description>IETF - Data Center Networking for AI Clusters There has been a significant rise in the popularity of Artificial Intelligence and Machine Learning, leading to the design of data centers specifically tailored for large-scale AI model training. These advanced networks impose unique requirements for network topologies and interconnecting technologies.&#xA;IETF 117 AIDC Side Meeting IETF 118 AIDC Side Meeting IETF 119 AIDC Side Meeting IETF 120 AIDC Side Meeting IETF 121 AIDC Side Meeting Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>Clos IP Traffic between Leaf and Spine &amp; Tromboning</title>
       <link>https://prasenjitmanna.com/writing/2024-04-07-clos-ip-traffic-between-leaf-and-spine/</link>
       <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2024-04-07-clos-ip-traffic-between-leaf-and-spine/</guid>
-      <description>Traffic tromboning is a phenomena in data center traffic configuration or service chaining, while some service is bottleneck for rest of the flows. The service chaining can be created between leaves and spines using VXLAN and VRF way.
-This is the article written by Mario Baldi and Silvano Gai originally posted in Traffic Tromboning Why, What, Where, How, and How Not
-Why do we have traffic tromboning? Network and security services have traditionally been deployed in front of a group of end hosts that share some common function and are topologically close: e.</description>
+      <description>Traffic tromboning is a phenomena in data center traffic configuration or service chaining, while some service is bottleneck for rest of the flows. The service chaining can be created between leaves and spines using VXLAN and VRF way.&#xA;This is the article written by Mario Baldi and Silvano Gai originally posted in Traffic Tromboning Why, What, Where, How, and How Not&#xA;Why do we have traffic tromboning? Network and security services have traditionally been deployed in front of a group of end hosts that share some common function and are topologically close: e.</description>
     </item>
-    
     <item>
       <title>Various Packet Switching Techniques</title>
       <link>https://prasenjitmanna.com/writing/2024-04-06-various_switching_techniques/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2024-04-06-various_switching_techniques/</guid>
-      <description>A History of Network Switches 1990s: Layer 2 Switches Network switches (switches for short) are the evolution of network bridges whose behavior was defined by the Institute of Electrical and Electronics Engineers (IEEE) in the standard IEEE 802.1 to connect two or more Ethernet segments. Switch and switching are terms that do not exist in standards; they were introduced to indicate a multiport bridge.
-Initially, switches were pure layer 2 devices that forwarded Ethernet frames without knowing their content and without modifying the frames, thus providing connectivity for the many layer 3 protocols deployed in those days.</description>
+      <description>A History of Network Switches 1990s: Layer 2 Switches Network switches (switches for short) are the evolution of network bridges whose behavior was defined by the Institute of Electrical and Electronics Engineers (IEEE) in the standard IEEE 802.1 to connect two or more Ethernet segments. Switch and switching are terms that do not exist in standards; they were introduced to indicate a multiport bridge.&#xA;Initially, switches were pure layer 2 devices that forwarded Ethernet frames without knowing their content and without modifying the frames, thus providing connectivity for the many layer 3 protocols deployed in those days.</description>
     </item>
-    
     <item>
       <title>Career Progression</title>
       <link>https://prasenjitmanna.com/writing/evergreen-career-progression/</link>
       <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/evergreen-career-progression/</guid>
-      <description>Self Improvement  How I optimised my life to make my job redundant - Troy Hunt&amp;rsquo;s point of view Write a brag document -  Get your work recognized: write a brag document You Are Your Own Best Hype Person Brag now, remember later: Document your accomplishments   Being visible - Why visibility matters Being Glue - If you stop doing those things, the team won&amp;rsquo;t be as successful. But now someone&amp;rsquo;s suggesting that you might be happier in a less technical role.</description>
+      <description>Self Improvement How I optimised my life to make my job redundant - Troy Hunt&amp;rsquo;s point of view Write a brag document - Get your work recognized: write a brag document You Are Your Own Best Hype Person Brag now, remember later: Document your accomplishments Being visible - Why visibility matters Being Glue - If you stop doing those things, the team won&amp;rsquo;t be as successful. But now someone&amp;rsquo;s suggesting that you might be happier in a less technical role.</description>
     </item>
-    
     <item>
       <title>Technical Leadership Resources</title>
       <link>https://prasenjitmanna.com/writing/evergreen-technical-leadership/</link>
       <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/evergreen-technical-leadership/</guid>
-      <description>In general, technical leader and staff engineer are similar roles, just named differently at various companies. Here, techinical lead(er) and staff engineer will be used interchangibly.
-General Resources  The Definition of a Tech Lead - Titles like Architect, Tech Lead, Team Lead and Engineering Manager provide endless confusion. This article explores the definition of the Tech Lead role The Well Rounded Architect - Acting as a Leader, Being a developer, Having a systems focus, Thinking like an entrepreneur, Balancing strategic with tactical thinking, Communicating well Thriving on the Technical Leadership Path - So what does the more strategic work of a very senior engineer look like?</description>
+      <description>In general, technical leader and staff engineer are similar roles, just named differently at various companies. Here, techinical lead(er) and staff engineer will be used interchangibly.&#xA;General Resources The Definition of a Tech Lead - Titles like Architect, Tech Lead, Team Lead and Engineering Manager provide endless confusion. This article explores the definition of the Tech Lead role The Well Rounded Architect - Acting as a Leader, Being a developer, Having a systems focus, Thinking like an entrepreneur, Balancing strategic with tactical thinking, Communicating well Thriving on the Technical Leadership Path - So what does the more strategic work of a very senior engineer look like?</description>
     </item>
-    
     <item>
       <title>IPv6 Address Planning Manual</title>
       <link>https://prasenjitmanna.com/blogs/2023-04-30-ipv6-address-planning/</link>
       <pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2023-04-30-ipv6-address-planning/</guid>
       <description>RIPE [Create an Addressing Plan] document contains recommendations for service providers requesting IPv6 address allocation plus links to several other documents. SURFnet [Preparing an IPv6 Addressing Plan Manual] covers most things one needs to know, including the use /64 everywhere recommendation. ISOC [IPv6 Address Planning: Guidelines and Resources] document goes even deeper. Definitely worth reading. ETSI [IPv6 Best Practices, Benefits, Transition Challenges and the Way Forward] APNIC [IPv6 Best Current Practices] covers IPv6 Addressing, transition technologies, guidelines for content, data centre, hosting, cloud service, and application service providers, enterprises.</description>
     </item>
-    
     <item>
       <title>Best Advices by Naval</title>
       <link>https://prasenjitmanna.com/blogs/2023-04-08-advices-by-naval/</link>
       <pubDate>Sat, 08 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2023-04-08-advices-by-naval/</guid>
-      <description>Life Advices by Naval
-These are notes to myself. Your frame of reference, and therefore your calculations, may vary. These are not definitions—these are algorithms for success. Contributions are welcome.
- Happiness = Health + Wealth + Good Relationships Health = Exercise + Diet + Sleep Exercise = High Intensity Resistance Training + Sports + Rest Diet = Natural Foods + Intermittent Fasting + Plants Sleep = No alarms + 8–9 hours + Circadian rhythms Wealth = Income + Wealth * (Return on Investment) Income = Accountability + Leverage + Specific Knowledge Accountability = Personal Branding + Personal Platform + Taking Risk?</description>
+      <description>Life Advices by Naval&#xA;These are notes to myself. Your frame of reference, and therefore your calculations, may vary. These are not definitions—these are algorithms for success. Contributions are welcome.&#xA;Happiness = Health + Wealth + Good Relationships Health = Exercise + Diet + Sleep Exercise = High Intensity Resistance Training + Sports + Rest Diet = Natural Foods + Intermittent Fasting + Plants Sleep = No alarms + 8–9 hours + Circadian rhythms Wealth = Income + Wealth * (Return on Investment) Income = Accountability + Leverage + Specific Knowledge Accountability = Personal Branding + Personal Platform + Taking Risk?</description>
     </item>
-    
     <item>
       <title>How to Get Promoted at Work | Steve Dennis</title>
       <link>https://prasenjitmanna.com/blogs/2023-03-05-how-to-get-promoted-by-steve-dennis/</link>
       <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2023-03-05-how-to-get-promoted-by-steve-dennis/</guid>
-      <description>How to Get Promoted at Work by Steve Dennis
-7 Tips
- Understand what you want Understand the role Understand the environment Tell impact stories Proactively seek feedback Avoid the victim trap Own it  Join my email list to get direct access to new blog posts.
- </description>
+      <description>How to Get Promoted at Work by Steve Dennis&#xA;7 Tips&#xA;Understand what you want Understand the role Understand the environment Tell impact stories Proactively seek feedback Avoid the victim trap Own it Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>Networks, Buffers, and Drops</title>
       <link>https://prasenjitmanna.com/blogs/2023-03-04-networks-buffers-drops/</link>
       <pubDate>Sat, 04 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2023-03-04-networks-buffers-drops/</guid>
-      <description>Networks, Buffers, and Drops - Deep Dive by ipspace.in
-Join my email list to get direct access to new blog posts.
- </description>
+      <description>Networks, Buffers, and Drops - Deep Dive by ipspace.in&#xA;Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>49 Questions to Improve Your Results | Josh Kaufman</title>
       <link>https://prasenjitmanna.com/blogs/2023-02-23-49-questions-to-improve-by-josh-kaufman/</link>
       <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2023-02-23-49-questions-to-improve-by-josh-kaufman/</guid>
-      <description>49 Questions to Improve Your Results by Josh Kaufman
- Do I use my body optimally? Do I know what I want? What am I afraid of? Is my mind clear and focused? Am I confident, relaxed, and productive? How do I perform best? What do I really need to be happy and fulfilled?  Join my email list to get direct access to new blog posts.
- </description>
+      <description>49 Questions to Improve Your Results by Josh Kaufman&#xA;Do I use my body optimally? Do I know what I want? What am I afraid of? Is my mind clear and focused? Am I confident, relaxed, and productive? How do I perform best? What do I really need to be happy and fulfilled? Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>How to create luck</title>
       <link>https://prasenjitmanna.com/blogs/2023-02-23-how-to-create-luck-by-swyx/</link>
       <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2023-02-23-how-to-create-luck-by-swyx/</guid>
-      <description>How to create luck? by Swyx
-Join my email list to get direct access to new blog posts.
- </description>
+      <description>How to create luck? by Swyx&#xA;Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>Best Articles by First Round Review</title>
       <link>https://prasenjitmanna.com/blogs/2023-02-16-interesting-article-by-first-round-review/</link>
       <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2023-02-16-interesting-article-by-first-round-review/</guid>
-      <description>Best Articles by First Round
- How to Become Insanely Well-Connected From BigCo to Startup: 20 Tips for Evaluating Early-Stage Companies &amp;amp; Making the Leap 40 Favorite Interview Questions from Some of the Sharpest Folks We Know The ‘Adaptable Leader’ is the New Holy Grail — Become One, Hire One The Best Interview Questions We&amp;rsquo;ve Ever Publishedhttps://review.firstround.com/the-best-interview-questions-weve-ever-published These 13 Exercises Will Prepare You for Work&amp;rsquo;s Toughest Situations The Secrets to Designing a Curiosity-Driven Career Don&amp;rsquo;t Just Network — Build Your &amp;lsquo;Meaningful Network&amp;rsquo; to Maximize Your Impact  First Round Resources</description>
+      <description>Best Articles by First Round&#xA;How to Become Insanely Well-Connected From BigCo to Startup: 20 Tips for Evaluating Early-Stage Companies &amp;amp; Making the Leap 40 Favorite Interview Questions from Some of the Sharpest Folks We Know The ‘Adaptable Leader’ is the New Holy Grail — Become One, Hire One The Best Interview Questions We&amp;rsquo;ve Ever Publishedhttps://review.firstround.com/the-best-interview-questions-weve-ever-published These 13 Exercises Will Prepare You for Work&amp;rsquo;s Toughest Situations The Secrets to Designing a Curiosity-Driven Career Don&amp;rsquo;t Just Network — Build Your &amp;lsquo;Meaningful Network&amp;rsquo; to Maximize Your Impact First Round Resources</description>
     </item>
-    
     <item>
       <title>Best Articles by Sahil Bloom</title>
       <link>https://prasenjitmanna.com/blogs/2023-02-11-advices-by-sahil-bloom/</link>
       <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2023-02-11-advices-by-sahil-bloom/</guid>
-      <description>Resonating Articles by Sahil Bloom
- How to Change Your Life in 1 Year How to Get Lucky The Power Speaking Guide The Ultimate Productivity Tool Life Lessons from 1,000 Years  The Think Day: Your Secret Weapon  Six thinking question* prompts I have found particularly useful (that you should steal!): What are your strongest beliefs? What would it take for you to change your mind on them? What are a few things that you know now that you wish you knew 5 years ago?</description>
+      <description>Resonating Articles by Sahil Bloom&#xA;How to Change Your Life in 1 Year How to Get Lucky The Power Speaking Guide The Ultimate Productivity Tool Life Lessons from 1,000 Years The Think Day: Your Secret Weapon Six thinking question* prompts I have found particularly useful (that you should steal!): What are your strongest beliefs? What would it take for you to change your mind on them? What are a few things that you know now that you wish you knew 5 years ago?</description>
     </item>
-    
     <item>
       <title>Make A Big Career Transition by Utkarsh Amitabh</title>
       <link>https://prasenjitmanna.com/blogs/2022-12-28-make-a-big-career-transition-by-utkarsh-amitabh/</link>
       <pubDate>Wed, 28 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2022-12-28-make-a-big-career-transition-by-utkarsh-amitabh/</guid>
-      <description>A Career Transition Article by Utkarsh Amitabh
-Summary:
-Career transitions are like onions. They’re complex and there is usually a lot more to them than we see on the surface. Whether you are pursuing a passion or side hustle, confused about quitting your job for a new one, or just looking for a change, know that it’s not a straightforward decision. It requires careful planning and thinking through the why, the what, and the when.</description>
+      <description>A Career Transition Article by Utkarsh Amitabh&#xA;Summary:&#xA;Career transitions are like onions. They’re complex and there is usually a lot more to them than we see on the surface. Whether you are pursuing a passion or side hustle, confused about quitting your job for a new one, or just looking for a change, know that it’s not a straightforward decision. It requires careful planning and thinking through the why, the what, and the when.</description>
     </item>
-    
     <item>
       <title>Motivating Psychology Articles by Benjamin Hardy</title>
       <link>https://prasenjitmanna.com/blogs/2022-12-05-advices-by-benjamin-hardy/</link>
       <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2022-12-05-advices-by-benjamin-hardy/</guid>
-      <description>Resonating Articles by Benjamin Hardy
- &amp;ldquo;Impossible Goals&amp;rdquo; Are Easier and More Practical than &amp;ldquo;Possible Goals.&amp;rdquo; Here&amp;rsquo;s Why. Make Decisions Today That Will Impress Your Friends In 20 Years 10 Steps to Become a Millionaire in 5 Years (or Less) The Most Important Skill For Interacting With People 23 Smart Ways To Increase Your Confidence, Productivity, and Income How To Achieve Your 10-Year Plan In The Next 6 Months Why Most People Never Get What They Want Want To Become A Multi-Millionaire?</description>
+      <description>Resonating Articles by Benjamin Hardy&#xA;&amp;ldquo;Impossible Goals&amp;rdquo; Are Easier and More Practical than &amp;ldquo;Possible Goals.&amp;rdquo; Here&amp;rsquo;s Why. Make Decisions Today That Will Impress Your Friends In 20 Years 10 Steps to Become a Millionaire in 5 Years (or Less) The Most Important Skill For Interacting With People 23 Smart Ways To Increase Your Confidence, Productivity, and Income How To Achieve Your 10-Year Plan In The Next 6 Months Why Most People Never Get What They Want Want To Become A Multi-Millionaire?</description>
     </item>
-    
     <item>
       <title>Article on SR TI-LFA</title>
       <link>https://prasenjitmanna.com/blogs/2022-09-25-ti-lfa/</link>
       <pubDate>Sun, 25 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2022-09-25-ti-lfa/</guid>
-      <description>APNIC article on SR TI-LFA by Ron Bonica.
-SR TI-LFA: Segment Routing and Topology Independent Loop-Free Alternates
-NANOG 79 Recording
-Join my email list to get direct access to new blog posts.
- </description>
+      <description>APNIC article on SR TI-LFA by Ron Bonica.&#xA;SR TI-LFA: Segment Routing and Topology Independent Loop-Free Alternates&#xA;NANOG 79 Recording&#xA;Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>Misc Advices on Career</title>
       <link>https://prasenjitmanna.com/blogs/2022-09-17-misc-advices/</link>
       <pubDate>Sat, 17 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2022-09-17-misc-advices/</guid>
-      <description>Few career advices, I leant over the years
-Bite Tips
- Always learn Stay Humble You should be valued Be mindful to your risk tolerance Be discoverable Dont stay comfortable for too long Decisions are not permanent Run Marathon, not sprint People, not jobs, are permanent Try lots of different things  Join my email list to get direct access to new blog posts.
- </description>
+      <description>Few career advices, I leant over the years&#xA;Bite Tips&#xA;Always learn Stay Humble You should be valued Be mindful to your risk tolerance Be discoverable Dont stay comfortable for too long Decisions are not permanent Run Marathon, not sprint People, not jobs, are permanent Try lots of different things Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>Learn Like an Athlete</title>
       <link>https://prasenjitmanna.com/blogs/2022-08-20-learn-like-an-athlete/</link>
       <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2022-08-20-learn-like-an-athlete/</guid>
-      <description>  Athletes train. Musicians train. Performers train. But knowledge workers don’t. Learn Like an Athlete
-  Join my email list to get direct access to new blog posts.
- </description>
+      <description>Athletes train. Musicians train. Performers train. But knowledge workers don’t. Learn Like an Athlete&#xA;Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>A Glimpse At Two Approaches To Segment Routing</title>
       <link>https://prasenjitmanna.com/blogs/2022-06-03-glimpse-of-segment-routing-approach/</link>
       <pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2022-06-03-glimpse-of-segment-routing-approach/</guid>
-      <description>A Glimpse At Two Approaches To Segment Routing
-Topic Covered:
- SR-MPLS Vs. SRv6 SRv6 Adoption Challenges Hardware &amp;amp; Software Support For SRv6  Appendix:
-by Clarence Filsfils
- What is SRv6 network programming? SRv6: Deployed use-cases SRv6 micro-instructions  Join my email list to get direct access to new blog posts.
- </description>
+      <description>A Glimpse At Two Approaches To Segment Routing&#xA;Topic Covered:&#xA;SR-MPLS Vs. SRv6 SRv6 Adoption Challenges Hardware &amp;amp; Software Support For SRv6 Appendix:&#xA;by Clarence Filsfils&#xA;What is SRv6 network programming? SRv6: Deployed use-cases SRv6 micro-instructions Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>The Joy of Small Projects</title>
       <link>https://prasenjitmanna.com/blogs/2022-05-24-joy-of-small-projects/</link>
       <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2022-05-24-joy-of-small-projects/</guid>
-      <description>The Joy of Small Projects
-Join my email list to get direct access to new blog posts.
- </description>
+      <description>The Joy of Small Projects&#xA;Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>Deliberate Practice by Jason Shen</title>
       <link>https://prasenjitmanna.com/blogs/2022-05-16-deliberate-practice/</link>
       <pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2022-05-16-deliberate-practice/</guid>
-      <description>Deliberate Practice by Jason Shen
-The Complete Guide to Deliberate Practice
-Join my email list to get direct access to new blog posts.
- </description>
+      <description>Deliberate Practice by Jason Shen&#xA;The Complete Guide to Deliberate Practice&#xA;Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>Bunch of unsolicited advices by Kevin Kelly</title>
       <link>https://prasenjitmanna.com/blogs/2022-05-11-advice-by-kevin-kelly/</link>
       <pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2022-05-11-advice-by-kevin-kelly/</guid>
-      <description>Bunch of unsolicited advices by Kevin Kelly
-Advice Set I
-Advice Set II
-Advice Set III
-Join my email list to get direct access to new blog posts.
- </description>
+      <description>Bunch of unsolicited advices by Kevin Kelly&#xA;Advice Set I&#xA;Advice Set II&#xA;Advice Set III&#xA;Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>Semantic Routing - new concept</title>
       <link>https://prasenjitmanna.com/blogs/2022-04-18-semantic-routing/</link>
       <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2022-04-18-semantic-routing/</guid>
-      <description>New discussion in IRTF - Introduction to Semantic Routing
-See the recording at 47 min.
-  Join my email list to get direct access to new blog posts.
- </description>
+      <description>New discussion in IRTF - Introduction to Semantic Routing&#xA;See the recording at 47 min.&#xA;Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>A list of new(ish) command line tools</title>
       <link>https://prasenjitmanna.com/blogs/2022-04-17-list-of-newish-command-line-tools/</link>
       <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2022-04-17-list-of-newish-command-line-tools/</guid>
-      <description>This is really awesome. New generation cmd line tools.
-A list of new(ish) command line tools compiled by Julia.
-Join my email list to get direct access to new blog posts.
- </description>
+      <description>This is really awesome. New generation cmd line tools.&#xA;A list of new(ish) command line tools compiled by Julia.&#xA;Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>Get your work recognized - write a brag document</title>
       <link>https://prasenjitmanna.com/blogs/2022-04-04-get-your-work-recognized/</link>
       <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2022-04-04-get-your-work-recognized/</guid>
       <description>In the job, if you do good work, it will be recognized. At the same time, it is important to remember, specially at the time of appraisal cycle. It will help you and your manager to present your case wisely. Instead of struggling to prepare a list of achievements when needed, it will be better to keep it updated once in every month. Julia Evans has written a good article on this.</description>
     </item>
-    
     <item>
       <title>How to read a paper</title>
       <link>https://prasenjitmanna.com/blogs/2022-03-23-how-to-read-a-paper/</link>
       <pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2022-03-23-how-to-read-a-paper/</guid>
-      <description>Summary:
- Read the abstract (if provided)* Read the introduction. Read the conclusion. Skim the middle, looking at section titles, tables, figures, etc.—try to get a feel for the style and flow of the article.   Is it methodological, conceptual, theoretical (verbal or mathematical), empirical, or something else? Is it primarily a survey, a novel theoretical contribution, an empirical application of an existing theory or technique, a critique, or something else?</description>
+      <description>Summary:&#xA;Read the abstract (if provided)* Read the introduction. Read the conclusion. Skim the middle, looking at section titles, tables, figures, etc.—try to get a feel for the style and flow of the article. Is it methodological, conceptual, theoretical (verbal or mathematical), empirical, or something else? Is it primarily a survey, a novel theoretical contribution, an empirical application of an existing theory or technique, a critique, or something else? Go back and read the whole thing quickly, skipping equations, most figures and tables.</description>
     </item>
-    
     <item>
       <title>How to achieve career growth</title>
       <link>https://prasenjitmanna.com/blogs/2022-03-19-how-to-achieve-career-growth/</link>
       <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2022-03-19-how-to-achieve-career-growth/</guid>
-      <description>In general, you might want to grow in your software engineering career, but:
-what does growth mean? how can you achieve it? who decides if you are ready to grow? where do you start?
-  How to achieve career growth: opportunities, skills &amp;amp; sponsors
-This is a very insightful article. It clearly depicts the importance of self-awareness and drive the grown by yourself.
-Join my email list to get direct access to new blog posts.</description>
+      <description>In general, you might want to grow in your software engineering career, but:&#xA;what does growth mean? how can you achieve it? who decides if you are ready to grow? where do you start?&#xA;How to achieve career growth: opportunities, skills &amp;amp; sponsors&#xA;This is a very insightful article. It clearly depicts the importance of self-awareness and drive the grown by yourself.&#xA;Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>Managing Yourself</title>
       <link>https://prasenjitmanna.com/blogs/2022-03-16-managing-yourself/</link>
       <pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2022-03-16-managing-yourself/</guid>
-      <description>Managing Yourself by Subbu Allamaraju
-Summary:
- You’re the CEO of yourself — a one-person enterprise — act like one As a CEO, every day, you get to decide how you’re going to invest your time, which is your primary fixed capital.  Join my email list to get direct access to new blog posts.
- </description>
+      <description>Managing Yourself by Subbu Allamaraju&#xA;Summary:&#xA;You’re the CEO of yourself — a one-person enterprise — act like one As a CEO, every day, you get to decide how you’re going to invest your time, which is your primary fixed capital. Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>Ethernet Optical Standards</title>
       <link>https://prasenjitmanna.com/writing/2022-03-12-ethernet-optical-standards/</link>
       <pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2022-03-12-ethernet-optical-standards/</guid>
-      <description>The IEEE 802.3 Ethernet standards have been evolved exponentially. This is one of the driving force for the massive scale data centres, which is driving our cloud.
-IEEE 802.3 Data Center Ethernet Optical Standards    Year Ethernet Speed Designation Optical Data Rate Wavelength Fiber Count MMF(km) SMF (km)     1987 10 MbE FOIRL 12.5 M 850 2 1 -   1993 10 MbE 10BASE-FB 12.</description>
+      <description>The IEEE 802.3 Ethernet standards have been evolved exponentially. This is one of the driving force for the massive scale data centres, which is driving our cloud.&#xA;IEEE 802.3 Data Center Ethernet Optical Standards Year Ethernet Speed Designation Optical Data Rate Wavelength Fiber Count MMF(km) SMF (km) 1987 10 MbE FOIRL 12.5 M 850 2 1 - 1993 10 MbE 10BASE-FB 12.5 M 850 2 2 - 1993 10 MbE 10BASE-FL 12.</description>
     </item>
-    
     <item>
       <title>Data Center Topologies</title>
       <link>https://prasenjitmanna.com/writing/2022-02-26-dc-topologies/</link>
       <pubDate>Sat, 26 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2022-02-26-dc-topologies/</guid>
-      <description>Table of contents  Indirect Topologies  Tree Fat Tree   Direct Topologies  All-to-All HyperX Flattened Butterfly Topology Torus DCell &amp;amp; DCube    The network topologies can be classified into tree and non-tree based topologies. This is very common observation in topology. There is another way to connect nodes are direct and indirect.
-Indirect Topologies Tree The tree topologies are simple and broadly used in data center networks.</description>
+      <description>Table of contents Indirect Topologies Tree Fat Tree Direct Topologies All-to-All HyperX Flattened Butterfly Topology Torus DCell &amp;amp; DCube The network topologies can be classified into tree and non-tree based topologies. This is very common observation in topology. There is another way to connect nodes are direct and indirect.&#xA;Indirect Topologies Tree The tree topologies are simple and broadly used in data center networks. Tree topologies may have either two or three levels.</description>
     </item>
-    
     <item>
       <title>Optimizing Workspace For Productivity, Focus, &amp; Creativity</title>
       <link>https://prasenjitmanna.com/blogs/2022-02-25-optimizing-workspace-for-productivity-focus-creativity/</link>
       <pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2022-02-25-optimizing-workspace-for-productivity-focus-creativity/</guid>
-      <description>Optimizing Workspace for Productivity, Focus, &amp;amp; Creativity by Juan Pablo Aranovich
-Summary:
- Bright lights during phase 1 of the day. Place visual focus direct in front of you. Restricted visual window. Put screens at nose level (at least). Avoid reclining Half stand and half sited work. Avoid white noise. Pursue 40 hertz binaural beats during work bout or prior to work bout. Stationary tread mill increases alertness and focus. Cathedral effect: focused and analytical work: low ceiling space.</description>
+      <description>Optimizing Workspace for Productivity, Focus, &amp;amp; Creativity by Juan Pablo Aranovich&#xA;Summary:&#xA;Bright lights during phase 1 of the day. Place visual focus direct in front of you. Restricted visual window. Put screens at nose level (at least). Avoid reclining Half stand and half sited work. Avoid white noise. Pursue 40 hertz binaural beats during work bout or prior to work bout. Stationary tread mill increases alertness and focus. Cathedral effect: focused and analytical work: low ceiling space.</description>
     </item>
-    
     <item>
       <title>SCION vs. Segment Routing</title>
       <link>https://prasenjitmanna.com/blogs/2022-02-14-scion-segment-routing/</link>
       <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2022-02-14-scion-segment-routing/</guid>
-      <description>SCION vs. Segment Routing
-Book, papers, videos, tutorials - https://www.scion-architecture.net
-Join my email list to get direct access to new blog posts.
- </description>
+      <description>SCION vs. Segment Routing&#xA;Book, papers, videos, tutorials - https://www.scion-architecture.net&#xA;Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>NETCONF vs GNMI</title>
       <link>https://prasenjitmanna.com/writing/2022-01-31-netconf-vs-gnmi/</link>
       <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2022-01-31-netconf-vs-gnmi/</guid>
-      <description>In the last article, NETCONF vs RESTCONF I have explained the difference between netconf and restconf and their use-cases. Netconf has very rich functionality, whereas restconf has matching functionality. Restconf has opened the door for the framework with REST-based system and infrastructure.
-The gNMI (gRPC Network Management Interface) protocol comes from the openconfig consortium, a group of network operators led by Google, with the following mission - &amp;ldquo;OpenConfig is an informal working group of network operators sharing the goal of moving our networks toward a more dynamic, programmable infrastructure by adopting software-defined networking principles such as declarative configuration and model-driven management and operations&amp;rdquo;.</description>
+      <description>In the last article, NETCONF vs RESTCONF I have explained the difference between netconf and restconf and their use-cases. Netconf has very rich functionality, whereas restconf has matching functionality. Restconf has opened the door for the framework with REST-based system and infrastructure.&#xA;The gNMI (gRPC Network Management Interface) protocol comes from the openconfig consortium, a group of network operators led by Google, with the following mission - &amp;ldquo;OpenConfig is an informal working group of network operators sharing the goal of moving our networks toward a more dynamic, programmable infrastructure by adopting software-defined networking principles such as declarative configuration and model-driven management and operations&amp;rdquo;.</description>
     </item>
-    
     <item>
       <title>Exercise - Daily Desk Stretches</title>
       <link>https://prasenjitmanna.com/blogs/2021-12-15-excercise-desk-stretches/</link>
       <pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2021-12-15-excercise-desk-stretches/</guid>
-      <description>Join my email list to get direct access to new blog posts.
- </description>
+      <description>Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>ISP Design Guide</title>
       <link>https://prasenjitmanna.com/blogs/2021-11-24-isp-design-guide/</link>
       <pubDate>Wed, 24 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2021-11-24-isp-design-guide/</guid>
-      <description>ISP Design Guide: Separation of network functions – introduction and overview by Kevin Myers
-Join my email list to get direct access to new blog posts.
- </description>
+      <description>ISP Design Guide: Separation of network functions – introduction and overview by Kevin Myers&#xA;Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>NETCONF vs RESTCONF</title>
       <link>https://prasenjitmanna.com/writing/2021-11-07-netconf-vs-restconf/</link>
       <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2021-11-07-netconf-vs-restconf/</guid>
-      <description>NETCONF vs RESTCONF
-NETCONF is a protocol that was developed to provide a standardized interface to Network Element(NE)/Device to retrieve and manipulate configuration data.
-Till now, CLI is the standard interface to interact with NE. but this is mainly for human. On the other hand, the NETCONF is mainly used for network automation.
-CLI normally defined for human in user friendly way.
-   Content Config, Oper Data     Operations &amp;lt;get-config&amp;gt;, &amp;lt;edit-config&amp;gt;, &amp;lt;copy-config&amp;gt;, &amp;lt;delete-config&amp;gt;, &amp;lt;lock&amp;gt;, &amp;lt;unlock&amp;gt;, &amp;lt;close-session&amp;gt;, &amp;lt;kill-session&amp;gt;   Messages &amp;lt;rpc&amp;gt;, &amp;lt;rpc-reply&amp;gt;, &amp;lt;notification&amp;gt;   Secure Transport SSH, TLS    RESTCONF is an HTTP-based protocol that provides a programmatic interface for accessing data defined in YANG, using the datastore concepts defined in NETCONF.</description>
+      <description>NETCONF vs RESTCONF&#xA;NETCONF is a protocol that was developed to provide a standardized interface to Network Element(NE)/Device to retrieve and manipulate configuration data.&#xA;Till now, CLI is the standard interface to interact with NE. but this is mainly for human. On the other hand, the NETCONF is mainly used for network automation.&#xA;CLI normally defined for human in user friendly way.&#xA;Content Config, Oper Data Operations &amp;lt;get-config&amp;gt;, &amp;lt;edit-config&amp;gt;, &amp;lt;copy-config&amp;gt;, &amp;lt;delete-config&amp;gt;, &amp;lt;lock&amp;gt;, &amp;lt;unlock&amp;gt;, &amp;lt;close-session&amp;gt;, &amp;lt;kill-session&amp;gt; Messages &amp;lt;rpc&amp;gt;, &amp;lt;rpc-reply&amp;gt;, &amp;lt;notification&amp;gt; Secure Transport SSH, TLS RESTCONF is an HTTP-based protocol that provides a programmatic interface for accessing data defined in YANG, using the datastore concepts defined in NETCONF.</description>
     </item>
-    
     <item>
       <title>What is APIs?</title>
       <link>https://prasenjitmanna.com/writing/2021-11-06-what-is-api/</link>
       <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2021-11-06-what-is-api/</guid>
-      <description>What is APIs?
-Application Programming Interfaces (APIs) are module: they take inputs and give you predictable outputs.   At its core, an API is a bunch of code that takes an input and gives you an output
-  Sometimes, companies will make parts of their APIs publicly available, like github, Twitter or Google Maps
-  In modern era, your favourite applications are collection of APIs.
-  In WWW, the programmatic service is provided by the APIs.</description>
+      <description>What is APIs?&#xA;Application Programming Interfaces (APIs) are module: they take inputs and give you predictable outputs. At its core, an API is a bunch of code that takes an input and gives you an output&#xA;Sometimes, companies will make parts of their APIs publicly available, like github, Twitter or Google Maps&#xA;In modern era, your favourite applications are collection of APIs.&#xA;In WWW, the programmatic service is provided by the APIs.</description>
     </item>
-    
     <item>
       <title>Web Scaler - Diagrams</title>
       <link>https://prasenjitmanna.com/writing/2021-10-10-web-scaler/</link>
       <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2021-10-10-web-scaler/</guid>
-      <description>These diagrams are self sufficient to explain.
-Table of contents  1. Web Scaler 2. Consistent Hashing 3. Web Crawler 4. Unique ID Generator for Distributed Systems 5. Key Value Store 6. Rate Limiter 7. Youtube 8. Chat System 9. News Feed System 10. Google Drive  1. Web Scaler 2. Consistent Hashing 3. Web Crawler 4. Unique ID Generator for Distributed Systems 5. Key Value Store Ref: SSTable
-6. Rate Limiter 7.</description>
+      <description>These diagrams are self sufficient to explain.&#xA;Table of contents 1. Web Scaler 2. Consistent Hashing 3. Web Crawler 4. Unique ID Generator for Distributed Systems 5. Key Value Store 6. Rate Limiter 7. Youtube 8. Chat System 9. News Feed System 10. Google Drive 1. Web Scaler 2. Consistent Hashing 3. Web Crawler 4. Unique ID Generator for Distributed Systems 5. Key Value Store Ref: SSTable&#xA;6. Rate Limiter 7.</description>
     </item>
-    
     <item>
       <title>Learn C&#43;&#43; Programming in 1hr &#43; Code</title>
       <link>https://prasenjitmanna.com/writing/2021-10-03-minimal-cpp-prog-manual/</link>
       <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2021-10-03-minimal-cpp-prog-manual/</guid>
-      <description>Best Ever C++ Tutoriali for C Programmer
-  Code Snip: Part1 | Part2 | Part3
-Data Types | Arithmetic | If Statement | Switch Statement | Ternary Operator | Arrays | For Loop | While Loop | Do While Loop | User Input | Convert String | Strings | Vectors | Functions | Recursive Function | File I/O | Exception Handling | Pointers | Reference Operator | Classes / Objects | Private | Static Variables | Public / Encapsulation | Constructors | Static Functions | this | Inheritance | Call Superclass Constructor | Execute Static Method | Virtual Methods | Polymorphism | Abstract Data Type</description>
+      <description>Best Ever C++ Tutoriali for C Programmer&#xA;Code Snip: Part1 | Part2 | Part3&#xA;Data Types | Arithmetic | If Statement | Switch Statement | Ternary Operator | Arrays | For Loop | While Loop | Do While Loop | User Input | Convert String | Strings | Vectors | Functions | Recursive Function | File I/O | Exception Handling | Pointers | Reference Operator | Classes / Objects | Private | Static Variables | Public / Encapsulation | Constructors | Static Functions | this | Inheritance | Call Superclass Constructor | Execute Static Method | Virtual Methods | Polymorphism | Abstract Data Type</description>
     </item>
-    
     <item>
       <title>How to Think? Part-II</title>
       <link>https://prasenjitmanna.com/writing/2021-09-25-how-to-think-part-2/</link>
       <pubDate>Sat, 25 Sep 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2021-09-25-how-to-think-part-2/</guid>
-      <description>Table of contents  The Farnam Street - How to Think: The Skill You&amp;rsquo;ve Never Been Taught Zat Rana - Marcus Aurelius: Thinking Clearly Mayo Oshin - Elon Musks&#39; &amp;ldquo;3-Step&amp;rdquo; First Principles Thinking&amp;quot; Ed Boyden - Rules for How to Think   &amp;ldquo;If I had an hour to solve a problem, I&amp;rsquo;d spend 55 minutes thinking about the problem and 5 minutes thinking about solutions.&amp;rdquo; &amp;mdash; Albert Einstein
- We are very good at solving problems.</description>
+      <description>Table of contents The Farnam Street - How to Think: The Skill You&amp;rsquo;ve Never Been Taught Zat Rana - Marcus Aurelius: Thinking Clearly Mayo Oshin - Elon Musks&amp;rsquo; &amp;ldquo;3-Step&amp;rdquo; First Principles Thinking&amp;quot; Ed Boyden - Rules for How to Think &amp;ldquo;If I had an hour to solve a problem, I&amp;rsquo;d spend 55 minutes thinking about the problem and 5 minutes thinking about solutions.&amp;rdquo; &amp;mdash; Albert Einstein&#xA;We are very good at solving problems.</description>
     </item>
-    
     <item>
       <title>How To Negotiate</title>
       <link>https://prasenjitmanna.com/blogs/2021-09-12-how-to-negotiate/</link>
       <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2021-09-12-how-to-negotiate/</guid>
-      <description>How to negotiate from blog by Sriram Krishnan.
-You’ve done well in the interview. Now you have the recruiter calling you and reading out some numbers for you. What do you do? Here are some tips I give people.
- Always negotiate! The system expects you to. You’ll never be dinged for it as long as you do it right. Also - negotiating when you get hired is 10x easier than negotiating after you start as an employee.</description>
+      <description>How to negotiate from blog by Sriram Krishnan.&#xA;You’ve done well in the interview. Now you have the recruiter calling you and reading out some numbers for you. What do you do? Here are some tips I give people.&#xA;Always negotiate! The system expects you to. You’ll never be dinged for it as long as you do it right. Also - negotiating when you get hired is 10x easier than negotiating after you start as an employee.</description>
     </item>
-    
     <item>
       <title>Less-known interview tips for interviewer</title>
       <link>https://prasenjitmanna.com/blogs/2021-09-11-tips-for-interviewer/</link>
       <pubDate>Sat, 11 Sep 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2021-09-11-tips-for-interviewer/</guid>
-      <description>Few interview tips for interviewer from blog by Sriram Krishnan.
-The macro point here is making the process as pleasant and fun as possible. It is unnatural to sit in a room being judged by another human so anything we can do to make it easier goes a long way.
-  Show up on time.
-  No calls/messaging/phone usage or side-conversations during an interview unless an absolute emergency.</description>
+      <description>Few interview tips for interviewer from blog by Sriram Krishnan.&#xA;The macro point here is making the process as pleasant and fun as possible. It is unnatural to sit in a room being judged by another human so anything we can do to make it easier goes a long way.&#xA;Show up on time.&#xA;No calls/messaging/phone usage or side-conversations during an interview unless an absolute emergency.&#xA;Always ask about restroom/food/drink right at the beginning and the end.</description>
     </item>
-    
     <item>
       <title>Regret Minimization Framework</title>
       <link>https://prasenjitmanna.com/blogs/2021-08-24-regret-minimization-framework/</link>
       <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2021-08-24-regret-minimization-framework/</guid>
-      <description>Regret Minimization Framework by Jeff Bezos, CEO of Amazon
-When you are facing a big potential change in life, such as switching jobs, starting a café, or moving to another place, don’t just look at all the small details. These details can come later. Instead, start by asking yourself: On my deathbed, will I regret not taking this chance?
-To some, this might sound a bit morbid, but for me, it works.</description>
+      <description>Regret Minimization Framework by Jeff Bezos, CEO of Amazon&#xA;When you are facing a big potential change in life, such as switching jobs, starting a café, or moving to another place, don’t just look at all the small details. These details can come later. Instead, start by asking yourself: On my deathbed, will I regret not taking this chance?&#xA;To some, this might sound a bit morbid, but for me, it works.</description>
     </item>
-    
     <item>
       <title>Network Programmability, which is preferred? SNMP or CLI or Yang</title>
       <link>https://prasenjitmanna.com/writing/2021-08-22-network_programmability_snmp_or_cli_or_yang/</link>
       <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2021-08-22-network_programmability_snmp_or_cli_or_yang/</guid>
-      <description>Network Programmability, which is preferred? SNMP or CLI or Yang Network programmability is directly linked to Software Defined Network (SDN). So, it is driven by real benefits like time and cost savings, reduction of human error, customization and innovation. The network programmability is now understood as a set of tools and best practices to deploy, manage and troubleshoot network device, but it&amp;rsquo;s way beyond that.
-Network programmability is not new. From the screen scrapping, to bash and expect scripts.</description>
+      <description>Network Programmability, which is preferred? SNMP or CLI or Yang Network programmability is directly linked to Software Defined Network (SDN). So, it is driven by real benefits like time and cost savings, reduction of human error, customization and innovation. The network programmability is now understood as a set of tools and best practices to deploy, manage and troubleshoot network device, but it&amp;rsquo;s way beyond that.&#xA;Network programmability is not new. From the screen scrapping, to bash and expect scripts.</description>
     </item>
-    
     <item>
       <title>Wisdom by Charlie Munger</title>
       <link>https://prasenjitmanna.com/blogs/2021-08-21-quotes-charlie-munger-almanack/</link>
       <pubDate>Sat, 21 Aug 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2021-08-21-quotes-charlie-munger-almanack/</guid>
-      <description>Wisdom from Poor Charlie’s Almanack by Charlie Munger.
-  “Mimicking the herd invited regression to the mean.” If you do the same things as all the others, you cannot expect different results. Common plagues privately and professionally are status anxiety, social proof tendency, and the keeping-up-with-the-Joneses syndrome – doing what we can to be like the rest. It is not until you stop doing this, and instead find a unique way for yourself, that you will see other results.</description>
+      <description>Wisdom from Poor Charlie’s Almanack by Charlie Munger.&#xA;“Mimicking the herd invited regression to the mean.” If you do the same things as all the others, you cannot expect different results. Common plagues privately and professionally are status anxiety, social proof tendency, and the keeping-up-with-the-Joneses syndrome – doing what we can to be like the rest. It is not until you stop doing this, and instead find a unique way for yourself, that you will see other results.</description>
     </item>
-    
     <item>
       <title>Clos Networks</title>
       <link>https://prasenjitmanna.com/writing/2021-08-15-clos_networks/</link>
       <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2021-08-15-clos_networks/</guid>
-      <description>Table of contents  Blocking Network Non-Blocking Network Two Stage Non-Blocking Network Three Stage Non-Blocking Network Clos Network 5 Stage Clos Network FAT-Tree  In new era of internet, more applications are moving to cloud. Even for the standalone application, the central processing is done in cloud. Most of the cloud companies developed NextGen datacentre with CLOS architecture. This article is to demystify the Clos architecture.
-The Clos grows in a very consistent way, thanks to having what&amp;rsquo;s called a scale-out architecture.</description>
+      <description>Table of contents Blocking Network Non-Blocking Network Two Stage Non-Blocking Network Three Stage Non-Blocking Network Clos Network 5 Stage Clos Network FAT-Tree In new era of internet, more applications are moving to cloud. Even for the standalone application, the central processing is done in cloud. Most of the cloud companies developed NextGen datacentre with CLOS architecture. This article is to demystify the Clos architecture.&#xA;The Clos grows in a very consistent way, thanks to having what&amp;rsquo;s called a scale-out architecture.</description>
     </item>
-    
     <item>
       <title>An incomplete list of skills senior engineers need, beyond coding</title>
       <link>https://prasenjitmanna.com/blogs/2021-08-03-incomplete-list-skills-for-senior-engineers/</link>
       <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2021-08-03-incomplete-list-skills-for-senior-engineers/</guid>
-      <description>This is indeed good information by Camille Fournier blog post.
-For varying levels of seniority, from senior, to staff, and beyond.
- How to run a meeting, and no, being the person who talks the most in the meeting is not the same thing as running it How to write a design doc, take feedback, and drive it to resolution, in a reasonable period of time How to mentor an early-career teammate, a mid-career engineer, a new manager who needs technical advice How to indulge a senior manager who wants to talk about technical stuff that they don’t really understand, without rolling your eyes or making them feel stupid How to explain a technical concept behind closed doors to a senior person too embarrassed to openly admit that they don’t understand it How to influence another team to use your solution instead of writing their own How to get another engineer to do something for you by asking for help in a way that makes them feel appreciated How to lead a project even though you don’t manage any of the people working on the project How to get other engineers to listen to your ideas without making them feel threatened How to listen to other engineers’ ideas without feeling threatened How to give up your baby, that project that you built into something great, so you can do something else How to teach another engineer to care about that thing you really care about (operations, correctness, testing, code quality, performance, simplicity, etc) How to communicate project status to stakeholders How to convince management that they need to invest in a non-trivial technical project How to build software while delivering incremental value in the process How to craft a project proposal, socialize it, and get buy-in to execute it How to repeat yourself enough that people start to listen How to pick your battles How to help someone get promoted How to get information about what’s really happening (how to gossip, how to network) How to find interesting work on your own, instead of waiting for someone to bring it to you How to tell someone they’re wrong without making them feel ashamed How to take negative feedback gracefully  Join my email list to get direct access to new blog posts.</description>
+      <description>This is indeed good information by Camille Fournier blog post.&#xA;For varying levels of seniority, from senior, to staff, and beyond.&#xA;How to run a meeting, and no, being the person who talks the most in the meeting is not the same thing as running it How to write a design doc, take feedback, and drive it to resolution, in a reasonable period of time How to mentor an early-career teammate, a mid-career engineer, a new manager who needs technical advice How to indulge a senior manager who wants to talk about technical stuff that they don’t really understand, without rolling your eyes or making them feel stupid How to explain a technical concept behind closed doors to a senior person too embarrassed to openly admit that they don’t understand it How to influence another team to use your solution instead of writing their own How to get another engineer to do something for you by asking for help in a way that makes them feel appreciated How to lead a project even though you don’t manage any of the people working on the project How to get other engineers to listen to your ideas without making them feel threatened How to listen to other engineers’ ideas without feeling threatened How to give up your baby, that project that you built into something great, so you can do something else How to teach another engineer to care about that thing you really care about (operations, correctness, testing, code quality, performance, simplicity, etc) How to communicate project status to stakeholders How to convince management that they need to invest in a non-trivial technical project How to build software while delivering incremental value in the process How to craft a project proposal, socialize it, and get buy-in to execute it How to repeat yourself enough that people start to listen How to pick your battles How to help someone get promoted How to get information about what’s really happening (how to gossip, how to network) How to find interesting work on your own, instead of waiting for someone to bring it to you How to tell someone they’re wrong without making them feel ashamed How to take negative feedback gracefully Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>Circle of Competence</title>
       <link>https://prasenjitmanna.com/blogs/2021-07-23-circle-of-competence/</link>
       <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2021-07-23-circle-of-competence/</guid>
-      <description>Charlie Muner once said:
-You have to figure out what your own aptitudes are. If you play games where other people have the aptitudes and you don’t, you’re going to lose. And that’s as close to certain as any prediction that you can make. You have to figure out where you’ve got an edge. And you’ve got to play within your own circle of competence.
-If you want to be the best tennis player in the world, you may start out trying and soon find out that it’s hopeless—that other people blow right by you.</description>
+      <description>Charlie Muner once said:&#xA;You have to figure out what your own aptitudes are. If you play games where other people have the aptitudes and you don’t, you’re going to lose. And that’s as close to certain as any prediction that you can make. You have to figure out where you’ve got an edge. And you’ve got to play within your own circle of competence.&#xA;If you want to be the best tennis player in the world, you may start out trying and soon find out that it’s hopeless—that other people blow right by you.</description>
     </item>
-    
     <item>
       <title>The Cindrella Principle</title>
       <link>https://prasenjitmanna.com/blogs/2021-07-23-the-cindrella-principle/</link>
       <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2021-07-23-the-cindrella-principle/</guid>
       <description>At 31 years old, Charlie Munger was divorced, broke, and burying his 9 year old son, who had died from cancer. By the time he was 69 years old, he had become one of the richest 400 people in the world, been married to his second wife for 35+ years, had eight wonderful children, countless grandchildren, and become one of the most respected business thinkers in history. He eventually achieved his dream of having a lot of money, a house full of books, and a huge family.</description>
     </item>
-    
     <item>
       <title>How to be good at sales?</title>
       <link>https://prasenjitmanna.com/blogs/2021-07-18-how-to-get-good-at-sales/</link>
       <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2021-07-18-how-to-get-good-at-sales/</guid>
-      <description>Entrepreneur Colin Dowling on sales, via HN:
-  Sales is a lot like golf. You can make it so complicated as to be impossible or you can simply walk up and hit the ball. I&amp;rsquo;ve been leading and building sales orgs for almost 20 years and my advice is to walk up and hit the ball.
-  Sales is about people and it&amp;rsquo;s about problem solving. It is not about solutions or technology or chemicals or lines of code or artichokes.</description>
+      <description>Entrepreneur Colin Dowling on sales, via HN:&#xA;Sales is a lot like golf. You can make it so complicated as to be impossible or you can simply walk up and hit the ball. I&amp;rsquo;ve been leading and building sales orgs for almost 20 years and my advice is to walk up and hit the ball.&#xA;Sales is about people and it&amp;rsquo;s about problem solving. It is not about solutions or technology or chemicals or lines of code or artichokes.</description>
     </item>
-    
     <item>
       <title>Various Routing &amp; Packet Forwarding Techniques</title>
       <link>https://prasenjitmanna.com/writing/2021-05-30-various_routing_packet_forwarding_techniques/</link>
       <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2021-05-30-various_routing_packet_forwarding_techniques/</guid>
-      <description>Table of contents  Bridging and Routing L2 Forwarding L3 Forwarding VRF Overlays  1. IP in IP 2. GRE 3. VXLAN   Segment Routing Forwarding in NIC  The core routing and packet forwarding haven&amp;rsquo;t changed for decades and it is not going to change for next decade also. But, it is going to evolve due to market needs, specially data centres. At the same time, Silicon capacity, CPU power, NIC bandwidth, all have increased significantly.</description>
+      <description>Table of contents Bridging and Routing L2 Forwarding L3 Forwarding VRF Overlays 1. IP in IP 2. GRE 3. VXLAN Segment Routing Forwarding in NIC The core routing and packet forwarding haven&amp;rsquo;t changed for decades and it is not going to change for next decade also. But, it is going to evolve due to market needs, specially data centres. At the same time, Silicon capacity, CPU power, NIC bandwidth, all have increased significantly.</description>
     </item>
-    
     <item>
       <title>How productive are you in life?</title>
       <link>https://prasenjitmanna.com/writing/2021-05-15-how_productive_are_you_in_life/</link>
       <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2021-05-15-how_productive_are_you_in_life/</guid>
-      <description>Table of contents  Do the right thing Do the right way Prioritize Organize Routine Goal Love what you do Recreation Positive thinking &amp;amp; attitude Right Values  Productivity concept is always there in my mind, but never thought so deeply. Until recently, my friend Biplab asked me the questions:
-&amp;ldquo;How do you feel at the end of a hard day? Do you feel satisfied, fulfilled, or disappointed? Are you productive?</description>
+      <description>Table of contents Do the right thing Do the right way Prioritize Organize Routine Goal Love what you do Recreation Positive thinking &amp;amp; attitude Right Values Productivity concept is always there in my mind, but never thought so deeply. Until recently, my friend Biplab asked me the questions:&#xA;&amp;ldquo;How do you feel at the end of a hard day? Do you feel satisfied, fulfilled, or disappointed? Are you productive?&amp;rdquo;&#xA;&amp;ldquo;may be yes!</description>
     </item>
-    
     <item>
       <title>Charles Darwin’s 8 Steps to Steady-State Learning</title>
       <link>https://prasenjitmanna.com/blogs/2020-12-20-charles-darwin-8-steps-to-steady-state-learning/</link>
       <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2020-12-20-charles-darwin-8-steps-to-steady-state-learning/</guid>
-      <description>Charles Darwin’s 8 Steps to Steady-State Learning
- A life-long program of self-study Keeping a diary/journal Scribbling notes immediately Keeping “indexed portfolios” (notes/summaries of what you&amp;rsquo;ve read or heard) Testing beloved concepts – make a note, immediately, if you come across a thought or idea that is contrary to something you currently believe. Absorb it, study it and don&amp;rsquo;t let it go until you conclude that you need to change your mind or if the thought or ideas is wrong Learning lessons by heart Seeking to earn the approval of great men (dead or alive) The humility to seek not fame (as in, wisdom flows into the humble man like water flows into a depression)  Join my email list to get direct access to new blog posts.</description>
+      <description>Charles Darwin’s 8 Steps to Steady-State Learning&#xA;A life-long program of self-study Keeping a diary/journal Scribbling notes immediately Keeping “indexed portfolios” (notes/summaries of what you&amp;rsquo;ve read or heard) Testing beloved concepts – make a note, immediately, if you come across a thought or idea that is contrary to something you currently believe. Absorb it, study it and don&amp;rsquo;t let it go until you conclude that you need to change your mind or if the thought or ideas is wrong Learning lessons by heart Seeking to earn the approval of great men (dead or alive) The humility to seek not fame (as in, wisdom flows into the humble man like water flows into a depression) Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>Clean and Readable Code</title>
       <link>https://prasenjitmanna.com/writing/2020-11-18-clean-and-readable-code/</link>
       <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2020-11-18-clean-and-readable-code/</guid>
-      <description>Table of contents  Why is this important? What do we achieve? Principles  A good code must satisfy few requirements: it must produce correct results, for which it is written. Also, it should be readable and understandable by other developers. It should also follow few code principles. This is your professional responsibility that the code you write will be re-read by many other developers, who want to either understand or modify the code.</description>
+      <description>Table of contents Why is this important? What do we achieve? Principles A good code must satisfy few requirements: it must produce correct results, for which it is written. Also, it should be readable and understandable by other developers. It should also follow few code principles. This is your professional responsibility that the code you write will be re-read by many other developers, who want to either understand or modify the code.</description>
     </item>
-    
     <item>
       <title>Link-State Protocols on Data-Center Fabrics - Internet Protocol Journal (PDF)</title>
       <link>https://prasenjitmanna.com/blogs/2020-10-01-link-state-protocols-on-data-center-fabrics-internet-protocol-journal-pdf/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2020-10-01-link-state-protocols-on-data-center-fabrics-internet-protocol-journal-pdf/</guid>
-      <description>Link-State Protocols on Data-Center Fabrics – Internet Protocol Journal (PDF)
-Join my email list to get direct access to new blog posts.
- </description>
+      <description>Link-State Protocols on Data-Center Fabrics – Internet Protocol Journal (PDF)&#xA;Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>How to Think?</title>
       <link>https://prasenjitmanna.com/blogs/2020-07-22-how-to-think/</link>
       <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2020-07-22-how-to-think/</guid>
-      <description>A set of 10 rules as listed in Ed Boyden’s popular blog post in MIT Technology Review, Nov 2007.
-Managing brain resources in an age of complexity.
-  Synthesize new ideas constantly. Never read passively. Annotate, model, think, and synthesize while you read, even when you’re reading what you conceive to be introductory stuff. That way, you will always aim towards understanding things at a resolution fine enough for you to be creative.</description>
+      <description>A set of 10 rules as listed in Ed Boyden’s popular blog post in MIT Technology Review, Nov 2007.&#xA;Managing brain resources in an age of complexity.&#xA;Synthesize new ideas constantly. Never read passively. Annotate, model, think, and synthesize while you read, even when you’re reading what you conceive to be introductory stuff. That way, you will always aim towards understanding things at a resolution fine enough for you to be creative.</description>
     </item>
-    
     <item>
       <title>My First Blog Post</title>
       <link>https://prasenjitmanna.com/blogs/2020-01-01-first-post/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2020-01-01-first-post/</guid>
-      <description>It&amp;rsquo;s been long time, I was keep thinking to write blog. But, always getting delayed due to fear, whether I am good at writing, or people will like it or not, etc. Finally, I overcome this fear and started writing from new year, 2020.
-Just to give little background about me, myself, Prasenjit Manna, working with networking industry as programmer, developer, architect, influencer since 2000. My area of interest is always routing, switching, manageability, optical, etc.</description>
+      <description>It&amp;rsquo;s been long time, I was keep thinking to write blog. But, always getting delayed due to fear, whether I am good at writing, or people will like it or not, etc. Finally, I overcome this fear and started writing from new year, 2020.&#xA;Just to give little background about me, myself, Prasenjit Manna, working with networking industry as programmer, developer, architect, influencer since 2000. My area of interest is always routing, switching, manageability, optical, etc.</description>
     </item>
-    
   </channel>
 </rss>

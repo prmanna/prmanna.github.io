@@ -1,32 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>switching on Prasenjit Manna</title>
+    <title>Switching on Prasenjit Manna</title>
     <link>https://prasenjitmanna.com/tags/switching/</link>
-    <description>Recent content in switching on Prasenjit Manna</description>
+    <description>Recent content in Switching on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 07 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/tags/switching/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 18 Jan 2025 17:53:58 +0530</lastBuildDate>
+    <atom:link href="https://prasenjitmanna.com/tags/switching/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Clos IP Traffic between Leaf and Spine &amp; Tromboning</title>
       <link>https://prasenjitmanna.com/writing/2024-04-07-clos-ip-traffic-between-leaf-and-spine/</link>
       <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2024-04-07-clos-ip-traffic-between-leaf-and-spine/</guid>
-      <description>Traffic tromboning is a phenomena in data center traffic configuration or service chaining, while some service is bottleneck for rest of the flows. The service chaining can be created between leaves and spines using VXLAN and VRF way.
-This is the article written by Mario Baldi and Silvano Gai originally posted in Traffic Tromboning Why, What, Where, How, and How Not
-Why do we have traffic tromboning? Network and security services have traditionally been deployed in front of a group of end hosts that share some common function and are topologically close: e.</description>
+      <description>Traffic tromboning is a phenomena in data center traffic configuration or service chaining, while some service is bottleneck for rest of the flows. The service chaining can be created between leaves and spines using VXLAN and VRF way.&#xA;This is the article written by Mario Baldi and Silvano Gai originally posted in Traffic Tromboning Why, What, Where, How, and How Not&#xA;Why do we have traffic tromboning? Network and security services have traditionally been deployed in front of a group of end hosts that share some common function and are topologically close: e.</description>
     </item>
-    
     <item>
       <title>Various Packet Switching Techniques</title>
       <link>https://prasenjitmanna.com/writing/2024-04-06-various_switching_techniques/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2024-04-06-various_switching_techniques/</guid>
-      <description>A History of Network Switches 1990s: Layer 2 Switches Network switches (switches for short) are the evolution of network bridges whose behavior was defined by the Institute of Electrical and Electronics Engineers (IEEE) in the standard IEEE 802.1 to connect two or more Ethernet segments. Switch and switching are terms that do not exist in standards; they were introduced to indicate a multiport bridge.
-Initially, switches were pure layer 2 devices that forwarded Ethernet frames without knowing their content and without modifying the frames, thus providing connectivity for the many layer 3 protocols deployed in those days.</description>
+      <description>A History of Network Switches 1990s: Layer 2 Switches Network switches (switches for short) are the evolution of network bridges whose behavior was defined by the Institute of Electrical and Electronics Engineers (IEEE) in the standard IEEE 802.1 to connect two or more Ethernet segments. Switch and switching are terms that do not exist in standards; they were introduced to indicate a multiport bridge.&#xA;Initially, switches were pure layer 2 devices that forwarded Ethernet frames without knowing their content and without modifying the frames, thus providing connectivity for the many layer 3 protocols deployed in those days.</description>
     </item>
-    
   </channel>
 </rss>

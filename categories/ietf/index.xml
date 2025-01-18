@@ -1,50 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ietf on Prasenjit Manna</title>
+    <title>Ietf on Prasenjit Manna</title>
     <link>https://prasenjitmanna.com/categories/ietf/</link>
-    <description>Recent content in ietf on Prasenjit Manna</description>
+    <description>Recent content in Ietf on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 12 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/categories/ietf/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 18 Jan 2025 17:53:58 +0530</lastBuildDate>
+    <atom:link href="https://prasenjitmanna.com/categories/ietf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IETF - Yang Models</title>
       <link>https://prasenjitmanna.com/writing/2024-08-12-ietf-yang-models/</link>
       <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2024-08-12-ietf-yang-models/</guid>
-      <description>IETF - Yang Models IETF Yang Models.
-Routing Service YANG Models (Southbound) Routing    RFC/Draft Name Title Status Publication URL Progress     RFC8294 Common YANG Data Types for the Routing Area RFC https://datatracker.ietf.org/doc/html/rfc8294     RFC8022 A YANG Data Model for Routing Management RFC https://datatracker.ietf.org/doc/html/rfc8022     RFC8349 A YANG Data Model for Routing Management (NMDA Version) RFC https://datatracker.ietf.org/doc/html/rfc8349     RFC8529 YANG Data Model for Network Instances RFC https://datatracker.</description>
+      <description>IETF - Yang Models IETF Yang Models.&#xA;Routing Service YANG Models (Southbound) Routing RFC/Draft Name Title Status Publication URL Progress RFC8294 Common YANG Data Types for the Routing Area RFC https://datatracker.ietf.org/doc/html/rfc8294 RFC8022 A YANG Data Model for Routing Management RFC https://datatracker.ietf.org/doc/html/rfc8022 RFC8349 A YANG Data Model for Routing Management (NMDA Version) RFC https://datatracker.ietf.org/doc/html/rfc8349 RFC8529 YANG Data Model for Network Instances RFC https://datatracker.ietf.org/doc/html/rfc8529 Routing Policy RFC/Draft Name Title Status Publication URL Progress RFC9067 A YANG Data Model for Routing Policy RFC https://datatracker.</description>
     </item>
-    
     <item>
       <title>IETF - AI for Networking</title>
       <link>https://prasenjitmanna.com/writing/2024-07-30-ietf-ai-for-networking/</link>
       <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2024-07-30-ietf-ai-for-networking/</guid>
-      <description>IETF - Applicability of AI in the Network This is one of the hot topic in networking. There are side meeting in IETF also.
- IETF 118 Side Meeting IETF 119 Side Meeting IETF 120 Side Meeting IETF 121 Side Meeting  </description>
+      <description>IETF - Applicability of AI in the Network This is one of the hot topic in networking. There are side meeting in IETF also.&#xA;IETF 118 Side Meeting IETF 119 Side Meeting IETF 120 Side Meeting IETF 121 Side Meeting </description>
     </item>
-    
     <item>
       <title>Internet Standard Body And India&#39;s Initiative</title>
       <link>https://prasenjitmanna.com/reading/internet-body-and-india/</link>
       <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/reading/internet-body-and-india/</guid>
-      <description>Internet Standard Bodies  Internet Society (ISOC) - a non-profit organization founded in 1992 to provide leadership in Internet-related standards, education, and policy. ISOC is dedicated to ensuring the open development, evolution and use of the Internet and its architecture for the benefit of people throughout the world. IETF - Techincal Forum for ISOC. End Product is RFC, standards for internet protocols. Other policy and business aspects ICANN (Internet Corporation for Assigned Names and Numbers), IGF (Internet Governance Forum) and RIRs (Regional Internet Registries) like APNIC (Asia Pacific Network Information Centre), RIPE NCC (Réseaux IP Européens Network Conrdination Centre)  Network Operators   NANOG - North American Network Operators&#39; Group</description>
+      <description>Internet Standard Bodies Internet Society (ISOC) - a non-profit organization founded in 1992 to provide leadership in Internet-related standards, education, and policy. ISOC is dedicated to ensuring the open development, evolution and use of the Internet and its architecture for the benefit of people throughout the world. IETF - Techincal Forum for ISOC. End Product is RFC, standards for internet protocols. Other policy and business aspects ICANN (Internet Corporation for Assigned Names and Numbers), IGF (Internet Governance Forum) and RIRs (Regional Internet Registries) like APNIC (Asia Pacific Network Information Centre), RIPE NCC (Réseaux IP Européens Network Conrdination Centre) Network Operators NANOG - North American Network Operators&amp;rsquo; Group</description>
     </item>
-    
     <item>
       <title>IETF</title>
       <link>https://prasenjitmanna.com/reading/ietf/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/reading/ietf/</guid>
-      <description>Introduction  How to Read an RFC The Tao of IETF  A Novice&amp;rsquo;s Guide to the Internet Engineering Task Force
-  Writing An IETF Draft: Formatting, Authorship, And Submissions, How To Submit Your Ideas To The IETF Internet-Draft authors resource site, Getting started, Guidelines to Authors of Internet-Drafts Contributing to the IETF - How to play your part, and how RFCs are made IETF Drafting in Markdown Format  Drafting in Markdown Syntax    India Centric Technology Standard Drive Organization  India Internet Engineering Society (IIESoc) Industry Network Technology Council (INTC)  Appendix-I  Internet Standard Body And India&amp;rsquo;s Initiative  Appendix-II - Technology Manuals  IPv6 Address Planning Manual  </description>
+      <description>Introduction How to Read an RFC The Tao of IETF A Novice&amp;rsquo;s Guide to the Internet Engineering Task Force&#xA;Writing An IETF Draft: Formatting, Authorship, And Submissions, How To Submit Your Ideas To The IETF Internet-Draft authors resource site, Getting started, Guidelines to Authors of Internet-Drafts Contributing to the IETF - How to play your part, and how RFCs are made IETF Drafting in Markdown Format Drafting in Markdown Syntax India Centric Technology Standard Drive Organization India Internet Engineering Society (IIESoc) Industry Network Technology Council (INTC) Appendix-I Internet Standard Body And India&amp;rsquo;s Initiative Appendix-II - Technology Manuals IPv6 Address Planning Manual </description>
     </item>
-    
   </channel>
 </rss>

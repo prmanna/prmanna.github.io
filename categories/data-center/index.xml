@@ -1,49 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>data-center on Prasenjit Manna</title>
+    <title>Data-Center on Prasenjit Manna</title>
     <link>https://prasenjitmanna.com/categories/data-center/</link>
-    <description>Recent content in data-center on Prasenjit Manna</description>
+    <description>Recent content in Data-Center on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 26 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/categories/data-center/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 18 Jan 2025 17:53:58 +0530</lastBuildDate>
+    <atom:link href="https://prasenjitmanna.com/categories/data-center/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Podcast Summary - Scaling Data Center Networks | Between 0x2 Nerds</title>
       <link>https://prasenjitmanna.com/blogs/2024-09-26-podcast-summary-scaling-data-center-networks/</link>
       <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2024-09-26-podcast-summary-scaling-data-center-networks/</guid>
-      <description>Podcast - Scaling Data Center Networks - Dmitry Afanasiev Summary:  🎙️ Introduction to Scaling in Data Centers: Hosts introduce the topic of scaling challenges in data centers, emphasizing this as a series of topics to be discussed over multiple episodes. 💻 Guest Speaker - Dmitry Afanasiev: Dmitry, a network architect from Yandex, explains the challenges Yandex faces in scaling their networks, which are similar to hyperscalers like Google or Amazon.</description>
+      <description>Podcast - Scaling Data Center Networks - Dmitry Afanasiev Summary: 🎙️ Introduction to Scaling in Data Centers: Hosts introduce the topic of scaling challenges in data centers, emphasizing this as a series of topics to be discussed over multiple episodes. 💻 Guest Speaker - Dmitry Afanasiev: Dmitry, a network architect from Yandex, explains the challenges Yandex faces in scaling their networks, which are similar to hyperscalers like Google or Amazon. 🏗️ Challenges in Scaling: The discussion covers issues such as failure domain limitation, MPLS in data centers, and managing large data center networks with advanced technologies like RIFT.</description>
     </item>
-    
     <item>
       <title>Podcast Summary - AI/ML Data Center Design | Between 0x2 Nerds</title>
       <link>https://prasenjitmanna.com/blogs/2024-09-25-podcast-summary-ai-ml-data-center-design/</link>
       <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2024-09-25-podcast-summary-ai-ml-data-center-design/</guid>
-      <description>Podcast - AI/ML Data Center Design - Part 1 Summary:  🎯 AI Data Centers Fundamentals: Focused on AI data center design and the critical role of NVIDIA and GPUs. Discusses how the evolution of AI and ML workflows demands specialized infrastructure. 🚀 Growth in GPU-Based Networks: The shift from CPU to GPU for AI/ML tasks due to their high parallel computing capacity. Increasing use of NVIDIA GPUs across data centers.</description>
+      <description>Podcast - AI/ML Data Center Design - Part 1 Summary: 🎯 AI Data Centers Fundamentals: Focused on AI data center design and the critical role of NVIDIA and GPUs. Discusses how the evolution of AI and ML workflows demands specialized infrastructure. 🚀 Growth in GPU-Based Networks: The shift from CPU to GPU for AI/ML tasks due to their high parallel computing capacity. Increasing use of NVIDIA GPUs across data centers. 📊 Massive Scaling Requirements: AI clusters are rapidly scaling up.</description>
     </item>
-    
     <item>
       <title>Podcast Summary - How HPC &amp; AI Are Changing DC Networks | Packet Pushers</title>
       <link>https://prasenjitmanna.com/blogs/2024-09-25-podcast-summary-how-hpc-and-ai-are-changing-dc-networks/</link>
       <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2024-09-25-podcast-summary-how-hpc-and-ai-are-changing-dc-networks/</guid>
-      <description>Podcast Packet Pushers How HPC &amp;amp; AI Are Changing DC Networks Summary:
- 🔌 Introduction to AI &amp;amp; HPC Impact on Networks: Overview of how High-Performance Computing (HPC) and Artificial Intelligence (AI) are transforming data center network design, addressing issues like cooling, power, and bandwidth. ⚡ Challenges in AI Networking: Explains the concept of Collective Communications, a core network design problem in AI training workloads, where multiple nodes must communicate simultaneously.</description>
+      <description>Podcast Packet Pushers How HPC &amp;amp; AI Are Changing DC Networks Summary:&#xA;🔌 Introduction to AI &amp;amp; HPC Impact on Networks: Overview of how High-Performance Computing (HPC) and Artificial Intelligence (AI) are transforming data center network design, addressing issues like cooling, power, and bandwidth. ⚡ Challenges in AI Networking: Explains the concept of Collective Communications, a core network design problem in AI training workloads, where multiple nodes must communicate simultaneously. 🖧 AI Model Training Issues: The complexity of training AI models, particularly in the context of data center infrastructure, where the network architecture faces significant challenges such as handling massive amounts of data and intensive computing tasks.</description>
     </item>
-    
     <item>
       <title>A Primer on the Cloud &amp; Data Centers</title>
       <link>https://prasenjitmanna.com/blogs/2024-09-18-primers-on-technology/</link>
       <pubDate>Wed, 18 Sep 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2024-09-18-primers-on-technology/</guid>
-      <description>Link -&amp;gt; A Primer on the Cloud  Link - &amp;gt; A Primer on Data Centers Join my email list to get direct access to new blog posts.
- </description>
+      <description>Link -&amp;gt; A Primer on the Cloud Link - &amp;gt; A Primer on Data Centers Join my email list to get direct access to new blog posts.</description>
     </item>
-    
   </channel>
 </rss>

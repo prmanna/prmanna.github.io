@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>engg-paper on Prasenjit Manna</title>
+    <title>Engg-Paper on Prasenjit Manna</title>
     <link>https://prasenjitmanna.com/categories/engg-paper/</link>
-    <description>Recent content in engg-paper on Prasenjit Manna</description>
+    <description>Recent content in Engg-Paper on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 06 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/categories/engg-paper/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 18 Jan 2025 17:53:58 +0530</lastBuildDate>
+    <atom:link href="https://prasenjitmanna.com/categories/engg-paper/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Engg Papers</title>
       <link>https://prasenjitmanna.com/reading/engg-papers/</link>
       <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/reading/engg-papers/</guid>
-      <description>Interesting Papers   Knowledge-Defined Networking public copy
- The research community has considered in the past the application of Artificial Intelligence (AI) techniques to control and operate networks. A notable example is the Knowledge Plane proposed by D.Clark et al. However, such techniques have not been extensively prototyped or deployed in the held yet. In this paper, we explore the reasons for the lack of adoption and posit that the rise of two recent paradigms: Software-Defined Networking (SDN) and Network Analytics (NA), will facilitate the adoption of AI techniques in the context of network operation and control.</description>
+      <description>Interesting Papers Knowledge-Defined Networking public copy&#xA;The research community has considered in the past the application of Artificial Intelligence (AI) techniques to control and operate networks. A notable example is the Knowledge Plane proposed by D.Clark et al. However, such techniques have not been extensively prototyped or deployed in the held yet. In this paper, we explore the reasons for the lack of adoption and posit that the rise of two recent paradigms: Software-Defined Networking (SDN) and Network Analytics (NA), will facilitate the adoption of AI techniques in the context of network operation and control.</description>
     </item>
-    
   </channel>
 </rss>

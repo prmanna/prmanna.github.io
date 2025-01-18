@@ -1,44 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>netconf on Prasenjit Manna</title>
+    <title>Netconf on Prasenjit Manna</title>
     <link>https://prasenjitmanna.com/tags/netconf/</link>
-    <description>Recent content in netconf on Prasenjit Manna</description>
+    <description>Recent content in Netconf on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 12 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/tags/netconf/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 18 Jan 2025 17:53:58 +0530</lastBuildDate>
+    <atom:link href="https://prasenjitmanna.com/tags/netconf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IETF - Yang Models</title>
       <link>https://prasenjitmanna.com/writing/2024-08-12-ietf-yang-models/</link>
       <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2024-08-12-ietf-yang-models/</guid>
-      <description>IETF - Yang Models IETF Yang Models.
-Routing Service YANG Models (Southbound) Routing    RFC/Draft Name Title Status Publication URL Progress     RFC8294 Common YANG Data Types for the Routing Area RFC https://datatracker.ietf.org/doc/html/rfc8294     RFC8022 A YANG Data Model for Routing Management RFC https://datatracker.ietf.org/doc/html/rfc8022     RFC8349 A YANG Data Model for Routing Management (NMDA Version) RFC https://datatracker.ietf.org/doc/html/rfc8349     RFC8529 YANG Data Model for Network Instances RFC https://datatracker.</description>
+      <description>IETF - Yang Models IETF Yang Models.&#xA;Routing Service YANG Models (Southbound) Routing RFC/Draft Name Title Status Publication URL Progress RFC8294 Common YANG Data Types for the Routing Area RFC https://datatracker.ietf.org/doc/html/rfc8294 RFC8022 A YANG Data Model for Routing Management RFC https://datatracker.ietf.org/doc/html/rfc8022 RFC8349 A YANG Data Model for Routing Management (NMDA Version) RFC https://datatracker.ietf.org/doc/html/rfc8349 RFC8529 YANG Data Model for Network Instances RFC https://datatracker.ietf.org/doc/html/rfc8529 Routing Policy RFC/Draft Name Title Status Publication URL Progress RFC9067 A YANG Data Model for Routing Policy RFC https://datatracker.</description>
     </item>
-    
     <item>
       <title>NETCONF vs GNMI</title>
       <link>https://prasenjitmanna.com/writing/2022-01-31-netconf-vs-gnmi/</link>
       <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2022-01-31-netconf-vs-gnmi/</guid>
-      <description>In the last article, NETCONF vs RESTCONF I have explained the difference between netconf and restconf and their use-cases. Netconf has very rich functionality, whereas restconf has matching functionality. Restconf has opened the door for the framework with REST-based system and infrastructure.
-The gNMI (gRPC Network Management Interface) protocol comes from the openconfig consortium, a group of network operators led by Google, with the following mission - &amp;ldquo;OpenConfig is an informal working group of network operators sharing the goal of moving our networks toward a more dynamic, programmable infrastructure by adopting software-defined networking principles such as declarative configuration and model-driven management and operations&amp;rdquo;.</description>
+      <description>In the last article, NETCONF vs RESTCONF I have explained the difference between netconf and restconf and their use-cases. Netconf has very rich functionality, whereas restconf has matching functionality. Restconf has opened the door for the framework with REST-based system and infrastructure.&#xA;The gNMI (gRPC Network Management Interface) protocol comes from the openconfig consortium, a group of network operators led by Google, with the following mission - &amp;ldquo;OpenConfig is an informal working group of network operators sharing the goal of moving our networks toward a more dynamic, programmable infrastructure by adopting software-defined networking principles such as declarative configuration and model-driven management and operations&amp;rdquo;.</description>
     </item>
-    
     <item>
       <title>NETCONF vs RESTCONF</title>
       <link>https://prasenjitmanna.com/writing/2021-11-07-netconf-vs-restconf/</link>
       <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2021-11-07-netconf-vs-restconf/</guid>
-      <description>NETCONF vs RESTCONF
-NETCONF is a protocol that was developed to provide a standardized interface to Network Element(NE)/Device to retrieve and manipulate configuration data.
-Till now, CLI is the standard interface to interact with NE. but this is mainly for human. On the other hand, the NETCONF is mainly used for network automation.
-CLI normally defined for human in user friendly way.
-   Content Config, Oper Data     Operations &amp;lt;get-config&amp;gt;, &amp;lt;edit-config&amp;gt;, &amp;lt;copy-config&amp;gt;, &amp;lt;delete-config&amp;gt;, &amp;lt;lock&amp;gt;, &amp;lt;unlock&amp;gt;, &amp;lt;close-session&amp;gt;, &amp;lt;kill-session&amp;gt;   Messages &amp;lt;rpc&amp;gt;, &amp;lt;rpc-reply&amp;gt;, &amp;lt;notification&amp;gt;   Secure Transport SSH, TLS    RESTCONF is an HTTP-based protocol that provides a programmatic interface for accessing data defined in YANG, using the datastore concepts defined in NETCONF.</description>
+      <description>NETCONF vs RESTCONF&#xA;NETCONF is a protocol that was developed to provide a standardized interface to Network Element(NE)/Device to retrieve and manipulate configuration data.&#xA;Till now, CLI is the standard interface to interact with NE. but this is mainly for human. On the other hand, the NETCONF is mainly used for network automation.&#xA;CLI normally defined for human in user friendly way.&#xA;Content Config, Oper Data Operations &amp;lt;get-config&amp;gt;, &amp;lt;edit-config&amp;gt;, &amp;lt;copy-config&amp;gt;, &amp;lt;delete-config&amp;gt;, &amp;lt;lock&amp;gt;, &amp;lt;unlock&amp;gt;, &amp;lt;close-session&amp;gt;, &amp;lt;kill-session&amp;gt; Messages &amp;lt;rpc&amp;gt;, &amp;lt;rpc-reply&amp;gt;, &amp;lt;notification&amp;gt; Secure Transport SSH, TLS RESTCONF is an HTTP-based protocol that provides a programmatic interface for accessing data defined in YANG, using the datastore concepts defined in NETCONF.</description>
     </item>
-    
   </channel>
 </rss>

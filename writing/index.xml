@@ -5,303 +5,211 @@
     <link>https://prasenjitmanna.com/writing/</link>
     <description>Recent content in Writings on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 11 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/writing/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 18 Jan 2025 17:53:58 +0530</lastBuildDate>
+    <atom:link href="https://prasenjitmanna.com/writing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IETF - Adaptive/Perceptive Routing</title>
       <link>https://prasenjitmanna.com/writing/2024-11-11-ietf-adaptive-perceptive-routing/</link>
       <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2024-11-11-ietf-adaptive-perceptive-routing/</guid>
-      <description>IETF - Adaptive/Perceptive Routing  IETF 121 Side Meeting  Join my email list to get direct access to new blog posts.
- </description>
+      <description>IETF - Adaptive/Perceptive Routing IETF 121 Side Meeting Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>IETF - Yang Models</title>
       <link>https://prasenjitmanna.com/writing/2024-08-12-ietf-yang-models/</link>
       <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2024-08-12-ietf-yang-models/</guid>
-      <description>IETF - Yang Models IETF Yang Models.
-Routing Service YANG Models (Southbound) Routing    RFC/Draft Name Title Status Publication URL Progress     RFC8294 Common YANG Data Types for the Routing Area RFC https://datatracker.ietf.org/doc/html/rfc8294     RFC8022 A YANG Data Model for Routing Management RFC https://datatracker.ietf.org/doc/html/rfc8022     RFC8349 A YANG Data Model for Routing Management (NMDA Version) RFC https://datatracker.ietf.org/doc/html/rfc8349     RFC8529 YANG Data Model for Network Instances RFC https://datatracker.</description>
+      <description>IETF - Yang Models IETF Yang Models.&#xA;Routing Service YANG Models (Southbound) Routing RFC/Draft Name Title Status Publication URL Progress RFC8294 Common YANG Data Types for the Routing Area RFC https://datatracker.ietf.org/doc/html/rfc8294 RFC8022 A YANG Data Model for Routing Management RFC https://datatracker.ietf.org/doc/html/rfc8022 RFC8349 A YANG Data Model for Routing Management (NMDA Version) RFC https://datatracker.ietf.org/doc/html/rfc8349 RFC8529 YANG Data Model for Network Instances RFC https://datatracker.ietf.org/doc/html/rfc8529 Routing Policy RFC/Draft Name Title Status Publication URL Progress RFC9067 A YANG Data Model for Routing Policy RFC https://datatracker.</description>
     </item>
-    
     <item>
       <title>Network Observability</title>
       <link>https://prasenjitmanna.com/writing/2024-08-06-network-observability/</link>
       <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2024-08-06-network-observability/</guid>
-      <description>Network Observability  The Many Uses of Network Observability Connections 2024: Network Observability  Slides: Slides Recording: Recording    Join my email list to get direct access to new blog posts.
- </description>
+      <description>Network Observability The Many Uses of Network Observability Connections 2024: Network Observability Slides: Slides Recording: Recording Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>The Evolution of Data Center Networking for AI Clusters</title>
       <link>https://prasenjitmanna.com/writing/2024-08-01-evolution-data-center-networking-for-ai-clusters/</link>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2024-08-01-evolution-data-center-networking-for-ai-clusters/</guid>
-      <description>Data Center Networking for AI Clusters  The Evolution of Data Center Networking for AI Workloads by Kentik  Evolution of Data Center Networking Designs and Systems for AI Infrastructure by Sujal Das  Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 1 Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 2 Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 3 Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 4 (Final) RoCE: from humble beginnings to being a star in the world of AI networking today   Excellent Articles by Sharada Yeluri  Large Language Models - The Hardware Connection GPU Fabrics for GenAI Workloads LLM Inference - HW/SW Optimizations In Network Acceleration for AI/ML Workloads   NETWORKING THE AI DATA CENTER by Juniper Networking for the Era of AI: The Network Defines the Data Center by Nvidia, mirror RoCE networks for distributed AI training at scale by Meta Development Prospects for AI Data Center Network Architecture and Connectivity Technology by Rosenberger Demystifying AI Networking Protocols by Randy Zhang RoCE networks for distributed AI training at scale in Meta  Join my email list to get direct access to new blog posts.</description>
+      <description>Data Center Networking for AI Clusters The Evolution of Data Center Networking for AI Workloads by Kentik Evolution of Data Center Networking Designs and Systems for AI Infrastructure by Sujal Das Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 1 Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 2 Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 3 Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 4 (Final) RoCE: from humble beginnings to being a star in the world of AI networking today Excellent Articles by Sharada Yeluri Large Language Models - The Hardware Connection GPU Fabrics for GenAI Workloads LLM Inference - HW/SW Optimizations In Network Acceleration for AI/ML Workloads NETWORKING THE AI DATA CENTER by Juniper Networking for the Era of AI: The Network Defines the Data Center by Nvidia, mirror RoCE networks for distributed AI training at scale by Meta Development Prospects for AI Data Center Network Architecture and Connectivity Technology by Rosenberger Demystifying AI Networking Protocols by Randy Zhang RoCE networks for distributed AI training at scale in Meta Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>IETF - AI for Networking</title>
       <link>https://prasenjitmanna.com/writing/2024-07-30-ietf-ai-for-networking/</link>
       <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2024-07-30-ietf-ai-for-networking/</guid>
-      <description>IETF - Applicability of AI in the Network This is one of the hot topic in networking. There are side meeting in IETF also.
- IETF 118 Side Meeting IETF 119 Side Meeting IETF 120 Side Meeting IETF 121 Side Meeting  </description>
+      <description>IETF - Applicability of AI in the Network This is one of the hot topic in networking. There are side meeting in IETF also.&#xA;IETF 118 Side Meeting IETF 119 Side Meeting IETF 120 Side Meeting IETF 121 Side Meeting </description>
     </item>
-    
     <item>
       <title>IETF - Data Center Networking for AI Clusters</title>
       <link>https://prasenjitmanna.com/writing/2024-07-16-ietf-data-center-networking-for-ai-clusters/</link>
       <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2024-07-16-ietf-data-center-networking-for-ai-clusters/</guid>
-      <description>IETF - Data Center Networking for AI Clusters There has been a significant rise in the popularity of Artificial Intelligence and Machine Learning, leading to the design of data centers specifically tailored for large-scale AI model training. These advanced networks impose unique requirements for network topologies and interconnecting technologies.
- IETF 117 AIDC Side Meeting IETF 118 AIDC Side Meeting IETF 119 AIDC Side Meeting IETF 120 AIDC Side Meeting IETF 121 AIDC Side Meeting  Join my email list to get direct access to new blog posts.</description>
+      <description>IETF - Data Center Networking for AI Clusters There has been a significant rise in the popularity of Artificial Intelligence and Machine Learning, leading to the design of data centers specifically tailored for large-scale AI model training. These advanced networks impose unique requirements for network topologies and interconnecting technologies.&#xA;IETF 117 AIDC Side Meeting IETF 118 AIDC Side Meeting IETF 119 AIDC Side Meeting IETF 120 AIDC Side Meeting IETF 121 AIDC Side Meeting Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>Clos IP Traffic between Leaf and Spine &amp; Tromboning</title>
       <link>https://prasenjitmanna.com/writing/2024-04-07-clos-ip-traffic-between-leaf-and-spine/</link>
       <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2024-04-07-clos-ip-traffic-between-leaf-and-spine/</guid>
-      <description>Traffic tromboning is a phenomena in data center traffic configuration or service chaining, while some service is bottleneck for rest of the flows. The service chaining can be created between leaves and spines using VXLAN and VRF way.
-This is the article written by Mario Baldi and Silvano Gai originally posted in Traffic Tromboning Why, What, Where, How, and How Not
-Why do we have traffic tromboning? Network and security services have traditionally been deployed in front of a group of end hosts that share some common function and are topologically close: e.</description>
+      <description>Traffic tromboning is a phenomena in data center traffic configuration or service chaining, while some service is bottleneck for rest of the flows. The service chaining can be created between leaves and spines using VXLAN and VRF way.&#xA;This is the article written by Mario Baldi and Silvano Gai originally posted in Traffic Tromboning Why, What, Where, How, and How Not&#xA;Why do we have traffic tromboning? Network and security services have traditionally been deployed in front of a group of end hosts that share some common function and are topologically close: e.</description>
     </item>
-    
     <item>
       <title>Various Packet Switching Techniques</title>
       <link>https://prasenjitmanna.com/writing/2024-04-06-various_switching_techniques/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2024-04-06-various_switching_techniques/</guid>
-      <description>A History of Network Switches 1990s: Layer 2 Switches Network switches (switches for short) are the evolution of network bridges whose behavior was defined by the Institute of Electrical and Electronics Engineers (IEEE) in the standard IEEE 802.1 to connect two or more Ethernet segments. Switch and switching are terms that do not exist in standards; they were introduced to indicate a multiport bridge.
-Initially, switches were pure layer 2 devices that forwarded Ethernet frames without knowing their content and without modifying the frames, thus providing connectivity for the many layer 3 protocols deployed in those days.</description>
+      <description>A History of Network Switches 1990s: Layer 2 Switches Network switches (switches for short) are the evolution of network bridges whose behavior was defined by the Institute of Electrical and Electronics Engineers (IEEE) in the standard IEEE 802.1 to connect two or more Ethernet segments. Switch and switching are terms that do not exist in standards; they were introduced to indicate a multiport bridge.&#xA;Initially, switches were pure layer 2 devices that forwarded Ethernet frames without knowing their content and without modifying the frames, thus providing connectivity for the many layer 3 protocols deployed in those days.</description>
     </item>
-    
     <item>
       <title>Career Progression</title>
       <link>https://prasenjitmanna.com/writing/evergreen-career-progression/</link>
       <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/evergreen-career-progression/</guid>
-      <description>Self Improvement  How I optimised my life to make my job redundant - Troy Hunt&amp;rsquo;s point of view Write a brag document -  Get your work recognized: write a brag document You Are Your Own Best Hype Person Brag now, remember later: Document your accomplishments   Being visible - Why visibility matters Being Glue - If you stop doing those things, the team won&amp;rsquo;t be as successful. But now someone&amp;rsquo;s suggesting that you might be happier in a less technical role.</description>
+      <description>Self Improvement How I optimised my life to make my job redundant - Troy Hunt&amp;rsquo;s point of view Write a brag document - Get your work recognized: write a brag document You Are Your Own Best Hype Person Brag now, remember later: Document your accomplishments Being visible - Why visibility matters Being Glue - If you stop doing those things, the team won&amp;rsquo;t be as successful. But now someone&amp;rsquo;s suggesting that you might be happier in a less technical role.</description>
     </item>
-    
     <item>
       <title>Technical Leadership Resources</title>
       <link>https://prasenjitmanna.com/writing/evergreen-technical-leadership/</link>
       <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/evergreen-technical-leadership/</guid>
-      <description>In general, technical leader and staff engineer are similar roles, just named differently at various companies. Here, techinical lead(er) and staff engineer will be used interchangibly.
-General Resources  The Definition of a Tech Lead - Titles like Architect, Tech Lead, Team Lead and Engineering Manager provide endless confusion. This article explores the definition of the Tech Lead role The Well Rounded Architect - Acting as a Leader, Being a developer, Having a systems focus, Thinking like an entrepreneur, Balancing strategic with tactical thinking, Communicating well Thriving on the Technical Leadership Path - So what does the more strategic work of a very senior engineer look like?</description>
+      <description>In general, technical leader and staff engineer are similar roles, just named differently at various companies. Here, techinical lead(er) and staff engineer will be used interchangibly.&#xA;General Resources The Definition of a Tech Lead - Titles like Architect, Tech Lead, Team Lead and Engineering Manager provide endless confusion. This article explores the definition of the Tech Lead role The Well Rounded Architect - Acting as a Leader, Being a developer, Having a systems focus, Thinking like an entrepreneur, Balancing strategic with tactical thinking, Communicating well Thriving on the Technical Leadership Path - So what does the more strategic work of a very senior engineer look like?</description>
     </item>
-    
     <item>
       <title>Mental Models</title>
       <link>https://prasenjitmanna.com/writing/evergreen-mental-models/</link>
       <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/evergreen-mental-models/</guid>
-      <description>Mental Models These two places where you&amp;rsquo;ll find the most useful mental models.
- Tools for better thinking (untools.co) Mental Model Examples (50+) That Will Make You More Successful (fronterablog.com)  </description>
+      <description>Mental Models These two places where you&amp;rsquo;ll find the most useful mental models.&#xA;Tools for better thinking (untools.co) Mental Model Examples (50+) That Will Make You More Successful (fronterablog.com) </description>
     </item>
-    
     <item>
       <title>Ethernet Optical Standards</title>
       <link>https://prasenjitmanna.com/writing/2022-03-12-ethernet-optical-standards/</link>
       <pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2022-03-12-ethernet-optical-standards/</guid>
-      <description>The IEEE 802.3 Ethernet standards have been evolved exponentially. This is one of the driving force for the massive scale data centres, which is driving our cloud.
-IEEE 802.3 Data Center Ethernet Optical Standards    Year Ethernet Speed Designation Optical Data Rate Wavelength Fiber Count MMF(km) SMF (km)     1987 10 MbE FOIRL 12.5 M 850 2 1 -   1993 10 MbE 10BASE-FB 12.</description>
+      <description>The IEEE 802.3 Ethernet standards have been evolved exponentially. This is one of the driving force for the massive scale data centres, which is driving our cloud.&#xA;IEEE 802.3 Data Center Ethernet Optical Standards Year Ethernet Speed Designation Optical Data Rate Wavelength Fiber Count MMF(km) SMF (km) 1987 10 MbE FOIRL 12.5 M 850 2 1 - 1993 10 MbE 10BASE-FB 12.5 M 850 2 2 - 1993 10 MbE 10BASE-FL 12.</description>
     </item>
-    
     <item>
       <title>My Reading List</title>
       <link>https://prasenjitmanna.com/writing/evergreen-my-reading-list/</link>
       <pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/evergreen-my-reading-list/</guid>
-      <description>Currently Reading  Coming Soon.  Engineering Books  Computer Networks: A Systems Approach (The Morgan Kaufmann Series in Networking) | Online - It explores the key principles of computer networking, using real world examples from network and protocol design.   Software-Defined Networks: A Systems Approach | Online | pdf - Software-Defined Networks (SDN) are transforming the Internet by replacing bundled, proprietary hardware and control software. SDN is being embraced by cloud providers, telcos, and enterprises, as it enables a new era of innovation in networking.</description>
+      <description>Currently Reading Coming Soon. Engineering Books Computer Networks: A Systems Approach (The Morgan Kaufmann Series in Networking) | Online - It explores the key principles of computer networking, using real world examples from network and protocol design. Optical Springer Handbook of Optical Networks - This is a in-depth book on optical networking for all types of deployment. This is a bible. You have to use this as reference book. As of now, I have concentrated on the data center networking and its related chapters.</description>
     </item>
-    
     <item>
       <title>Data Center Topologies</title>
       <link>https://prasenjitmanna.com/writing/2022-02-26-dc-topologies/</link>
       <pubDate>Sat, 26 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2022-02-26-dc-topologies/</guid>
-      <description>Table of contents  Indirect Topologies  Tree Fat Tree   Direct Topologies  All-to-All HyperX Flattened Butterfly Topology Torus DCell &amp;amp; DCube    The network topologies can be classified into tree and non-tree based topologies. This is very common observation in topology. There is another way to connect nodes are direct and indirect.
-Indirect Topologies Tree The tree topologies are simple and broadly used in data center networks.</description>
+      <description>Table of contents Indirect Topologies Tree Fat Tree Direct Topologies All-to-All HyperX Flattened Butterfly Topology Torus DCell &amp;amp; DCube The network topologies can be classified into tree and non-tree based topologies. This is very common observation in topology. There is another way to connect nodes are direct and indirect.&#xA;Indirect Topologies Tree The tree topologies are simple and broadly used in data center networks. Tree topologies may have either two or three levels.</description>
     </item>
-    
     <item>
       <title>Writing backlog</title>
       <link>https://prasenjitmanna.com/writing/writing-backlog/</link>
       <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/writing-backlog/</guid>
-      <description>Topics in my writing backlog:
- How internet really works? Distributed systems in networking box Why C language is still exists and its competitor How do you measure your impact on the industry? Google&amp;rsquo;s Network Overview - Data Center(Jupiter), Backbone(B4), Control Plane(Orion), SDN controller for Google’s peering edge network(Espresso), Load Balancer(Maglev)  Google’s data center network infrastructure: Jupiter Fabric: This is the internal network within Google’s data centers, operating at speeds of 40 Gbps per link and capable of handling a total bandwidth of 1 Petabit per second (Pbps).</description>
+      <description>Topics in my writing backlog:&#xA;How internet really works? Distributed systems in networking box Why C language is still exists and its competitor How do you measure your impact on the industry? Google&amp;rsquo;s Network Overview - Data Center(Jupiter), Backbone(B4), Control Plane(Orion), SDN controller for Google’s peering edge network(Espresso), Load Balancer(Maglev) Google’s data center network infrastructure: Jupiter Fabric: This is the internal network within Google’s data centers, operating at speeds of 40 Gbps per link and capable of handling a total bandwidth of 1 Petabit per second (Pbps).</description>
     </item>
-    
     <item>
       <title>NETCONF vs GNMI</title>
       <link>https://prasenjitmanna.com/writing/2022-01-31-netconf-vs-gnmi/</link>
       <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2022-01-31-netconf-vs-gnmi/</guid>
-      <description>In the last article, NETCONF vs RESTCONF I have explained the difference between netconf and restconf and their use-cases. Netconf has very rich functionality, whereas restconf has matching functionality. Restconf has opened the door for the framework with REST-based system and infrastructure.
-The gNMI (gRPC Network Management Interface) protocol comes from the openconfig consortium, a group of network operators led by Google, with the following mission - &amp;ldquo;OpenConfig is an informal working group of network operators sharing the goal of moving our networks toward a more dynamic, programmable infrastructure by adopting software-defined networking principles such as declarative configuration and model-driven management and operations&amp;rdquo;.</description>
+      <description>In the last article, NETCONF vs RESTCONF I have explained the difference between netconf and restconf and their use-cases. Netconf has very rich functionality, whereas restconf has matching functionality. Restconf has opened the door for the framework with REST-based system and infrastructure.&#xA;The gNMI (gRPC Network Management Interface) protocol comes from the openconfig consortium, a group of network operators led by Google, with the following mission - &amp;ldquo;OpenConfig is an informal working group of network operators sharing the goal of moving our networks toward a more dynamic, programmable infrastructure by adopting software-defined networking principles such as declarative configuration and model-driven management and operations&amp;rdquo;.</description>
     </item>
-    
     <item>
       <title>Book &amp; Paper Recommendations by smart folks</title>
       <link>https://prasenjitmanna.com/writing/evergreen-books-reco-by-smart-folks/</link>
       <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/evergreen-books-reco-by-smart-folks/</guid>
-      <description>Here are few book recommendations by smart people.   Book Recommendations, Holiday Book Recommendations by Gergely Orosz
-  Book Recommendations till 2018, 2019 - 2022 reading recap by Will Larson
-  Leadership Library by Philip Paetz
-  Paper recommendations by smart people.  Papers We Love Technical Papers by Will Larson  </description>
+      <description>Here are few book recommendations by smart people. Book Recommendations, Holiday Book Recommendations by Gergely Orosz&#xA;Book Recommendations till 2018, 2019 - 2022 reading recap by Will Larson&#xA;Leadership Library by Philip Paetz&#xA;Paper recommendations by smart people. Papers We Love Technical Papers by Will Larson </description>
     </item>
-    
     <item>
       <title>Books</title>
       <link>https://prasenjitmanna.com/writing/evergreen-programming-books/</link>
       <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/evergreen-programming-books/</guid>
-      <description>Programming Books Skiena; The Algorithm Design Manual The longer, more comprehensive, more practical. It&amp;rsquo;s similar in that it attempts to teach you how to identify problems, use the correct algorithm, and give a clear explanation of the algorithm. This also describess the real world programming.
-McDowell; Cracking the Coding Interview Some problems and solutions, with explanations, matching the level of questions you see in entry-level interviews at Google, Facebook, Microsoft, etc.</description>
+      <description>Programming Books Skiena; The Algorithm Design Manual The longer, more comprehensive, more practical. It&amp;rsquo;s similar in that it attempts to teach you how to identify problems, use the correct algorithm, and give a clear explanation of the algorithm. This also describess the real world programming.&#xA;McDowell; Cracking the Coding Interview Some problems and solutions, with explanations, matching the level of questions you see in entry-level interviews at Google, Facebook, Microsoft, etc.</description>
     </item>
-    
     <item>
       <title>Programming Blogs</title>
       <link>https://prasenjitmanna.com/writing/evergreen-programming-blogs/</link>
       <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/evergreen-programming-blogs/</guid>
-      <description>Eli Bendersky This guy is allrounder, this is a collection of various topic. “the C++ blog” - very good.
-Appendix: related posts  Programming Blog by Dan Luu  Appendix: Programming Language Benchmarks  Programming Language and compiler Benchmarks [Source Code] Which programming language is fastest? [Source Code]  </description>
+      <description>Eli Bendersky This guy is allrounder, this is a collection of various topic. “the C++ blog” - very good.&#xA;Appendix: related posts Programming Blog by Dan Luu Appendix: Programming Language Benchmarks Programming Language and compiler Benchmarks [Source Code] Which programming language is fastest? [Source Code] </description>
     </item>
-    
     <item>
       <title>NETCONF vs RESTCONF</title>
       <link>https://prasenjitmanna.com/writing/2021-11-07-netconf-vs-restconf/</link>
       <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2021-11-07-netconf-vs-restconf/</guid>
-      <description>NETCONF vs RESTCONF
-NETCONF is a protocol that was developed to provide a standardized interface to Network Element(NE)/Device to retrieve and manipulate configuration data.
-Till now, CLI is the standard interface to interact with NE. but this is mainly for human. On the other hand, the NETCONF is mainly used for network automation.
-CLI normally defined for human in user friendly way.
-   Content Config, Oper Data     Operations &amp;lt;get-config&amp;gt;, &amp;lt;edit-config&amp;gt;, &amp;lt;copy-config&amp;gt;, &amp;lt;delete-config&amp;gt;, &amp;lt;lock&amp;gt;, &amp;lt;unlock&amp;gt;, &amp;lt;close-session&amp;gt;, &amp;lt;kill-session&amp;gt;   Messages &amp;lt;rpc&amp;gt;, &amp;lt;rpc-reply&amp;gt;, &amp;lt;notification&amp;gt;   Secure Transport SSH, TLS    RESTCONF is an HTTP-based protocol that provides a programmatic interface for accessing data defined in YANG, using the datastore concepts defined in NETCONF.</description>
+      <description>NETCONF vs RESTCONF&#xA;NETCONF is a protocol that was developed to provide a standardized interface to Network Element(NE)/Device to retrieve and manipulate configuration data.&#xA;Till now, CLI is the standard interface to interact with NE. but this is mainly for human. On the other hand, the NETCONF is mainly used for network automation.&#xA;CLI normally defined for human in user friendly way.&#xA;Content Config, Oper Data Operations &amp;lt;get-config&amp;gt;, &amp;lt;edit-config&amp;gt;, &amp;lt;copy-config&amp;gt;, &amp;lt;delete-config&amp;gt;, &amp;lt;lock&amp;gt;, &amp;lt;unlock&amp;gt;, &amp;lt;close-session&amp;gt;, &amp;lt;kill-session&amp;gt; Messages &amp;lt;rpc&amp;gt;, &amp;lt;rpc-reply&amp;gt;, &amp;lt;notification&amp;gt; Secure Transport SSH, TLS RESTCONF is an HTTP-based protocol that provides a programmatic interface for accessing data defined in YANG, using the datastore concepts defined in NETCONF.</description>
     </item>
-    
     <item>
       <title>What is APIs?</title>
       <link>https://prasenjitmanna.com/writing/2021-11-06-what-is-api/</link>
       <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2021-11-06-what-is-api/</guid>
-      <description>What is APIs?
-Application Programming Interfaces (APIs) are module: they take inputs and give you predictable outputs.   At its core, an API is a bunch of code that takes an input and gives you an output
-  Sometimes, companies will make parts of their APIs publicly available, like github, Twitter or Google Maps
-  In modern era, your favourite applications are collection of APIs.
-  In WWW, the programmatic service is provided by the APIs.</description>
+      <description>What is APIs?&#xA;Application Programming Interfaces (APIs) are module: they take inputs and give you predictable outputs. At its core, an API is a bunch of code that takes an input and gives you an output&#xA;Sometimes, companies will make parts of their APIs publicly available, like github, Twitter or Google Maps&#xA;In modern era, your favourite applications are collection of APIs.&#xA;In WWW, the programmatic service is provided by the APIs.</description>
     </item>
-    
     <item>
       <title>Web Scaler - Diagrams</title>
       <link>https://prasenjitmanna.com/writing/2021-10-10-web-scaler/</link>
       <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2021-10-10-web-scaler/</guid>
-      <description>These diagrams are self sufficient to explain.
-Table of contents  1. Web Scaler 2. Consistent Hashing 3. Web Crawler 4. Unique ID Generator for Distributed Systems 5. Key Value Store 6. Rate Limiter 7. Youtube 8. Chat System 9. News Feed System 10. Google Drive  1. Web Scaler 2. Consistent Hashing 3. Web Crawler 4. Unique ID Generator for Distributed Systems 5. Key Value Store Ref: SSTable
-6. Rate Limiter 7.</description>
+      <description>These diagrams are self sufficient to explain.&#xA;Table of contents 1. Web Scaler 2. Consistent Hashing 3. Web Crawler 4. Unique ID Generator for Distributed Systems 5. Key Value Store 6. Rate Limiter 7. Youtube 8. Chat System 9. News Feed System 10. Google Drive 1. Web Scaler 2. Consistent Hashing 3. Web Crawler 4. Unique ID Generator for Distributed Systems 5. Key Value Store Ref: SSTable&#xA;6. Rate Limiter 7.</description>
     </item>
-    
     <item>
       <title>Learn C&#43;&#43; Programming in 1hr &#43; Code</title>
       <link>https://prasenjitmanna.com/writing/2021-10-03-minimal-cpp-prog-manual/</link>
       <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2021-10-03-minimal-cpp-prog-manual/</guid>
-      <description>Best Ever C++ Tutoriali for C Programmer
-  Code Snip: Part1 | Part2 | Part3
-Data Types | Arithmetic | If Statement | Switch Statement | Ternary Operator | Arrays | For Loop | While Loop | Do While Loop | User Input | Convert String | Strings | Vectors | Functions | Recursive Function | File I/O | Exception Handling | Pointers | Reference Operator | Classes / Objects | Private | Static Variables | Public / Encapsulation | Constructors | Static Functions | this | Inheritance | Call Superclass Constructor | Execute Static Method | Virtual Methods | Polymorphism | Abstract Data Type</description>
+      <description>Best Ever C++ Tutoriali for C Programmer&#xA;Code Snip: Part1 | Part2 | Part3&#xA;Data Types | Arithmetic | If Statement | Switch Statement | Ternary Operator | Arrays | For Loop | While Loop | Do While Loop | User Input | Convert String | Strings | Vectors | Functions | Recursive Function | File I/O | Exception Handling | Pointers | Reference Operator | Classes / Objects | Private | Static Variables | Public / Encapsulation | Constructors | Static Functions | this | Inheritance | Call Superclass Constructor | Execute Static Method | Virtual Methods | Polymorphism | Abstract Data Type</description>
     </item>
-    
     <item>
       <title>How to Think? Part-II</title>
       <link>https://prasenjitmanna.com/writing/2021-09-25-how-to-think-part-2/</link>
       <pubDate>Sat, 25 Sep 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2021-09-25-how-to-think-part-2/</guid>
-      <description>Table of contents  The Farnam Street - How to Think: The Skill You&amp;rsquo;ve Never Been Taught Zat Rana - Marcus Aurelius: Thinking Clearly Mayo Oshin - Elon Musks&#39; &amp;ldquo;3-Step&amp;rdquo; First Principles Thinking&amp;quot; Ed Boyden - Rules for How to Think   &amp;ldquo;If I had an hour to solve a problem, I&amp;rsquo;d spend 55 minutes thinking about the problem and 5 minutes thinking about solutions.&amp;rdquo; &amp;mdash; Albert Einstein
- We are very good at solving problems.</description>
+      <description>Table of contents The Farnam Street - How to Think: The Skill You&amp;rsquo;ve Never Been Taught Zat Rana - Marcus Aurelius: Thinking Clearly Mayo Oshin - Elon Musks&amp;rsquo; &amp;ldquo;3-Step&amp;rdquo; First Principles Thinking&amp;quot; Ed Boyden - Rules for How to Think &amp;ldquo;If I had an hour to solve a problem, I&amp;rsquo;d spend 55 minutes thinking about the problem and 5 minutes thinking about solutions.&amp;rdquo; &amp;mdash; Albert Einstein&#xA;We are very good at solving problems.</description>
     </item>
-    
     <item>
       <title>Network Programmability, which is preferred? SNMP or CLI or Yang</title>
       <link>https://prasenjitmanna.com/writing/2021-08-22-network_programmability_snmp_or_cli_or_yang/</link>
       <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2021-08-22-network_programmability_snmp_or_cli_or_yang/</guid>
-      <description>Network Programmability, which is preferred? SNMP or CLI or Yang Network programmability is directly linked to Software Defined Network (SDN). So, it is driven by real benefits like time and cost savings, reduction of human error, customization and innovation. The network programmability is now understood as a set of tools and best practices to deploy, manage and troubleshoot network device, but it&amp;rsquo;s way beyond that.
-Network programmability is not new. From the screen scrapping, to bash and expect scripts.</description>
+      <description>Network Programmability, which is preferred? SNMP or CLI or Yang Network programmability is directly linked to Software Defined Network (SDN). So, it is driven by real benefits like time and cost savings, reduction of human error, customization and innovation. The network programmability is now understood as a set of tools and best practices to deploy, manage and troubleshoot network device, but it&amp;rsquo;s way beyond that.&#xA;Network programmability is not new. From the screen scrapping, to bash and expect scripts.</description>
     </item>
-    
     <item>
       <title>Clos Networks</title>
       <link>https://prasenjitmanna.com/writing/2021-08-15-clos_networks/</link>
       <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2021-08-15-clos_networks/</guid>
-      <description>Table of contents  Blocking Network Non-Blocking Network Two Stage Non-Blocking Network Three Stage Non-Blocking Network Clos Network 5 Stage Clos Network FAT-Tree  In new era of internet, more applications are moving to cloud. Even for the standalone application, the central processing is done in cloud. Most of the cloud companies developed NextGen datacentre with CLOS architecture. This article is to demystify the Clos architecture.
-The Clos grows in a very consistent way, thanks to having what&amp;rsquo;s called a scale-out architecture.</description>
+      <description>Table of contents Blocking Network Non-Blocking Network Two Stage Non-Blocking Network Three Stage Non-Blocking Network Clos Network 5 Stage Clos Network FAT-Tree In new era of internet, more applications are moving to cloud. Even for the standalone application, the central processing is done in cloud. Most of the cloud companies developed NextGen datacentre with CLOS architecture. This article is to demystify the Clos architecture.&#xA;The Clos grows in a very consistent way, thanks to having what&amp;rsquo;s called a scale-out architecture.</description>
     </item>
-    
     <item>
       <title>Various Routing &amp; Packet Forwarding Techniques</title>
       <link>https://prasenjitmanna.com/writing/2021-05-30-various_routing_packet_forwarding_techniques/</link>
       <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2021-05-30-various_routing_packet_forwarding_techniques/</guid>
-      <description>Table of contents  Bridging and Routing L2 Forwarding L3 Forwarding VRF Overlays  1. IP in IP 2. GRE 3. VXLAN   Segment Routing Forwarding in NIC  The core routing and packet forwarding haven&amp;rsquo;t changed for decades and it is not going to change for next decade also. But, it is going to evolve due to market needs, specially data centres. At the same time, Silicon capacity, CPU power, NIC bandwidth, all have increased significantly.</description>
+      <description>Table of contents Bridging and Routing L2 Forwarding L3 Forwarding VRF Overlays 1. IP in IP 2. GRE 3. VXLAN Segment Routing Forwarding in NIC The core routing and packet forwarding haven&amp;rsquo;t changed for decades and it is not going to change for next decade also. But, it is going to evolve due to market needs, specially data centres. At the same time, Silicon capacity, CPU power, NIC bandwidth, all have increased significantly.</description>
     </item>
-    
     <item>
       <title>How productive are you in life?</title>
       <link>https://prasenjitmanna.com/writing/2021-05-15-how_productive_are_you_in_life/</link>
       <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2021-05-15-how_productive_are_you_in_life/</guid>
-      <description>Table of contents  Do the right thing Do the right way Prioritize Organize Routine Goal Love what you do Recreation Positive thinking &amp;amp; attitude Right Values  Productivity concept is always there in my mind, but never thought so deeply. Until recently, my friend Biplab asked me the questions:
-&amp;ldquo;How do you feel at the end of a hard day? Do you feel satisfied, fulfilled, or disappointed? Are you productive?</description>
+      <description>Table of contents Do the right thing Do the right way Prioritize Organize Routine Goal Love what you do Recreation Positive thinking &amp;amp; attitude Right Values Productivity concept is always there in my mind, but never thought so deeply. Until recently, my friend Biplab asked me the questions:&#xA;&amp;ldquo;How do you feel at the end of a hard day? Do you feel satisfied, fulfilled, or disappointed? Are you productive?&amp;rdquo;&#xA;&amp;ldquo;may be yes!</description>
     </item>
-    
     <item>
       <title>Clean and Readable Code</title>
       <link>https://prasenjitmanna.com/writing/2020-11-18-clean-and-readable-code/</link>
       <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2020-11-18-clean-and-readable-code/</guid>
-      <description>Table of contents  Why is this important? What do we achieve? Principles  A good code must satisfy few requirements: it must produce correct results, for which it is written. Also, it should be readable and understandable by other developers. It should also follow few code principles. This is your professional responsibility that the code you write will be re-read by many other developers, who want to either understand or modify the code.</description>
+      <description>Table of contents Why is this important? What do we achieve? Principles A good code must satisfy few requirements: it must produce correct results, for which it is written. Also, it should be readable and understandable by other developers. It should also follow few code principles. This is your professional responsibility that the code you write will be re-read by many other developers, who want to either understand or modify the code.</description>
     </item>
-    
   </channel>
 </rss>

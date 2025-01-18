@@ -1,81 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>data-center on Prasenjit Manna</title>
+    <title>Data Center on Prasenjit Manna</title>
     <link>https://prasenjitmanna.com/tags/data-center/</link>
-    <description>Recent content in data-center on Prasenjit Manna</description>
+    <description>Recent content in Data Center on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 11 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/tags/data-center/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 18 Jan 2025 17:53:58 +0530</lastBuildDate>
+    <atom:link href="https://prasenjitmanna.com/tags/data-center/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IETF - Adaptive/Perceptive Routing</title>
       <link>https://prasenjitmanna.com/writing/2024-11-11-ietf-adaptive-perceptive-routing/</link>
       <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2024-11-11-ietf-adaptive-perceptive-routing/</guid>
-      <description>IETF - Adaptive/Perceptive Routing  IETF 121 Side Meeting  Join my email list to get direct access to new blog posts.
- </description>
+      <description>IETF - Adaptive/Perceptive Routing IETF 121 Side Meeting Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>The Evolution of Data Center Networking for AI Clusters</title>
       <link>https://prasenjitmanna.com/writing/2024-08-01-evolution-data-center-networking-for-ai-clusters/</link>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2024-08-01-evolution-data-center-networking-for-ai-clusters/</guid>
-      <description>Data Center Networking for AI Clusters  The Evolution of Data Center Networking for AI Workloads by Kentik  Evolution of Data Center Networking Designs and Systems for AI Infrastructure by Sujal Das  Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 1 Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 2 Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 3 Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 4 (Final) RoCE: from humble beginnings to being a star in the world of AI networking today   Excellent Articles by Sharada Yeluri  Large Language Models - The Hardware Connection GPU Fabrics for GenAI Workloads LLM Inference - HW/SW Optimizations In Network Acceleration for AI/ML Workloads   NETWORKING THE AI DATA CENTER by Juniper Networking for the Era of AI: The Network Defines the Data Center by Nvidia, mirror RoCE networks for distributed AI training at scale by Meta Development Prospects for AI Data Center Network Architecture and Connectivity Technology by Rosenberger Demystifying AI Networking Protocols by Randy Zhang RoCE networks for distributed AI training at scale in Meta  Join my email list to get direct access to new blog posts.</description>
+      <description>Data Center Networking for AI Clusters The Evolution of Data Center Networking for AI Workloads by Kentik Evolution of Data Center Networking Designs and Systems for AI Infrastructure by Sujal Das Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 1 Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 2 Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 3 Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 4 (Final) RoCE: from humble beginnings to being a star in the world of AI networking today Excellent Articles by Sharada Yeluri Large Language Models - The Hardware Connection GPU Fabrics for GenAI Workloads LLM Inference - HW/SW Optimizations In Network Acceleration for AI/ML Workloads NETWORKING THE AI DATA CENTER by Juniper Networking for the Era of AI: The Network Defines the Data Center by Nvidia, mirror RoCE networks for distributed AI training at scale by Meta Development Prospects for AI Data Center Network Architecture and Connectivity Technology by Rosenberger Demystifying AI Networking Protocols by Randy Zhang RoCE networks for distributed AI training at scale in Meta Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>IETF - Data Center Networking for AI Clusters</title>
       <link>https://prasenjitmanna.com/writing/2024-07-16-ietf-data-center-networking-for-ai-clusters/</link>
       <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2024-07-16-ietf-data-center-networking-for-ai-clusters/</guid>
-      <description>IETF - Data Center Networking for AI Clusters There has been a significant rise in the popularity of Artificial Intelligence and Machine Learning, leading to the design of data centers specifically tailored for large-scale AI model training. These advanced networks impose unique requirements for network topologies and interconnecting technologies.
- IETF 117 AIDC Side Meeting IETF 118 AIDC Side Meeting IETF 119 AIDC Side Meeting IETF 120 AIDC Side Meeting IETF 121 AIDC Side Meeting  Join my email list to get direct access to new blog posts.</description>
+      <description>IETF - Data Center Networking for AI Clusters There has been a significant rise in the popularity of Artificial Intelligence and Machine Learning, leading to the design of data centers specifically tailored for large-scale AI model training. These advanced networks impose unique requirements for network topologies and interconnecting technologies.&#xA;IETF 117 AIDC Side Meeting IETF 118 AIDC Side Meeting IETF 119 AIDC Side Meeting IETF 120 AIDC Side Meeting IETF 121 AIDC Side Meeting Join my email list to get direct access to new blog posts.</description>
     </item>
-    
     <item>
       <title>Ethernet Optical Standards</title>
       <link>https://prasenjitmanna.com/writing/2022-03-12-ethernet-optical-standards/</link>
       <pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2022-03-12-ethernet-optical-standards/</guid>
-      <description>The IEEE 802.3 Ethernet standards have been evolved exponentially. This is one of the driving force for the massive scale data centres, which is driving our cloud.
-IEEE 802.3 Data Center Ethernet Optical Standards    Year Ethernet Speed Designation Optical Data Rate Wavelength Fiber Count MMF(km) SMF (km)     1987 10 MbE FOIRL 12.5 M 850 2 1 -   1993 10 MbE 10BASE-FB 12.</description>
+      <description>The IEEE 802.3 Ethernet standards have been evolved exponentially. This is one of the driving force for the massive scale data centres, which is driving our cloud.&#xA;IEEE 802.3 Data Center Ethernet Optical Standards Year Ethernet Speed Designation Optical Data Rate Wavelength Fiber Count MMF(km) SMF (km) 1987 10 MbE FOIRL 12.5 M 850 2 1 - 1993 10 MbE 10BASE-FB 12.5 M 850 2 2 - 1993 10 MbE 10BASE-FL 12.</description>
     </item>
-    
     <item>
       <title>Data Center Topologies</title>
       <link>https://prasenjitmanna.com/writing/2022-02-26-dc-topologies/</link>
       <pubDate>Sat, 26 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2022-02-26-dc-topologies/</guid>
-      <description>Table of contents  Indirect Topologies  Tree Fat Tree   Direct Topologies  All-to-All HyperX Flattened Butterfly Topology Torus DCell &amp;amp; DCube    The network topologies can be classified into tree and non-tree based topologies. This is very common observation in topology. There is another way to connect nodes are direct and indirect.
-Indirect Topologies Tree The tree topologies are simple and broadly used in data center networks.</description>
+      <description>Table of contents Indirect Topologies Tree Fat Tree Direct Topologies All-to-All HyperX Flattened Butterfly Topology Torus DCell &amp;amp; DCube The network topologies can be classified into tree and non-tree based topologies. This is very common observation in topology. There is another way to connect nodes are direct and indirect.&#xA;Indirect Topologies Tree The tree topologies are simple and broadly used in data center networks. Tree topologies may have either two or three levels.</description>
     </item>
-    
     <item>
       <title>Clos Networks</title>
       <link>https://prasenjitmanna.com/writing/2021-08-15-clos_networks/</link>
       <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2021-08-15-clos_networks/</guid>
-      <description>Table of contents  Blocking Network Non-Blocking Network Two Stage Non-Blocking Network Three Stage Non-Blocking Network Clos Network 5 Stage Clos Network FAT-Tree  In new era of internet, more applications are moving to cloud. Even for the standalone application, the central processing is done in cloud. Most of the cloud companies developed NextGen datacentre with CLOS architecture. This article is to demystify the Clos architecture.
-The Clos grows in a very consistent way, thanks to having what&amp;rsquo;s called a scale-out architecture.</description>
+      <description>Table of contents Blocking Network Non-Blocking Network Two Stage Non-Blocking Network Three Stage Non-Blocking Network Clos Network 5 Stage Clos Network FAT-Tree In new era of internet, more applications are moving to cloud. Even for the standalone application, the central processing is done in cloud. Most of the cloud companies developed NextGen datacentre with CLOS architecture. This article is to demystify the Clos architecture.&#xA;The Clos grows in a very consistent way, thanks to having what&amp;rsquo;s called a scale-out architecture.</description>
     </item>
-    
     <item>
       <title>Link-State Protocols on Data-Center Fabrics - Internet Protocol Journal (PDF)</title>
       <link>https://prasenjitmanna.com/blogs/2020-10-01-link-state-protocols-on-data-center-fabrics-internet-protocol-journal-pdf/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/blogs/2020-10-01-link-state-protocols-on-data-center-fabrics-internet-protocol-journal-pdf/</guid>
-      <description>Link-State Protocols on Data-Center Fabrics – Internet Protocol Journal (PDF)
-Join my email list to get direct access to new blog posts.
- </description>
+      <description>Link-State Protocols on Data-Center Fabrics – Internet Protocol Journal (PDF)&#xA;Join my email list to get direct access to new blog posts.</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,37 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>restconf on Prasenjit Manna</title>
+    <title>Restconf on Prasenjit Manna</title>
     <link>https://prasenjitmanna.com/tags/restconf/</link>
-    <description>Recent content in restconf on Prasenjit Manna</description>
+    <description>Recent content in Restconf on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://prasenjitmanna.com/tags/restconf/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 18 Jan 2025 17:53:58 +0530</lastBuildDate>
+    <atom:link href="https://prasenjitmanna.com/tags/restconf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NETCONF vs RESTCONF</title>
       <link>https://prasenjitmanna.com/writing/2021-11-07-netconf-vs-restconf/</link>
       <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2021-11-07-netconf-vs-restconf/</guid>
-      <description>NETCONF vs RESTCONF
-NETCONF is a protocol that was developed to provide a standardized interface to Network Element(NE)/Device to retrieve and manipulate configuration data.
-Till now, CLI is the standard interface to interact with NE. but this is mainly for human. On the other hand, the NETCONF is mainly used for network automation.
-CLI normally defined for human in user friendly way.
-   Content Config, Oper Data     Operations &amp;lt;get-config&amp;gt;, &amp;lt;edit-config&amp;gt;, &amp;lt;copy-config&amp;gt;, &amp;lt;delete-config&amp;gt;, &amp;lt;lock&amp;gt;, &amp;lt;unlock&amp;gt;, &amp;lt;close-session&amp;gt;, &amp;lt;kill-session&amp;gt;   Messages &amp;lt;rpc&amp;gt;, &amp;lt;rpc-reply&amp;gt;, &amp;lt;notification&amp;gt;   Secure Transport SSH, TLS    RESTCONF is an HTTP-based protocol that provides a programmatic interface for accessing data defined in YANG, using the datastore concepts defined in NETCONF.</description>
+      <description>NETCONF vs RESTCONF&#xA;NETCONF is a protocol that was developed to provide a standardized interface to Network Element(NE)/Device to retrieve and manipulate configuration data.&#xA;Till now, CLI is the standard interface to interact with NE. but this is mainly for human. On the other hand, the NETCONF is mainly used for network automation.&#xA;CLI normally defined for human in user friendly way.&#xA;Content Config, Oper Data Operations &amp;lt;get-config&amp;gt;, &amp;lt;edit-config&amp;gt;, &amp;lt;copy-config&amp;gt;, &amp;lt;delete-config&amp;gt;, &amp;lt;lock&amp;gt;, &amp;lt;unlock&amp;gt;, &amp;lt;close-session&amp;gt;, &amp;lt;kill-session&amp;gt; Messages &amp;lt;rpc&amp;gt;, &amp;lt;rpc-reply&amp;gt;, &amp;lt;notification&amp;gt; Secure Transport SSH, TLS RESTCONF is an HTTP-based protocol that provides a programmatic interface for accessing data defined in YANG, using the datastore concepts defined in NETCONF.</description>
     </item>
-    
     <item>
       <title>What is APIs?</title>
       <link>https://prasenjitmanna.com/writing/2021-11-06-what-is-api/</link>
       <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://prasenjitmanna.com/writing/2021-11-06-what-is-api/</guid>
-      <description>What is APIs?
-Application Programming Interfaces (APIs) are module: they take inputs and give you predictable outputs.   At its core, an API is a bunch of code that takes an input and gives you an output
-  Sometimes, companies will make parts of their APIs publicly available, like github, Twitter or Google Maps
-  In modern era, your favourite applications are collection of APIs.
-  In WWW, the programmatic service is provided by the APIs.</description>
+      <description>What is APIs?&#xA;Application Programming Interfaces (APIs) are module: they take inputs and give you predictable outputs. At its core, an API is a bunch of code that takes an input and gives you an output&#xA;Sometimes, companies will make parts of their APIs publicly available, like github, Twitter or Google Maps&#xA;In modern era, your favourite applications are collection of APIs.&#xA;In WWW, the programmatic service is provided by the APIs.</description>
     </item>
-    
   </channel>
 </rss>
