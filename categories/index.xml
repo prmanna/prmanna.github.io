@@ -6,20 +6,41 @@
     <description>Recent content in Categories on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Jan 2025 19:36:48 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jan 2025 19:40:14 +0530</lastBuildDate>
     <atom:link href="https://prasenjitmanna.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blogs</title>
+      <link>https://prasenjitmanna.com/categories/blogs/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://prasenjitmanna.com/categories/blogs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud</title>
+      <link>https://prasenjitmanna.com/categories/cloud/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://prasenjitmanna.com/categories/cloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Center</title>
+      <link>https://prasenjitmanna.com/categories/data-center/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://prasenjitmanna.com/categories/data-center/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Primer</title>
+      <link>https://prasenjitmanna.com/categories/primer/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://prasenjitmanna.com/categories/primer/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Audit</title>
       <link>https://prasenjitmanna.com/categories/audit/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/categories/audit/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Blogs</title>
-      <link>https://prasenjitmanna.com/categories/blogs/</link>
-      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://prasenjitmanna.com/categories/blogs/</guid>
       <description></description>
     </item>
     <item>
@@ -30,31 +51,10 @@
       <description></description>
     </item>
     <item>
-      <title>Cloud</title>
-      <link>https://prasenjitmanna.com/categories/cloud/</link>
-      <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://prasenjitmanna.com/categories/cloud/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data-Center</title>
-      <link>https://prasenjitmanna.com/categories/data-center/</link>
-      <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://prasenjitmanna.com/categories/data-center/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Podcast</title>
       <link>https://prasenjitmanna.com/categories/podcast/</link>
       <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/categories/podcast/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Primer</title>
-      <link>https://prasenjitmanna.com/categories/primer/</link>
-      <pubDate>Wed, 18 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://prasenjitmanna.com/categories/primer/</guid>
       <description></description>
     </item>
     <item>
