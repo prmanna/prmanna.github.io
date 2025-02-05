@@ -6,13 +6,27 @@
     <description>Recent content in Categories on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Jan 2025 20:04:42 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 05 Feb 2025 13:04:09 +0530</lastBuildDate>
     <atom:link href="https://prasenjitmanna.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blogs</title>
       <link>https://prasenjitmanna.com/categories/blogs/</link>
-      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/categories/blogs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Forwarding-Engine</title>
+      <link>https://prasenjitmanna.com/categories/forwarding-engine/</link>
+      <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://prasenjitmanna.com/categories/forwarding-engine/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Primer</title>
+      <link>https://prasenjitmanna.com/categories/primer/</link>
+      <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://prasenjitmanna.com/categories/primer/</guid>
       <description></description>
     </item>
     <item>
@@ -27,13 +41,6 @@
       <link>https://prasenjitmanna.com/categories/data-center/</link>
       <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/categories/data-center/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Primer</title>
-      <link>https://prasenjitmanna.com/categories/primer/</link>
-      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://prasenjitmanna.com/categories/primer/</guid>
       <description></description>
     </item>
     <item>

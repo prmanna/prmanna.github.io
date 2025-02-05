@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Forwarding-Engine on Prasenjit Manna</title>
+    <link>https://prasenjitmanna.com/categories/forwarding-engine/</link>
+    <description>Recent content in Forwarding-Engine on Prasenjit Manna</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 05 Feb 2025 13:04:09 +0530</lastBuildDate>
+    <atom:link href="https://prasenjitmanna.com/categories/forwarding-engine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Router Forwarding Engines Series by Russ White</title>
+      <link>https://prasenjitmanna.com/blogs/2025-02-05-router-forwarding-engines-series-by-russ-white/</link>
+      <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://prasenjitmanna.com/blogs/2025-02-05-router-forwarding-engines-series-by-russ-white/</guid>
+      <description>A Close Look at Router Forwarding Engines by Russ White&#xA;A Close Look at Router Forwarding Engines: Part 1 – What are the Problems? Router Forwarding Engines: Part 2 – OpenFlow and I2RS as Possible Solutions Router Forwarding Engines: Part 3 – P4 and SAI Join my email list to get direct access to new blog posts.</description>
+    </item>
+  </channel>
+</rss>
