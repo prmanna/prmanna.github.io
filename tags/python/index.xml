@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Prasenjit Manna</title>
+    <link>https://prasenjitmanna.com/tags/python/</link>
+    <description>Recent content in Python on Prasenjit Manna</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 17 Feb 2025 13:03:40 +0530</lastBuildDate>
+    <atom:link href="https://prasenjitmanna.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Books</title>
+      <link>https://prasenjitmanna.com/writing/evergreen-programming-books/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://prasenjitmanna.com/writing/evergreen-programming-books/</guid>
+      <description>Programming Books Skiena; The Algorithm Design Manual The longer, more comprehensive, more practical. It&amp;rsquo;s similar in that it attempts to teach you how to identify problems, use the correct algorithm, and give a clear explanation of the algorithm. This also describess the real world programming.&#xA;McDowell; Cracking the Coding Interview Some problems and solutions, with explanations, matching the level of questions you see in entry-level interviews at Google, Facebook, Microsoft, etc.</description>
+    </item>
+  </channel>
+</rss>

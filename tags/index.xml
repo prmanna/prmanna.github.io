@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Feb 2025 13:00:08 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 17 Feb 2025 13:03:40 +0530</lastBuildDate>
     <atom:link href="https://prasenjitmanna.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
@@ -156,6 +156,20 @@
       <description></description>
     </item>
     <item>
+      <title>GIT</title>
+      <link>https://prasenjitmanna.com/tags/git/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://prasenjitmanna.com/tags/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IPv6</title>
+      <link>https://prasenjitmanna.com/tags/ipv6/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://prasenjitmanna.com/tags/ipv6/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Programming-Blogs</title>
       <link>https://prasenjitmanna.com/tags/programming-blogs/</link>
       <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
@@ -167,6 +181,13 @@
       <link>https://prasenjitmanna.com/tags/programming-books/</link>
       <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/tags/programming-books/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://prasenjitmanna.com/tags/python/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://prasenjitmanna.com/tags/python/</guid>
       <description></description>
     </item>
     <item>
