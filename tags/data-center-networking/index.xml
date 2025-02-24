@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Center Networking on Prasenjit Manna</title>
+    <link>https://prasenjitmanna.com/tags/data-center-networking/</link>
+    <description>Recent content in Data Center Networking on Prasenjit Manna</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 24 Feb 2025 19:16:17 +0530</lastBuildDate>
+    <atom:link href="https://prasenjitmanna.com/tags/data-center-networking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Evolution of Data Center Networking for AI Clusters</title>
+      <link>https://prasenjitmanna.com/writing/2024-08-01-evolution-data-center-networking-for-ai-clusters/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://prasenjitmanna.com/writing/2024-08-01-evolution-data-center-networking-for-ai-clusters/</guid>
+      <description>Data Center Networking for AI Clusters The Evolution of Data Center Networking for AI Workloads by Kentik Evolution of Data Center Networking Designs and Systems for AI Infrastructure by Sujal Das Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 1 Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 2 Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 3 Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 4 (Final) RoCE: from humble beginnings to being a star in the world of AI networking today Excellent Articles by Sharada Yeluri Large Language Models - The Hardware Connection GPU Fabrics for GenAI Workloads LLM Inference - HW/SW Optimizations In Network Acceleration for AI/ML Workloads NETWORKING THE AI DATA CENTER by Juniper Networking for the Era of AI: The Network Defines the Data Center by Nvidia, mirror RoCE networks for distributed AI training at scale by Meta Development Prospects for AI Data Center Network Architecture and Connectivity Technology by Rosenberger Demystifying AI Networking Protocols by Randy Zhang RoCE networks for distributed AI training at scale in Meta Join my email list to get direct access to new blog posts.</description>
+    </item>
+  </channel>
+</rss>
