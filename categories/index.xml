@@ -6,20 +6,27 @@
     <description>Recent content in Categories on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 08 Mar 2025 13:46:38 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 24 Mar 2025 19:02:16 +0530</lastBuildDate>
     <atom:link href="https://prasenjitmanna.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blogs</title>
       <link>https://prasenjitmanna.com/categories/blogs/</link>
-      <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/categories/blogs/</guid>
       <description></description>
     </item>
     <item>
       <title>Forwarding-Engine</title>
       <link>https://prasenjitmanna.com/categories/forwarding-engine/</link>
-      <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/categories/forwarding-engine/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LPM</title>
+      <link>https://prasenjitmanna.com/categories/lpm/</link>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://prasenjitmanna.com/categories/lpm/</guid>
       <description></description>
     </item>
     <item>

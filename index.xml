@@ -8,6 +8,13 @@
     <language>en</language>
     <atom:link href="https://prasenjitmanna.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Longest Prefix Matching(LPM)</title>
+      <link>https://prasenjitmanna.com/blogs/2025-03-24-longest-prefix-matching/</link>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://prasenjitmanna.com/blogs/2025-03-24-longest-prefix-matching/</guid>
+      <description>Longest Prefix Matching (LPM)&#xA;Longest Prefix Matching in Networking Chips by Sharada Yeluri Hashing Strategies for Packet Processing Join my email list to get direct access to new blog posts.</description>
+    </item>
+    <item>
       <title>Router Forwarding Engines Series by Russ White</title>
       <link>https://prasenjitmanna.com/blogs/2025-02-05-router-forwarding-engines-series-by-russ-white/</link>
       <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
