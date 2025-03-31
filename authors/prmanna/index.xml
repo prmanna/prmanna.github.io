@@ -6,14 +6,14 @@
     <description>Recent content in Prmanna on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Mar 2025 19:03:08 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 31 Mar 2025 18:02:03 +0530</lastBuildDate>
     <atom:link href="https://prasenjitmanna.com/authors/prmanna/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Longest Prefix Matching(LPM)</title>
       <link>https://prasenjitmanna.com/blogs/2025-03-24-longest-prefix-matching/</link>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2025-03-24-longest-prefix-matching/</guid>
-      <description>Longest Prefix Matching (LPM)&#xA;Longest Prefix Matching in Networking Chips by Sharada Yeluri Hashing Strategies for Packet Processing by Diptanshu Singh Join my email list to get direct access to new blog posts.</description>
+      <description>In general, LPM (Longest prefix match) is an important know how in routing. There are topic like TCAM, Trie, Multibit trie, Compressed Trie/Patricia Tie, Bloom Filter, Hash Table, etc, are considered in routing lookup. These are few articles created the gist for it. Longest Prefix Matching (LPM)&#xA;Longest Prefix Matching in Networking Chips by Sharada Yeluri Hashing Strategies for Packet Processing by Diptanshu Singh Join my email list to get direct access to new blog posts.</description>
     </item>
     <item>
       <title>Router Forwarding Engines Series by Russ White</title>
