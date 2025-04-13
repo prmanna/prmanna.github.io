@@ -6,14 +6,14 @@
     <description>Recent content in Prmanna on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 13 Apr 2025 21:30:00 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 13 Apr 2025 21:35:00 +0530</lastBuildDate>
     <atom:link href="https://prasenjitmanna.com/authors/prmanna/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IPv6 Deployment</title>
       <link>https://prasenjitmanna.com/writing/2025-04-13-ipv6-operations/</link>
       <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/writing/2025-04-13-ipv6-operations/</guid>
-      <description>Over last 10 years, IPv6 standard have evolved a lot. This is very important to know current status of the standards, because, due to continuous evolution based on various deployments, some aer obsolete also. The following documents will give the overview of IPv6 and current status.&#xA;A collaborative IPv6 book by Nick Buraglio and Brian E. Carpenter, pdf copy, github IPv6 Operations ETSI IPv6 White Paper outlines best practices, challenges, benefits and the way forward - ETSI White Paper on our website IPv6 Deployment Status Join my email list to get direct access to new blog posts.</description>
+      <description>Over last 10 years, IPv6 standard have evolved a lot. This is very important to know current status of the standards, because, due to continuous evolution based on various deployments, some aer obsolete also. The following documents will give the overview of IPv6 and current status.&#xA;A collaborative IPv6 book by Nick Buraglio and Brian E. Carpenter, pdf copy, github IPv6 Operations ETSI IPv6 White Paper outlines best practices, challenges, benefits and the way forward - ETSI White Paper on website IETF RFC - IPv6 Deployment Status ETSI IPv6 Enhanced Innovation: Gap Analysis - ETSI White Paper on website Join my email list to get direct access to new blog posts.</description>
     </item>
     <item>
       <title>Longest Prefix Matching(LPM)</title>
