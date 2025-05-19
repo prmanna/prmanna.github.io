@@ -4,36 +4,36 @@ from chatgpt
 Below is a full C example that implements Bob Jenkins’ lookup3 hash for a 5‑tuple. 
 In this example the five inputs are:
 
-    src_ip (32‑bit)
-    dst_ip (32‑bit)
-    src_port (16‑bit)
-    dst_port (16‑bit)
-    protocol (8‑bit)
+    src_ip (32-bit)
+    dst_ip (32-bit)
+    src_port (16-bit)
+    dst_port (16-bit)
+    protocol (8-bit)
 
 The code packs these into a 13‑byte key (using little‑endian ordering), then processes 
 one complete 12‑byte block and a 1‑byte tail. It uses the standard macros for mixing 
 (mix()) and finalization (final()) as defined in Bob Jenkins’ lookup3 function.
 
 Explanation
-Packing the Key:
-We pack the five-tuple into a 13‑byte array (4 bytes for each IP, 2 bytes each 
-for the ports, and 1 byte for protocol). We use little‑endian order for consistency 
-with typical lookup3 usage.
+1. Packing the Key:
+  We pack the five-tuple into a 13‑byte array (4 bytes for each IP, 2 bytes each 
+  for the ports, and 1 byte for protocol). We use little‑endian order for consistency 
+  with typical lookup3 usage.
 
-Initialization:
-The internal state variables a, b, and c are initialized to
-0xdeadbeef + length + seed
-where length is 13 bytes and seed is provided by the caller.
+2. Initialization:
+  The internal state variables a, b, and c are initialized to
+  0xdeadbeef + length + seed
+  where length is 13 bytes and seed is provided by the caller.
 
-Processing the Main Block:
-We process 12 bytes (the full block) by reading 32‑bit words from the key.
+3. Processing the Main Block:
+  We process 12 bytes (the full block) by reading 32‑bit words from the key.
 
-Handling the Tail:
-With 13 bytes total, one byte remains. Per the lookup3 convention 
-(here, adding any leftover byte to a), we add the remaining byte.
+4. Handling the Tail:
+  With 13 bytes total, one byte remains. Per the lookup3 convention 
+  (here, adding any leftover byte to a), we add the remaining byte.
 
-Final Mixing:
-The final() macro is then called to avalanche the internal state.
+5. Final Mixing:
+  The final() macro is then called to avalanche the internal state.
 
 Output:
 The function returns the final 32‑bit hash value, which is printed in hexadecimal.
