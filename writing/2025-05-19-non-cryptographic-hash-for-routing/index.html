@@ -9,7 +9,7 @@
 <meta property='og:description' content='Non-Cryptographic Hash Functions for Routing'>
 <meta property='og:url' content='https://prasenjitmanna.com/writing/2025-05-19-non-cryptographic-hash-for-routing/'>
 <meta property='og:site_name' content='Prasenjit Manna'>
-<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:published_time' content='2025-05-19T00:00:00Z'/><meta property='article:modified_time' content='2025-05-19T17:18:25&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:published_time' content='2025-05-19T00:00:00Z'/><meta property='article:modified_time' content='2025-05-19T18:30:46&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
 
 <meta name="generator" content="Hugo 0.123.0">
 
@@ -388,7 +388,7 @@
 
   <div class='container entry-content'>
   <h3 id="non-cryptographic-hash-functions">Non-Cryptographic Hash Functions</h3>
-<p>Non-cryptographic hash functions take a string as input and compute an integer output. The desirable property of a hash function is that the outputs are evenly distributed across the domain of possible outputs, especially for inputs that are similar. Unlike a cryptographic hash function, these functions are not designed to withstand an effort by an attacker to find a collision. Cryptographic hash functions have this property, but are much slower: SHA-1 is on the order of 0.09 bytes/cycle whereas the newest non-cryptographic hash functions are on the order of 3 bytes/cycle. So non-cryptographic hashes are roughly 33x faster, at the cost of not being able to withstand attacks. Non-cryptographic hashes are most often used for hash tables.</p>
+<p>Non-cryptographic hash functions take a string as input and compute an integer output. The desirable property of a hash function is that the outputs are evenly distributed across the domain of possible outputs, especially for inputs that are similar. Unlike a cryptographic hash function, these functions are not designed to withstand an effort by an attacker to find a collision. Cryptographic hash functions have this property, but are much slower: <a href="http://www.cryptopp.com/benchmarks.html">SHA-1 is on the order of 0.09 bytes/cycle</a> whereas the newest non-cryptographic hash functions are on the order of 3 bytes/cycle. So non-cryptographic hashes are roughly 33x faster, at the cost of not being able to withstand attacks. Non-cryptographic hashes are most often used for hash tables.</p>
 <p>Since there are lots of options out there for non-cryptographic hash functions and this number keeps expanding, I thought I’d summarize my knowledge of what is out there.</p>
 <h4 id="bob-jenkins-functions">Bob Jenkins’ Functions</h4>
 <p><a href="http://burtleburtle.net/bob/">Bob Jenkins</a> has been working on hash functions for 15 years or so. In 1997 he published an article about hash functions in Dr. Dobbs Journal; the article is available now on the web with more content added since its original publication: <a href="http://www.burtleburtle.net/bob/hash/doobs.html">A hash function for hash Table lookup</a>. In this article Bob has an extensive catalog of existing hash functions, as well as presenting his own called “lookup2.” Bob subsequently published <a href="http://burtleburtle.net/bob/c/lookup3.c">lookup3</a> in 2006, which for the purposes of this article I will consider the first “modern” hash function, in the sense that it is both fast (0.5 bytes/cycle, according to Bob) and free of any serious flaws.</p>
@@ -442,7 +442,7 @@
 <polygon points="18 2 22 6 12 16 8 16 8 12 18 2" />
 </svg>
 <span class='screen-reader-text'>Last updated: </span>
-      <time class='entry-date' datetime='2025-05-19T17:18:25&#43;05:30'>2025, May 19</time>
+      <time class='entry-date' datetime='2025-05-19T18:30:46&#43;05:30'>2025, May 19</time>
     </div><div class='categories'><svg
   class="icon"
   xmlns="http://www.w3.org/2000/svg"
