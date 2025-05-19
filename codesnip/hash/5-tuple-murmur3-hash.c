@@ -11,23 +11,29 @@ Here’s a MurmurHash3 (32-bit) hash function implementation in C for a 5-tuple:
 	protocol: IP protocol (uint8_t)
 
 Key Features of MurmurHash3
-	1.	Good Mixing:
-		  MurmurHash3 ensures excellent bit dispersion, meaning small changes in the input produce large changes in the output.
-	2.	Deterministic:
-		  The hash function produces the same output for the same inputs, which is critical for hash table lookups and other applications.
-	3.	Fast:
-		  The function uses simple arithmetic and bitwise operations, making it highly efficient for real-time or high-throughput applications.
-	4.	Seed Support:
-		  The seed parameter allows for generating different hash values for the same input data, which is useful in certain applications like hash tables with multiple hash functions.
+1. Good Mixing:
+   MurmurHash3 ensures excellent bit dispersion, meaning small changes in the input produce 
+   large changes in the output.
+2. Deterministic:
+   The hash function produces the same output for the same inputs, which is critical 
+   for hash table lookups and other applications.
+3. Fast:
+   The function uses simple arithmetic and bitwise operations, making it highly efficient 
+   for real-time or high-throughput applications.
+4. Seed Support:
+   The seed parameter allows for generating different hash values for the same input data, 
+   which is useful in certain applications like hash tables with multiple hash functions.
 
 
 Use Cases for 5-Tuple Hashing
-	1.	Networking:
-		  Load balancing, flow hashing, and packet processing use the 5-tuple (source IP, destination IP, source port, destination port, protocol) to uniquely identify network flows.
-	2.	Hash Tables:
-		  Efficiently hash the 5-tuple for storing and retrieving flow-related metadata.
-	3.	Distributed Systems:
-		  Use the hash to distribute traffic evenly across servers or nodes.
+1. Networking:
+   Load balancing, flow hashing, and packet processing use the 5-tuple (source IP, 
+   destination IP, source port, destination port, protocol) to uniquely identify network flows.
+2. Hash Tables:
+   Efficiently hash the 5-tuple for storing and retrieving flow-related metadata.
+3. Distributed Systems:
+   Use the hash to distribute traffic evenly across servers or nodes.
+
 */
 
 #include <stdint.h>
