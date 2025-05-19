@@ -6,13 +6,13 @@
     <description>Recent content in Blogs on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 May 2025 16:57:56 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 19 May 2025 16:59:25 +0530</lastBuildDate>
     <atom:link href="https://prasenjitmanna.com/categories/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Non-Cryptographic Hash Functions for Routing</title>
-      <link>https://prasenjitmanna.com/blogs/2025-05-19-non-cryptographic-hash-for-routing/</link>
+      <link>https://prasenjitmanna.com/writing/2025-05-19-non-cryptographic-hash-for-routing/</link>
       <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://prasenjitmanna.com/blogs/2025-05-19-non-cryptographic-hash-for-routing/</guid>
+      <guid>https://prasenjitmanna.com/writing/2025-05-19-non-cryptographic-hash-for-routing/</guid>
       <description>non-cryptographic hash functions Non-cryptographic hash functions take a string as input and compute an integer output. The desirable property of a hash function is that the outputs are evenly distributed across the domain of possible outputs, especially for inputs that are similar. Unlike a cryptographic hash function, these functions are not designed to withstand an effort by an attacker to find a collision. Cryptographic hash functions have this property, but are much slower: SHA-1 is on the order of 0.</description>
     </item>
     <item>
