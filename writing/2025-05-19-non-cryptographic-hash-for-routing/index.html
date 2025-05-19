@@ -9,7 +9,7 @@
 <meta property='og:description' content='Non-Cryptographic Hash Functions for Routing'>
 <meta property='og:url' content='https://prasenjitmanna.com/writing/2025-05-19-non-cryptographic-hash-for-routing/'>
 <meta property='og:site_name' content='Prasenjit Manna'>
-<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:published_time' content='2025-05-19T00:00:00Z'/><meta property='article:modified_time' content='2025-05-19T16:59:25&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://prasenjitmanna.com/images/logo.png'><meta property='article:author' content='https://facebook.com/prasenjit.manna.33'><meta property='article:section' content='writing'><meta property='article:published_time' content='2025-05-19T00:00:00Z'/><meta property='article:modified_time' content='2025-05-19T17:06:13&#43;05:30'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@prasenjit_manna'><meta name='twitter:creator' content='@prasenjit_manna'>
 
 <meta name="generator" content="Hugo 0.123.0">
 
@@ -378,7 +378,7 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#non-cryptographic-hash-functions"><strong>non-cryptographic hash functions</strong></a></li>
+        <li><a href="#non-cryptographic-hash-functions">Non-Cryptographic Hash Functions</a></li>
       </ul>
     </li>
   </ul>
@@ -387,7 +387,7 @@
 
 
   <div class='container entry-content'>
-  <h3 id="non-cryptographic-hash-functions"><strong>non-cryptographic hash functions</strong></h3>
+  <h3 id="non-cryptographic-hash-functions">Non-Cryptographic Hash Functions</h3>
 <p>Non-cryptographic hash functions take a string as input and compute an integer output. The desirable property of a hash function is that the outputs are evenly distributed across the domain of possible outputs, especially for inputs that are similar. Unlike a cryptographic hash function, these functions are not designed to withstand an effort by an attacker to find a collision. Cryptographic hash functions have this property, but are much slower: SHA-1 is on the order of 0.09 bytes/cycle whereas the newest non-cryptographic hash functions are on the order of 3 bytes/cycle. So non-cryptographic hashes are roughly 33x faster, at the cost of not being able to withstand attacks. Non-cryptographic hashes are most often used for hash tables.</p>
 <p>Since there are lots of options out there for non-cryptographic hash functions and this number keeps expanding, I thought I’d summarize my knowledge of what is out there.</p>
 <h4 id="bob-jenkins-functions">Bob Jenkins’ Functions</h4>
@@ -408,30 +408,19 @@
 </ol>
 <h4 id="benefits-of-using-non-cryptographic-hash-functions">Benefits of using non-cryptographic hash functions</h4>
 <ul>
-<li>
-<p>Speed: One of the top benefits of non-cryptographic hash functions is their speed. They process data faster than a cheetah chasing its dinner! This makes them perfect for applications that need quick results, like searching for information in a database.</p>
-</li>
-<li>
-<p>Consistency: They also provide consistency. If you use the same hash function on the same data, you&rsquo;ll always get the same result. It&rsquo;s like your trusty old compass, always pointing you in the right direction.</p>
-</li>
-<li>
-<p>Reduced Storage: Non-cryptographic hash functions can reduce storage needs. They turn data into a fixed size, no matter how large the original data was. It&rsquo;s like having a magical suitcase that can fit everything you own, yet it remains the same size.</p>
-</li>
-<li>
-<p>Easy to Implement: Lastly, they&rsquo;re generally easy to implement. So, even if you&rsquo;re not a wizard at coding, you can still explore non-cryptographic hash functions and reap their benefits.</p>
-</li>
-<li>
-<p><a href="https://prasenjitmanna.com/codesnip/hash/5-tuple-jenkins-hash.c">Sample 5 Tuple Jenkins Hash for Routing ECMP with lookup3</a></p>
-</li>
-<li>
-<p><a href="https://prasenjitmanna.com/codesnip/hash/5-tuple-murmur3-hash.c">Sample 5 Tuple Murmur3 Hash for Routing ECMP</a></p>
-</li>
+<li>Speed: One of the top benefits of non-cryptographic hash functions is their speed. They process data faster than a cheetah chasing its dinner! This makes them perfect for applications that need quick results, like searching for information in a database.</li>
+<li>Consistency: They also provide consistency. If you use the same hash function on the same data, you&rsquo;ll always get the same result. It&rsquo;s like your trusty old compass, always pointing you in the right direction.</li>
+<li>Reduced Storage: Non-cryptographic hash functions can reduce storage needs. They turn data into a fixed size, no matter how large the original data was. It&rsquo;s like having a magical suitcase that can fit everything you own, yet it remains the same size.</li>
+<li>Easy to Implement: Lastly, they&rsquo;re generally easy to implement. So, even if you&rsquo;re not a wizard at coding, you can still explore non-cryptographic hash functions and reap their benefits.</li>
 </ul>
+<h4 id="sample-5-tuple-jenkins-hash-for-routing-ecmp-with-lookup3httpsprasenjitmannacomcodesniphash5-tuple-jenkins-hashc"><a href="https://prasenjitmanna.com/codesnip/hash/5-tuple-jenkins-hash.c">Sample 5 Tuple Jenkins Hash for Routing ECMP with lookup3</a></h4>
+<h4 id="sample-5-tuple-murmur3-hash-for-routing-ecmphttpsprasenjitmannacomcodesniphash5-tuple-murmur3-hashc"><a href="https://prasenjitmanna.com/codesnip/hash/5-tuple-murmur3-hash.c">Sample 5 Tuple Murmur3 Hash for Routing ECMP</a></h4>
 <h4 id="references">References</h4>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/List_of_hash_functions#Non-cryptographic_hash_functions">Wikipedia - Non-cryptographic hash functions</a></li>
 <li><a href="http://en.wikipedia.org/wiki/Jenkins_hash_function">Jenkins hash function</a>.</li>
 <li><a href="https://rurban.github.io/smhasher/">Hash function quality and speed tests</a></li>
+<li><a href="https://burtleburtle.net/bob/hash/index.html">Hash Functions and Block Ciphers by Bob Jenkins</a></li>
 </ul>
 <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/prmanna" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/prmanna', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Join my email list to get direct access to new blog posts.</label></p><p><input type="text" style="width:200px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /></p></form>
 
@@ -453,7 +442,7 @@
 <polygon points="18 2 22 6 12 16 8 16 8 12 18 2" />
 </svg>
 <span class='screen-reader-text'>Last updated: </span>
-      <time class='entry-date' datetime='2025-05-19T16:59:25&#43;05:30'>2025, May 19</time>
+      <time class='entry-date' datetime='2025-05-19T17:06:13&#43;05:30'>2025, May 19</time>
     </div><div class='categories'><svg
   class="icon"
   xmlns="http://www.w3.org/2000/svg"
