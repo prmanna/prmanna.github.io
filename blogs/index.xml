@@ -6,14 +6,14 @@
     <description>Recent content in Blogs on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 06 Jul 2025 15:43:09 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 06 Jul 2025 15:45:29 +0530</lastBuildDate>
     <atom:link href="https://prasenjitmanna.com/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How I use LLMs | Tools | Andrej Karpathy</title>
       <link>https://prasenjitmanna.com/blogs/2025-07-05-how-llm-used-by-andrej-karpathy/</link>
       <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2025-07-05-how-llm-used-by-andrej-karpathy/</guid>
-      <description>The example-driven, practical walkthrough of Large Language Models and their growing list of related features - by How I use LLMs | Andrej Karpathy&#xA;Chapters&#xA;[00:00:00](https://www.youtube.com/watch?v=EWvNQjAaOHw) Intro into the growing LLM ecosystem [00:02:54](https://www.youtube.com/watch?v=EWvNQjAaOHw&amp;amp;t=174s) ChatGPT interaction under the hood [00:13:12](https://www.youtube.com/watch?v=EWvNQjAaOHw&amp;amp;t=792s) Basic LLM interactions examples [00:18:03](https://www.youtube.com/watch?v=EWvNQjAaOHw&amp;amp;t=1083s) Be aware of the model you&amp;#39;re using, pricing tiers [00:22:54](https://www.youtube.com/watch?v=EWvNQjAaOHw&amp;amp;t=1374s) Thinking models and when to use them [00:31:00](https://www.youtube.com/watch?v=EWvNQjAaOHw&amp;amp;t=1860s) Tool use: **internet search** [00:42:04](https://www.youtube.com/watch?v=EWvNQjAaOHw&amp;amp;t=2524s) Tool use: **deep research** [00:50:57](https://www.</description>
+      <description>The example-driven, practical walkthrough of Large Language Models and their growing list of related features - by How I use LLMs | Andrej Karpathy&#xA;Chapters&#xA;00:00:00 Intro into the growing LLM ecosystem 00:02:54 ChatGPT interaction under the hood 00:13:12 Basic LLM interactions examples 00:18:03 Be aware of the model you&amp;rsquo;re using, pricing tiers 00:22:54 Thinking models and when to use them 00:31:00 Tool use: internet search 00:42:04 Tool use: deep research 00:50:57 File uploads, adding documents to context 00:59:00 Tool use: python interpreter, messiness of the ecosystem 01:04:35 ChatGPT Advanced Data Analysis, figures, plots 01:09:00 Claude Artifacts, apps, diagrams 01:14:02 Cursor: Composer, writing code 01:22:28 Audio (Speech) Input/Output 01:27:37 Advanced Voice Mode aka true audio inside the model 01:37:09 NotebookLM, podcast generation 01:40:20 Image input, OCR 01:47:02 Image output - DALL-E, Ideogram, etc.</description>
     </item>
     <item>
       <title>Longest Prefix Matching(LPM)</title>
