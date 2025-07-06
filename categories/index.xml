@@ -6,8 +6,22 @@
     <description>Recent content in Categories on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Jul 2025 22:29:45 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 06 Jul 2025 15:31:40 +0530</lastBuildDate>
     <atom:link href="https://prasenjitmanna.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LLM</title>
+      <link>https://prasenjitmanna.com/categories/llm/</link>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://prasenjitmanna.com/categories/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>https://prasenjitmanna.com/categories/tools/</link>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://prasenjitmanna.com/categories/tools/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Blogs</title>
       <link>https://prasenjitmanna.com/categories/blogs/</link>
