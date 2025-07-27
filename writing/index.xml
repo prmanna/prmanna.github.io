@@ -6,7 +6,7 @@
     <description>Recent content in Writings on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Jul 2025 14:01:54 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 27 Jul 2025 21:27:52 +0530</lastBuildDate>
     <atom:link href="https://prasenjitmanna.com/writing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Non-Cryptographic Hash Functions for Routing</title>
@@ -62,7 +62,7 @@
       <link>https://prasenjitmanna.com/writing/2024-07-16-ietf-data-center-networking-for-ai-clusters/</link>
       <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/writing/2024-07-16-ietf-data-center-networking-for-ai-clusters/</guid>
-      <description>IETF - Data Center Networking for AI Clusters There has been a significant rise in the popularity of Artificial Intelligence and Machine Learning, leading to the design of data centers specifically tailored for large-scale AI model training. These advanced networks impose unique requirements for network topologies and interconnecting technologies.&#xA;IETF 117 AIDC Side Meeting IETF 118 AIDC Side Meeting IETF 119 AIDC Side Meeting IETF 120 AIDC Side Meeting IETF 121 AIDC Side Meeting IETF 123 AIDC Side Meeting Networking for AI IETF 123 side meeting on (Inter) Networking for AI Join my email list to get direct access to new blog posts.</description>
+      <description>IETF - Data Center Networking for AI Clusters There has been a significant rise in the popularity of Artificial Intelligence and Machine Learning, leading to the design of data centers specifically tailored for large-scale AI model training. These advanced networks impose unique requirements for network topologies and interconnecting technologies.&#xA;IETF 117 AIDC Side Meeting IETF 118 AIDC Side Meeting IETF 119 AIDC Side Meeting IETF 120 AIDC Side Meeting IETF 121 AIDC Side Meeting IETF 123 AIDC Side Meeting Networking for AI IETF 123 side meeting on (Inter) Networking for AI Inter-DC AI IETF 120 Inter-DC &amp;amp; Edge AI traffic handling IETF 121 Inter-DC &amp;amp; Edge AI traffic handling Join my email list to get direct access to new blog posts.</description>
     </item>
     <item>
       <title>Clos IP Traffic between Leaf and Spine &amp; Tromboning</title>
