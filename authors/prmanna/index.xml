@@ -6,7 +6,7 @@
     <description>Recent content in Prmanna on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Jul 2025 12:54:29 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 27 Jul 2025 14:01:54 +0530</lastBuildDate>
     <atom:link href="https://prasenjitmanna.com/authors/prmanna/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How I use LLMs | Tools | Andrej Karpathy</title>
@@ -118,14 +118,14 @@
       <link>https://prasenjitmanna.com/writing/2024-07-30-ietf-ai-for-networking/</link>
       <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/writing/2024-07-30-ietf-ai-for-networking/</guid>
-      <description>IETF - Applicability of AI in the Network This is one of the hot topic in networking. There are side meeting in IETF also.&#xA;IETF 118 Side Meeting&#xA;IETF 119 Side Meeting&#xA;IETF 120 Side Meeting&#xA;IETF 121 Side Meeting&#xA;IETF 123 side meeting on (Inter) Networking for AI</description>
+      <description>IETF - Applicability of AI in the Network This is one of the hot topic in networking. There are side meeting in IETF also.&#xA;IETF 118 Side Meeting IETF 119 Side Meeting IETF 120 Side Meeting IETF 121 Side Meeting </description>
     </item>
     <item>
       <title>IETF - Data Center Networking for AI Clusters</title>
       <link>https://prasenjitmanna.com/writing/2024-07-16-ietf-data-center-networking-for-ai-clusters/</link>
       <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/writing/2024-07-16-ietf-data-center-networking-for-ai-clusters/</guid>
-      <description>IETF - Data Center Networking for AI Clusters There has been a significant rise in the popularity of Artificial Intelligence and Machine Learning, leading to the design of data centers specifically tailored for large-scale AI model training. These advanced networks impose unique requirements for network topologies and interconnecting technologies.&#xA;IETF 117 AIDC Side Meeting IETF 118 AIDC Side Meeting IETF 119 AIDC Side Meeting IETF 120 AIDC Side Meeting IETF 121 AIDC Side Meeting IETF 123 AIDC Side Meeting Join my email list to get direct access to new blog posts.</description>
+      <description>IETF - Data Center Networking for AI Clusters There has been a significant rise in the popularity of Artificial Intelligence and Machine Learning, leading to the design of data centers specifically tailored for large-scale AI model training. These advanced networks impose unique requirements for network topologies and interconnecting technologies.&#xA;IETF 117 AIDC Side Meeting IETF 118 AIDC Side Meeting IETF 119 AIDC Side Meeting IETF 120 AIDC Side Meeting IETF 121 AIDC Side Meeting IETF 123 AIDC Side Meeting Networking for AI IETF 123 side meeting on (Inter) Networking for AI Join my email list to get direct access to new blog posts.</description>
     </item>
     <item>
       <title>Clos IP Traffic between Leaf and Spine &amp; Tromboning</title>
