@@ -6,8 +6,15 @@
     <description>Recent content in AI on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Jul 2025 21:27:52 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 27 Jul 2025 21:31:03 +0530</lastBuildDate>
     <atom:link href="https://prasenjitmanna.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IETF - AI Agent</title>
+      <link>https://prasenjitmanna.com/writing/2025-07-27-ietf-ai-agent/</link>
+      <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://prasenjitmanna.com/writing/2025-07-27-ietf-ai-agent/</guid>
+      <description>IETF - AI Agent This is one of the hot topic in networking. There are side meeting in IETF also.</description>
+    </item>
     <item>
       <title>IETF - Adaptive/Perceptive Routing</title>
       <link>https://prasenjitmanna.com/writing/2024-11-11-ietf-adaptive-perceptive-routing/</link>
