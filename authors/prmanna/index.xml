@@ -6,7 +6,7 @@
     <description>Recent content in Prmanna on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Jul 2025 21:31:03 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 10 Aug 2025 23:18:50 +0530</lastBuildDate>
     <atom:link href="https://prasenjitmanna.com/authors/prmanna/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IETF - AI Agent</title>
@@ -34,7 +34,7 @@
       <link>https://prasenjitmanna.com/writing/2025-04-13-ipv6-operations/</link>
       <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/writing/2025-04-13-ipv6-operations/</guid>
-      <description>Over last 10 years, IPv6 standards have evolved significantly. It is important to understand the current status of these standards, as ongoing evolution—driven by various real-world deployments—has rendered some earlier standards obsolete. The following documents provide an overview of IPv6 and its current standardization status.&#xA;Primer - A collaborative IPv6 book by Nick Buraglio and Brian E. Carpenter, Book Copy in PDF, github IPv6 Operations ETSI IPv6 White Paper outlines best practices, challenges, benefits and the way forward - ETSI White Paper on website IETF RFC - IPv6 Deployment Status ETSI IPv6 Enhanced Innovation: Gap Analysis - ETSI White Paper on website ETSI - IPv6 Enhanced Innovation (IPE); IPv6 based Data Centers, Network and Cloud Integration - ETSI White Paper on website Join my email list to get direct access to new blog posts.</description>
+      <description>Over last 10 years, IPv6 standards have evolved significantly. It is important to understand the current status of these standards, as ongoing evolution—driven by various real-world deployments—has rendered some earlier standards obsolete. The following documents provide an overview of IPv6 and its current standardization status.&#xA;Primer - A collaborative IPv6 book by Nick Buraglio and Brian E. Carpenter, Book Copy in PDF, github&#xA;Inessential IPv6. A primer for those with a technical background, Service Provider Background</description>
     </item>
     <item>
       <title>Longest Prefix Matching(LPM)</title>
