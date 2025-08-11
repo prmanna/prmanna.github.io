@@ -6,7 +6,7 @@
     <description>Recent content in Writings on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 10 Aug 2025 23:18:50 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 11 Aug 2025 20:58:07 +0530</lastBuildDate>
     <atom:link href="https://prasenjitmanna.com/writing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IETF - AI Agent</title>
@@ -27,7 +27,7 @@
       <link>https://prasenjitmanna.com/writing/2025-04-13-ipv6-operations/</link>
       <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/writing/2025-04-13-ipv6-operations/</guid>
-      <description>Over last 10 years, IPv6 standards have evolved significantly. It is important to understand the current status of these standards, as ongoing evolution—driven by various real-world deployments—has rendered some earlier standards obsolete. The following documents provide an overview of IPv6 and its current standardization status.&#xA;Primer - A collaborative IPv6 book by Nick Buraglio and Brian E. Carpenter, Book Copy in PDF, github&#xA;Inessential IPv6. A primer for those with a technical background, Service Provider Background</description>
+      <description>Over last 10 years, IPv6 standards have evolved significantly. It is important to understand the current status of these standards, as ongoing evolution—driven by various real-world deployments—has rendered some earlier standards obsolete. The following documents provide an overview of IPv6 and its current standardization status.&#xA;Primer - A collaborative IPv6 book by Nick Buraglio and Brian E. Carpenter, Book Copy in PDF, github Deployment Guide Inessential IPv6. A primer for those with a technical background (Updated July 2023), Service Provider Background The JANET technical guide to IPv6 (April 2021) The APNIC IPv6 Fundamentals Course The RIPE NCC Advanced IPv6 training course.</description>
     </item>
     <item>
       <title>IETF - Adaptive/Perceptive Routing</title>
