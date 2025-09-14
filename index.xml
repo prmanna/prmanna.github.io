@@ -12,7 +12,7 @@
       <link>https://prasenjitmanna.com/blogs/2025-09-14-segment-routing-intro/</link>
       <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2025-09-14-segment-routing-intro/</guid>
-      <description>Introduction to Segment Routing - A foundation for autonomous networking | Cisco Live A Guide to a Successful Segment Routing Deployment | Cisco Live Segment Routing - A tutorial in SANOG36 &amp;lt;!form style=&#34;border:1px solid #ccc;padding:3px;text-align:center;&#34; action=&#34;https://tinyletter.com/prmanna&#34; method=&#34;post&#34; target=&#34;popupwindow&#34; onsubmit=&#34;window.open(&#39;https://tinyletter.com/prmanna&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=600&#39;);return true&#34;&gt;Join my email list to get direct access to new blog posts.</description>
+      <description> Introduction to Segment Routing - A foundation for autonomous networking | Cisco Live A Guide to a Successful Segment Routing Deployment | Cisco Live Segment Routing - A tutorial in SANOG36 </description>
     </item>
     <item>
       <title>IETF - AI Agent</title>
@@ -47,35 +47,35 @@
       <link>https://prasenjitmanna.com/blogs/2025-03-24-longest-prefix-matching/</link>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2025-03-24-longest-prefix-matching/</guid>
-      <description>Longest Prefix Matching (LPM) In general, LPM (Longest prefix match) is an important know how in routing. There are topic like TCAM, Trie, Multibit trie, Compressed Trie/Patricia Tie, Bloom Filter, Hash Table, etc, are considered in routing lookup. These are few articles created the gist for it.&#xA;Longest Prefix Matching in Networking Chips by Sharada Yeluri Hashing Strategies for Packet Processing by Diptanshu Singh &amp;lt;!form style=&#34;border:1px solid #ccc;padding:3px;text-align:center;&#34; action=&#34;https://tinyletter.com/prmanna&#34; method=&#34;post&#34; target=&#34;</description>
+      <description>Longest Prefix Matching (LPM) In general, LPM (Longest prefix match) is an important know how in routing. There are topic like TCAM, Trie, Multibit trie, Compressed Trie/Patricia Tie, Bloom Filter, Hash Table, etc, are considered in routing lookup. These are few articles created the gist for it.&#xA;Longest Prefix Matching in Networking Chips by Sharada Yeluri Hashing Strategies for Packet Processing by Diptanshu Singh </description>
     </item>
     <item>
       <title>Router Forwarding Engines Series by Russ White</title>
       <link>https://prasenjitmanna.com/blogs/2025-02-05-router-forwarding-engines-series-by-russ-white/</link>
       <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2025-02-05-router-forwarding-engines-series-by-russ-white/</guid>
-      <description>Router Forwarding Engines Series by Russ White&#xA;A Close Look at Router Forwarding Engines: Part 1 – What are the Problems? Router Forwarding Engines: Part 2 – OpenFlow and I2RS as Possible Solutions Router Forwarding Engines: Part 3 – P4 and SAI Routing Forwarding Engines: Part 4 – Discarding, Punting, and DPDK Router Forwarding Engines: Part 5 – eBPF &amp;lt;!form style=&#34;border:1px solid #ccc;padding:3px;text-align:center;&#34; action=&#34;https://tinyletter.com/prmanna&#34; method=&#34;post&#34; target=&#34;popupwindow&#34; onsubmit=&#34;window.open(&#39;https://tinyletter.com/prmanna&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=600&#39;);return true&#34;&gt;Join my email list to get direct access to new blog posts.</description>
+      <description>Router Forwarding Engines Series by Russ White&#xA;A Close Look at Router Forwarding Engines: Part 1 – What are the Problems? Router Forwarding Engines: Part 2 – OpenFlow and I2RS as Possible Solutions Router Forwarding Engines: Part 3 – P4 and SAI Routing Forwarding Engines: Part 4 – Discarding, Punting, and DPDK Router Forwarding Engines: Part 5 – eBPF </description>
     </item>
     <item>
       <title>A Primer on Communication Fundamentals</title>
       <link>https://prasenjitmanna.com/blogs/2025-01-30-primers-on-optics-communication/</link>
       <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2025-01-30-primers-on-optics-communication/</guid>
-      <description>A Primer on Communication Fundamentals &amp;lt;!form style=&#34;border:1px solid #ccc;padding:3px;text-align:center;&#34; action=&#34;https://tinyletter.com/prmanna&#34; method=&#34;post&#34; target=&#34;popupwindow&#34; onsubmit=&#34;window.open(&#39;https://tinyletter.com/prmanna&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=600&#39;);return true&#34;&gt;Join my email list to get direct access to new blog posts.</description>
+      <description>A Primer on Communication Fundamentals </description>
     </item>
     <item>
       <title>Linux Audit Daemon Guide</title>
       <link>https://prasenjitmanna.com/blogs/2024-12-08-linux-auditd-usecase/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2024-12-08-linux-auditd-usecase/</guid>
-      <description>Excellent Article for Linux auditd for Threat Detection by Izy&#xA;Linux auditd for Threat Detection [Part 1] Linux auditd for Threat Detection [Part 2] Linux auditd for Threat Detection [Final] &amp;lt;!form style=&#34;border:1px solid #ccc;padding:3px;text-align:center;&#34; action=&#34;https://tinyletter.com/prmanna&#34; method=&#34;post&#34; target=&#34;popupwindow&#34; onsubmit=&#34;window.open(&#39;https://tinyletter.com/prmanna&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=600&#39;);return true&#34;&gt;Join my email list to get direct access to new blog posts.</description>
+      <description>Excellent Article for Linux auditd for Threat Detection by Izy&#xA;Linux auditd for Threat Detection [Part 1] Linux auditd for Threat Detection [Part 2] Linux auditd for Threat Detection [Final] </description>
     </item>
     <item>
       <title>IETF - Adaptive/Perceptive Routing</title>
       <link>https://prasenjitmanna.com/writing/2024-11-11-ietf-adaptive-perceptive-routing/</link>
       <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/writing/2024-11-11-ietf-adaptive-perceptive-routing/</guid>
-      <description>IETF - Adaptive/Perceptive Routing IETF 121 Side Meeting &amp;lt;!form style=&#34;border:1px solid #ccc;padding:3px;text-align:center;&#34; action=&#34;https://tinyletter.com/prmanna&#34; method=&#34;post&#34; target=&#34;popupwindow&#34; onsubmit=&#34;window.open(&#39;https://tinyletter.com/prmanna&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=600&#39;);return true&#34;&gt;Join my email list to get direct access to new blog posts.</description>
+      <description>IETF - Adaptive/Perceptive Routing IETF 121 Side Meeting </description>
     </item>
     <item>
       <title>Podcast Summary - Scaling Data Center Networks | Between 0x2 Nerds</title>
@@ -103,7 +103,7 @@
       <link>https://prasenjitmanna.com/blogs/2024-09-18-primers-on-technology/</link>
       <pubDate>Wed, 18 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2024-09-18-primers-on-technology/</guid>
-      <description>Link -&amp;gt; A Primer on the Cloud Link - &amp;gt; A Primer on Data Centers &amp;lt;!form style=&#34;border:1px solid #ccc;padding:3px;text-align:center;&#34; action=&#34;https://tinyletter.com/prmanna&#34; method=&#34;post&#34; target=&#34;popupwindow&#34; onsubmit=&#34;window.open(&#39;https://tinyletter.com/prmanna&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=600&#39;);return true&#34;&gt;Join my email list to get direct access to new blog posts.</description>
+      <description>Link -&amp;gt; A Primer on the Cloud Link - &amp;gt; A Primer on Data Centers </description>
     </item>
     <item>
       <title>IETF - Yang Models</title>
@@ -117,14 +117,14 @@
       <link>https://prasenjitmanna.com/writing/2024-08-06-network-observability/</link>
       <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/writing/2024-08-06-network-observability/</guid>
-      <description>Network Observability The Many Uses of Network Observability Connections 2024: Network Observability Slides: Slides Recording: Recording &amp;lt;!form style=&#34;border:1px solid #ccc;padding:3px;text-align:center;&#34; action=&#34;https://tinyletter.com/prmanna&#34; method=&#34;post&#34; target=&#34;popupwindow&#34; onsubmit=&#34;window.open(&#39;https://tinyletter.com/prmanna&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=600&#39;);return true&#34;&gt;Join my email list to get direct access to new blog posts.</description>
+      <description>Network Observability The Many Uses of Network Observability Connections 2024: Network Observability Slides: Slides Recording: Recording </description>
     </item>
     <item>
       <title>The Evolution of Data Center Networking for AI Clusters</title>
       <link>https://prasenjitmanna.com/writing/2024-08-01-evolution-data-center-networking-for-ai-clusters/</link>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/writing/2024-08-01-evolution-data-center-networking-for-ai-clusters/</guid>
-      <description>Data Center Networking for AI Clusters The Evolution of Data Center Networking for AI Workloads by Kentik Evolution of Data Center Networking Designs and Systems for AI Infrastructure by Sujal Das Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 1 Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 2 Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 3 Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 4 (Final) RoCE: from humble beginnings to being a star in the world of AI networking today Excellent Articles by Sharada Yeluri Large Language Models - The Hardware Connection GPU Fabrics for GenAI Workloads LLM Inference - HW/SW Optimizations In Network Acceleration for AI/ML Workloads By Cisco Cisco Massively Scalable Data Center Network Fabric Design and Operation White Paper Cisco Data Center Networking Blueprint for AI/ML Applications Evolve your AI/ML Network with Cisco Silicon One Nemanja Kamenica, Cisco, Network Best Practices for Artificial Intelligence Data Centre, Cisco Live, BRKDCN-2920, Supporting documents: Multi-Tier Fabrics, Network Designs for the Modern Data Center By Juniper NETWORKING THE AI DATA CENTER by Juniper Designing Data Centers for AI Clusters by Juniper By Arista AI Networking by Arista Networking for the Era of AI: The Network Defines the Data Center by Nvidia, mirror RoCE networks for distributed AI training at scale by Meta Development Prospects for AI Data Center Network Architecture and Connectivity Technology by Rosenberger Demystifying AI Networking Protocols by Randy Zhang RoCE networks for distributed AI training at scale in Meta &amp;lt;!</description>
+      <description>Data Center Networking for AI Clusters The Evolution of Data Center Networking for AI Workloads by Kentik Evolution of Data Center Networking Designs and Systems for AI Infrastructure by Sujal Das Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 1 Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 2 Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 3 Evolution of Data Center Networking Designs and Systems for AI Infrastructure, Part 4 (Final) RoCE: from humble beginnings to being a star in the world of AI networking today Excellent Articles by Sharada Yeluri Large Language Models - The Hardware Connection GPU Fabrics for GenAI Workloads LLM Inference - HW/SW Optimizations In Network Acceleration for AI/ML Workloads By Cisco Cisco Massively Scalable Data Center Network Fabric Design and Operation White Paper Cisco Data Center Networking Blueprint for AI/ML Applications Evolve your AI/ML Network with Cisco Silicon One Nemanja Kamenica, Cisco, Network Best Practices for Artificial Intelligence Data Centre, Cisco Live, BRKDCN-2920, Supporting documents: Multi-Tier Fabrics, Network Designs for the Modern Data Center By Juniper NETWORKING THE AI DATA CENTER by Juniper Designing Data Centers for AI Clusters by Juniper By Arista AI Networking by Arista Networking for the Era of AI: The Network Defines the Data Center by Nvidia, mirror RoCE networks for distributed AI training at scale by Meta Development Prospects for AI Data Center Network Architecture and Connectivity Technology by Rosenberger Demystifying AI Networking Protocols by Randy Zhang RoCE networks for distributed AI training at scale in Meta </description>
     </item>
     <item>
       <title>IETF - AI for Networking</title>
@@ -138,7 +138,7 @@
       <link>https://prasenjitmanna.com/writing/2024-07-16-ietf-data-center-networking-for-ai-clusters/</link>
       <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/writing/2024-07-16-ietf-data-center-networking-for-ai-clusters/</guid>
-      <description>IETF - Data Center Networking for AI Clusters There has been a significant rise in the popularity of Artificial Intelligence and Machine Learning, leading to the design of data centers specifically tailored for large-scale AI model training. These advanced networks impose unique requirements for network topologies and interconnecting technologies.&#xA;IETF 117 AIDC Side Meeting IETF 118 AIDC Side Meeting IETF 119 AIDC Side Meeting IETF 120 AIDC Side Meeting IETF 121 AIDC Side Meeting IETF 123 AIDC Side Meeting Networking for AI IETF 123 side meeting on (Inter) Networking for AI Inter-DC AI IETF 120 Inter-DC &amp;amp; Edge AI traffic handling IETF 121 Inter-DC &amp;amp; Edge AI traffic handling &amp;lt;!</description>
+      <description>IETF - Data Center Networking for AI Clusters There has been a significant rise in the popularity of Artificial Intelligence and Machine Learning, leading to the design of data centers specifically tailored for large-scale AI model training. These advanced networks impose unique requirements for network topologies and interconnecting technologies.&#xA;IETF 117 AIDC Side Meeting IETF 118 AIDC Side Meeting IETF 119 AIDC Side Meeting IETF 120 AIDC Side Meeting IETF 121 AIDC Side Meeting IETF 123 AIDC Side Meeting Networking for AI IETF 123 side meeting on (Inter) Networking for AI Inter-DC AI IETF 120 Inter-DC &amp;amp; Edge AI traffic handling IETF 121 Inter-DC &amp;amp; Edge AI traffic handling </description>
     </item>
     <item>
       <title>Clos IP Traffic between Leaf and Spine &amp; Tromboning</title>
@@ -194,28 +194,28 @@
       <link>https://prasenjitmanna.com/blogs/2023-03-05-how-to-get-promoted-by-steve-dennis/</link>
       <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2023-03-05-how-to-get-promoted-by-steve-dennis/</guid>
-      <description>How to Get Promoted at Work by Steve Dennis&#xA;7 Tips&#xA;Understand what you want Understand the role Understand the environment Tell impact stories Proactively seek feedback Avoid the victim trap Own it &amp;lt;!form style=&#34;border:1px solid #ccc;padding:3px;text-align:center;&#34; action=&#34;https://tinyletter.com/prmanna&#34; method=&#34;post&#34; target=&#34;popupwindow&#34; onsubmit=&#34;window.open(&#39;https://tinyletter.com/prmanna&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=600&#39;);return true&#34;&gt;Join my email list to get direct access to new blog posts.</description>
+      <description>How to Get Promoted at Work by Steve Dennis&#xA;7 Tips&#xA;Understand what you want Understand the role Understand the environment Tell impact stories Proactively seek feedback Avoid the victim trap Own it </description>
     </item>
     <item>
       <title>Networks, Buffers, and Drops</title>
       <link>https://prasenjitmanna.com/blogs/2023-03-04-networks-buffers-drops/</link>
       <pubDate>Sat, 04 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2023-03-04-networks-buffers-drops/</guid>
-      <description>Networks, Buffers, and Drops - Deep Dive by ipspace.in&#xA;&amp;lt;!form style=&#34;border:1px solid #ccc;padding:3px;text-align:center;&#34; action=&#34;https://tinyletter.com/prmanna&#34; method=&#34;post&#34; target=&#34;popupwindow&#34; onsubmit=&#34;window.open(&#39;https://tinyletter.com/prmanna&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=600&#39;);return true&#34;&gt;Join my email list to get direct access to new blog posts.</description>
+      <description>Networks, Buffers, and Drops - Deep Dive by ipspace.in</description>
     </item>
     <item>
       <title>49 Questions to Improve Your Results | Josh Kaufman</title>
       <link>https://prasenjitmanna.com/blogs/2023-02-23-49-questions-to-improve-by-josh-kaufman/</link>
       <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2023-02-23-49-questions-to-improve-by-josh-kaufman/</guid>
-      <description>49 Questions to Improve Your Results by Josh Kaufman&#xA;Do I use my body optimally? Do I know what I want? What am I afraid of? Is my mind clear and focused? Am I confident, relaxed, and productive? How do I perform best? What do I really need to be happy and fulfilled? &amp;lt;!form style=&#34;border:1px solid #ccc;padding:3px;text-align:center;&#34; action=&#34;https://tinyletter.com/prmanna&#34; method=&#34;post&#34; target=&#34;popupwindow&#34; onsubmit=&#34;window.open(&#39;https://tinyletter.com/prmanna&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=600&#39;);return true&#34;&gt;Join my email list to get direct access to new blog posts.</description>
+      <description>49 Questions to Improve Your Results by Josh Kaufman&#xA;Do I use my body optimally? Do I know what I want? What am I afraid of? Is my mind clear and focused? Am I confident, relaxed, and productive? How do I perform best? What do I really need to be happy and fulfilled? </description>
     </item>
     <item>
       <title>How to create luck</title>
       <link>https://prasenjitmanna.com/blogs/2023-02-23-how-to-create-luck-by-swyx/</link>
       <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2023-02-23-how-to-create-luck-by-swyx/</guid>
-      <description>How to create luck? by Swyx&#xA;&amp;lt;!form style=&#34;border:1px solid #ccc;padding:3px;text-align:center;&#34; action=&#34;https://tinyletter.com/prmanna&#34; method=&#34;post&#34; target=&#34;popupwindow&#34; onsubmit=&#34;window.open(&#39;https://tinyletter.com/prmanna&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=600&#39;);return true&#34;&gt;Join my email list to get direct access to new blog posts.</description>
+      <description>How to create luck? by Swyx</description>
     </item>
     <item>
       <title>Best Articles by First Round Review</title>
@@ -264,21 +264,21 @@
       <link>https://prasenjitmanna.com/blogs/2022-09-25-ti-lfa/</link>
       <pubDate>Sun, 25 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2022-09-25-ti-lfa/</guid>
-      <description>APNIC article on SR TI-LFA by Ron Bonica.&#xA;SR TI-LFA: Segment Routing and Topology Independent Loop-Free Alternates&#xA;NANOG 79 Recording&#xA;&amp;lt;!form style=&#34;border:1px solid #ccc;padding:3px;text-align:center;&#34; action=&#34;https://tinyletter.com/prmanna&#34; method=&#34;post&#34; target=&#34;popupwindow&#34; onsubmit=&#34;window.open(&#39;https://tinyletter.com/prmanna&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=600&#39;);return true&#34;&gt;Join my email list to get direct access to new blog posts.</description>
+      <description>APNIC article on SR TI-LFA by Ron Bonica.&#xA;SR TI-LFA: Segment Routing and Topology Independent Loop-Free Alternates&#xA;NANOG 79 Recording</description>
     </item>
     <item>
       <title>Misc Advices on Career</title>
       <link>https://prasenjitmanna.com/blogs/2022-09-17-misc-advices/</link>
       <pubDate>Sat, 17 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2022-09-17-misc-advices/</guid>
-      <description>Few career advices, I leant over the years&#xA;Bite Tips&#xA;Always learn Stay Humble You should be valued Be mindful to your risk tolerance Be discoverable Dont stay comfortable for too long Decisions are not permanent Run Marathon, not sprint People, not jobs, are permanent Try lots of different things &amp;lt;!form style=&#34;border:1px solid #ccc;padding:3px;text-align:center;&#34; action=&#34;https://tinyletter.com/prmanna&#34; method=&#34;post&#34; target=&#34;popupwindow&#34; onsubmit=&#34;window.open(&#39;https://tinyletter.com/prmanna&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=600&#39;);return true&#34;&gt;Join my email list to get direct access to new blog posts.</description>
+      <description>Few career advices, I leant over the years&#xA;Bite Tips&#xA;Always learn Stay Humble You should be valued Be mindful to your risk tolerance Be discoverable Dont stay comfortable for too long Decisions are not permanent Run Marathon, not sprint People, not jobs, are permanent Try lots of different things </description>
     </item>
     <item>
       <title>Learn Like an Athlete</title>
       <link>https://prasenjitmanna.com/blogs/2022-08-20-learn-like-an-athlete/</link>
       <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2022-08-20-learn-like-an-athlete/</guid>
-      <description>Athletes train. Musicians train. Performers train. But knowledge workers don’t. Learn Like an Athlete&#xA;&amp;lt;!form style=&#34;border:1px solid #ccc;padding:3px;text-align:center;&#34; action=&#34;https://tinyletter.com/prmanna&#34; method=&#34;post&#34; target=&#34;popupwindow&#34; onsubmit=&#34;window.open(&#39;https://tinyletter.com/prmanna&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=600&#39;);return true&#34;&gt;Join my email list to get direct access to new blog posts.</description>
+      <description>Athletes train. Musicians train. Performers train. But knowledge workers don’t. Learn Like an Athlete</description>
     </item>
     <item>
       <title>notes-to-self</title>
@@ -299,42 +299,42 @@
       <link>https://prasenjitmanna.com/blogs/2022-06-03-glimpse-of-segment-routing-approach/</link>
       <pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2022-06-03-glimpse-of-segment-routing-approach/</guid>
-      <description>A Glimpse At Two Approaches To Segment Routing&#xA;Topic Covered:&#xA;SR-MPLS Vs. SRv6 SRv6 Adoption Challenges Hardware &amp;amp; Software Support For SRv6 Appendix:&#xA;by Clarence Filsfils&#xA;What is SRv6 network programming? SRv6: Deployed use-cases SRv6 micro-instructions &amp;lt;!form style=&#34;border:1px solid #ccc;padding:3px;text-align:center;&#34; action=&#34;https://tinyletter.com/prmanna&#34; method=&#34;post&#34; target=&#34;popupwindow&#34; onsubmit=&#34;window.open(&#39;https://tinyletter.com/prmanna&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=600&#39;);return true&#34;&gt;Join my email list to get direct access to new blog posts.</description>
+      <description>A Glimpse At Two Approaches To Segment Routing&#xA;Topic Covered:&#xA;SR-MPLS Vs. SRv6 SRv6 Adoption Challenges Hardware &amp;amp; Software Support For SRv6 Appendix:&#xA;by Clarence Filsfils&#xA;What is SRv6 network programming? SRv6: Deployed use-cases SRv6 micro-instructions </description>
     </item>
     <item>
       <title>The Joy of Small Projects</title>
       <link>https://prasenjitmanna.com/blogs/2022-05-24-joy-of-small-projects/</link>
       <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2022-05-24-joy-of-small-projects/</guid>
-      <description>The Joy of Small Projects&#xA;&amp;lt;!form style=&#34;border:1px solid #ccc;padding:3px;text-align:center;&#34; action=&#34;https://tinyletter.com/prmanna&#34; method=&#34;post&#34; target=&#34;popupwindow&#34; onsubmit=&#34;window.open(&#39;https://tinyletter.com/prmanna&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=600&#39;);return true&#34;&gt;Join my email list to get direct access to new blog posts.</description>
+      <description>The Joy of Small Projects</description>
     </item>
     <item>
       <title>Deliberate Practice by Jason Shen</title>
       <link>https://prasenjitmanna.com/blogs/2022-05-16-deliberate-practice/</link>
       <pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2022-05-16-deliberate-practice/</guid>
-      <description>Deliberate Practice by Jason Shen&#xA;The Complete Guide to Deliberate Practice&#xA;&amp;lt;!form style=&#34;border:1px solid #ccc;padding:3px;text-align:center;&#34; action=&#34;https://tinyletter.com/prmanna&#34; method=&#34;post&#34; target=&#34;popupwindow&#34; onsubmit=&#34;window.open(&#39;https://tinyletter.com/prmanna&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=600&#39;);return true&#34;&gt;Join my email list to get direct access to new blog posts.</description>
+      <description>Deliberate Practice by Jason Shen&#xA;The Complete Guide to Deliberate Practice</description>
     </item>
     <item>
       <title>Bunch of unsolicited advices by Kevin Kelly</title>
       <link>https://prasenjitmanna.com/blogs/2022-05-11-advice-by-kevin-kelly/</link>
       <pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2022-05-11-advice-by-kevin-kelly/</guid>
-      <description>Bunch of unsolicited advices by Kevin Kelly&#xA;Advice Set I&#xA;Advice Set II&#xA;Advice Set III&#xA;&amp;lt;!form style=&#34;border:1px solid #ccc;padding:3px;text-align:center;&#34; action=&#34;https://tinyletter.com/prmanna&#34; method=&#34;post&#34; target=&#34;popupwindow&#34; onsubmit=&#34;window.open(&#39;https://tinyletter.com/prmanna&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=600&#39;);return true&#34;&gt;Join my email list to get direct access to new blog posts.</description>
+      <description>Bunch of unsolicited advices by Kevin Kelly&#xA;Advice Set I&#xA;Advice Set II&#xA;Advice Set III</description>
     </item>
     <item>
       <title>Semantic Routing - new concept</title>
       <link>https://prasenjitmanna.com/blogs/2022-04-18-semantic-routing/</link>
       <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2022-04-18-semantic-routing/</guid>
-      <description>New discussion in IRTF - Introduction to Semantic Routing&#xA;See the recording at 47 min.&#xA;&amp;lt;!form style=&#34;border:1px solid #ccc;padding:3px;text-align:center;&#34; action=&#34;https://tinyletter.com/prmanna&#34; method=&#34;post&#34; target=&#34;popupwindow&#34; onsubmit=&#34;window.open(&#39;https://tinyletter.com/prmanna&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=600&#39;);return true&#34;&gt;Join my email list to get direct access to new blog posts.</description>
+      <description>New discussion in IRTF - Introduction to Semantic Routing&#xA;See the recording at 47 min.</description>
     </item>
     <item>
       <title>A list of new(ish) command line tools</title>
       <link>https://prasenjitmanna.com/blogs/2022-04-17-list-of-newish-command-line-tools/</link>
       <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2022-04-17-list-of-newish-command-line-tools/</guid>
-      <description>This is really awesome. New generation cmd line tools.&#xA;A list of new(ish) command line tools compiled by Julia.&#xA;&amp;lt;!form style=&#34;border:1px solid #ccc;padding:3px;text-align:center;&#34; action=&#34;https://tinyletter.com/prmanna&#34; method=&#34;post&#34; target=&#34;popupwindow&#34; onsubmit=&#34;window.open(&#39;https://tinyletter.com/prmanna&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=600&#39;);return true&#34;&gt;Join my email list to get direct access to new blog posts.</description>
+      <description>This is really awesome. New generation cmd line tools.&#xA;A list of new(ish) command line tools compiled by Julia.</description>
     </item>
     <item>
       <title>Get your work recognized - write a brag document</title>
@@ -355,14 +355,14 @@
       <link>https://prasenjitmanna.com/blogs/2022-03-19-how-to-achieve-career-growth/</link>
       <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2022-03-19-how-to-achieve-career-growth/</guid>
-      <description>In general, you might want to grow in your software engineering career, but:&#xA;what does growth mean? how can you achieve it? who decides if you are ready to grow? where do you start?&#xA;How to achieve career growth: opportunities, skills &amp;amp; sponsors&#xA;This is a very insightful article. It clearly depicts the importance of self-awareness and drive the grown by yourself.&#xA;&amp;lt;!form style=&#34;border:1px solid #ccc;padding:3px;text-align:center;&#34; action=&#34;https://tinyletter.com/prmanna&#34; method=&#34;post&#34; target=&#34;popupwindow&#34; onsubmit=&#34;</description>
+      <description>In general, you might want to grow in your software engineering career, but:&#xA;what does growth mean? how can you achieve it? who decides if you are ready to grow? where do you start?&#xA;How to achieve career growth: opportunities, skills &amp;amp; sponsors&#xA;This is a very insightful article. It clearly depicts the importance of self-awareness and drive the grown by yourself.</description>
     </item>
     <item>
       <title>Managing Yourself</title>
       <link>https://prasenjitmanna.com/blogs/2022-03-16-managing-yourself/</link>
       <pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2022-03-16-managing-yourself/</guid>
-      <description>Managing Yourself by Subbu Allamaraju&#xA;Summary:&#xA;You’re the CEO of yourself — a one-person enterprise — act like one As a CEO, every day, you get to decide how you’re going to invest your time, which is your primary fixed capital. &amp;lt;!form style=&#34;border:1px solid #ccc;padding:3px;text-align:center;&#34; action=&#34;https://tinyletter.com/prmanna&#34; method=&#34;post&#34; target=&#34;popupwindow&#34; onsubmit=&#34;window.open(&#39;https://tinyletter.com/prmanna&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=600&#39;);return true&#34;&gt;Join my email list to get direct access to new blog posts.</description>
+      <description>Managing Yourself by Subbu Allamaraju&#xA;Summary:&#xA;You’re the CEO of yourself — a one-person enterprise — act like one As a CEO, every day, you get to decide how you’re going to invest your time, which is your primary fixed capital. </description>
     </item>
     <item>
       <title>Ethernet Optical Standards</title>
@@ -397,7 +397,7 @@
       <link>https://prasenjitmanna.com/blogs/2022-02-14-scion-segment-routing/</link>
       <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2022-02-14-scion-segment-routing/</guid>
-      <description>SCION vs. Segment Routing&#xA;Book, papers, videos, tutorials - https://www.scion-architecture.net&#xA;&amp;lt;!form style=&#34;border:1px solid #ccc;padding:3px;text-align:center;&#34; action=&#34;https://tinyletter.com/prmanna&#34; method=&#34;post&#34; target=&#34;popupwindow&#34; onsubmit=&#34;window.open(&#39;https://tinyletter.com/prmanna&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=600&#39;);return true&#34;&gt;Join my email list to get direct access to new blog posts.</description>
+      <description>SCION vs. Segment Routing&#xA;Book, papers, videos, tutorials - https://www.scion-architecture.net</description>
     </item>
     <item>
       <title>Blogroll</title>
@@ -460,14 +460,14 @@
       <link>https://prasenjitmanna.com/blogs/2021-12-15-excercise-desk-stretches/</link>
       <pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2021-12-15-excercise-desk-stretches/</guid>
-      <description>&amp;lt;!form style=&#34;border:1px solid #ccc;padding:3px;text-align:center;&#34; action=&#34;https://tinyletter.com/prmanna&#34; method=&#34;post&#34; target=&#34;popupwindow&#34; onsubmit=&#34;window.open(&#39;https://tinyletter.com/prmanna&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=600&#39;);return true&#34;&gt;Join my email list to get direct access to new blog posts.</description>
+      <description></description>
     </item>
     <item>
       <title>ISP Design Guide</title>
       <link>https://prasenjitmanna.com/blogs/2021-11-24-isp-design-guide/</link>
       <pubDate>Wed, 24 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2021-11-24-isp-design-guide/</guid>
-      <description>ISP Design Guide: Separation of network functions – introduction and overview by Kevin Myers&#xA;&amp;lt;!form style=&#34;border:1px solid #ccc;padding:3px;text-align:center;&#34; action=&#34;https://tinyletter.com/prmanna&#34; method=&#34;post&#34; target=&#34;popupwindow&#34; onsubmit=&#34;window.open(&#39;https://tinyletter.com/prmanna&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=600&#39;);return true&#34;&gt;Join my email list to get direct access to new blog posts.</description>
+      <description>ISP Design Guide: Separation of network functions – introduction and overview by Kevin Myers</description>
     </item>
     <item>
       <title>NETCONF vs RESTCONF</title>
@@ -551,7 +551,7 @@
       <link>https://prasenjitmanna.com/blogs/2021-08-03-incomplete-list-skills-for-senior-engineers/</link>
       <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2021-08-03-incomplete-list-skills-for-senior-engineers/</guid>
-      <description>This is indeed good information by Camille Fournier blog post.&#xA;For varying levels of seniority, from senior, to staff, and beyond.&#xA;How to run a meeting, and no, being the person who talks the most in the meeting is not the same thing as running it How to write a design doc, take feedback, and drive it to resolution, in a reasonable period of time How to mentor an early-career teammate, a mid-career engineer, a new manager who needs technical advice How to indulge a senior manager who wants to talk about technical stuff that they don’t really understand, without rolling your eyes or making them feel stupid How to explain a technical concept behind closed doors to a senior person too embarrassed to openly admit that they don’t understand it How to influence another team to use your solution instead of writing their own How to get another engineer to do something for you by asking for help in a way that makes them feel appreciated How to lead a project even though you don’t manage any of the people working on the project How to get other engineers to listen to your ideas without making them feel threatened How to listen to other engineers’ ideas without feeling threatened How to give up your baby, that project that you built into something great, so you can do something else How to teach another engineer to care about that thing you really care about (operations, correctness, testing, code quality, performance, simplicity, etc) How to communicate project status to stakeholders How to convince management that they need to invest in a non-trivial technical project How to build software while delivering incremental value in the process How to craft a project proposal, socialize it, and get buy-in to execute it How to repeat yourself enough that people start to listen How to pick your battles How to help someone get promoted How to get information about what’s really happening (how to gossip, how to network) How to find interesting work on your own, instead of waiting for someone to bring it to you How to tell someone they’re wrong without making them feel ashamed How to take negative feedback gracefully &amp;lt;!</description>
+      <description>This is indeed good information by Camille Fournier blog post.&#xA;For varying levels of seniority, from senior, to staff, and beyond.&#xA;How to run a meeting, and no, being the person who talks the most in the meeting is not the same thing as running it How to write a design doc, take feedback, and drive it to resolution, in a reasonable period of time How to mentor an early-career teammate, a mid-career engineer, a new manager who needs technical advice How to indulge a senior manager who wants to talk about technical stuff that they don’t really understand, without rolling your eyes or making them feel stupid How to explain a technical concept behind closed doors to a senior person too embarrassed to openly admit that they don’t understand it How to influence another team to use your solution instead of writing their own How to get another engineer to do something for you by asking for help in a way that makes them feel appreciated How to lead a project even though you don’t manage any of the people working on the project How to get other engineers to listen to your ideas without making them feel threatened How to listen to other engineers’ ideas without feeling threatened How to give up your baby, that project that you built into something great, so you can do something else How to teach another engineer to care about that thing you really care about (operations, correctness, testing, code quality, performance, simplicity, etc) How to communicate project status to stakeholders How to convince management that they need to invest in a non-trivial technical project How to build software while delivering incremental value in the process How to craft a project proposal, socialize it, and get buy-in to execute it How to repeat yourself enough that people start to listen How to pick your battles How to help someone get promoted How to get information about what’s really happening (how to gossip, how to network) How to find interesting work on your own, instead of waiting for someone to bring it to you How to tell someone they’re wrong without making them feel ashamed How to take negative feedback gracefully </description>
     </item>
     <item>
       <title>Circle of Competence</title>
@@ -593,7 +593,7 @@
       <link>https://prasenjitmanna.com/blogs/2020-12-20-charles-darwin-8-steps-to-steady-state-learning/</link>
       <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2020-12-20-charles-darwin-8-steps-to-steady-state-learning/</guid>
-      <description>Charles Darwin’s 8 Steps to Steady-State Learning&#xA;A life-long program of self-study Keeping a diary/journal Scribbling notes immediately Keeping “indexed portfolios” (notes/summaries of what you&amp;rsquo;ve read or heard) Testing beloved concepts – make a note, immediately, if you come across a thought or idea that is contrary to something you currently believe. Absorb it, study it and don&amp;rsquo;t let it go until you conclude that you need to change your mind or if the thought or ideas is wrong Learning lessons by heart Seeking to earn the approval of great men (dead or alive) The humility to seek not fame (as in, wisdom flows into the humble man like water flows into a depression) &amp;lt;!</description>
+      <description>Charles Darwin’s 8 Steps to Steady-State Learning&#xA;A life-long program of self-study Keeping a diary/journal Scribbling notes immediately Keeping “indexed portfolios” (notes/summaries of what you&amp;rsquo;ve read or heard) Testing beloved concepts – make a note, immediately, if you come across a thought or idea that is contrary to something you currently believe. Absorb it, study it and don&amp;rsquo;t let it go until you conclude that you need to change your mind or if the thought or ideas is wrong Learning lessons by heart Seeking to earn the approval of great men (dead or alive) The humility to seek not fame (as in, wisdom flows into the humble man like water flows into a depression) </description>
     </item>
     <item>
       <title>Clean and Readable Code</title>
@@ -607,7 +607,7 @@
       <link>https://prasenjitmanna.com/blogs/2020-10-01-link-state-protocols-on-data-center-fabrics-internet-protocol-journal-pdf/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2020-10-01-link-state-protocols-on-data-center-fabrics-internet-protocol-journal-pdf/</guid>
-      <description>Link-State Protocols on Data-Center Fabrics – Internet Protocol Journal (PDF)&#xA;&amp;lt;!form style=&#34;border:1px solid #ccc;padding:3px;text-align:center;&#34; action=&#34;https://tinyletter.com/prmanna&#34; method=&#34;post&#34; target=&#34;popupwindow&#34; onsubmit=&#34;window.open(&#39;https://tinyletter.com/prmanna&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=600&#39;);return true&#34;&gt;Join my email list to get direct access to new blog posts.</description>
+      <description>Link-State Protocols on Data-Center Fabrics – Internet Protocol Journal (PDF)</description>
     </item>
     <item>
       <title>How to Think?</title>
