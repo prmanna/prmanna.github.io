@@ -8,6 +8,13 @@
     <language>en</language>
     <atom:link href="https://prasenjitmanna.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Segment Routing - Introduction</title>
+      <link>https://prasenjitmanna.com/blogs/2025-09-14-segment-routing-intro/</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://prasenjitmanna.com/blogs/2025-09-14-segment-routing-intro/</guid>
+      <description>Introduction to Segment Routing - A foundation for autonomous networking Segment Routing - A tutorial in SANOG36 Join my email list to get direct access to new blog posts.</description>
+    </item>
+    <item>
       <title>IETF - AI Agent</title>
       <link>https://prasenjitmanna.com/writing/2025-07-27-ietf-ai-agent/</link>
       <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>

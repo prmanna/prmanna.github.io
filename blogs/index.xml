@@ -6,8 +6,15 @@
     <description>Recent content in Blogs on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Sep 2025 10:33:21 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 14 Sep 2025 15:48:25 +0530</lastBuildDate>
     <atom:link href="https://prasenjitmanna.com/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Segment Routing - Introduction</title>
+      <link>https://prasenjitmanna.com/blogs/2025-09-14-segment-routing-intro/</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://prasenjitmanna.com/blogs/2025-09-14-segment-routing-intro/</guid>
+      <description>Introduction to Segment Routing - A foundation for autonomous networking Segment Routing - A tutorial in SANOG36 Join my email list to get direct access to new blog posts.</description>
+    </item>
     <item>
       <title>How I use LLMs | Tools | Andrej Karpathy</title>
       <link>https://prasenjitmanna.com/blogs/2025-07-05-how-llm-used-by-andrej-karpathy/</link>

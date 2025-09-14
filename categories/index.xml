@@ -6,8 +6,22 @@
     <description>Recent content in Categories on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Sep 2025 10:33:21 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 14 Sep 2025 15:48:25 +0530</lastBuildDate>
     <atom:link href="https://prasenjitmanna.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blogs</title>
+      <link>https://prasenjitmanna.com/categories/blogs/</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://prasenjitmanna.com/categories/blogs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Segment Routing</title>
+      <link>https://prasenjitmanna.com/categories/segment-routing/</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://prasenjitmanna.com/categories/segment-routing/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Ietf</title>
       <link>https://prasenjitmanna.com/categories/ietf/</link>
@@ -27,13 +41,6 @@
       <link>https://prasenjitmanna.com/categories/tools/</link>
       <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/categories/tools/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Blogs</title>
-      <link>https://prasenjitmanna.com/categories/blogs/</link>
-      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://prasenjitmanna.com/categories/blogs/</guid>
       <description></description>
     </item>
     <item>
@@ -111,13 +118,6 @@
       <link>https://prasenjitmanna.com/categories/mental-model/</link>
       <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/categories/mental-model/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Segment Routing</title>
-      <link>https://prasenjitmanna.com/categories/segment-routing/</link>
-      <pubDate>Sun, 25 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://prasenjitmanna.com/categories/segment-routing/</guid>
       <description></description>
     </item>
     <item>
