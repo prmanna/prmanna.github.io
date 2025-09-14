@@ -6,35 +6,35 @@
     <description>Recent content in Segment Routing on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Sep 2025 19:41:28 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 14 Sep 2025 19:46:58 +0530</lastBuildDate>
     <atom:link href="https://prasenjitmanna.com/categories/segment-routing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Segment Routing - Introduction</title>
       <link>https://prasenjitmanna.com/blogs/2025-09-14-segment-routing-intro/</link>
       <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2025-09-14-segment-routing-intro/</guid>
-      <description> Introduction to Segment Routing - A foundation for autonomous networking | Cisco Live A Guide to a Successful Segment Routing Deployment | Cisco Live Segment Routing - A tutorial in SANOG36 </description>
+      <description>Introduction to Segment Routing - A foundation for autonomous networking | Cisco Live A Guide to a Successful Segment Routing Deployment | Cisco Live Segment Routing - A tutorial in SANOG36 Join my email list to get direct access to new blog posts.</description>
     </item>
     <item>
       <title>Article on SR TI-LFA</title>
       <link>https://prasenjitmanna.com/blogs/2022-09-25-ti-lfa/</link>
       <pubDate>Sun, 25 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2022-09-25-ti-lfa/</guid>
-      <description>APNIC article on SR TI-LFA by Ron Bonica.&#xA;SR TI-LFA: Segment Routing and Topology Independent Loop-Free Alternates&#xA;NANOG 79 Recording</description>
+      <description>APNIC article on SR TI-LFA by Ron Bonica.&#xA;SR TI-LFA: Segment Routing and Topology Independent Loop-Free Alternates&#xA;NANOG 79 Recording&#xA;Join my email list to get direct access to new blog posts.</description>
     </item>
     <item>
       <title>A Glimpse At Two Approaches To Segment Routing</title>
       <link>https://prasenjitmanna.com/blogs/2022-06-03-glimpse-of-segment-routing-approach/</link>
       <pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2022-06-03-glimpse-of-segment-routing-approach/</guid>
-      <description>A Glimpse At Two Approaches To Segment Routing&#xA;Topic Covered:&#xA;SR-MPLS Vs. SRv6 SRv6 Adoption Challenges Hardware &amp;amp; Software Support For SRv6 Appendix:&#xA;by Clarence Filsfils&#xA;What is SRv6 network programming? SRv6: Deployed use-cases SRv6 micro-instructions </description>
+      <description>A Glimpse At Two Approaches To Segment Routing&#xA;Topic Covered:&#xA;SR-MPLS Vs. SRv6 SRv6 Adoption Challenges Hardware &amp;amp; Software Support For SRv6 Appendix:&#xA;by Clarence Filsfils&#xA;What is SRv6 network programming? SRv6: Deployed use-cases SRv6 micro-instructions Join my email list to get direct access to new blog posts.</description>
     </item>
     <item>
       <title>SCION vs. Segment Routing</title>
       <link>https://prasenjitmanna.com/blogs/2022-02-14-scion-segment-routing/</link>
       <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2022-02-14-scion-segment-routing/</guid>
-      <description>SCION vs. Segment Routing&#xA;Book, papers, videos, tutorials - https://www.scion-architecture.net</description>
+      <description>SCION vs. Segment Routing&#xA;Book, papers, videos, tutorials - https://www.scion-architecture.net&#xA;Join my email list to get direct access to new blog posts.</description>
     </item>
   </channel>
 </rss>
