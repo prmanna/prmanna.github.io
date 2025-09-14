@@ -6,7 +6,7 @@
     <description>Recent content in Forwarding-Engine on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Sep 2025 19:46:58 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 14 Sep 2025 19:49:27 +0530</lastBuildDate>
     <atom:link href="https://prasenjitmanna.com/categories/forwarding-engine/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Non-Cryptographic Hash Functions for Routing</title>
@@ -20,14 +20,14 @@
       <link>https://prasenjitmanna.com/blogs/2025-03-24-longest-prefix-matching/</link>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2025-03-24-longest-prefix-matching/</guid>
-      <description>Longest Prefix Matching (LPM) In general, LPM (Longest prefix match) is an important know how in routing. There are topic like TCAM, Trie, Multibit trie, Compressed Trie/Patricia Tie, Bloom Filter, Hash Table, etc, are considered in routing lookup. These are few articles created the gist for it.&#xA;Longest Prefix Matching in Networking Chips by Sharada Yeluri Hashing Strategies for Packet Processing by Diptanshu Singh Join my email list to get direct access to new blog posts.</description>
+      <description>Longest Prefix Matching (LPM) In general, LPM (Longest prefix match) is an important know how in routing. There are topic like TCAM, Trie, Multibit trie, Compressed Trie/Patricia Tie, Bloom Filter, Hash Table, etc, are considered in routing lookup. These are few articles created the gist for it.&#xA;Longest Prefix Matching in Networking Chips by Sharada Yeluri Hashing Strategies for Packet Processing by Diptanshu Singh </description>
     </item>
     <item>
       <title>Router Forwarding Engines Series by Russ White</title>
       <link>https://prasenjitmanna.com/blogs/2025-02-05-router-forwarding-engines-series-by-russ-white/</link>
       <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2025-02-05-router-forwarding-engines-series-by-russ-white/</guid>
-      <description>Router Forwarding Engines Series by Russ White&#xA;A Close Look at Router Forwarding Engines: Part 1 – What are the Problems? Router Forwarding Engines: Part 2 – OpenFlow and I2RS as Possible Solutions Router Forwarding Engines: Part 3 – P4 and SAI Routing Forwarding Engines: Part 4 – Discarding, Punting, and DPDK Router Forwarding Engines: Part 5 – eBPF Join my email list to get direct access to new blog posts.</description>
+      <description>Router Forwarding Engines Series by Russ White&#xA;A Close Look at Router Forwarding Engines: Part 1 – What are the Problems? Router Forwarding Engines: Part 2 – OpenFlow and I2RS as Possible Solutions Router Forwarding Engines: Part 3 – P4 and SAI Routing Forwarding Engines: Part 4 – Discarding, Punting, and DPDK Router Forwarding Engines: Part 5 – eBPF </description>
     </item>
   </channel>
 </rss>
