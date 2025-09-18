@@ -6,7 +6,7 @@
     <description>Recent content in Blogs on Prasenjit Manna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Sep 2025 11:05:59 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 18 Sep 2025 19:54:40 +0530</lastBuildDate>
     <atom:link href="https://prasenjitmanna.com/categories/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Segment Routing - Introduction</title>
@@ -34,7 +34,7 @@
       <link>https://prasenjitmanna.com/blogs/2025-03-24-longest-prefix-matching/</link>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://prasenjitmanna.com/blogs/2025-03-24-longest-prefix-matching/</guid>
-      <description>Longest Prefix Matching (LPM) In general, LPM (Longest prefix match) is an important know how in routing. There are topic like TCAM, Trie, Multibit trie, Compressed Trie/Patricia Tie, Bloom Filter, Hash Table, etc, are considered in routing lookup. These are few articles created the gist for it.&#xA;Longest Prefix Matching in Networking Chips by Sharada Yeluri Hashing Strategies for Packet Processing by Diptanshu Singh Packet Classification for High Speed Packet Processing </description>
+      <description>Longest Prefix Matching (LPM) In general, LPM (Longest prefix match) is an important know how in routing. There are topic like TCAM, Trie, Multibit trie, Compressed Trie/Patricia Tie, Bloom Filter, Hash Table, etc, are considered in routing lookup. These are few articles created the gist for it.&#xA;Longest Prefix Matching in Networking Chips by Sharada Yeluri Hashing Strategies for Packet Processing by Diptanshu Singh Packet Classification for High Speed Packet Processing by Diptanshu Singh </description>
     </item>
     <item>
       <title>Router Forwarding Engines Series by Russ White</title>
